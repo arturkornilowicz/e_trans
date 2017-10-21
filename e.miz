@@ -65,7 +65,5 @@ registration
     then consider f being non-zero INT -valued Polynomial of FC such that
 A1: e is_a_root_of f by LIOUVIL2:25;
     thus contradiction;
-::>                  *1
   end;
 end;
-::> 1: It is not true
