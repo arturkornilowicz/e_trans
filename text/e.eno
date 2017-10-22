@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Notations aid="E" mizfiles="/usr/local/share/mizar/">
+<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
+<Notations aid="E" mizfiles="c:\mizar\">
 <Pattern kind="M" nr="1" aid="HIDDEN" formatnr="2" constrkind="M" constrnr="1" relnr="1">
 <ArgTypes/>
 <Visible/>
@@ -750,7 +750,44 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="GROUP_1" formatnr="315" constrkind="M" constrnr="0" relnr="42">
+<Pattern kind="M" nr="1" aid="RLVECT_1" formatnr="315" constrkind="M" constrnr="0" relnr="42">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+<Expansion>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+</Expansion>
+</Pattern>
+<Pattern kind="M" nr="2" aid="RLVECT_1" formatnr="316" constrkind="M" constrnr="0" relnr="43">
+<ArgTypes/>
+<Visible/>
+<Expansion>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="76"/>
+<Adjective nr="101"/>
+<Adjective nr="102"/>
+<Adjective nr="103"/>
+<Adjective nr="104"/>
+<Adjective nr="105"/>
+<Adjective nr="106"/>
+<Adjective nr="107"/>
+</Cluster>
+</Typ>
+</Expansion>
+</Pattern>
+<Pattern kind="M" nr="1" aid="GROUP_1" formatnr="329" constrkind="M" constrnr="0" relnr="44">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -763,7 +800,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="VECTSP_1" formatnr="324" constrkind="M" constrnr="0" relnr="43">
+<Pattern kind="M" nr="1" aid="VECTSP_1" formatnr="338" constrkind="M" constrnr="0" relnr="45">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -777,7 +814,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="2" aid="VECTSP_1" formatnr="325" constrkind="M" constrnr="0" relnr="44">
+<Pattern kind="M" nr="2" aid="VECTSP_1" formatnr="339" constrkind="M" constrnr="0" relnr="46">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -792,7 +829,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="3" aid="VECTSP_1" formatnr="326" constrkind="M" constrnr="0" relnr="45">
+<Pattern kind="M" nr="3" aid="VECTSP_1" formatnr="340" constrkind="M" constrnr="0" relnr="47">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -810,7 +847,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="5" aid="VECTSP_1" formatnr="327" constrkind="M" constrnr="0" relnr="46">
+<Pattern kind="M" nr="5" aid="VECTSP_1" formatnr="341" constrkind="M" constrnr="0" relnr="48">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -831,7 +868,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="6" aid="VECTSP_1" formatnr="328" constrkind="M" constrnr="0" relnr="47">
+<Pattern kind="M" nr="6" aid="VECTSP_1" formatnr="342" constrkind="M" constrnr="0" relnr="49">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -849,7 +886,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="7" aid="VECTSP_1" formatnr="328" constrkind="M" constrnr="0" relnr="48">
+<Pattern kind="M" nr="7" aid="VECTSP_1" formatnr="342" constrkind="M" constrnr="0" relnr="50">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -871,7 +908,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="8" aid="VECTSP_1" formatnr="329" constrkind="M" constrnr="0" relnr="49">
+<Pattern kind="M" nr="8" aid="VECTSP_1" formatnr="343" constrkind="M" constrnr="0" relnr="51">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -893,7 +930,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="9" aid="VECTSP_1" formatnr="330" constrkind="M" constrnr="0" relnr="50">
+<Pattern kind="M" nr="9" aid="VECTSP_1" formatnr="344" constrkind="M" constrnr="0" relnr="52">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -936,7 +973,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="C0SP1" formatnr="344" constrkind="M" constrnr="22" relnr="51">
+<Pattern kind="M" nr="1" aid="C0SP1" formatnr="359" constrkind="M" constrnr="22" relnr="53">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -955,7 +992,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="M" nr="1" aid="INT_3" formatnr="354" constrkind="M" constrnr="0" relnr="52">
+<Pattern kind="M" nr="1" aid="INT_3" formatnr="369" constrkind="M" constrnr="0" relnr="54">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -977,7 +1014,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="2" aid="INT_3" formatnr="355" constrkind="M" constrnr="31" relnr="53">
+<Pattern kind="M" nr="2" aid="INT_3" formatnr="370" constrkind="M" constrnr="31" relnr="55">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -990,7 +1027,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="M" nr="1" aid="GAUSSINT" formatnr="363" constrkind="M" constrnr="0" relnr="54">
+<Pattern kind="M" nr="1" aid="GAUSSINT" formatnr="378" constrkind="M" constrnr="0" relnr="56">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -1002,7 +1039,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="3" aid="GAUSSINT" formatnr="365" constrkind="M" constrnr="0" relnr="55">
+<Pattern kind="M" nr="3" aid="GAUSSINT" formatnr="380" constrkind="M" constrnr="0" relnr="57">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -1014,7 +1051,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="ALGSEQ_1" formatnr="385" constrkind="M" constrnr="0" relnr="56">
+<Pattern kind="M" nr="1" aid="ALGSEQ_1" formatnr="400" constrkind="M" constrnr="0" relnr="58">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -1050,7 +1087,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="POLYNOM3" formatnr="388" constrkind="M" constrnr="0" relnr="57">
+<Pattern kind="M" nr="1" aid="POLYNOM3" formatnr="403" constrkind="M" constrnr="0" relnr="59">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -1086,7 +1123,7 @@
 </Typ>
 </Expansion>
 </Pattern>
-<Pattern kind="M" nr="1" aid="RATFUNC1" formatnr="407" constrkind="M" constrnr="33" relnr="58">
+<Pattern kind="M" nr="1" aid="RATFUNC1" formatnr="422" constrkind="M" constrnr="33" relnr="60">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -1098,7 +1135,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="M" nr="1" aid="RING_4" formatnr="23" constrkind="M" constrnr="21" relnr="59">
+<Pattern kind="M" nr="1" aid="RING_4" formatnr="23" constrkind="M" constrnr="21" relnr="61">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -1118,7 +1155,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="M" nr="1" aid="LIOUVIL1" formatnr="438" constrkind="M" constrnr="0" relnr="60">
+<Pattern kind="M" nr="1" aid="LIOUVIL1" formatnr="453" constrkind="M" constrnr="0" relnr="62">
 <ArgTypes/>
 <Visible/>
 <Expansion>
@@ -1174,7 +1211,11 @@
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="L" nr="1" aid="VECTSP_1" formatnr="331" constrkind="L" constrnr="16" relnr="12">
+<Pattern kind="L" nr="1" aid="RLVECT_1" formatnr="317" constrkind="L" constrnr="12" relnr="12">
+<ArgTypes/>
+<Visible/>
+</Pattern>
+<Pattern kind="L" nr="1" aid="VECTSP_1" formatnr="345" constrkind="L" constrnr="16" relnr="13">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -2781,7 +2822,107 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="GROUP_1" formatnr="316" constrkind="V" constrnr="132" relnr="120">
+<Pattern kind="V" nr="1" aid="RLVECT_1" formatnr="1" constrkind="V" constrnr="100" relnr="120">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="2" aid="RLVECT_1" formatnr="318" constrkind="V" constrnr="101" relnr="121">
+<ArgTypes>
+<Typ kind="G" nr="6">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="3" aid="RLVECT_1" formatnr="319" constrkind="V" constrnr="102" relnr="122">
+<ArgTypes>
+<Typ kind="G" nr="6">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="4" aid="RLVECT_1" formatnr="320" constrkind="V" constrnr="103" relnr="123">
+<ArgTypes>
+<Typ kind="G" nr="7">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="5" aid="RLVECT_1" formatnr="321" constrkind="V" constrnr="104" relnr="124">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="6" aid="RLVECT_1" formatnr="322" constrkind="V" constrnr="105" relnr="125">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="7" aid="RLVECT_1" formatnr="323" constrkind="V" constrnr="106" relnr="126">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="8" aid="RLVECT_1" formatnr="324" constrkind="V" constrnr="107" relnr="127">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="9" aid="RLVECT_1" formatnr="187" constrkind="V" constrnr="108" relnr="128">
+<ArgTypes>
+<Typ kind="G" nr="7">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="1" aid="GROUP_1" formatnr="330" constrkind="V" constrnr="132" relnr="129">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster/>
@@ -2791,7 +2932,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="GROUP_1" formatnr="317" constrkind="V" constrnr="133" relnr="121">
+<Pattern kind="V" nr="2" aid="GROUP_1" formatnr="331" constrkind="V" constrnr="133" relnr="130">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster/>
@@ -2801,7 +2942,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="GROUP_1" formatnr="318" constrkind="V" constrnr="135" relnr="122">
+<Pattern kind="V" nr="4" aid="GROUP_1" formatnr="332" constrkind="V" constrnr="135" relnr="131">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -2821,7 +2962,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="6" aid="GROUP_1" formatnr="319" constrkind="V" constrnr="137" relnr="123">
+<Pattern kind="V" nr="6" aid="GROUP_1" formatnr="333" constrkind="V" constrnr="137" relnr="132">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster/>
@@ -2857,7 +2998,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="VECTSP_1" formatnr="332" constrkind="V" constrnr="119" relnr="124">
+<Pattern kind="V" nr="1" aid="VECTSP_1" formatnr="346" constrkind="V" constrnr="119" relnr="133">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -2869,7 +3010,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="VECTSP_1" formatnr="333" constrkind="V" constrnr="120" relnr="125">
+<Pattern kind="V" nr="2" aid="VECTSP_1" formatnr="347" constrkind="V" constrnr="120" relnr="134">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -2881,7 +3022,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="3" aid="VECTSP_1" formatnr="334" constrkind="V" constrnr="121" relnr="126">
+<Pattern kind="V" nr="3" aid="VECTSP_1" formatnr="348" constrkind="V" constrnr="121" relnr="135">
 <ArgTypes>
 <Typ kind="G" nr="9">
 <Cluster>
@@ -2893,7 +3034,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="VECTSP_1" formatnr="335" constrkind="V" constrnr="122" relnr="127">
+<Pattern kind="V" nr="4" aid="VECTSP_1" formatnr="349" constrkind="V" constrnr="122" relnr="136">
 <ArgTypes>
 <Typ kind="G" nr="9">
 <Cluster>
@@ -2905,7 +3046,19 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="6" aid="VECTSP_1" formatnr="336" constrkind="V" constrnr="124" relnr="128">
+<Pattern kind="V" nr="5" aid="VECTSP_1" formatnr="350" constrkind="V" constrnr="123" relnr="137">
+<ArgTypes>
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="6" aid="VECTSP_1" formatnr="351" constrkind="V" constrnr="124" relnr="138">
 <ArgTypes>
 <Typ kind="G" nr="9">
 <Cluster>
@@ -2917,7 +3070,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="7" aid="VECTSP_1" formatnr="291" constrkind="V" constrnr="96" relnr="129">
+<Pattern kind="V" nr="7" aid="VECTSP_1" formatnr="291" constrkind="V" constrnr="96" relnr="139">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -2929,7 +3082,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="8" aid="VECTSP_1" formatnr="1" constrkind="V" constrnr="125" relnr="130">
+<Pattern kind="V" nr="8" aid="VECTSP_1" formatnr="1" constrkind="V" constrnr="125" relnr="140">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -2943,7 +3096,79 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="13" aid="VECTSP_1" formatnr="337" constrkind="V" constrnr="130" relnr="131">
+<Pattern kind="V" nr="9" aid="VECTSP_1" formatnr="321" constrkind="V" constrnr="126" relnr="141">
+<ArgTypes>
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="G" nr="16">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+<LocusVar nr="1"/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="10" aid="VECTSP_1" formatnr="322" constrkind="V" constrnr="127" relnr="142">
+<ArgTypes>
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="G" nr="16">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+<LocusVar nr="1"/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="11" aid="VECTSP_1" formatnr="323" constrkind="V" constrnr="128" relnr="143">
+<ArgTypes>
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="G" nr="16">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+<LocusVar nr="1"/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="12" aid="VECTSP_1" formatnr="324" constrkind="V" constrnr="129" relnr="144">
+<ArgTypes>
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="G" nr="16">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+<LocusVar nr="1"/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="13" aid="VECTSP_1" formatnr="352" constrkind="V" constrnr="130" relnr="145">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -2955,7 +3180,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="14" aid="VECTSP_1" formatnr="337" constrkind="V" constrnr="130" relnr="132">
+<Pattern kind="V" nr="14" aid="VECTSP_1" formatnr="352" constrkind="V" constrnr="130" relnr="146">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -2976,7 +3201,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="C0SP1" formatnr="345" constrkind="V" constrnr="210" relnr="133">
+<Pattern kind="V" nr="1" aid="C0SP1" formatnr="360" constrkind="V" constrnr="210" relnr="147">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -2996,7 +3221,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="C0SP1" formatnr="346" constrkind="V" constrnr="211" relnr="134">
+<Pattern kind="V" nr="2" aid="C0SP1" formatnr="361" constrkind="V" constrnr="211" relnr="148">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -3016,7 +3241,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="3" aid="C0SP1" formatnr="347" constrkind="V" constrnr="212" relnr="135">
+<Pattern kind="V" nr="3" aid="C0SP1" formatnr="362" constrkind="V" constrnr="212" relnr="149">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -3036,7 +3261,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="C0SP1" formatnr="348" constrkind="V" constrnr="213" relnr="136">
+<Pattern kind="V" nr="4" aid="C0SP1" formatnr="363" constrkind="V" constrnr="213" relnr="150">
 <ArgTypes>
 <Typ kind="G" nr="17">
 <Cluster>
@@ -3068,7 +3293,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="5" aid="C0SP1" formatnr="349" constrkind="V" constrnr="214" relnr="137">
+<Pattern kind="V" nr="5" aid="C0SP1" formatnr="364" constrkind="V" constrnr="214" relnr="151">
 <ArgTypes>
 <Typ kind="G" nr="12">
 <Cluster>
@@ -3080,7 +3305,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="INT_3" formatnr="356" constrkind="V" constrnr="248" relnr="138">
+<Pattern kind="V" nr="1" aid="INT_3" formatnr="371" constrkind="V" constrnr="248" relnr="152">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3092,7 +3317,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="GAUSSINT" formatnr="366" constrkind="V" constrnr="267" relnr="139">
+<Pattern kind="V" nr="1" aid="GAUSSINT" formatnr="381" constrkind="V" constrnr="267" relnr="153">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3104,7 +3329,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="GAUSSINT" formatnr="367" constrkind="V" constrnr="268" relnr="140">
+<Pattern kind="V" nr="2" aid="GAUSSINT" formatnr="382" constrkind="V" constrnr="268" relnr="154">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3116,20 +3341,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="3" aid="GAUSSINT" formatnr="368" constrkind="V" constrnr="269" relnr="141">
-<ArgTypes>
-<Typ kind="M" nr="1">
-<Cluster>
-<Adjective nr="24"/>
-<Adjective nr="267"/>
-</Cluster>
-</Typ>
-</ArgTypes>
-<Visible>
-<Int x="1"/>
-</Visible>
-</Pattern>
-<Pattern kind="V" nr="4" aid="GAUSSINT" formatnr="369" constrkind="V" constrnr="270" relnr="142">
+<Pattern kind="V" nr="3" aid="GAUSSINT" formatnr="383" constrkind="V" constrnr="269" relnr="155">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3142,7 +3354,20 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="ALGSEQ_1" formatnr="386" constrkind="V" constrnr="191" relnr="143">
+<Pattern kind="V" nr="4" aid="GAUSSINT" formatnr="384" constrkind="V" constrnr="270" relnr="156">
+<ArgTypes>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+<Adjective nr="267"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="V" nr="1" aid="ALGSEQ_1" formatnr="401" constrkind="V" constrnr="191" relnr="157">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -3173,7 +3398,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="POLYNOM5" formatnr="398" constrkind="V" constrnr="192" relnr="144">
+<Pattern kind="V" nr="1" aid="POLYNOM5" formatnr="413" constrkind="V" constrnr="192" relnr="158">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3208,7 +3433,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="POLYNOM5" formatnr="399" constrkind="V" constrnr="193" relnr="145">
+<Pattern kind="V" nr="2" aid="POLYNOM5" formatnr="414" constrkind="V" constrnr="193" relnr="159">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3221,7 +3446,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="UPROOTS" formatnr="249" constrkind="V" constrnr="257" relnr="146">
+<Pattern kind="V" nr="1" aid="UPROOTS" formatnr="249" constrkind="V" constrnr="257" relnr="160">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -3255,7 +3480,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="RATFUNC1" formatnr="247" constrkind="V" constrnr="257" antonymic="true" relnr="147" redefnr="127">
+<Pattern kind="V" nr="1" aid="RATFUNC1" formatnr="247" constrkind="V" constrnr="257" antonymic="true" relnr="161" redefnr="127">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -3289,7 +3514,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="RATFUNC1" formatnr="55" constrkind="V" constrnr="258" relnr="148">
+<Pattern kind="V" nr="2" aid="RATFUNC1" formatnr="55" constrkind="V" constrnr="258" relnr="162">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -3323,7 +3548,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="RATFUNC1" formatnr="247" constrkind="V" constrnr="260" relnr="149">
+<Pattern kind="V" nr="4" aid="RATFUNC1" formatnr="247" constrkind="V" constrnr="260" relnr="163">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -3339,7 +3564,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="6" aid="RATFUNC1" formatnr="408" constrkind="V" constrnr="261" antonymic="true" relnr="150" redefnr="133">
+<Pattern kind="V" nr="6" aid="RATFUNC1" formatnr="423" constrkind="V" constrnr="261" antonymic="true" relnr="164" redefnr="133">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3360,7 +3585,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="3" aid="RING_4" formatnr="55" constrkind="V" constrnr="196" relnr="151">
+<Pattern kind="V" nr="3" aid="RING_4" formatnr="55" constrkind="V" constrnr="196" relnr="165">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3384,7 +3609,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="RING_4" formatnr="420" constrkind="V" constrnr="259" relnr="152" redefnr="152">
+<Pattern kind="V" nr="4" aid="RING_4" formatnr="435" constrkind="V" constrnr="259" relnr="166" redefnr="152">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -3418,7 +3643,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="ALGNUM_1" formatnr="421" constrkind="V" constrnr="198" relnr="153">
+<Pattern kind="V" nr="1" aid="ALGNUM_1" formatnr="436" constrkind="V" constrnr="198" relnr="167">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3430,7 +3655,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="ALGNUM_1" formatnr="421" constrkind="V" constrnr="198" relnr="154">
+<Pattern kind="V" nr="2" aid="ALGNUM_1" formatnr="436" constrkind="V" constrnr="198" relnr="168">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -3443,7 +3668,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="3" aid="ALGNUM_1" formatnr="422" constrkind="V" constrnr="199" relnr="155">
+<Pattern kind="V" nr="3" aid="ALGNUM_1" formatnr="437" constrkind="V" constrnr="199" relnr="169">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3455,7 +3680,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="4" aid="ALGNUM_1" formatnr="422" constrkind="V" constrnr="199" relnr="156">
+<Pattern kind="V" nr="4" aid="ALGNUM_1" formatnr="437" constrkind="V" constrnr="199" relnr="170">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -3468,7 +3693,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="5" aid="ALGNUM_1" formatnr="423" constrkind="V" constrnr="198" antonymic="true" relnr="157" redefnr="187">
+<Pattern kind="V" nr="5" aid="ALGNUM_1" formatnr="438" constrkind="V" constrnr="198" antonymic="true" relnr="171" redefnr="187">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -3480,7 +3705,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="POLYDIFF" formatnr="232" constrkind="V" constrnr="274" relnr="158">
+<Pattern kind="V" nr="1" aid="POLYDIFF" formatnr="232" constrkind="V" constrnr="274" relnr="172">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -3502,7 +3727,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="1" aid="LIOUVIL1" formatnr="439" constrkind="V" constrnr="320" relnr="159">
+<Pattern kind="V" nr="1" aid="LIOUVIL1" formatnr="454" constrkind="V" constrnr="320" relnr="173">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -3524,7 +3749,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="V" nr="2" aid="LIOUVIL1" formatnr="440" constrkind="V" constrnr="321" relnr="160">
+<Pattern kind="V" nr="2" aid="LIOUVIL1" formatnr="455" constrkind="V" constrnr="321" relnr="174">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -4114,7 +4339,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="1" aid="GAUSSINT" formatnr="370" constrkind="R" constrnr="78" relnr="33">
+<Pattern kind="R" nr="1" aid="GAUSSINT" formatnr="385" constrkind="R" constrnr="78" relnr="33">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -4134,7 +4359,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="1" aid="ALGSEQ_1" formatnr="387" constrkind="R" constrnr="64" relnr="34">
+<Pattern kind="R" nr="1" aid="ALGSEQ_1" formatnr="402" constrkind="R" constrnr="64" relnr="34">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -4279,7 +4504,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="1" aid="POLYNOM5" formatnr="400" constrkind="R" constrnr="61" relnr="39">
+<Pattern kind="R" nr="1" aid="POLYNOM5" formatnr="415" constrkind="R" constrnr="61" relnr="39">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -4321,7 +4546,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="1" aid="RATFUNC1" formatnr="409" constrkind="R" constrnr="75" relnr="40">
+<Pattern kind="R" nr="1" aid="RATFUNC1" formatnr="424" constrkind="R" constrnr="75" relnr="40">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -4386,7 +4611,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="2" aid="RATFUNC1" formatnr="410" constrkind="R" constrnr="76" relnr="41">
+<Pattern kind="R" nr="2" aid="RATFUNC1" formatnr="425" constrkind="R" constrnr="76" relnr="41">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -4444,7 +4669,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="3" aid="RATFUNC1" formatnr="411" constrkind="R" constrnr="76" relnr="42" redefnr="38">
+<Pattern kind="R" nr="3" aid="RATFUNC1" formatnr="426" constrkind="R" constrnr="76" relnr="42" redefnr="38">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -4502,7 +4727,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="4" aid="RATFUNC1" formatnr="412" constrkind="R" constrnr="76" antonymic="true" relnr="43" redefnr="38">
+<Pattern kind="R" nr="4" aid="RATFUNC1" formatnr="427" constrkind="R" constrnr="76" antonymic="true" relnr="43" redefnr="38">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -4621,7 +4846,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="R" nr="1" aid="ALGNUM_1" formatnr="424" constrkind="R" constrnr="63" relnr="45">
+<Pattern kind="R" nr="1" aid="ALGNUM_1" formatnr="439" constrkind="R" constrnr="63" relnr="45">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -9216,7 +9441,125 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="GROUP_1" formatnr="320" constrkind="K" constrnr="219" relnr="275">
+<Pattern kind="K" nr="1" aid="RLVECT_1" formatnr="44" constrkind="K" constrnr="197" relnr="275">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="3"/>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="2" aid="RLVECT_1" formatnr="325" constrkind="K" constrnr="198" relnr="276">
+<ArgTypes/>
+<Visible/>
+</Pattern>
+<Pattern kind="K" nr="3" aid="RLVECT_1" formatnr="97" constrkind="K" constrnr="199" relnr="277">
+<ArgTypes>
+<Typ kind="G" nr="6">
+<Cluster>
+<Adjective nr="101"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+<Int x="3"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="4" aid="RLVECT_1" formatnr="98" constrkind="K" constrnr="188" relnr="278">
+<ArgTypes>
+<Typ kind="G" nr="7">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="5" aid="RLVECT_1" formatnr="99" constrkind="K" constrnr="189" relnr="279">
+<ArgTypes>
+<Typ kind="G" nr="7">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+<Int x="3"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="6" aid="RLVECT_1" formatnr="238" constrkind="K" constrnr="200" relnr="280">
+<ArgTypes>
+<Typ kind="G" nr="7">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="1" aid="GROUP_1" formatnr="334" constrkind="K" constrnr="219" relnr="281">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster/>
@@ -9226,7 +9569,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="GROUP_1" formatnr="59" constrkind="K" constrnr="220" relnr="276">
+<Pattern kind="K" nr="2" aid="GROUP_1" formatnr="59" constrkind="K" constrnr="220" relnr="282">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9246,7 +9589,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="GROUP_1" formatnr="321" constrkind="K" constrnr="221" relnr="277">
+<Pattern kind="K" nr="3" aid="GROUP_1" formatnr="335" constrkind="K" constrnr="221" relnr="283">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9260,7 +9603,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="GROUP_1" formatnr="322" constrkind="K" constrnr="222" relnr="278">
+<Pattern kind="K" nr="4" aid="GROUP_1" formatnr="336" constrkind="K" constrnr="222" relnr="284">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9272,7 +9615,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="GROUP_1" formatnr="201" constrkind="K" constrnr="223" relnr="279">
+<Pattern kind="K" nr="5" aid="GROUP_1" formatnr="201" constrkind="K" constrnr="223" relnr="285">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9298,7 +9641,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="GROUP_1" formatnr="201" constrkind="K" constrnr="223" relnr="280">
+<Pattern kind="K" nr="6" aid="GROUP_1" formatnr="201" constrkind="K" constrnr="223" relnr="286">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9324,7 +9667,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="GROUP_1" formatnr="323" constrkind="K" constrnr="224" relnr="281">
+<Pattern kind="K" nr="7" aid="GROUP_1" formatnr="337" constrkind="K" constrnr="224" relnr="287">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9344,7 +9687,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="GROUP_1" formatnr="254" constrkind="K" constrnr="225" relnr="282">
+<Pattern kind="K" nr="8" aid="GROUP_1" formatnr="254" constrkind="K" constrnr="225" relnr="288">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster>
@@ -9356,7 +9699,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="GROUP_1" formatnr="44" constrkind="K" constrnr="226" relnr="283">
+<Pattern kind="K" nr="9" aid="GROUP_1" formatnr="44" constrkind="K" constrnr="226" relnr="289">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9382,7 +9725,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="GROUP_4" formatnr="99" constrkind="K" constrnr="805" relnr="284">
+<Pattern kind="K" nr="1" aid="GROUP_4" formatnr="99" constrkind="K" constrnr="805" relnr="290">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -9402,7 +9745,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="GROUP_4" formatnr="239" constrkind="K" constrnr="807" relnr="285">
+<Pattern kind="K" nr="3" aid="GROUP_4" formatnr="239" constrkind="K" constrnr="807" relnr="291">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9420,7 +9763,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="GROUP_4" formatnr="201" constrkind="K" constrnr="808" relnr="286">
+<Pattern kind="K" nr="4" aid="GROUP_4" formatnr="201" constrkind="K" constrnr="808" relnr="292">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9445,7 +9788,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="GROUP_4" formatnr="44" constrkind="K" constrnr="811" relnr="287">
+<Pattern kind="K" nr="7" aid="GROUP_4" formatnr="44" constrkind="K" constrnr="811" relnr="293">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -9468,15 +9811,15 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="VECTSP_1" formatnr="338" constrkind="K" constrnr="215" relnr="288">
+<Pattern kind="K" nr="1" aid="VECTSP_1" formatnr="353" constrkind="K" constrnr="215" relnr="294">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="2" aid="VECTSP_1" formatnr="339" constrkind="K" constrnr="216" relnr="289">
+<Pattern kind="K" nr="2" aid="VECTSP_1" formatnr="354" constrkind="K" constrnr="216" relnr="295">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="3" aid="VECTSP_1" formatnr="59" constrkind="K" constrnr="193" relnr="290" redefnr="112">
+<Pattern kind="K" nr="3" aid="VECTSP_1" formatnr="59" constrkind="K" constrnr="193" relnr="296" redefnr="112">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -9498,7 +9841,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="VECTSP_1" formatnr="59" constrkind="K" constrnr="193" relnr="291">
+<Pattern kind="K" nr="4" aid="VECTSP_1" formatnr="59" constrkind="K" constrnr="193" relnr="297">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -9520,7 +9863,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="VECTSP_1" formatnr="44" constrkind="K" constrnr="217" relnr="292">
+<Pattern kind="K" nr="5" aid="VECTSP_1" formatnr="44" constrkind="K" constrnr="217" relnr="298">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster>
@@ -9551,7 +9894,7 @@
 <Int x="4"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="VECTSP_1" formatnr="340" constrkind="K" constrnr="218" relnr="293">
+<Pattern kind="K" nr="6" aid="VECTSP_1" formatnr="355" constrkind="K" constrnr="218" relnr="299">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -9563,7 +9906,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="C0SP1" formatnr="350" constrkind="K" constrnr="497" relnr="294">
+<Pattern kind="K" nr="2" aid="C0SP1" formatnr="365" constrkind="K" constrnr="497" relnr="300">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -9584,7 +9927,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="C0SP1" formatnr="351" constrkind="K" constrnr="499" relnr="295">
+<Pattern kind="K" nr="4" aid="C0SP1" formatnr="366" constrkind="K" constrnr="499" relnr="301">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -9605,7 +9948,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="C0SP1" formatnr="352" constrkind="K" constrnr="502" relnr="296">
+<Pattern kind="K" nr="7" aid="C0SP1" formatnr="367" constrkind="K" constrnr="502" relnr="302">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -9617,7 +9960,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="11" aid="C0SP1" formatnr="353" constrkind="K" constrnr="506" relnr="297">
+<Pattern kind="K" nr="11" aid="C0SP1" formatnr="368" constrkind="K" constrnr="506" relnr="303">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -9629,19 +9972,19 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="INT_3" formatnr="146" constrkind="K" constrnr="649" relnr="298">
+<Pattern kind="K" nr="1" aid="INT_3" formatnr="146" constrkind="K" constrnr="649" relnr="304">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="2" aid="INT_3" formatnr="143" constrkind="K" constrnr="646" relnr="299">
+<Pattern kind="K" nr="2" aid="INT_3" formatnr="143" constrkind="K" constrnr="646" relnr="305">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="3" aid="INT_3" formatnr="357" constrkind="K" constrnr="611" relnr="300">
+<Pattern kind="K" nr="3" aid="INT_3" formatnr="372" constrkind="K" constrnr="611" relnr="306">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="4" aid="INT_3" formatnr="106" constrkind="K" constrnr="612" relnr="301">
+<Pattern kind="K" nr="4" aid="INT_3" formatnr="106" constrkind="K" constrnr="612" relnr="307">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -9654,11 +9997,11 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="INT_3" formatnr="358" constrkind="K" constrnr="613" relnr="302">
+<Pattern kind="K" nr="5" aid="INT_3" formatnr="373" constrkind="K" constrnr="613" relnr="308">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="6" aid="INT_3" formatnr="117" constrkind="K" constrnr="614" relnr="303">
+<Pattern kind="K" nr="6" aid="INT_3" formatnr="117" constrkind="K" constrnr="614" relnr="309">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -9678,7 +10021,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="INT_3" formatnr="118" constrkind="K" constrnr="615" relnr="304">
+<Pattern kind="K" nr="7" aid="INT_3" formatnr="118" constrkind="K" constrnr="615" relnr="310">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -9698,11 +10041,11 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="INT_3" formatnr="358" constrkind="K" constrnr="616" relnr="305">
+<Pattern kind="K" nr="8" aid="INT_3" formatnr="373" constrkind="K" constrnr="616" relnr="311">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="9" aid="INT_3" formatnr="359" constrkind="K" constrnr="617" relnr="306">
+<Pattern kind="K" nr="9" aid="INT_3" formatnr="374" constrkind="K" constrnr="617" relnr="312">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -9714,7 +10057,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="INT_3" formatnr="360" constrkind="K" constrnr="618" relnr="307">
+<Pattern kind="K" nr="10" aid="INT_3" formatnr="375" constrkind="K" constrnr="618" relnr="313">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -9726,7 +10069,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="11" aid="INT_3" formatnr="361" constrkind="K" constrnr="619" relnr="308">
+<Pattern kind="K" nr="11" aid="INT_3" formatnr="376" constrkind="K" constrnr="619" relnr="314">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -9738,11 +10081,11 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="COMPLFLD" formatnr="362" constrkind="K" constrnr="432" relnr="309">
+<Pattern kind="K" nr="1" aid="COMPLFLD" formatnr="377" constrkind="K" constrnr="432" relnr="315">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="2" aid="COMPLFLD" formatnr="105" constrkind="K" constrnr="433" relnr="310">
+<Pattern kind="K" nr="2" aid="COMPLFLD" formatnr="105" constrkind="K" constrnr="433" relnr="316">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -9755,63 +10098,63 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="GAUSSINT" formatnr="371" constrkind="K" constrnr="734" relnr="311">
+<Pattern kind="K" nr="1" aid="GAUSSINT" formatnr="386" constrkind="K" constrnr="734" relnr="317">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="2" aid="GAUSSINT" formatnr="372" constrkind="K" constrnr="735" relnr="312">
+<Pattern kind="K" nr="2" aid="GAUSSINT" formatnr="387" constrkind="K" constrnr="735" relnr="318">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="3" aid="GAUSSINT" formatnr="373" constrkind="K" constrnr="736" relnr="313">
+<Pattern kind="K" nr="3" aid="GAUSSINT" formatnr="388" constrkind="K" constrnr="736" relnr="319">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="4" aid="GAUSSINT" formatnr="374" constrkind="K" constrnr="737" relnr="314">
+<Pattern kind="K" nr="4" aid="GAUSSINT" formatnr="389" constrkind="K" constrnr="737" relnr="320">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="5" aid="GAUSSINT" formatnr="375" constrkind="K" constrnr="738" relnr="315">
+<Pattern kind="K" nr="5" aid="GAUSSINT" formatnr="390" constrkind="K" constrnr="738" relnr="321">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="6" aid="GAUSSINT" formatnr="376" constrkind="K" constrnr="739" relnr="316">
+<Pattern kind="K" nr="6" aid="GAUSSINT" formatnr="391" constrkind="K" constrnr="739" relnr="322">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="7" aid="GAUSSINT" formatnr="377" constrkind="K" constrnr="740" relnr="317">
+<Pattern kind="K" nr="7" aid="GAUSSINT" formatnr="392" constrkind="K" constrnr="740" relnr="323">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="8" aid="GAUSSINT" formatnr="378" constrkind="K" constrnr="741" relnr="318">
+<Pattern kind="K" nr="8" aid="GAUSSINT" formatnr="393" constrkind="K" constrnr="741" relnr="324">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="9" aid="GAUSSINT" formatnr="379" constrkind="K" constrnr="742" relnr="319">
+<Pattern kind="K" nr="9" aid="GAUSSINT" formatnr="394" constrkind="K" constrnr="742" relnr="325">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="10" aid="GAUSSINT" formatnr="380" constrkind="K" constrnr="743" relnr="320">
+<Pattern kind="K" nr="10" aid="GAUSSINT" formatnr="395" constrkind="K" constrnr="743" relnr="326">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="11" aid="GAUSSINT" formatnr="381" constrkind="K" constrnr="744" relnr="321">
+<Pattern kind="K" nr="11" aid="GAUSSINT" formatnr="396" constrkind="K" constrnr="744" relnr="327">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="12" aid="GAUSSINT" formatnr="382" constrkind="K" constrnr="745" relnr="322">
+<Pattern kind="K" nr="12" aid="GAUSSINT" formatnr="397" constrkind="K" constrnr="745" relnr="328">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="13" aid="GAUSSINT" formatnr="383" constrkind="K" constrnr="746" relnr="323">
+<Pattern kind="K" nr="13" aid="GAUSSINT" formatnr="398" constrkind="K" constrnr="746" relnr="329">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="14" aid="GAUSSINT" formatnr="384" constrkind="K" constrnr="747" relnr="324">
+<Pattern kind="K" nr="14" aid="GAUSSINT" formatnr="399" constrkind="K" constrnr="747" relnr="330">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="15" aid="GAUSSINT" formatnr="105" constrkind="K" constrnr="748" relnr="325">
+<Pattern kind="K" nr="15" aid="GAUSSINT" formatnr="105" constrkind="K" constrnr="748" relnr="331">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster>
@@ -9824,7 +10167,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="ALGSEQ_1" formatnr="77" constrkind="K" constrnr="456" relnr="326">
+<Pattern kind="K" nr="1" aid="ALGSEQ_1" formatnr="77" constrkind="K" constrnr="456" relnr="332">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -9858,7 +10201,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="POLYNOM3" formatnr="81" constrkind="K" constrnr="397" relnr="327">
+<Pattern kind="K" nr="2" aid="POLYNOM3" formatnr="81" constrkind="K" constrnr="397" relnr="333">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -9879,7 +10222,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="POLYNOM3" formatnr="80" constrkind="K" constrnr="398" relnr="328">
+<Pattern kind="K" nr="3" aid="POLYNOM3" formatnr="80" constrkind="K" constrnr="398" relnr="334">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -9914,7 +10257,7 @@
 <Int x="5"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="POLYNOM3" formatnr="389" constrkind="K" constrnr="400" relnr="329">
+<Pattern kind="K" nr="5" aid="POLYNOM3" formatnr="404" constrkind="K" constrnr="400" relnr="335">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -9925,7 +10268,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="POLYNOM3" formatnr="390" constrkind="K" constrnr="401" relnr="330">
+<Pattern kind="K" nr="6" aid="POLYNOM3" formatnr="405" constrkind="K" constrnr="401" relnr="336">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -9943,7 +10286,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="POLYNOM3" formatnr="391" constrkind="K" constrnr="402" relnr="331">
+<Pattern kind="K" nr="7" aid="POLYNOM3" formatnr="406" constrkind="K" constrnr="402" relnr="337">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -10022,7 +10365,7 @@
 <Int x="5"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="POLYNOM3" formatnr="97" constrkind="K" constrnr="403" relnr="332">
+<Pattern kind="K" nr="8" aid="POLYNOM3" formatnr="97" constrkind="K" constrnr="403" relnr="338">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -10074,7 +10417,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="POLYNOM3" formatnr="99" constrkind="K" constrnr="207" relnr="333">
+<Pattern kind="K" nr="9" aid="POLYNOM3" formatnr="99" constrkind="K" constrnr="207" relnr="339">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -10125,7 +10468,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="POLYNOM3" formatnr="392" constrkind="K" constrnr="404" relnr="334">
+<Pattern kind="K" nr="10" aid="POLYNOM3" formatnr="407" constrkind="K" constrnr="404" relnr="340">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -10137,7 +10480,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="11" aid="POLYNOM3" formatnr="393" constrkind="K" constrnr="405" relnr="335">
+<Pattern kind="K" nr="11" aid="POLYNOM3" formatnr="408" constrkind="K" constrnr="405" relnr="341">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -10149,7 +10492,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="12" aid="POLYNOM3" formatnr="394" constrkind="K" constrnr="406" relnr="336">
+<Pattern kind="K" nr="12" aid="POLYNOM3" formatnr="409" constrkind="K" constrnr="406" relnr="342">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10200,7 +10543,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="13" aid="POLYNOM3" formatnr="394" constrkind="K" constrnr="407" relnr="337">
+<Pattern kind="K" nr="13" aid="POLYNOM3" formatnr="409" constrkind="K" constrnr="407" relnr="343">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10255,7 +10598,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="14" aid="POLYNOM3" formatnr="395" constrkind="K" constrnr="408" relnr="338">
+<Pattern kind="K" nr="14" aid="POLYNOM3" formatnr="410" constrkind="K" constrnr="408" relnr="344">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10271,7 +10614,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="POLYNOM4" formatnr="396" constrkind="K" constrnr="508" relnr="339">
+<Pattern kind="K" nr="2" aid="POLYNOM4" formatnr="411" constrkind="K" constrnr="508" relnr="345">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10313,7 +10656,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="POLYNOM4" formatnr="397" constrkind="K" constrnr="509" relnr="340">
+<Pattern kind="K" nr="3" aid="POLYNOM4" formatnr="412" constrkind="K" constrnr="509" relnr="346">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10337,7 +10680,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="POLYNOM5" formatnr="401" constrkind="K" constrnr="421" relnr="341">
+<Pattern kind="K" nr="1" aid="POLYNOM5" formatnr="416" constrkind="K" constrnr="421" relnr="347">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -10361,7 +10704,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="POLYNOM5" formatnr="106" constrkind="K" constrnr="422" relnr="342">
+<Pattern kind="K" nr="2" aid="POLYNOM5" formatnr="106" constrkind="K" constrnr="422" relnr="348">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -10376,7 +10719,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="POLYNOM5" formatnr="402" constrkind="K" constrnr="423" relnr="343">
+<Pattern kind="K" nr="3" aid="POLYNOM5" formatnr="417" constrkind="K" constrnr="423" relnr="349">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10423,7 +10766,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="POLYNOM5" formatnr="44" constrkind="K" constrnr="424" relnr="344">
+<Pattern kind="K" nr="4" aid="POLYNOM5" formatnr="44" constrkind="K" constrnr="424" relnr="350">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -10461,7 +10804,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="POLYNOM5" formatnr="403" constrkind="K" constrnr="427" relnr="345">
+<Pattern kind="K" nr="7" aid="POLYNOM5" formatnr="418" constrkind="K" constrnr="427" relnr="351">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10496,7 +10839,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="POLYNOM5" formatnr="404" constrkind="K" constrnr="428" relnr="346">
+<Pattern kind="K" nr="8" aid="POLYNOM5" formatnr="419" constrkind="K" constrnr="428" relnr="352">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10535,7 +10878,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="POLYNOM5" formatnr="405" constrkind="K" constrnr="429" relnr="347">
+<Pattern kind="K" nr="9" aid="POLYNOM5" formatnr="420" constrkind="K" constrnr="429" relnr="353">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -10560,7 +10903,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="POLYNOM5" formatnr="406" constrkind="K" constrnr="430" relnr="348">
+<Pattern kind="K" nr="10" aid="POLYNOM5" formatnr="421" constrkind="K" constrnr="430" relnr="354">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10596,7 +10939,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="UPROOTS" formatnr="238" constrkind="K" constrnr="665" relnr="349">
+<Pattern kind="K" nr="2" aid="UPROOTS" formatnr="238" constrkind="K" constrnr="665" relnr="355">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -10620,7 +10963,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="RATFUNC1" formatnr="413" constrkind="K" constrnr="673" relnr="350">
+<Pattern kind="K" nr="1" aid="RATFUNC1" formatnr="428" constrkind="K" constrnr="673" relnr="356">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10678,7 +11021,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="RATFUNC1" formatnr="414" constrkind="K" constrnr="674" relnr="351">
+<Pattern kind="K" nr="2" aid="RATFUNC1" formatnr="429" constrkind="K" constrnr="674" relnr="357">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -10712,7 +11055,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="RATFUNC1" formatnr="415" constrkind="K" constrnr="674" relnr="352" redefnr="250">
+<Pattern kind="K" nr="3" aid="RATFUNC1" formatnr="430" constrkind="K" constrnr="674" relnr="358" redefnr="250">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -10746,7 +11089,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="RATFUNC1" formatnr="12" constrkind="K" constrnr="675" relnr="353">
+<Pattern kind="K" nr="4" aid="RATFUNC1" formatnr="12" constrkind="K" constrnr="675" relnr="359">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -10806,7 +11149,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="RATFUNC1" formatnr="416" constrkind="K" constrnr="678" relnr="354">
+<Pattern kind="K" nr="7" aid="RATFUNC1" formatnr="431" constrkind="K" constrnr="678" relnr="360">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10832,7 +11175,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="RATFUNC1" formatnr="417" constrkind="K" constrnr="678" relnr="355" redefnr="255">
+<Pattern kind="K" nr="8" aid="RATFUNC1" formatnr="432" constrkind="K" constrnr="678" relnr="361" redefnr="255">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10858,7 +11201,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="RATFUNC1" formatnr="418" constrkind="K" constrnr="679" relnr="356">
+<Pattern kind="K" nr="9" aid="RATFUNC1" formatnr="433" constrkind="K" constrnr="679" relnr="362">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -10870,7 +11213,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="RATFUNC1" formatnr="419" constrkind="K" constrnr="680" relnr="357">
+<Pattern kind="K" nr="10" aid="RATFUNC1" formatnr="434" constrkind="K" constrnr="680" relnr="363">
 <ArgTypes>
 <Typ kind="G" nr="10">
 <Cluster>
@@ -10882,7 +11225,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="11" aid="RATFUNC1" formatnr="97" constrkind="K" constrnr="681" relnr="358">
+<Pattern kind="K" nr="11" aid="RATFUNC1" formatnr="97" constrkind="K" constrnr="681" relnr="364">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10908,7 +11251,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="12" aid="RATFUNC1" formatnr="394" constrkind="K" constrnr="682" relnr="359">
+<Pattern kind="K" nr="12" aid="RATFUNC1" formatnr="409" constrkind="K" constrnr="682" relnr="365">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10934,7 +11277,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="16" aid="RATFUNC1" formatnr="396" constrkind="K" constrnr="685" relnr="360">
+<Pattern kind="K" nr="16" aid="RATFUNC1" formatnr="411" constrkind="K" constrnr="685" relnr="366">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10967,7 +11310,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="RING_4" formatnr="9" constrkind="K" constrnr="434" relnr="361">
+<Pattern kind="K" nr="1" aid="RING_4" formatnr="9" constrkind="K" constrnr="434" relnr="367">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -10985,7 +11328,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="RING_4" formatnr="46" constrkind="K" constrnr="435" relnr="362">
+<Pattern kind="K" nr="2" aid="RING_4" formatnr="46" constrkind="K" constrnr="435" relnr="368">
 <ArgTypes>
 <Typ kind="G" nr="2">
 <Cluster>
@@ -11004,7 +11347,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="RING_4" formatnr="404" constrkind="K" constrnr="436" relnr="363">
+<Pattern kind="K" nr="3" aid="RING_4" formatnr="419" constrkind="K" constrnr="436" relnr="369">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11034,7 +11377,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="RING_4" formatnr="395" constrkind="K" constrnr="439" relnr="364">
+<Pattern kind="K" nr="6" aid="RING_4" formatnr="410" constrkind="K" constrnr="439" relnr="370">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11068,7 +11411,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="ALGNUM_1" formatnr="425" constrkind="K" constrnr="446" relnr="365">
+<Pattern kind="K" nr="1" aid="ALGNUM_1" formatnr="440" constrkind="K" constrnr="446" relnr="371">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11128,7 +11471,7 @@
 <Int x="4"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="ALGNUM_1" formatnr="426" constrkind="K" constrnr="447" relnr="366">
+<Pattern kind="K" nr="2" aid="ALGNUM_1" formatnr="441" constrkind="K" constrnr="447" relnr="372">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11161,7 +11504,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="ALGNUM_1" formatnr="427" constrkind="K" constrnr="448" relnr="367">
+<Pattern kind="K" nr="3" aid="ALGNUM_1" formatnr="442" constrkind="K" constrnr="448" relnr="373">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11199,7 +11542,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="ALGNUM_1" formatnr="428" constrkind="K" constrnr="449" relnr="368">
+<Pattern kind="K" nr="4" aid="ALGNUM_1" formatnr="443" constrkind="K" constrnr="449" relnr="374">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11243,7 +11586,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="ALGNUM_1" formatnr="429" constrkind="K" constrnr="450" relnr="369">
+<Pattern kind="K" nr="5" aid="ALGNUM_1" formatnr="444" constrkind="K" constrnr="450" relnr="375">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11287,7 +11630,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="ALGNUM_1" formatnr="430" constrkind="K" constrnr="451" relnr="370">
+<Pattern kind="K" nr="6" aid="ALGNUM_1" formatnr="445" constrkind="K" constrnr="451" relnr="376">
 <ArgTypes>
 <Typ kind="G" nr="11">
 <Cluster>
@@ -11325,7 +11668,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="ALGNUM_1" formatnr="431" constrkind="K" constrnr="452" relnr="371">
+<Pattern kind="K" nr="7" aid="ALGNUM_1" formatnr="446" constrkind="K" constrnr="452" relnr="377">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -11338,7 +11681,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="ALGNUM_1" formatnr="432" constrkind="K" constrnr="453" relnr="372">
+<Pattern kind="K" nr="8" aid="ALGNUM_1" formatnr="447" constrkind="K" constrnr="453" relnr="378">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -11351,7 +11694,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="ALGNUM_1" formatnr="433" constrkind="K" constrnr="454" relnr="373">
+<Pattern kind="K" nr="9" aid="ALGNUM_1" formatnr="448" constrkind="K" constrnr="454" relnr="379">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -11364,7 +11707,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="ALGNUM_1" formatnr="434" constrkind="K" constrnr="455" relnr="374">
+<Pattern kind="K" nr="10" aid="ALGNUM_1" formatnr="449" constrkind="K" constrnr="455" relnr="380">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster/>
@@ -11377,7 +11720,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="POLYDIFF" formatnr="435" constrkind="K" constrnr="756" relnr="375">
+<Pattern kind="K" nr="1" aid="POLYDIFF" formatnr="450" constrkind="K" constrnr="756" relnr="381">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11400,7 +11743,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="POLYDIFF" formatnr="436" constrkind="K" constrnr="759" relnr="376">
+<Pattern kind="K" nr="4" aid="POLYDIFF" formatnr="451" constrkind="K" constrnr="759" relnr="382">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11429,7 +11772,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="POLYDIFF" formatnr="437" constrkind="K" constrnr="760" relnr="377">
+<Pattern kind="K" nr="5" aid="POLYDIFF" formatnr="452" constrkind="K" constrnr="760" relnr="383">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11458,7 +11801,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="FVSUM_1" formatnr="97" constrkind="K" constrnr="723" relnr="378">
+<Pattern kind="K" nr="3" aid="FVSUM_1" formatnr="97" constrkind="K" constrnr="723" relnr="384">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -11483,7 +11826,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="FVSUM_1" formatnr="97" constrkind="K" constrnr="724" relnr="379">
+<Pattern kind="K" nr="4" aid="FVSUM_1" formatnr="97" constrkind="K" constrnr="724" relnr="385">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -11519,7 +11862,7 @@
 <Int x="4"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="5" aid="FVSUM_1" formatnr="98" constrkind="K" constrnr="725" relnr="380">
+<Pattern kind="K" nr="5" aid="FVSUM_1" formatnr="98" constrkind="K" constrnr="725" relnr="386">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -11537,7 +11880,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="FVSUM_1" formatnr="98" constrkind="K" constrnr="726" relnr="381">
+<Pattern kind="K" nr="6" aid="FVSUM_1" formatnr="98" constrkind="K" constrnr="726" relnr="387">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -11563,7 +11906,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="7" aid="FVSUM_1" formatnr="99" constrkind="K" constrnr="727" relnr="382">
+<Pattern kind="K" nr="7" aid="FVSUM_1" formatnr="99" constrkind="K" constrnr="727" relnr="388">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -11588,7 +11931,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="FVSUM_1" formatnr="99" constrkind="K" constrnr="728" relnr="383">
+<Pattern kind="K" nr="8" aid="FVSUM_1" formatnr="99" constrkind="K" constrnr="728" relnr="389">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -11624,7 +11967,7 @@
 <Int x="4"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="9" aid="FVSUM_1" formatnr="44" constrkind="K" constrnr="729" relnr="384">
+<Pattern kind="K" nr="9" aid="FVSUM_1" formatnr="44" constrkind="K" constrnr="729" relnr="390">
 <ArgTypes>
 <Typ kind="G" nr="8">
 <Cluster>
@@ -11649,7 +11992,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="10" aid="FVSUM_1" formatnr="44" constrkind="K" constrnr="730" relnr="385">
+<Pattern kind="K" nr="10" aid="FVSUM_1" formatnr="44" constrkind="K" constrnr="730" relnr="391">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -11682,7 +12025,7 @@
 <Int x="3"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="13" aid="FVSUM_1" formatnr="238" constrkind="K" constrnr="200" relnr="386">
+<Pattern kind="K" nr="13" aid="FVSUM_1" formatnr="238" constrkind="K" constrnr="200" relnr="392">
 <ArgTypes>
 <Typ kind="G" nr="7">
 <Cluster>
@@ -11704,7 +12047,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="1" aid="LIOUVIL1" formatnr="441" constrkind="K" constrnr="835" relnr="387">
+<Pattern kind="K" nr="1" aid="LIOUVIL1" formatnr="456" constrkind="K" constrnr="835" relnr="393">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11733,7 +12076,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="2" aid="LIOUVIL1" formatnr="442" constrkind="K" constrnr="836" relnr="388">
+<Pattern kind="K" nr="2" aid="LIOUVIL1" formatnr="457" constrkind="K" constrnr="836" relnr="394">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11761,7 +12104,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="3" aid="LIOUVIL1" formatnr="443" constrkind="K" constrnr="837" relnr="389">
+<Pattern kind="K" nr="3" aid="LIOUVIL1" formatnr="458" constrkind="K" constrnr="837" relnr="395">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -11773,35 +12116,7 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="4" aid="LIOUVIL1" formatnr="444" constrkind="K" constrnr="838" relnr="390">
-<ArgTypes>
-<Typ kind="M" nr="3">
-<Cluster>
-<Adjective nr="6"/>
-<Adjective nr="44">
-<Func kind="K" nr="40"/>
-<Func kind="K" nr="43"/>
-</Adjective>
-</Cluster>
-<Func kind="K" nr="19">
-<Func kind="K" nr="20">
-<Func kind="K" nr="40"/>
-<Func kind="K" nr="43"/>
-</Func>
-</Func>
-</Typ>
-<Typ kind="M" nr="2">
-<Cluster>
-<Adjective nr="20"/>
-</Cluster>
-</Typ>
-</ArgTypes>
-<Visible>
-<Int x="1"/>
-<Int x="2"/>
-</Visible>
-</Pattern>
-<Pattern kind="K" nr="5" aid="LIOUVIL1" formatnr="445" constrkind="K" constrnr="839" relnr="391">
+<Pattern kind="K" nr="4" aid="LIOUVIL1" formatnr="459" constrkind="K" constrnr="838" relnr="396">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11829,19 +12144,7 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="6" aid="LIOUVIL1" formatnr="446" constrkind="K" constrnr="840" relnr="392">
-<ArgTypes>
-<Typ kind="M" nr="2">
-<Cluster>
-<Adjective nr="20"/>
-</Cluster>
-</Typ>
-</ArgTypes>
-<Visible>
-<Int x="1"/>
-</Visible>
-</Pattern>
-<Pattern kind="K" nr="7" aid="LIOUVIL1" formatnr="447" constrkind="K" constrnr="841" relnr="393">
+<Pattern kind="K" nr="5" aid="LIOUVIL1" formatnr="460" constrkind="K" constrnr="839" relnr="397">
 <ArgTypes>
 <Typ kind="M" nr="3">
 <Cluster>
@@ -11869,11 +12172,51 @@
 <Int x="2"/>
 </Visible>
 </Pattern>
-<Pattern kind="K" nr="8" aid="LIOUVIL1" formatnr="448" constrkind="K" constrnr="842" relnr="394">
+<Pattern kind="K" nr="6" aid="LIOUVIL1" formatnr="461" constrkind="K" constrnr="840" relnr="398">
+<ArgTypes>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="7" aid="LIOUVIL1" formatnr="462" constrkind="K" constrnr="841" relnr="399">
+<ArgTypes>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="K" nr="43"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="K" nr="43"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+<Int x="2"/>
+</Visible>
+</Pattern>
+<Pattern kind="K" nr="8" aid="LIOUVIL1" formatnr="463" constrkind="K" constrnr="842" relnr="400">
 <ArgTypes/>
 <Visible/>
 </Pattern>
-<Pattern kind="K" nr="9" aid="LIOUVIL1" formatnr="449" constrkind="K" constrnr="843" relnr="395">
+<Pattern kind="K" nr="9" aid="LIOUVIL1" formatnr="464" constrkind="K" constrnr="843" relnr="401">
 <ArgTypes/>
 <Visible/>
 </Pattern>
@@ -11937,7 +12280,17 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="U" nr="1" aid="VECTSP_1" formatnr="341" constrkind="U" constrnr="9" relnr="7">
+<Pattern kind="U" nr="1" aid="RLVECT_1" formatnr="326" constrkind="U" constrnr="7" relnr="7">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="U" nr="1" aid="VECTSP_1" formatnr="356" constrkind="U" constrnr="9" relnr="8">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -12269,7 +12622,66 @@
 <Int x="5"/>
 </Visible>
 </Pattern>
-<Pattern kind="G" nr="1" aid="VECTSP_1" formatnr="342" constrkind="G" constrnr="16" relnr="12">
+<Pattern kind="G" nr="1" aid="RLVECT_1" formatnr="327" constrkind="G" constrnr="12" relnr="12">
+<ArgTypes>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+</Visible>
+</Pattern>
+<Pattern kind="G" nr="1" aid="VECTSP_1" formatnr="357" constrkind="G" constrnr="16" relnr="13">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>
@@ -12445,7 +12857,17 @@
 <Int x="1"/>
 </Visible>
 </Pattern>
-<Pattern kind="J" nr="1" aid="VECTSP_1" formatnr="343" constrkind="J" constrnr="16" relnr="12">
+<Pattern kind="J" nr="1" aid="RLVECT_1" formatnr="328" constrkind="J" constrnr="12" relnr="12">
+<ArgTypes>
+<Typ kind="G" nr="12">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Visible>
+<Int x="1"/>
+</Visible>
+</Pattern>
+<Pattern kind="J" nr="1" aid="VECTSP_1" formatnr="358" constrkind="J" constrnr="16" relnr="13">
 <ArgTypes>
 <Typ kind="G" nr="1">
 <Cluster/>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Symbols aid="E" mizfiles="/usr/local/share/mizar/">
+<Symbols aid="E" mizfiles="c:\mizar\">
  <Symbol kind="&#xAF;" nr="0" name="&#x23;&#x29;"/>
  <Symbol kind="Z" nr="1" name="&#x24;1"/>
  <Symbol kind="Z" nr="2" name="&#x24;2"/>
@@ -681,6 +681,52 @@
  <Symbol kind="O" nr="265" name="Partial_Sums"/>
  <Symbol kind="V" nr="144" name="summable"/>
  <Symbol kind="V" nr="145" name="absolutely_summable"/>
+ <Symbol kind="G" nr="16" name="RLSStruct"/>
+ <Symbol kind="U" nr="9" name="Mult"/>
+ <Symbol kind="M" nr="58" name="VECTOR"/>
+ <Symbol kind="V" nr="146" name="Abelian"/>
+ <Symbol kind="V" nr="147" name="add-associative"/>
+ <Symbol kind="V" nr="148" name="right_zeroed"/>
+ <Symbol kind="V" nr="149" name="RealLinearSpace-like"/>
+ <Symbol kind="O" nr="266" name="Trivial-RLSStruct"/>
+ <Symbol kind="M" nr="59" name="RealLinearSpace"/>
+ <Symbol kind="V" nr="150" name="scalar-distributive"/>
+ <Symbol kind="V" nr="151" name="vector-distributive"/>
+ <Symbol kind="V" nr="152" name="scalar-associative"/>
+ <Symbol kind="V" nr="153" name="scalar-unital"/>
+ <Symbol kind="G" nr="17" name="/\-SemiLattStr"/>
+ <Symbol kind="U" nr="10" name="L_meet"/>
+ <Symbol kind="G" nr="18" name="\/-SemiLattStr"/>
+ <Symbol kind="U" nr="11" name="L_join"/>
+ <Symbol kind="G" nr="19" name="LattStr"/>
+ <Symbol kind="O" nr="267" name="&#x22;/\&#x22;"/>
+ <Symbol kind="V" nr="154" name="join-commutative"/>
+ <Symbol kind="V" nr="155" name="join-associative"/>
+ <Symbol kind="V" nr="156" name="meet-commutative"/>
+ <Symbol kind="V" nr="157" name="meet-associative"/>
+ <Symbol kind="V" nr="158" name="meet-absorbing"/>
+ <Symbol kind="V" nr="159" name="join-absorbing"/>
+ <Symbol kind="V" nr="160" name="Lattice-like"/>
+ <Symbol kind="M" nr="60" name="Lattice"/>
+ <Symbol kind="V" nr="161" name="distributive"/>
+ <Symbol kind="V" nr="162" name="modular"/>
+ <Symbol kind="V" nr="163" name="lower-bounded"/>
+ <Symbol kind="V" nr="164" name="upper-bounded"/>
+ <Symbol kind="M" nr="61" name="D_Lattice"/>
+ <Symbol kind="M" nr="62" name="M_Lattice"/>
+ <Symbol kind="M" nr="63" name="0_Lattice"/>
+ <Symbol kind="M" nr="64" name="1_Lattice"/>
+ <Symbol kind="M" nr="65" name="01_Lattice"/>
+ <Symbol kind="O" nr="268" name="Bottom"/>
+ <Symbol kind="O" nr="269" name="Top"/>
+ <Symbol kind="R" nr="34" name="is_a_complement_of"/>
+ <Symbol kind="V" nr="165" name="complemented"/>
+ <Symbol kind="M" nr="66" name="C_Lattice"/>
+ <Symbol kind="V" nr="166" name="Boolean"/>
+ <Symbol kind="M" nr="67" name="B_Lattice"/>
+ <Symbol kind="V" nr="167" name="final"/>
+ <Symbol kind="V" nr="168" name="meet-closed"/>
+ <Symbol kind="V" nr="169" name="join-closed"/>
  <Symbol kind="A" nr="1" name="XREAL_0"/>
  <Symbol kind="A" nr="2" name="NEWTON"/>
  <Symbol kind="A" nr="3" name="XXREAL_0"/>

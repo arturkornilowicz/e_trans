@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Constructors aid="E" mizfiles="/usr/local/share/mizar/">
+<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
+<Constructors aid="E" mizfiles="c:\mizar\">
 <SignatureWithCounts>
 <ConstrCounts name="HIDDEN">
 <ConstrCount kind="M" nr="2"/>
