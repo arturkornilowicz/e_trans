@@ -142,6 +142,7 @@ c5:  len G = N & (G.1 = p1 or N = 0) &
  end;
 
 definition
+  let p be Polynomial of F_Real;
 end;
  
 registration

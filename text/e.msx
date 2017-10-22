@@ -1424,121 +1424,138 @@
    </Item>
   </Block>
  </Item>
- <Item kind="Definition-Item" line="143" col="12" posline="154" poscol="3">
-  <Block kind="Registration-Block" line="143" col="12" posline="154" poscol="3">
-   <Item kind="Cluster" line="144" col="9" posline="144" poscol="36">
-    <Functorial-Registration line="144" col="9">
-     <Infix-Term nr="262" spelling="number_e" line="144" col="18">
+ <Item kind="Definition-Item" line="143" col="10" posline="145" poscol="3">
+  <Block kind="Definitional-Block" line="143" col="10" posline="145" poscol="3">
+   <Item kind="Loci-Declaration" line="144" col="32" posline="144" poscol="31">
+    <Explicitly-Qualified-Segment line="144" col="7">
+     <Variables>
+      <Variable idnr="62" spelling="p" line="144" col="7" origin="Constant" kind="Constant" serialnr="12" varnr="5"/>
+     </Variables>
+     <Standard-Type nr="19" spelling="Polynomial" line="144" col="21">
+      <Infix-Term nr="113" spelling="F_Real" line="144" col="31">
+       <Arguments/>
+       <Arguments/>
+      </Infix-Term>
+     </Standard-Type>
+    </Explicitly-Qualified-Segment>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Definition-Item" line="147" col="12" posline="158" poscol="3">
+  <Block kind="Registration-Block" line="147" col="12" posline="158" poscol="3">
+   <Item kind="Cluster" line="148" col="9" posline="148" poscol="36">
+    <Functorial-Registration line="148" col="9">
+     <Infix-Term nr="262" spelling="number_e" line="148" col="18">
       <Arguments/>
       <Arguments/>
      </Infix-Term>
      <Adjective-Cluster>
-      <Adjective nr="29" spelling="transcendental" line="144" col="36"/>
+      <Adjective nr="29" spelling="transcendental" line="148" col="36"/>
      </Adjective-Cluster>
     </Functorial-Registration>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="145" col="11" posline="153" poscol="5">
-    <Block kind="Proof" line="146" col="7" posline="153" poscol="5">
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="147" col="12" posline="147" poscol="41">
+   <Item kind="Correctness-Condition" condition="coherence" line="149" col="11" posline="157" poscol="5">
+    <Block kind="Proof" line="150" col="7" posline="157" poscol="5">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="151" col="12" posline="151" poscol="41">
       <Proposition>
-       <Label idnr="0" spelling="" line="147" col="12" serialnr="31" labelnr="0"/>
-       <Predicative-Formula nr="3" spelling="in" line="147" col="15">
+       <Label idnr="0" spelling="" line="151" col="12" serialnr="32" labelnr="0"/>
+       <Predicative-Formula nr="3" spelling="in" line="151" col="15">
         <Arguments>
-         <Infix-Term nr="262" spelling="number_e" line="147" col="12">
+         <Infix-Term nr="262" spelling="number_e" line="151" col="12">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="3" spelling="COMPLEX" line="147" col="23">
+         <Infix-Term nr="3" spelling="COMPLEX" line="151" col="23">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="147" col="26">
-       <Definition-Reference line="147" col="41" nr="47" spelling="XCMPLX_0" number="2"/>
+      <Straightforward-Justification line="151" col="26">
+       <Definition-Reference line="151" col="41" nr="47" spelling="XCMPLX_0" number="2"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Type-Changing-Statement" line="148" col="19" posline="148" poscol="67">
+     <Item kind="Type-Changing-Statement" line="152" col="19" posline="152" poscol="67">
       <Equality>
-       <Variable idnr="87" spelling="e" line="148" col="21" origin="DefConstant" kind="Constant" serialnr="11" varnr="5"/>
-       <Infix-Term nr="262" spelling="number_e" line="148" col="32">
+       <Variable idnr="87" spelling="e" line="152" col="21" origin="DefConstant" kind="Constant" serialnr="11" varnr="5"/>
+       <Infix-Term nr="262" spelling="number_e" line="152" col="32">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
       </Equality>
-      <Standard-Type nr="3" spelling="Element" line="148" col="43">
-       <Simple-Term idnr="57" spelling="FC" line="148" col="49" origin="DefConstant" kind="Constant" serialnr="1" varnr="1"/>
+      <Standard-Type nr="3" spelling="Element" line="152" col="43">
+       <Simple-Term idnr="57" spelling="FC" line="152" col="49" origin="DefConstant" kind="Constant" serialnr="1" varnr="1"/>
       </Standard-Type>
-      <Straightforward-Justification line="148" col="52">
-       <Link line="148" col="8" labelnr="0"/>
-       <Local-Reference line="148" col="8" idnr="0" spelling="" serialnr="31" labelnr="0"/>
-       <Definition-Reference line="148" col="67" nr="9" spelling="COMPLFLD" number="1"/>
+      <Straightforward-Justification line="152" col="52">
+       <Link line="152" col="8" labelnr="0"/>
+       <Local-Reference line="152" col="8" idnr="0" spelling="" serialnr="32" labelnr="0"/>
+       <Definition-Reference line="152" col="67" nr="9" spelling="COMPLFLD" number="1"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Assumption" line="149" col="10" posline="149" poscol="32">
-      <Single-Assumption line="149" col="10">
+     <Item kind="Assumption" line="153" col="10" posline="153" poscol="32">
+      <Single-Assumption line="153" col="10">
        <Proposition>
-        <Label idnr="0" spelling="" line="149" col="19" serialnr="32" labelnr="0"/>
-        <Attributive-Formula line="149" col="22">
-         <Infix-Term nr="262" spelling="number_e" line="149" col="19">
+        <Label idnr="0" spelling="" line="153" col="19" serialnr="33" labelnr="0"/>
+        <Attributive-Formula line="153" col="22">
+         <Infix-Term nr="262" spelling="number_e" line="153" col="19">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
          <Adjective-Cluster>
-          <Adjective nr="141" spelling="algebraic" line="149" col="32"/>
+          <Adjective nr="141" spelling="algebraic" line="153" col="32"/>
          </Adjective-Cluster>
         </Attributive-Formula>
        </Proposition>
       </Single-Assumption>
      </Item>
-     <Item kind="Choice-Statement" line="150" col="17" posline="151" poscol="35">
-      <Explicitly-Qualified-Segment line="150" col="19">
+     <Item kind="Choice-Statement" line="154" col="17" posline="155" poscol="35">
+      <Explicitly-Qualified-Segment line="154" col="19">
        <Variables>
-        <Variable idnr="61" spelling="f" line="150" col="19" origin="Constant" kind="Constant" serialnr="12" varnr="6"/>
+        <Variable idnr="61" spelling="f" line="154" col="19" origin="Constant" kind="Constant" serialnr="13" varnr="6"/>
        </Variables>
-       <Clustered-Type line="150" col="57">
+       <Clustered-Type line="154" col="57">
         <Adjective-Cluster>
-         <Adjective nr="74" spelling="non-zero" line="150" col="34"/>
-         <Adjective nr="35" spelling="-valued" line="150" col="46">
-          <Infix-Term nr="5" spelling="INT" line="150" col="38">
+         <Adjective nr="74" spelling="non-zero" line="154" col="34"/>
+         <Adjective nr="35" spelling="-valued" line="154" col="46">
+          <Infix-Term nr="5" spelling="INT" line="154" col="38">
            <Arguments/>
            <Arguments/>
           </Infix-Term>
          </Adjective>
         </Adjective-Cluster>
-        <Standard-Type nr="19" spelling="Polynomial" line="150" col="57">
-         <Simple-Term idnr="57" spelling="FC" line="150" col="63" origin="DefConstant" kind="Constant" serialnr="1" varnr="1"/>
+        <Standard-Type nr="19" spelling="Polynomial" line="154" col="57">
+         <Simple-Term idnr="57" spelling="FC" line="154" col="63" origin="DefConstant" kind="Constant" serialnr="1" varnr="1"/>
         </Standard-Type>
        </Clustered-Type>
       </Explicitly-Qualified-Segment>
       <Conditions>
        <Proposition>
-        <Label idnr="88" spelling="A1" line="151" col="2" serialnr="33" labelnr="1"/>
-        <Predicative-Formula nr="17" spelling="is_a_root_of" line="151" col="18">
+        <Label idnr="88" spelling="A1" line="155" col="2" serialnr="34" labelnr="1"/>
+        <Predicative-Formula nr="17" spelling="is_a_root_of" line="155" col="18">
          <Arguments>
-          <Simple-Term idnr="87" spelling="e" line="151" col="5" origin="DefConstant" kind="Constant" serialnr="11" varnr="5"/>
+          <Simple-Term idnr="87" spelling="e" line="155" col="5" origin="DefConstant" kind="Constant" serialnr="11" varnr="5"/>
          </Arguments>
          <Arguments>
-          <Simple-Term idnr="61" spelling="f" line="151" col="20" origin="Constant" kind="Constant" serialnr="12" varnr="6"/>
+          <Simple-Term idnr="61" spelling="f" line="155" col="20" origin="Constant" kind="Constant" serialnr="13" varnr="6"/>
          </Arguments>
         </Predicative-Formula>
        </Proposition>
       </Conditions>
-      <Straightforward-Justification line="151" col="23">
-       <Link line="150" col="8" labelnr="1869182049"/>
-       <Local-Reference line="150" col="8" idnr="0" spelling="" serialnr="32" labelnr="1"/>
-       <Theorem-Reference line="151" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
+      <Straightforward-Justification line="155" col="23">
+       <Link line="154" col="8" labelnr="1869182049"/>
+       <Local-Reference line="154" col="8" idnr="0" spelling="" serialnr="33" labelnr="1"/>
+       <Theorem-Reference line="155" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Conclusion" shape="Compact-Statement" line="152" col="22" posline="152" poscol="22">
+     <Item kind="Conclusion" shape="Compact-Statement" line="156" col="22" posline="156" poscol="22">
       <Proposition>
-       <Label idnr="0" spelling="" line="152" col="22" serialnr="34" labelnr="0"/>
-       <Contradiction line="152" col="22"/>
+       <Label idnr="0" spelling="" line="156" col="22" serialnr="35" labelnr="0"/>
+       <Contradiction line="156" col="22"/>
       </Proposition>
-      <Straightforward-Justification line="152" col="22"/>
+      <Straightforward-Justification line="156" col="22"/>
      </Item>
     </Block>
    </Item>

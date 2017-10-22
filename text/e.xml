@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<Article aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<Article aid="E" mizfiles="/usr/local/share/mizar/">
 <Reservation>
 <Ident vid="53"/>
 <Ident vid="54"/>
@@ -7523,7 +7523,59 @@
 </Proposition>
 </DefTheorem>
 
-<RegistrationBlock line="143" col="12">
+<DefinitionBlock line="143" col="10">
+<Let nr="5">
+<Typ kind="M" nr="3" pid="57" vid="62">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="289"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="289"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="289"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="289"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="289"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="289"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+</Let>
+<EndPosition line="145" col="3"/>
+</DefinitionBlock>
+
+<RegistrationBlock line="147" col="12">
 <Registration>
 <FCluster aid="E" nr="1">
 <ArgTypes/>
@@ -7541,14 +7593,14 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="146" col="7">
+<Proposition line="150" col="7">
 <Not>
 <Pred kind="V" nr="198">
 <Func kind="K" nr="847" pid="234"/>
 </Pred>
 </Not>
 </Proposition>
-<Proof line="146" col="7">
+<Proof line="150" col="7">
 <BlockThesis>
 <Not>
 <Pred kind="V" nr="198">
@@ -7556,14 +7608,14 @@
 </Pred>
 </Not>
 </BlockThesis>
-<Proposition line="147" col="26">
+<Proposition line="151" col="26">
 <Pred kind="R" nr="2" pid="3">
 <Func kind="K" nr="847" pid="234"/>
 <Func kind="K" nr="44" pid="75"/>
 </Pred>
 </Proposition>
-<By line="147" col="26">
-<Ref nr="2" articlenr="47" kind="D" line="147" col="41"/>
+<By line="151" col="26">
+<Ref nr="2" articlenr="47" kind="D" line="151" col="41"/>
 </By>
 <Reconsider nr="5">
 <Typ kind="M" nr="3" pid="32" vid="87">
@@ -7576,7 +7628,7 @@
 </Func>
 </Typ>
 <Func kind="K" nr="847" pid="234"/>
-<Proposition line="148" col="43">
+<Proposition line="152" col="43">
 <Is>
 <Func kind="K" nr="847" pid="234"/>
 <Typ kind="M" nr="3" pid="32">
@@ -7590,12 +7642,12 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="148" col="52">
-<Ref nr="1" articlenr="9" kind="D" line="148" col="67"/>
+<By linked="true" line="152" col="52">
+<Ref nr="1" articlenr="9" kind="D" line="152" col="67"/>
 </By>
 </Reconsider>
 <Assume>
-<Proposition line="149" col="19">
+<Proposition line="153" col="19">
 <Pred kind="V" nr="198" pid="153">
 <Func kind="K" nr="847" pid="234"/>
 </Pred>
@@ -7608,7 +7660,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Consider nr="6">
-<Proposition line="151" col="18">
+<Proposition line="155" col="18">
 <Not>
 <For pid="0" vid="61">
 <Typ kind="M" nr="3" pid="57">
@@ -7679,8 +7731,8 @@
 </For>
 </Not>
 </Proposition>
-<By linked="true" line="151" col="23">
-<Ref nr="25" articlenr="52" kind="T" line="151" col="35"/>
+<By linked="true" line="155" col="23">
+<Ref nr="25" articlenr="52" kind="T" line="155" col="35"/>
 </By>
 <Typ kind="M" nr="3" pid="57" vid="61">
 <Cluster>
@@ -7740,7 +7792,7 @@
 </Func>
 </Func>
 </Typ>
-<Proposition line="151" col="2" nr="1" vid="88">
+<Proposition line="155" col="2" nr="1" vid="88">
 <Pred kind="R" nr="61" pid="39">
 <Func kind="K" nr="432" pid="309"/>
 <Const nr="6" vid="61"/>
@@ -7749,22 +7801,22 @@
 </Proposition>
 </Consider>
 <Conclusion>
-<Proposition line="152" col="22">
+<Proposition line="156" col="22">
 <Not>
 <Verum/>
 </Not>
 </Proposition>
-<By line="152" col="22"/>
+<By line="156" col="22"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="153" col="5"/>
+<EndPosition line="157" col="5"/>
 </Proof>
 </Coherence>
 </Registration>
-<EndPosition line="154" col="3"/>
+<EndPosition line="158" col="3"/>
 </RegistrationBlock>
 
 </Article>

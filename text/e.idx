@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Symbols aid="E" mizfiles="c:\mizar\">
+<Symbols aid="E" mizfiles="/usr/local/share/mizar/">
  <Symbol kind="I" nr="1" name="SUBSET_1"/>
  <Symbol kind="I" nr="2" name="CARD_1"/>
  <Symbol kind="I" nr="3" name="ARYTM_1"/>

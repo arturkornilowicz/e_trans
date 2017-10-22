@@ -1,4 +1,4 @@
-:: The Number e is Transcendental
+:: Number e is Transcendental
 ::  by Tomasz Korni{\l}owicz
 
 environ
@@ -10,7 +10,7 @@ environ
       MESFUNC1, SUPINF_2, POLYNOM2, C0SP1, FUNCSDOM, STRUCT_0, POLYNOM3,
       VALUED_0, INT_3, ALGSEQ_1, GROUP_1, PARTFUN1, CAT_1, ALGSTR_0, MSAFREE2,
       XXREAL_1, ORDINAL2, XXREAL_2, FDIFF_1, MEASURE5, ORDINAL4, FINSEQ_2,
-      BINOP_2, SETWISEO, WAYBEL_8, POWER;
+      BINOP_2, SETWISEO, WAYBEL_8, POWER, E, POLYDIFF;
  notations TARSKI, XBOOLE_0, SUBSET_1, FINSET_1, RELAT_1, FUNCT_1, RELSET_1,
       PARTFUN1, FINSEQ_1, NUMBERS, XCMPLX_0, COMPLEX1, XREAL_0, NAT_1, NAT_D,
       FINSEQ_2, BINOP_2, SETWOP_2, XXREAL_0, XXREAL_2, RCOMP_1, VALUED_0,
@@ -44,8 +44,8 @@ environ
       COMPLEX1, POLYNOM5, XXREAL_1, XBOOLE_0, TARSKI, FDIFF_1, ABSVALUE,
       VALUED_1, INTEGRA5, INTEGRA1, RAT_1, NAT_3, FVSUM_1, NIVEN, NAT_D,
       RVSUM_1, INT_2, XCMPLX_0, NUMBERS, RING_2, GROUP_4, LIOUVIL1, LIOUVIL2,
-      POWER;
- schemes FRAENKEL, FINSEQ_1, FINSEQ_2, POLYNOM3;
+      POWER, POLYNOM3;
+ schemes FRAENKEL, FINSEQ_1, FINSEQ_2, POLYNOM3, RECDEF_1;
 
 begin
 
@@ -54,7 +54,96 @@ reserve r for Real;
 reserve c for Element of F_Complex;
 
 set FC = F_Complex;
+set FR = F_Real;
+set Fq = F_Rat;
+set IR = INT.Ring;
 
+definition
+  let f be FinSequence;
+  attr f is R_polynomial_yielding means
+  for n st 1 <= n <= len f holds f.n is Polynomial of F_Real;
+end;
+
+registration
+  cluster R_polynomial_yielding for FinSequence;
+  existence;
+::>       *4
+end;
+
+definition
+  let p be Polynomial of F_Real;
+
+  set N = len(p)+1;
+  set D = the carrier of Polynom-Ring F_Real;
+  reconsider p1 = p as Element of D by POLYNOM3:def 10;
+  defpred P[object,object,object] means
+  for q being Polynomial of F_Real st q = $2 holds $3 = poly_diff(q);
+
+  func diff_seq(p) -> FinSequence of Polynom-Ring F_Real means
+  len(it) = len(p)+1 & 
+  it.1 = p & for n st 1 <= n < len(it) holds
+  for q being Polynomial of F_Real st q = it.n holds it.(n+1) = poly_diff(q);
+  existence
+proof
+a: for n being Nat st 1 <= n & n < N for x being Element of D
+   ex y being Element of D st P[n,x,y]
+   proof
+     let n;
+     assume 1 <= n & n < N;
+     let x be Element of D;
+     reconsider q = x as Polynomial of F_Real;
+     reconsider y = poly_diff(q) as Element of D by POLYNOM3:def 10;
+     take y;
+     thus thesis;
+     end;
+     consider F being FinSequence of D such that
+b:   len F = N and
+c:   F.1 = p1 or N = 0 and
+d:   for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)]
+     from RECDEF_1:sch 4(a);
+     take F;
+     thus len(F) = len(p)+1 by b;
+     thus F.1 = p by c;
+     thus thesis by b, d;  
+   end;
+   uniqueness
+   proof
+     let F,G be FinSequence of Polynom-Ring F_Real such that 
+a1:  len(F) = N and
+a2:  F.1 = p and
+a3:  for n st 1 <= n < len(F) holds
+     for q being Polynomial of F_Real st q = F.n holds F.(n+1) = poly_diff(q)
+     and
+b1:  len(G) = N and 
+b2:  G.1 = p and
+b3:  for n st 1 <= n < len(G) holds
+     for q being Polynomial of F_Real st q = G.n holds G.(n+1) = poly_diff(q);
+     
+c1:  for n st 1 <= n & n < N for x,y1,y2 being Element of D st
+     P[n,x,y1] & P[n,x,y2] holds y1 = y2
+     proof
+       let n;
+       assume 1 <= n & n < N;
+       let x,y1,y2 be Element of D;
+       reconsider x1 = x as Polynomial of F_Real;
+       assume P[n,x,y1];
+       then
+c2:    y1 = poly_diff(x1);
+       assume P[n,x,y2];
+       then y2 = poly_diff(x1);
+       hence thesis by c2;
+     end;
+c2:  len F = N & (F.1 = p1 or N = 0) &
+     for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)] by a1,a2,a3;
+c5:  len G = N & (G.1 = p1 or N = 0) &
+     for n st 1 <= n & n < N holds P[n,G.n,G.(n+1)] by b1,b2,b3;     
+     thus F = G from RECDEF_1:sch 8(c1,c2,c5);
+   end;
+ end;
+
+definition
+end;
+ 
 registration
   cluster number_e -> transcendental;
   coherence
@@ -65,6 +154,8 @@ registration
     then consider f being non-zero INT -valued Polynomial of FC such that
 A1: e is_a_root_of f by LIOUVIL2:25;
     thus contradiction;
+::>                  *1
   end;
 end;
-
+::> 1: It is not true
+::> 4: This inference is not accepted
