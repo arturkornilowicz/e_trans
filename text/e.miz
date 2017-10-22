@@ -140,6 +140,9 @@ c5:  len G = N & (G.1 = p1 or N = 0) &
      thus F = G from RECDEF_1:sch 8(c1,c2,c5);
    end;
  end;
+
+definition
+end;
  
 registration
   cluster number_e -> transcendental;
