@@ -678,6 +678,9 @@
  <Symbol kind="O" nr="263" name="diff_seq"/>
  <Symbol kind="V" nr="143" name="R_polynomial_yielding"/>
  <Symbol kind="O" nr="264" name="poly_diff"/>
+ <Symbol kind="O" nr="265" name="Partial_Sums"/>
+ <Symbol kind="V" nr="144" name="summable"/>
+ <Symbol kind="V" nr="145" name="absolutely_summable"/>
  <Symbol kind="A" nr="1" name="XREAL_0"/>
  <Symbol kind="A" nr="2" name="NEWTON"/>
  <Symbol kind="A" nr="3" name="XXREAL_0"/>

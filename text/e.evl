@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Environ aid="E">
- <Directive name="vocabularies" argnr="58">
+ <Directive name="vocabularies" argnr="59">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="NUMBERS" line="6" col="21"/>
   <Ident name="SUBSET_1" line="6" col="31"/>
@@ -59,6 +59,7 @@
   <Ident name="POWER" line="13" col="40"/>
   <Ident name="E" line="13" col="43"/>
   <Ident name="POLYDIFF" line="13" col="53"/>
+  <Ident name="SERIES_1" line="13" col="63"/>
  </Directive>
  <Directive name="notations" argnr="54">
   <Ident name="HIDDEN" line="1" col="1"/>

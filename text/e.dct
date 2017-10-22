@@ -676,6 +676,9 @@ O262 number_e
 O263 diff_seq
 V143 R_polynomial_yielding
 O264 poly_diff
+O265 Partial_Sums
+V144 summable
+V145 absolutely_summable
 A1 XREAL_0
 A2 NEWTON
 A3 XXREAL_0
