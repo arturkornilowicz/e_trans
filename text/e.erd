@@ -1,0 +1,1324 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<ReductionRegistrations aid="E" mizfiles="/usr/local/share/mizar/">
+<Reduction aid="XREAL_0" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="43"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="1">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="65">
+<Func kind="K" nr="4">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="2">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="66">
+<Func kind="K" nr="4">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="3">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="2">
+<Func kind="K" nr="4">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="4">
+<LocusVar nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="RELAT_1" nr="4">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="5">
+<LocusVar nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="5">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="5">
+<Func kind="K" nr="5">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="5">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="RELAT_1" nr="6">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="6">
+<Func kind="K" nr="66">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="7">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="6">
+<LocusVar nr="1"/>
+<Func kind="K" nr="6">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="6">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="RELAT_1" nr="8">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+</Typ>
+<Func kind="K" nr="5">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="RELAT_1" nr="9">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+</Typ>
+<Func kind="K" nr="6">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="INT_1" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="29"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="46"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="XXREAL_0" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="138"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="48"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="1">
+<Typ kind="G" nr="10">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="122"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<Func kind="K" nr="180">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="2">
+<Typ kind="G" nr="10">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="122"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<Func kind="K" nr="180">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="3">
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="76"/>
+<Adjective nr="102"/>
+<Adjective nr="103"/>
+<Adjective nr="119"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="57">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="3"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="4">
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="76"/>
+<Adjective nr="102"/>
+<Adjective nr="103"/>
+<Adjective nr="120"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="57">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="5">
+<Typ kind="G" nr="11">
+<Cluster>
+<Adjective nr="54" value="false"/>
+<Adjective nr="76"/>
+<Adjective nr="96"/>
+<Adjective nr="102"/>
+<Adjective nr="103"/>
+<Adjective nr="134"/>
+<Adjective nr="136"/>
+<Adjective nr="122"/>
+<Adjective nr="123"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="57" value="false">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="193">
+<LocusVar nr="1"/>
+<Func kind="K" nr="193">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="6">
+<Typ kind="G" nr="9">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="121"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<Func kind="K" nr="180">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="VECTSP_1" nr="7">
+<Typ kind="G" nr="9">
+<Cluster>
+<Adjective nr="50" value="false"/>
+<Adjective nr="124"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Func kind="K" nr="190">
+<LocusVar nr="1"/>
+<Func kind="K" nr="180">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="XCMPLX_0" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="44"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NAT_1" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="40"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="113">
+<LocusVar nr="1"/>
+<Num nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON" nr="2">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="113">
+<Num nr="1"/>
+<LocusVar nr="1"/>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="ABSVALUE" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+<Adjective nr="140" value="false"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="79">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="GAUSSINT" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="29"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="734"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="GAUSSINT" nr="2">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="29"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="45"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="GAUSSINT" nr="3">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="153"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="1"/>
+<Func kind="K" nr="741"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="SUBSET_1" nr="1">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Func kind="K" nr="32">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="2">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="73">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="3">
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="51">
+<Num nr="1"/>
+<Func kind="K" nr="95">
+<Func kind="K" nr="101">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="4">
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="99">
+<Func kind="K" nr="101">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<Num nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="5">
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="99">
+<LocusVar nr="2"/>
+<Func kind="K" nr="101">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="50">
+<Num nr="1"/>
+<Func kind="K" nr="95">
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="6">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="709">
+<Func kind="K" nr="101">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="7">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="5">
+<Func kind="K" nr="99">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="96">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="8">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="108">
+<Func kind="K" nr="95">
+<LocusVar nr="1"/>
+</Func>
+<Func kind="K" nr="99">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="9">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+<Func kind="K" nr="47"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="10">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="108">
+<Func kind="K" nr="95">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="11">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="91">
+<Func kind="K" nr="94">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="12">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="91">
+<Func kind="K" nr="42">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="13">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="95">
+<Func kind="K" nr="4">
+<Func kind="K" nr="94">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="14">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="95">
+<Func kind="K" nr="264">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="15">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="264">
+<Func kind="K" nr="50">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="17">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="108">
+<Func kind="K" nr="50">
+<Func kind="K" nr="95">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="19">
+<Typ kind="M" nr="5">
+<Cluster/>
+<Func kind="K" nr="43"/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="109">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="50">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<Func kind="K" nr="109">
+<Func kind="K" nr="43"/>
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="109">
+<Func kind="K" nr="43"/>
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="20">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="709">
+<Func kind="K" nr="268">
+<Func kind="K" nr="40"/>
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+</Func>
+<Func kind="K" nr="47"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="21">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="95">
+<Func kind="K" nr="265">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="22">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+<Adjective nr="21" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="13">
+<Func kind="K" nr="265">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<LocusVar nr="2"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="24">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+<Adjective nr="21" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="265">
+<Func kind="K" nr="50">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="3"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="26">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="116">
+<Func kind="K" nr="51">
+<Func kind="K" nr="47"/>
+<Num nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="27">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="116">
+<Func kind="K" nr="51">
+<LocusVar nr="1"/>
+<Num nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="28">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<Func kind="K" nr="44"/>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="285">
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="29">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<Func kind="K" nr="44"/>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="291">
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="30">
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="101">
+<LocusVar nr="1"/>
+</Func>
+<Num nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="31">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<Func kind="K" nr="44"/>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="291">
+<Func kind="K" nr="285">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="32">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<Func kind="K" nr="44"/>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="285">
+<Func kind="K" nr="291">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="33">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="230">
+<Func kind="K" nr="229">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="230">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="230">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="34">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="229">
+<Func kind="K" nr="229">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="230">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="229">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="35">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+<Adjective nr="140" value="false"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="229">
+<Func kind="K" nr="229">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="50">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+<Func kind="K" nr="229">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="36">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+<Adjective nr="140" value="false"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="230">
+<Func kind="K" nr="230">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="54">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+<Func kind="K" nr="230">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="37">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="40"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="108">
+<Func kind="K" nr="50">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<Func kind="K" nr="108">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="108">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="38">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="95">
+<Func kind="K" nr="117">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<Func kind="K" nr="54">
+<Func kind="K" nr="50">
+<LocusVar nr="3"/>
+<Num nr="1"/>
+</Func>
+<Num nr="1"/>
+</Func>
+</Func>
+</Func>
+<Func kind="K" nr="50">
+<LocusVar nr="3"/>
+<Num nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="39">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="95">
+<Func kind="K" nr="118">
+<Func kind="K" nr="54">
+<Func kind="K" nr="50">
+<LocusVar nr="1"/>
+<Num nr="1"/>
+</Func>
+<Num nr="1"/>
+</Func>
+</Func>
+</Func>
+<Func kind="K" nr="50">
+<LocusVar nr="1"/>
+<Num nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="NEWTON04" nr="40">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+<Adjective nr="21" value="false"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="118">
+<LocusVar nr="1"/>
+</Func>
+<Num nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="41">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+<Adjective nr="21" value="false"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="118">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="43">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="118">
+<LocusVar nr="1"/>
+</Func>
+<Num nr="1"/>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="NEWTON04" nr="44">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="11">
+<Func kind="K" nr="118">
+<LocusVar nr="1"/>
+</Func>
+<Func kind="K" nr="50">
+<LocusVar nr="1"/>
+<Num nr="1"/>
+</Func>
+</Func>
+<Num nr="1"/>
+</Reduction>
+<Reduction aid="POLYDIFF" nr="1">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="285">
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="POLYDIFF" nr="2">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="291">
+<LocusVar nr="1"/>
+<Func kind="K" nr="47"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="POLYDIFF" nr="3">
+<Typ kind="G" nr="2">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="758">
+<LocusVar nr="1"/>
+<Func kind="K" nr="404">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="404">
+<LocusVar nr="1"/>
+</Func>
+</Reduction>
+<Reduction aid="COMPLEX1" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="78">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+<Reduction aid="ALGNUM_1" nr="1">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Func kind="K" nr="184">
+<LocusVar nr="1"/>
+<Func kind="K" nr="432"/>
+</Func>
+<LocusVar nr="1"/>
+</Reduction>
+</ReductionRegistrations>

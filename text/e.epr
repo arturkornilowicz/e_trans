@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<PropertyRegistration aid="E" mizfiles="/usr/local/share/mizar/">
+<Property aid="XREAL_0" nr="1" x="12">
+<ArgTypes/>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+</Property>
+<Property aid="RELAT_1" nr="1" x="12">
+<ArgTypes>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+</ArgTypes>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<LocusVar nr="1"/>
+</Adjective>
+<Adjective nr="5">
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+</Typ>
+</Property>
+<Property aid="ORDINAL1" nr="1" x="12">
+<ArgTypes/>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+</Property>
+<Property aid="XXREAL_0" nr="1" x="12">
+<ArgTypes/>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="138"/>
+</Cluster>
+</Typ>
+</Property>
+<Property aid="XCMPLX_0" nr="1" x="12">
+<ArgTypes/>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+</Property>
+</PropertyRegistration>

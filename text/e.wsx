@@ -1,0 +1,1536 @@
+<?xml version="1.0"?>
+<Text-Proper articleid="E" articleext=".miz" line="50" col="5">
+ <Item kind="Section-Pragma" line="50" col="5" posline="50" poscol="5">
+ </Item>
+ <Item kind="Reservation" line="52" col="20" posline="52" poscol="19">
+  <Variables>
+   <Variable idnr="53" spelling="m" line="52" col="9"/>
+   <Variable idnr="54" spelling="n" line="52" col="11"/>
+  </Variables>
+  <Standard-Type nr="7" spelling="Nat" line="52" col="19"/>
+ </Item>
+ <Item kind="Reservation" line="53" col="19" posline="53" poscol="18">
+  <Variables>
+   <Variable idnr="55" spelling="r" line="53" col="9"/>
+  </Variables>
+  <Standard-Type nr="6" spelling="Real" line="53" col="18"/>
+ </Item>
+ <Item kind="Reservation" line="54" col="35" posline="54" poscol="34">
+  <Variables>
+   <Variable idnr="56" spelling="c" line="54" col="9"/>
+  </Variables>
+  <Standard-Type nr="3" spelling="Element" line="54" col="21">
+   <Infix-Term nr="89" spelling="F_Complex" line="54" col="34">
+    <Arguments/>
+    <Arguments/>
+   </Infix-Term>
+  </Standard-Type>
+ </Item>
+ <Item kind="Constant-Definition" line="56" col="19" posline="56" poscol="18">
+  <Variable idnr="57" spelling="FC" line="56" col="6"/>
+  <Infix-Term nr="89" spelling="F_Complex" line="56" col="18">
+   <Arguments/>
+   <Arguments/>
+  </Infix-Term>
+ </Item>
+ <Item kind="Constant-Definition" line="57" col="16" posline="57" poscol="15">
+  <Variable idnr="58" spelling="FR" line="57" col="6"/>
+  <Infix-Term nr="113" spelling="F_Real" line="57" col="15">
+   <Arguments/>
+   <Arguments/>
+  </Infix-Term>
+ </Item>
+ <Item kind="Constant-Definition" line="58" col="15" posline="58" poscol="14">
+  <Variable idnr="59" spelling="Fq" line="58" col="6"/>
+  <Infix-Term nr="134" spelling="F_Rat" line="58" col="14">
+   <Arguments/>
+   <Arguments/>
+  </Infix-Term>
+ </Item>
+ <Item kind="Constant-Definition" line="59" col="18" posline="59" poscol="17">
+  <Variable idnr="60" spelling="IR" line="59" col="6"/>
+  <Infix-Term nr="184" spelling="INT.Ring" line="59" col="17">
+   <Arguments/>
+   <Arguments/>
+  </Infix-Term>
+ </Item>
+ <Item kind="Definition-Item" line="61" col="10" posline="65" poscol="3">
+  <Block kind="Definitional-Block" line="61" col="10" posline="65" poscol="3">
+   <Item kind="Loci-Declaration" line="62" col="23" posline="62" poscol="22">
+    <Explicitly-Qualified-Segment line="62" col="7">
+     <Variables>
+      <Variable idnr="61" spelling="f" line="62" col="7"/>
+     </Variables>
+     <Standard-Type nr="28" spelling="FinSequence" line="62" col="22"/>
+    </Explicitly-Qualified-Segment>
+   </Item>
+   <Item kind="Attribute-Definition" line="63" col="6" posline="64" poscol="60">
+    <Attribute-Pattern nr="143" spelling="R_polynomial_yielding" line="63" col="33">
+     <Locus idnr="61" spelling="f" line="63" col="8"/>
+     <Loci/>
+    </Attribute-Pattern>
+    <Definiens line="63" col="39" kind="Simple-Definiens" shape="Formula-Expression">
+     <Label idnr="0" spelling="" line="64" col="5"/>
+     <Universal-Quantifier-Formula line="64" col="5">
+      <Implicitly-Qualified-Segment line="64" col="7">
+       <Variable idnr="54" spelling="n" line="64" col="7"/>
+      </Implicitly-Qualified-Segment>
+      <Conditional-Formula line="64" col="10">
+       <Multi-Predicative-Formula line="64" col="15">
+        <Predicative-Formula nr="18" spelling="&#x3C;=" line="64" col="15">
+         <Arguments>
+          <Numeral-Term number="1" line="64" col="12"/>
+         </Arguments>
+         <Arguments>
+          <Simple-Term idnr="54" spelling="n" line="64" col="17"/>
+         </Arguments>
+        </Predicative-Formula>
+        <RightSideOf-Predicative-Formula nr="18" spelling="&#x3C;=" line="64" col="15">
+         <Arguments>
+          <Infix-Term nr="126" spelling="len" line="64" col="24">
+           <Arguments/>
+           <Arguments>
+            <Simple-Term idnr="61" spelling="f" line="64" col="26"/>
+           </Arguments>
+          </Infix-Term>
+         </Arguments>
+        </RightSideOf-Predicative-Formula>
+       </Multi-Predicative-Formula>
+       <Qualifying-Formula line="64" col="50">
+        <Infix-Term nr="66" spelling="." line="64" col="35">
+         <Arguments>
+          <Simple-Term idnr="61" spelling="f" line="64" col="34"/>
+         </Arguments>
+         <Arguments>
+          <Simple-Term idnr="54" spelling="n" line="64" col="36"/>
+         </Arguments>
+        </Infix-Term>
+        <Standard-Type nr="19" spelling="Polynomial" line="64" col="50">
+         <Infix-Term nr="113" spelling="F_Real" line="64" col="60">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Standard-Type>
+       </Qualifying-Formula>
+      </Conditional-Formula>
+     </Universal-Quantifier-Formula>
+    </Definiens>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Definition-Item" line="67" col="12" posline="70" poscol="3">
+  <Block kind="Registration-Block" line="67" col="12" posline="70" poscol="3">
+   <Item kind="Cluster" line="68" col="9" posline="68" poscol="47">
+    <Existential-Registration line="68" col="9">
+     <Adjective-Cluster>
+      <Adjective nr="143" spelling="R_polynomial_yielding" line="68" col="31"/>
+     </Adjective-Cluster>
+     <Standard-Type nr="28" spelling="FinSequence" line="68" col="47"/>
+    </Existential-Registration>
+   </Item>
+   <Item kind="Correctness-Condition" condition="existence" line="69" col="11" posline="69" poscol="11">
+    <Straightforward-Justification line="69" col="11"/>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Definition-Item" line="72" col="10" posline="141" poscol="4">
+  <Block kind="Definitional-Block" line="72" col="10" posline="141" poscol="4">
+   <Item kind="Loci-Declaration" line="73" col="32" posline="73" poscol="31">
+    <Explicitly-Qualified-Segment line="73" col="7">
+     <Variables>
+      <Variable idnr="62" spelling="p" line="73" col="7"/>
+     </Variables>
+     <Standard-Type nr="19" spelling="Polynomial" line="73" col="21">
+      <Infix-Term nr="113" spelling="F_Real" line="73" col="31">
+       <Arguments/>
+       <Arguments/>
+      </Infix-Term>
+     </Standard-Type>
+    </Explicitly-Qualified-Segment>
+   </Item>
+   <Item kind="Constant-Definition" line="75" col="19" posline="75" poscol="18">
+    <Variable idnr="63" spelling="N" line="75" col="7"/>
+    <Infix-Term nr="27" spelling="&#x2B;" line="75" col="17">
+     <Arguments>
+      <Infix-Term nr="126" spelling="len" line="75" col="13">
+       <Arguments/>
+       <Arguments>
+        <Simple-Term idnr="62" spelling="p" line="75" col="15"/>
+       </Arguments>
+      </Infix-Term>
+     </Arguments>
+     <Arguments>
+      <Numeral-Term number="1" line="75" col="18"/>
+     </Arguments>
+    </Infix-Term>
+   </Item>
+   <Item kind="Constant-Definition" line="76" col="45" posline="76" poscol="44">
+    <Variable idnr="64" spelling="D" line="76" col="7"/>
+    <Selector-Term nr="2" spelling="carrier" line="76" col="21">
+     <Infix-Term nr="97" spelling="Polynom-Ring" line="76" col="37">
+      <Arguments/>
+      <Arguments>
+       <Infix-Term nr="113" spelling="F_Real" line="76" col="44">
+        <Arguments/>
+        <Arguments/>
+       </Infix-Term>
+      </Arguments>
+     </Infix-Term>
+    </Selector-Term>
+   </Item>
+   <Item kind="Type-Changing-Statement" line="77" col="12" posline="77" poscol="54">
+    <Equality>
+     <Variable idnr="65" spelling="p1" line="77" col="15"/>
+     <Simple-Term idnr="62" spelling="p" line="77" col="19"/>
+    </Equality>
+    <Standard-Type nr="3" spelling="Element" line="77" col="30">
+     <Simple-Term idnr="64" spelling="D" line="77" col="35"/>
+    </Standard-Type>
+    <Straightforward-Justification line="77" col="38">
+     <Definition-Reference line="77" col="54" nr="54" spelling="POLYNOM3" number="10"/>
+    </Straightforward-Justification>
+   </Item>
+   <Item kind="Private-Predicate-Definition" line="78" col="9" posline="79" poscol="68">
+    <Variable idnr="66" spelling="P" line="78" col="11"/>
+    <Type-List>
+     <Standard-Type nr="2" spelling="object" line="78" col="18"/>
+     <Standard-Type nr="2" spelling="object" line="78" col="25"/>
+     <Standard-Type nr="2" spelling="object" line="78" col="32"/>
+    </Type-List>
+    <Universal-Quantifier-Formula line="79" col="5">
+     <Explicitly-Qualified-Segment line="79" col="5">
+      <Variables>
+       <Variable idnr="67" spelling="q" line="79" col="7"/>
+      </Variables>
+      <Standard-Type nr="19" spelling="Polynomial" line="79" col="24">
+       <Infix-Term nr="113" spelling="F_Real" line="79" col="34">
+        <Arguments/>
+        <Arguments/>
+       </Infix-Term>
+      </Standard-Type>
+     </Explicitly-Qualified-Segment>
+     <Conditional-Formula line="79" col="37">
+      <Predicative-Formula nr="1" spelling="=" line="79" col="41">
+       <Arguments>
+        <Simple-Term idnr="67" spelling="q" line="79" col="39"/>
+       </Arguments>
+       <Arguments>
+        <Placeholder-Term nr="2" spelling="&#x24;2" line="79" col="44"/>
+       </Arguments>
+      </Predicative-Formula>
+      <Predicative-Formula nr="1" spelling="=" line="79" col="55">
+       <Arguments>
+        <Placeholder-Term nr="3" spelling="&#x24;3" line="79" col="53"/>
+       </Arguments>
+       <Arguments>
+        <Infix-Term nr="264" spelling="poly_diff" line="79" col="65">
+         <Arguments/>
+         <Arguments>
+          <Simple-Term idnr="67" spelling="q" line="79" col="67"/>
+         </Arguments>
+        </Infix-Term>
+       </Arguments>
+      </Predicative-Formula>
+     </Conditional-Formula>
+    </Universal-Quantifier-Formula>
+   </Item>
+   <Item kind="Functor-Definition" shape="Means" line="81" col="6" posline="84" poscol="76">
+    <Operation-Functor-Pattern nr="263" spelling="diff_seq" line="81" col="15">
+     <Loci/>
+     <Loci>
+      <Locus idnr="62" spelling="p" line="81" col="17"/>
+     </Loci>
+    </Operation-Functor-Pattern>
+    <Type-Specification>
+     <Standard-Type nr="28" spelling="FinSequence" line="81" col="33">
+      <Infix-Term nr="97" spelling="Polynom-Ring" line="81" col="49">
+       <Arguments/>
+       <Arguments>
+        <Infix-Term nr="113" spelling="F_Real" line="81" col="56">
+         <Arguments/>
+         <Arguments/>
+        </Infix-Term>
+       </Arguments>
+      </Infix-Term>
+     </Standard-Type>
+    </Type-Specification>
+    <Definiens line="81" col="62" kind="Simple-Definiens" shape="Formula-Expression">
+     <Label idnr="0" spelling="" line="82" col="5"/>
+     <Conjunctive-Formula line="83" col="12">
+      <Conjunctive-Formula line="82" col="22">
+       <Predicative-Formula nr="1" spelling="=" line="82" col="11">
+        <Arguments>
+         <Infix-Term nr="126" spelling="len" line="82" col="5">
+          <Arguments/>
+          <Arguments>
+           <it-Term line="82" col="8"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Infix-Term nr="27" spelling="&#x2B;" line="82" col="19">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="82" col="15">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="62" spelling="p" line="82" col="17"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Numeral-Term number="1" line="82" col="20"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Predicative-Formula>
+       <Predicative-Formula nr="1" spelling="=" line="83" col="8">
+        <Arguments>
+         <Infix-Term nr="66" spelling="." line="83" col="5">
+          <Arguments>
+           <it-Term line="83" col="4"/>
+          </Arguments>
+          <Arguments>
+           <Numeral-Term number="1" line="83" col="6"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Simple-Term idnr="62" spelling="p" line="83" col="10"/>
+        </Arguments>
+       </Predicative-Formula>
+      </Conjunctive-Formula>
+      <Universal-Quantifier-Formula line="83" col="16">
+       <Implicitly-Qualified-Segment line="83" col="18">
+        <Variable idnr="54" spelling="n" line="83" col="18"/>
+       </Implicitly-Qualified-Segment>
+       <Conditional-Formula line="83" col="21">
+        <Multi-Predicative-Formula line="83" col="26">
+         <Predicative-Formula nr="18" spelling="&#x3C;=" line="83" col="26">
+          <Arguments>
+           <Numeral-Term number="1" line="83" col="23"/>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="54" spelling="n" line="83" col="28"/>
+          </Arguments>
+         </Predicative-Formula>
+         <RightSideOf-Predicative-Formula nr="9" spelling="&#x3C;" line="83" col="26">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="83" col="34">
+            <Arguments/>
+            <Arguments>
+             <it-Term line="83" col="37"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </RightSideOf-Predicative-Formula>
+        </Multi-Predicative-Formula>
+        <Universal-Quantifier-Formula line="84" col="5">
+         <Explicitly-Qualified-Segment line="84" col="5">
+          <Variables>
+           <Variable idnr="67" spelling="q" line="84" col="7"/>
+          </Variables>
+          <Standard-Type nr="19" spelling="Polynomial" line="84" col="24">
+           <Infix-Term nr="113" spelling="F_Real" line="84" col="34">
+            <Arguments/>
+            <Arguments/>
+           </Infix-Term>
+          </Standard-Type>
+         </Explicitly-Qualified-Segment>
+         <Conditional-Formula line="84" col="37">
+          <Predicative-Formula nr="1" spelling="=" line="84" col="41">
+           <Arguments>
+            <Simple-Term idnr="67" spelling="q" line="84" col="39"/>
+           </Arguments>
+           <Arguments>
+            <Infix-Term nr="66" spelling="." line="84" col="45">
+             <Arguments>
+              <it-Term line="84" col="44"/>
+             </Arguments>
+             <Arguments>
+              <Simple-Term idnr="54" spelling="n" line="84" col="46"/>
+             </Arguments>
+            </Infix-Term>
+           </Arguments>
+          </Predicative-Formula>
+          <Predicative-Formula nr="1" spelling="=" line="84" col="63">
+           <Arguments>
+            <Infix-Term nr="66" spelling="." line="84" col="56">
+             <Arguments>
+              <it-Term line="84" col="55"/>
+             </Arguments>
+             <Arguments>
+              <Infix-Term nr="27" spelling="&#x2B;" line="84" col="59">
+               <Arguments>
+                <Simple-Term idnr="54" spelling="n" line="84" col="58"/>
+               </Arguments>
+               <Arguments>
+                <Numeral-Term number="1" line="84" col="60"/>
+               </Arguments>
+              </Infix-Term>
+             </Arguments>
+            </Infix-Term>
+           </Arguments>
+           <Arguments>
+            <Infix-Term nr="264" spelling="poly_diff" line="84" col="73">
+             <Arguments/>
+             <Arguments>
+              <Simple-Term idnr="67" spelling="q" line="84" col="75"/>
+             </Arguments>
+            </Infix-Term>
+           </Arguments>
+          </Predicative-Formula>
+         </Conditional-Formula>
+        </Universal-Quantifier-Formula>
+       </Conditional-Formula>
+      </Universal-Quantifier-Formula>
+     </Conjunctive-Formula>
+    </Definiens>
+   </Item>
+   <Item kind="Correctness-Condition" condition="existence" line="85" col="11" posline="107" poscol="6">
+    <Block kind="Proof" line="86" col="5" posline="107" poscol="6">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="87" col="1" posline="97" poscol="8">
+      <Proposition>
+       <Label idnr="68" spelling="a" line="87" col="1"/>
+       <Universal-Quantifier-Formula line="87" col="6">
+        <Explicitly-Qualified-Segment line="87" col="6">
+         <Variables>
+          <Variable idnr="54" spelling="n" line="87" col="8"/>
+         </Variables>
+         <Standard-Type nr="7" spelling="Nat" line="87" col="18"/>
+        </Explicitly-Qualified-Segment>
+        <Conditional-Formula line="87" col="21">
+         <Conjunctive-Formula line="87" col="30">
+          <Predicative-Formula nr="18" spelling="&#x3C;=" line="87" col="26">
+           <Arguments>
+            <Numeral-Term number="1" line="87" col="23"/>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="54" spelling="n" line="87" col="28"/>
+           </Arguments>
+          </Predicative-Formula>
+          <Predicative-Formula nr="9" spelling="&#x3C;" line="87" col="34">
+           <Arguments>
+            <Simple-Term idnr="54" spelling="n" line="87" col="32"/>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="63" spelling="N" line="87" col="36"/>
+           </Arguments>
+          </Predicative-Formula>
+         </Conjunctive-Formula>
+         <Universal-Quantifier-Formula line="87" col="40">
+          <Explicitly-Qualified-Segment line="87" col="40">
+           <Variables>
+            <Variable idnr="69" spelling="x" line="87" col="42"/>
+           </Variables>
+           <Standard-Type nr="3" spelling="Element" line="87" col="56">
+            <Simple-Term idnr="64" spelling="D" line="87" col="61"/>
+           </Standard-Type>
+          </Explicitly-Qualified-Segment>
+          <Existential-Quantifier-Formula line="88" col="5">
+           <Explicitly-Qualified-Segment line="88" col="5">
+            <Variables>
+             <Variable idnr="70" spelling="y" line="88" col="7"/>
+            </Variables>
+            <Standard-Type nr="3" spelling="Element" line="88" col="21">
+             <Simple-Term idnr="64" spelling="D" line="88" col="26"/>
+            </Standard-Type>
+           </Explicitly-Qualified-Segment>
+           <Private-Predicate-Formula idnr="66" spelling="P" line="88" col="31">
+            <Simple-Term idnr="54" spelling="n" line="88" col="33"/>
+            <Simple-Term idnr="69" spelling="x" line="88" col="35"/>
+            <Simple-Term idnr="70" spelling="y" line="88" col="37"/>
+           </Private-Predicate-Formula>
+          </Existential-Quantifier-Formula>
+         </Universal-Quantifier-Formula>
+        </Conditional-Formula>
+       </Universal-Quantifier-Formula>
+      </Proposition>
+      <Block kind="Proof" line="89" col="8" posline="97" poscol="8">
+       <Item kind="Generalization" line="90" col="11" posline="90" poscol="10">
+        <Implicitly-Qualified-Segment line="90" col="10">
+         <Variable idnr="54" spelling="n" line="90" col="10"/>
+        </Implicitly-Qualified-Segment>
+       </Item>
+       <Item kind="Assumption" line="91" col="11" posline="92" poscol="26">
+        <Single-Assumption line="91" col="11">
+         <Proposition>
+          <Label idnr="0" spelling="" line="91" col="13"/>
+          <Conjunctive-Formula line="91" col="20">
+           <Predicative-Formula nr="18" spelling="&#x3C;=" line="91" col="16">
+            <Arguments>
+             <Numeral-Term number="1" line="91" col="13"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="91" col="18"/>
+            </Arguments>
+           </Predicative-Formula>
+           <Predicative-Formula nr="9" spelling="&#x3C;" line="91" col="24">
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="91" col="22"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="63" spelling="N" line="91" col="26"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conjunctive-Formula>
+         </Proposition>
+        </Single-Assumption>
+       </Item>
+       <Item kind="Generalization" line="92" col="27" posline="92" poscol="26">
+        <Explicitly-Qualified-Segment line="92" col="10">
+         <Variables>
+          <Variable idnr="69" spelling="x" line="92" col="10"/>
+         </Variables>
+         <Standard-Type nr="3" spelling="Element" line="92" col="21">
+          <Simple-Term idnr="64" spelling="D" line="92" col="26"/>
+         </Standard-Type>
+        </Explicitly-Qualified-Segment>
+       </Item>
+       <Item kind="Type-Changing-Statement" line="93" col="15" posline="93" poscol="45">
+        <Equality>
+         <Variable idnr="67" spelling="q" line="93" col="17"/>
+         <Simple-Term idnr="69" spelling="x" line="93" col="21"/>
+        </Equality>
+        <Standard-Type nr="19" spelling="Polynomial" line="93" col="35">
+         <Infix-Term nr="113" spelling="F_Real" line="93" col="45">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Standard-Type>
+        <Straightforward-Justification line="93" col="45"/>
+       </Item>
+       <Item kind="Type-Changing-Statement" line="94" col="15" posline="94" poscol="67">
+        <Equality>
+         <Variable idnr="70" spelling="y" line="94" col="17"/>
+         <Infix-Term nr="264" spelling="poly_diff" line="94" col="29">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="67" spelling="q" line="94" col="31"/>
+          </Arguments>
+         </Infix-Term>
+        </Equality>
+        <Standard-Type nr="3" spelling="Element" line="94" col="43">
+         <Simple-Term idnr="64" spelling="D" line="94" col="48"/>
+        </Standard-Type>
+        <Straightforward-Justification line="94" col="51">
+         <Definition-Reference line="94" col="67" nr="54" spelling="POLYNOM3" number="10"/>
+        </Straightforward-Justification>
+       </Item>
+       <Item kind="Exemplification" line="95" col="12" posline="95" poscol="11">
+        <Simple-Term idnr="70" spelling="y" line="95" col="11"/>
+       </Item>
+       <Item kind="Conclusion" shape="Compact-Statement" line="96" col="16" posline="96" poscol="16">
+        <Proposition>
+         <Label idnr="0" spelling="" line="96" col="16"/>
+         <Thesis line="96" col="16"/>
+        </Proposition>
+        <Straightforward-Justification line="96" col="16"/>
+       </Item>
+      </Block>
+     </Item>
+     <Item kind="Choice-Statement" line="98" col="13" posline="102" poscol="27">
+      <Explicitly-Qualified-Segment line="98" col="15">
+       <Variables>
+        <Variable idnr="71" spelling="F" line="98" col="15"/>
+       </Variables>
+       <Standard-Type nr="28" spelling="FinSequence" line="98" col="33">
+        <Simple-Term idnr="64" spelling="D" line="98" col="38"/>
+       </Standard-Type>
+      </Explicitly-Qualified-Segment>
+      <Conditions>
+       <Proposition>
+        <Label idnr="72" spelling="b" line="99" col="1"/>
+        <Predicative-Formula nr="1" spelling="=" line="99" col="12">
+         <Arguments>
+          <Infix-Term nr="126" spelling="len" line="99" col="8">
+           <Arguments/>
+           <Arguments>
+            <Simple-Term idnr="71" spelling="F" line="99" col="10"/>
+           </Arguments>
+          </Infix-Term>
+         </Arguments>
+         <Arguments>
+          <Simple-Term idnr="63" spelling="N" line="99" col="14"/>
+         </Arguments>
+        </Predicative-Formula>
+       </Proposition>
+       <Proposition>
+        <Label idnr="56" spelling="c" line="100" col="1"/>
+        <Disjunctive-Formula line="100" col="16">
+         <Predicative-Formula nr="1" spelling="=" line="100" col="10">
+          <Arguments>
+           <Infix-Term nr="66" spelling="." line="100" col="7">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="100" col="6"/>
+            </Arguments>
+            <Arguments>
+             <Numeral-Term number="1" line="100" col="8"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="65" spelling="p1" line="100" col="13"/>
+          </Arguments>
+         </Predicative-Formula>
+         <Predicative-Formula nr="1" spelling="=" line="100" col="20">
+          <Arguments>
+           <Simple-Term idnr="63" spelling="N" line="100" col="18"/>
+          </Arguments>
+          <Arguments>
+           <Infix-Term nr="10" spelling="0" line="100" col="22">
+            <Arguments/>
+            <Arguments/>
+           </Infix-Term>
+          </Arguments>
+         </Predicative-Formula>
+        </Disjunctive-Formula>
+       </Proposition>
+       <Proposition>
+        <Label idnr="73" spelling="d" line="101" col="1"/>
+        <Universal-Quantifier-Formula line="101" col="8">
+         <Implicitly-Qualified-Segment line="101" col="10">
+          <Variable idnr="54" spelling="n" line="101" col="10"/>
+         </Implicitly-Qualified-Segment>
+         <Conditional-Formula line="101" col="13">
+          <Conjunctive-Formula line="101" col="22">
+           <Predicative-Formula nr="18" spelling="&#x3C;=" line="101" col="18">
+            <Arguments>
+             <Numeral-Term number="1" line="101" col="15"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="101" col="20"/>
+            </Arguments>
+           </Predicative-Formula>
+           <Predicative-Formula nr="9" spelling="&#x3C;" line="101" col="26">
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="101" col="24"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="63" spelling="N" line="101" col="28"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conjunctive-Formula>
+          <Private-Predicate-Formula idnr="66" spelling="P" line="101" col="36">
+           <Simple-Term idnr="54" spelling="n" line="101" col="38"/>
+           <Infix-Term nr="66" spelling="." line="101" col="41">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="101" col="40"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="101" col="42"/>
+            </Arguments>
+           </Infix-Term>
+           <Infix-Term nr="66" spelling="." line="101" col="45">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="101" col="44"/>
+            </Arguments>
+            <Arguments>
+             <Infix-Term nr="27" spelling="&#x2B;" line="101" col="48">
+              <Arguments>
+               <Simple-Term idnr="54" spelling="n" line="101" col="47"/>
+              </Arguments>
+              <Arguments>
+               <Numeral-Term number="1" line="101" col="49"/>
+              </Arguments>
+             </Infix-Term>
+            </Arguments>
+           </Infix-Term>
+          </Private-Predicate-Formula>
+         </Conditional-Formula>
+        </Universal-Quantifier-Formula>
+       </Proposition>
+      </Conditions>
+      <Scheme-Justification nr="56" idnr="4" spelling="RECDEF_1" line="102" col="9" posline="102" poscol="22">
+       <Local-Reference line="102" col="26" idnr="68" spelling="a"/>
+      </Scheme-Justification>
+     </Item>
+     <Item kind="Exemplification" line="103" col="12" posline="103" poscol="11">
+      <Simple-Term idnr="71" spelling="F" line="103" col="11"/>
+     </Item>
+     <Item kind="Conclusion" shape="Compact-Statement" line="104" col="13" posline="104" poscol="32">
+      <Proposition>
+       <Label idnr="0" spelling="" line="104" col="13"/>
+       <Predicative-Formula nr="1" spelling="=" line="104" col="18">
+        <Arguments>
+         <Infix-Term nr="126" spelling="len" line="104" col="13">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="71" spelling="F" line="104" col="15"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Infix-Term nr="27" spelling="&#x2B;" line="104" col="26">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="104" col="22">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="62" spelling="p" line="104" col="24"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Numeral-Term number="1" line="104" col="27"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Predicative-Formula>
+      </Proposition>
+      <Straightforward-Justification line="104" col="30">
+       <Local-Reference line="104" col="32" idnr="72" spelling="b"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Conclusion" shape="Compact-Statement" line="105" col="11" posline="105" poscol="22">
+      <Proposition>
+       <Label idnr="0" spelling="" line="105" col="11"/>
+       <Predicative-Formula nr="1" spelling="=" line="105" col="15">
+        <Arguments>
+         <Infix-Term nr="66" spelling="." line="105" col="12">
+          <Arguments>
+           <Simple-Term idnr="71" spelling="F" line="105" col="11"/>
+          </Arguments>
+          <Arguments>
+           <Numeral-Term number="1" line="105" col="13"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Simple-Term idnr="62" spelling="p" line="105" col="17"/>
+        </Arguments>
+       </Predicative-Formula>
+      </Proposition>
+      <Straightforward-Justification line="105" col="20">
+       <Local-Reference line="105" col="22" idnr="56" spelling="c"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Conclusion" shape="Compact-Statement" line="106" col="16" posline="106" poscol="24">
+      <Proposition>
+       <Label idnr="0" spelling="" line="106" col="16"/>
+       <Thesis line="106" col="16"/>
+      </Proposition>
+      <Straightforward-Justification line="106" col="19">
+       <Local-Reference line="106" col="21" idnr="72" spelling="b"/>
+       <Local-Reference line="106" col="24" idnr="73" spelling="d"/>
+      </Straightforward-Justification>
+     </Item>
+    </Block>
+   </Item>
+   <Item kind="Correctness-Condition" condition="uniqueness" line="108" col="13" posline="140" poscol="6">
+    <Block kind="Proof" line="109" col="8" posline="140" poscol="6">
+     <Item kind="Generalization" line="119" col="78" posline="119" poscol="77">
+      <Explicitly-Qualified-Segment line="110" col="10">
+       <Variables>
+        <Variable idnr="71" spelling="F" line="110" col="10"/>
+        <Variable idnr="74" spelling="G" line="110" col="12"/>
+       </Variables>
+       <Standard-Type nr="28" spelling="FinSequence" line="110" col="27">
+        <Infix-Term nr="97" spelling="Polynom-Ring" line="110" col="43">
+         <Arguments/>
+         <Arguments>
+          <Infix-Term nr="113" spelling="F_Real" line="110" col="50">
+           <Arguments/>
+           <Arguments/>
+          </Infix-Term>
+         </Arguments>
+        </Infix-Term>
+       </Standard-Type>
+      </Explicitly-Qualified-Segment>
+     </Item>
+     <Item kind="Assumption" line="119" col="78" posline="119" poscol="77">
+      <Collective-Assumption line="110" col="60">
+       <Conditions>
+        <Proposition>
+         <Label idnr="75" spelling="a1" line="111" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="111" col="13">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="111" col="8">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="111" col="10"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="63" spelling="N" line="111" col="15"/>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Proposition>
+         <Label idnr="76" spelling="a2" line="112" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="112" col="10">
+          <Arguments>
+           <Infix-Term nr="66" spelling="." line="112" col="7">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="112" col="6"/>
+            </Arguments>
+            <Arguments>
+             <Numeral-Term number="1" line="112" col="8"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="62" spelling="p" line="112" col="12"/>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Proposition>
+         <Label idnr="77" spelling="a3" line="113" col="2"/>
+         <Universal-Quantifier-Formula line="113" col="8">
+          <Implicitly-Qualified-Segment line="113" col="10">
+           <Variable idnr="54" spelling="n" line="113" col="10"/>
+          </Implicitly-Qualified-Segment>
+          <Conditional-Formula line="113" col="13">
+           <Multi-Predicative-Formula line="113" col="18">
+            <Predicative-Formula nr="18" spelling="&#x3C;=" line="113" col="18">
+             <Arguments>
+              <Numeral-Term number="1" line="113" col="15"/>
+             </Arguments>
+             <Arguments>
+              <Simple-Term idnr="54" spelling="n" line="113" col="20"/>
+             </Arguments>
+            </Predicative-Formula>
+            <RightSideOf-Predicative-Formula nr="9" spelling="&#x3C;" line="113" col="18">
+             <Arguments>
+              <Infix-Term nr="126" spelling="len" line="113" col="26">
+               <Arguments/>
+               <Arguments>
+                <Simple-Term idnr="71" spelling="F" line="113" col="28"/>
+               </Arguments>
+              </Infix-Term>
+             </Arguments>
+            </RightSideOf-Predicative-Formula>
+           </Multi-Predicative-Formula>
+           <Universal-Quantifier-Formula line="114" col="8">
+            <Explicitly-Qualified-Segment line="114" col="8">
+             <Variables>
+              <Variable idnr="67" spelling="q" line="114" col="10"/>
+             </Variables>
+             <Standard-Type nr="19" spelling="Polynomial" line="114" col="27">
+              <Infix-Term nr="113" spelling="F_Real" line="114" col="37">
+               <Arguments/>
+               <Arguments/>
+              </Infix-Term>
+             </Standard-Type>
+            </Explicitly-Qualified-Segment>
+            <Conditional-Formula line="114" col="40">
+             <Predicative-Formula nr="1" spelling="=" line="114" col="44">
+              <Arguments>
+               <Simple-Term idnr="67" spelling="q" line="114" col="42"/>
+              </Arguments>
+              <Arguments>
+               <Infix-Term nr="66" spelling="." line="114" col="47">
+                <Arguments>
+                 <Simple-Term idnr="71" spelling="F" line="114" col="46"/>
+                </Arguments>
+                <Arguments>
+                 <Simple-Term idnr="54" spelling="n" line="114" col="48"/>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+             </Predicative-Formula>
+             <Predicative-Formula nr="1" spelling="=" line="114" col="64">
+              <Arguments>
+               <Infix-Term nr="66" spelling="." line="114" col="57">
+                <Arguments>
+                 <Simple-Term idnr="71" spelling="F" line="114" col="56"/>
+                </Arguments>
+                <Arguments>
+                 <Infix-Term nr="27" spelling="&#x2B;" line="114" col="60">
+                  <Arguments>
+                   <Simple-Term idnr="54" spelling="n" line="114" col="59"/>
+                  </Arguments>
+                  <Arguments>
+                   <Numeral-Term number="1" line="114" col="61"/>
+                  </Arguments>
+                 </Infix-Term>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+              <Arguments>
+               <Infix-Term nr="264" spelling="poly_diff" line="114" col="74">
+                <Arguments/>
+                <Arguments>
+                 <Simple-Term idnr="67" spelling="q" line="114" col="76"/>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+             </Predicative-Formula>
+            </Conditional-Formula>
+           </Universal-Quantifier-Formula>
+          </Conditional-Formula>
+         </Universal-Quantifier-Formula>
+        </Proposition>
+        <Proposition>
+         <Label idnr="78" spelling="b1" line="116" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="116" col="13">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="116" col="8">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="74" spelling="G" line="116" col="10"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="63" spelling="N" line="116" col="15"/>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Proposition>
+         <Label idnr="79" spelling="b2" line="117" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="117" col="10">
+          <Arguments>
+           <Infix-Term nr="66" spelling="." line="117" col="7">
+            <Arguments>
+             <Simple-Term idnr="74" spelling="G" line="117" col="6"/>
+            </Arguments>
+            <Arguments>
+             <Numeral-Term number="1" line="117" col="8"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="62" spelling="p" line="117" col="12"/>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Proposition>
+         <Label idnr="80" spelling="b3" line="118" col="2"/>
+         <Universal-Quantifier-Formula line="118" col="8">
+          <Implicitly-Qualified-Segment line="118" col="10">
+           <Variable idnr="54" spelling="n" line="118" col="10"/>
+          </Implicitly-Qualified-Segment>
+          <Conditional-Formula line="118" col="13">
+           <Multi-Predicative-Formula line="118" col="18">
+            <Predicative-Formula nr="18" spelling="&#x3C;=" line="118" col="18">
+             <Arguments>
+              <Numeral-Term number="1" line="118" col="15"/>
+             </Arguments>
+             <Arguments>
+              <Simple-Term idnr="54" spelling="n" line="118" col="20"/>
+             </Arguments>
+            </Predicative-Formula>
+            <RightSideOf-Predicative-Formula nr="9" spelling="&#x3C;" line="118" col="18">
+             <Arguments>
+              <Infix-Term nr="126" spelling="len" line="118" col="26">
+               <Arguments/>
+               <Arguments>
+                <Simple-Term idnr="74" spelling="G" line="118" col="28"/>
+               </Arguments>
+              </Infix-Term>
+             </Arguments>
+            </RightSideOf-Predicative-Formula>
+           </Multi-Predicative-Formula>
+           <Universal-Quantifier-Formula line="119" col="8">
+            <Explicitly-Qualified-Segment line="119" col="8">
+             <Variables>
+              <Variable idnr="67" spelling="q" line="119" col="10"/>
+             </Variables>
+             <Standard-Type nr="19" spelling="Polynomial" line="119" col="27">
+              <Infix-Term nr="113" spelling="F_Real" line="119" col="37">
+               <Arguments/>
+               <Arguments/>
+              </Infix-Term>
+             </Standard-Type>
+            </Explicitly-Qualified-Segment>
+            <Conditional-Formula line="119" col="40">
+             <Predicative-Formula nr="1" spelling="=" line="119" col="44">
+              <Arguments>
+               <Simple-Term idnr="67" spelling="q" line="119" col="42"/>
+              </Arguments>
+              <Arguments>
+               <Infix-Term nr="66" spelling="." line="119" col="47">
+                <Arguments>
+                 <Simple-Term idnr="74" spelling="G" line="119" col="46"/>
+                </Arguments>
+                <Arguments>
+                 <Simple-Term idnr="54" spelling="n" line="119" col="48"/>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+             </Predicative-Formula>
+             <Predicative-Formula nr="1" spelling="=" line="119" col="64">
+              <Arguments>
+               <Infix-Term nr="66" spelling="." line="119" col="57">
+                <Arguments>
+                 <Simple-Term idnr="74" spelling="G" line="119" col="56"/>
+                </Arguments>
+                <Arguments>
+                 <Infix-Term nr="27" spelling="&#x2B;" line="119" col="60">
+                  <Arguments>
+                   <Simple-Term idnr="54" spelling="n" line="119" col="59"/>
+                  </Arguments>
+                  <Arguments>
+                   <Numeral-Term number="1" line="119" col="61"/>
+                  </Arguments>
+                 </Infix-Term>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+              <Arguments>
+               <Infix-Term nr="264" spelling="poly_diff" line="119" col="74">
+                <Arguments/>
+                <Arguments>
+                 <Simple-Term idnr="67" spelling="q" line="119" col="76"/>
+                </Arguments>
+               </Infix-Term>
+              </Arguments>
+             </Predicative-Formula>
+            </Conditional-Formula>
+           </Universal-Quantifier-Formula>
+          </Conditional-Formula>
+         </Universal-Quantifier-Formula>
+        </Proposition>
+       </Conditions>
+      </Collective-Assumption>
+     </Item>
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="121" col="2" posline="134" poscol="8">
+      <Proposition>
+       <Label idnr="81" spelling="c1" line="121" col="2"/>
+       <Universal-Quantifier-Formula line="121" col="8">
+        <Implicitly-Qualified-Segment line="121" col="10">
+         <Variable idnr="54" spelling="n" line="121" col="10"/>
+        </Implicitly-Qualified-Segment>
+        <Conditional-Formula line="121" col="13">
+         <Conjunctive-Formula line="121" col="22">
+          <Predicative-Formula nr="18" spelling="&#x3C;=" line="121" col="18">
+           <Arguments>
+            <Numeral-Term number="1" line="121" col="15"/>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="54" spelling="n" line="121" col="20"/>
+           </Arguments>
+          </Predicative-Formula>
+          <Predicative-Formula nr="9" spelling="&#x3C;" line="121" col="26">
+           <Arguments>
+            <Simple-Term idnr="54" spelling="n" line="121" col="24"/>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="63" spelling="N" line="121" col="28"/>
+           </Arguments>
+          </Predicative-Formula>
+         </Conjunctive-Formula>
+         <Universal-Quantifier-Formula line="121" col="32">
+          <Explicitly-Qualified-Segment line="121" col="32">
+           <Variables>
+            <Variable idnr="69" spelling="x" line="121" col="34"/>
+            <Variable idnr="82" spelling="y1" line="121" col="37"/>
+            <Variable idnr="83" spelling="y2" line="121" col="40"/>
+           </Variables>
+           <Standard-Type nr="3" spelling="Element" line="121" col="54">
+            <Simple-Term idnr="64" spelling="D" line="121" col="59"/>
+           </Standard-Type>
+          </Explicitly-Qualified-Segment>
+          <Conditional-Formula line="121" col="62">
+           <Conjunctive-Formula line="122" col="16">
+            <Private-Predicate-Formula idnr="66" spelling="P" line="122" col="6">
+             <Simple-Term idnr="54" spelling="n" line="122" col="8"/>
+             <Simple-Term idnr="69" spelling="x" line="122" col="10"/>
+             <Simple-Term idnr="82" spelling="y1" line="122" col="13"/>
+            </Private-Predicate-Formula>
+            <Private-Predicate-Formula idnr="66" spelling="P" line="122" col="18">
+             <Simple-Term idnr="54" spelling="n" line="122" col="20"/>
+             <Simple-Term idnr="69" spelling="x" line="122" col="22"/>
+             <Simple-Term idnr="83" spelling="y2" line="122" col="25"/>
+            </Private-Predicate-Formula>
+           </Conjunctive-Formula>
+           <Predicative-Formula nr="1" spelling="=" line="122" col="37">
+            <Arguments>
+             <Simple-Term idnr="82" spelling="y1" line="122" col="35"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="83" spelling="y2" line="122" col="40"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conditional-Formula>
+         </Universal-Quantifier-Formula>
+        </Conditional-Formula>
+       </Universal-Quantifier-Formula>
+      </Proposition>
+      <Block kind="Proof" line="123" col="10" posline="134" poscol="8">
+       <Item kind="Generalization" line="124" col="13" posline="124" poscol="12">
+        <Implicitly-Qualified-Segment line="124" col="12">
+         <Variable idnr="54" spelling="n" line="124" col="12"/>
+        </Implicitly-Qualified-Segment>
+       </Item>
+       <Item kind="Assumption" line="125" col="13" posline="126" poscol="34">
+        <Single-Assumption line="125" col="13">
+         <Proposition>
+          <Label idnr="0" spelling="" line="125" col="15"/>
+          <Conjunctive-Formula line="125" col="22">
+           <Predicative-Formula nr="18" spelling="&#x3C;=" line="125" col="18">
+            <Arguments>
+             <Numeral-Term number="1" line="125" col="15"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="125" col="20"/>
+            </Arguments>
+           </Predicative-Formula>
+           <Predicative-Formula nr="9" spelling="&#x3C;" line="125" col="26">
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="125" col="24"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="63" spelling="N" line="125" col="28"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conjunctive-Formula>
+         </Proposition>
+        </Single-Assumption>
+       </Item>
+       <Item kind="Generalization" line="126" col="35" posline="126" poscol="34">
+        <Explicitly-Qualified-Segment line="126" col="12">
+         <Variables>
+          <Variable idnr="69" spelling="x" line="126" col="12"/>
+          <Variable idnr="82" spelling="y1" line="126" col="15"/>
+          <Variable idnr="83" spelling="y2" line="126" col="18"/>
+         </Variables>
+         <Standard-Type nr="3" spelling="Element" line="126" col="29">
+          <Simple-Term idnr="64" spelling="D" line="126" col="34"/>
+         </Standard-Type>
+        </Explicitly-Qualified-Segment>
+       </Item>
+       <Item kind="Type-Changing-Statement" line="127" col="17" posline="127" poscol="48">
+        <Equality>
+         <Variable idnr="84" spelling="x1" line="127" col="20"/>
+         <Simple-Term idnr="69" spelling="x" line="127" col="24"/>
+        </Equality>
+        <Standard-Type nr="19" spelling="Polynomial" line="127" col="38">
+         <Infix-Term nr="113" spelling="F_Real" line="127" col="48">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Standard-Type>
+        <Straightforward-Justification line="127" col="48"/>
+       </Item>
+       <Item kind="Assumption" line="128" col="13" posline="128" poscol="23">
+        <Single-Assumption line="128" col="13">
+         <Proposition>
+          <Label idnr="0" spelling="" line="128" col="15"/>
+          <Private-Predicate-Formula idnr="66" spelling="P" line="128" col="15">
+           <Simple-Term idnr="54" spelling="n" line="128" col="17"/>
+           <Simple-Term idnr="69" spelling="x" line="128" col="19"/>
+           <Simple-Term idnr="82" spelling="y1" line="128" col="22"/>
+          </Private-Predicate-Formula>
+         </Proposition>
+        </Single-Assumption>
+       </Item>
+       <Item kind="Regular-Statement" shape="Compact-Statement" line="130" col="2" posline="130" poscol="25">
+        <Proposition>
+         <Label idnr="85" spelling="c2" line="130" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="130" col="11">
+          <Arguments>
+           <Simple-Term idnr="82" spelling="y1" line="130" col="9"/>
+          </Arguments>
+          <Arguments>
+           <Infix-Term nr="264" spelling="poly_diff" line="130" col="21">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="84" spelling="x1" line="130" col="24"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Straightforward-Justification line="130" col="25">
+         <Link line="129" col="11"/>
+        </Straightforward-Justification>
+       </Item>
+       <Item kind="Assumption" line="131" col="13" posline="131" poscol="23">
+        <Single-Assumption line="131" col="13">
+         <Proposition>
+          <Label idnr="0" spelling="" line="131" col="15"/>
+          <Private-Predicate-Formula idnr="66" spelling="P" line="131" col="15">
+           <Simple-Term idnr="54" spelling="n" line="131" col="17"/>
+           <Simple-Term idnr="69" spelling="x" line="131" col="19"/>
+           <Simple-Term idnr="83" spelling="y2" line="131" col="22"/>
+          </Private-Predicate-Formula>
+         </Proposition>
+        </Single-Assumption>
+       </Item>
+       <Item kind="Regular-Statement" shape="Compact-Statement" line="132" col="14" posline="132" poscol="30">
+        <Proposition>
+         <Label idnr="0" spelling="" line="132" col="14"/>
+         <Predicative-Formula nr="1" spelling="=" line="132" col="16">
+          <Arguments>
+           <Simple-Term idnr="83" spelling="y2" line="132" col="14"/>
+          </Arguments>
+          <Arguments>
+           <Infix-Term nr="264" spelling="poly_diff" line="132" col="26">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="84" spelling="x1" line="132" col="29"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </Predicative-Formula>
+        </Proposition>
+        <Straightforward-Justification line="132" col="30">
+         <Link line="132" col="11"/>
+        </Straightforward-Justification>
+       </Item>
+       <Item kind="Conclusion" shape="Compact-Statement" line="133" col="19" posline="133" poscol="25">
+        <Proposition>
+         <Label idnr="0" spelling="" line="133" col="19"/>
+         <Thesis line="133" col="19"/>
+        </Proposition>
+        <Straightforward-Justification line="133" col="22">
+         <Link line="133" col="12"/>
+         <Local-Reference line="133" col="25" idnr="85" spelling="c2"/>
+        </Straightforward-Justification>
+       </Item>
+      </Block>
+     </Item>
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="135" col="2" posline="136" poscol="63">
+      <Proposition>
+       <Label idnr="85" spelling="c2" line="135" col="2"/>
+       <Conjunctive-Formula line="135" col="38">
+        <Conjunctive-Formula line="135" col="16">
+         <Predicative-Formula nr="1" spelling="=" line="135" col="12">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="135" col="8">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="135" col="10"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="63" spelling="N" line="135" col="14"/>
+          </Arguments>
+         </Predicative-Formula>
+         <Disjunctive-Formula line="135" col="29">
+          <Predicative-Formula nr="1" spelling="=" line="135" col="23">
+           <Arguments>
+            <Infix-Term nr="66" spelling="." line="135" col="20">
+             <Arguments>
+              <Simple-Term idnr="71" spelling="F" line="135" col="19"/>
+             </Arguments>
+             <Arguments>
+              <Numeral-Term number="1" line="135" col="21"/>
+             </Arguments>
+            </Infix-Term>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="65" spelling="p1" line="135" col="26"/>
+           </Arguments>
+          </Predicative-Formula>
+          <Predicative-Formula nr="1" spelling="=" line="135" col="33">
+           <Arguments>
+            <Simple-Term idnr="63" spelling="N" line="135" col="31"/>
+           </Arguments>
+           <Arguments>
+            <Infix-Term nr="10" spelling="0" line="135" col="35">
+             <Arguments/>
+             <Arguments/>
+            </Infix-Term>
+           </Arguments>
+          </Predicative-Formula>
+         </Disjunctive-Formula>
+        </Conjunctive-Formula>
+        <Universal-Quantifier-Formula line="136" col="8">
+         <Implicitly-Qualified-Segment line="136" col="10">
+          <Variable idnr="54" spelling="n" line="136" col="10"/>
+         </Implicitly-Qualified-Segment>
+         <Conditional-Formula line="136" col="13">
+          <Conjunctive-Formula line="136" col="22">
+           <Predicative-Formula nr="18" spelling="&#x3C;=" line="136" col="18">
+            <Arguments>
+             <Numeral-Term number="1" line="136" col="15"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="136" col="20"/>
+            </Arguments>
+           </Predicative-Formula>
+           <Predicative-Formula nr="9" spelling="&#x3C;" line="136" col="26">
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="136" col="24"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="63" spelling="N" line="136" col="28"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conjunctive-Formula>
+          <Private-Predicate-Formula idnr="66" spelling="P" line="136" col="36">
+           <Simple-Term idnr="54" spelling="n" line="136" col="38"/>
+           <Infix-Term nr="66" spelling="." line="136" col="41">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="136" col="40"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="136" col="42"/>
+            </Arguments>
+           </Infix-Term>
+           <Infix-Term nr="66" spelling="." line="136" col="45">
+            <Arguments>
+             <Simple-Term idnr="71" spelling="F" line="136" col="44"/>
+            </Arguments>
+            <Arguments>
+             <Infix-Term nr="27" spelling="&#x2B;" line="136" col="48">
+              <Arguments>
+               <Simple-Term idnr="54" spelling="n" line="136" col="47"/>
+              </Arguments>
+              <Arguments>
+               <Numeral-Term number="1" line="136" col="49"/>
+              </Arguments>
+             </Infix-Term>
+            </Arguments>
+           </Infix-Term>
+          </Private-Predicate-Formula>
+         </Conditional-Formula>
+        </Universal-Quantifier-Formula>
+       </Conjunctive-Formula>
+      </Proposition>
+      <Straightforward-Justification line="136" col="54">
+       <Local-Reference line="136" col="57" idnr="75" spelling="a1"/>
+       <Local-Reference line="136" col="60" idnr="76" spelling="a2"/>
+       <Local-Reference line="136" col="63" idnr="77" spelling="a3"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="137" col="2" posline="138" poscol="63">
+      <Proposition>
+       <Label idnr="86" spelling="c5" line="137" col="2"/>
+       <Conjunctive-Formula line="137" col="38">
+        <Conjunctive-Formula line="137" col="16">
+         <Predicative-Formula nr="1" spelling="=" line="137" col="12">
+          <Arguments>
+           <Infix-Term nr="126" spelling="len" line="137" col="8">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="74" spelling="G" line="137" col="10"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments>
+           <Simple-Term idnr="63" spelling="N" line="137" col="14"/>
+          </Arguments>
+         </Predicative-Formula>
+         <Disjunctive-Formula line="137" col="29">
+          <Predicative-Formula nr="1" spelling="=" line="137" col="23">
+           <Arguments>
+            <Infix-Term nr="66" spelling="." line="137" col="20">
+             <Arguments>
+              <Simple-Term idnr="74" spelling="G" line="137" col="19"/>
+             </Arguments>
+             <Arguments>
+              <Numeral-Term number="1" line="137" col="21"/>
+             </Arguments>
+            </Infix-Term>
+           </Arguments>
+           <Arguments>
+            <Simple-Term idnr="65" spelling="p1" line="137" col="26"/>
+           </Arguments>
+          </Predicative-Formula>
+          <Predicative-Formula nr="1" spelling="=" line="137" col="33">
+           <Arguments>
+            <Simple-Term idnr="63" spelling="N" line="137" col="31"/>
+           </Arguments>
+           <Arguments>
+            <Infix-Term nr="10" spelling="0" line="137" col="35">
+             <Arguments/>
+             <Arguments/>
+            </Infix-Term>
+           </Arguments>
+          </Predicative-Formula>
+         </Disjunctive-Formula>
+        </Conjunctive-Formula>
+        <Universal-Quantifier-Formula line="138" col="8">
+         <Implicitly-Qualified-Segment line="138" col="10">
+          <Variable idnr="54" spelling="n" line="138" col="10"/>
+         </Implicitly-Qualified-Segment>
+         <Conditional-Formula line="138" col="13">
+          <Conjunctive-Formula line="138" col="22">
+           <Predicative-Formula nr="18" spelling="&#x3C;=" line="138" col="18">
+            <Arguments>
+             <Numeral-Term number="1" line="138" col="15"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="138" col="20"/>
+            </Arguments>
+           </Predicative-Formula>
+           <Predicative-Formula nr="9" spelling="&#x3C;" line="138" col="26">
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="138" col="24"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="63" spelling="N" line="138" col="28"/>
+            </Arguments>
+           </Predicative-Formula>
+          </Conjunctive-Formula>
+          <Private-Predicate-Formula idnr="66" spelling="P" line="138" col="36">
+           <Simple-Term idnr="54" spelling="n" line="138" col="38"/>
+           <Infix-Term nr="66" spelling="." line="138" col="41">
+            <Arguments>
+             <Simple-Term idnr="74" spelling="G" line="138" col="40"/>
+            </Arguments>
+            <Arguments>
+             <Simple-Term idnr="54" spelling="n" line="138" col="42"/>
+            </Arguments>
+           </Infix-Term>
+           <Infix-Term nr="66" spelling="." line="138" col="45">
+            <Arguments>
+             <Simple-Term idnr="74" spelling="G" line="138" col="44"/>
+            </Arguments>
+            <Arguments>
+             <Infix-Term nr="27" spelling="&#x2B;" line="138" col="48">
+              <Arguments>
+               <Simple-Term idnr="54" spelling="n" line="138" col="47"/>
+              </Arguments>
+              <Arguments>
+               <Numeral-Term number="1" line="138" col="49"/>
+              </Arguments>
+             </Infix-Term>
+            </Arguments>
+           </Infix-Term>
+          </Private-Predicate-Formula>
+         </Conditional-Formula>
+        </Universal-Quantifier-Formula>
+       </Conjunctive-Formula>
+      </Proposition>
+      <Straightforward-Justification line="138" col="54">
+       <Local-Reference line="138" col="57" idnr="78" spelling="b1"/>
+       <Local-Reference line="138" col="60" idnr="79" spelling="b2"/>
+       <Local-Reference line="138" col="63" idnr="80" spelling="b3"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Conclusion" shape="Compact-Statement" line="139" col="11" posline="139" poscol="45">
+      <Proposition>
+       <Label idnr="0" spelling="" line="139" col="11"/>
+       <Predicative-Formula nr="1" spelling="=" line="139" col="13">
+        <Arguments>
+         <Simple-Term idnr="71" spelling="F" line="139" col="11"/>
+        </Arguments>
+        <Arguments>
+         <Simple-Term idnr="74" spelling="G" line="139" col="15"/>
+        </Arguments>
+       </Predicative-Formula>
+      </Proposition>
+      <Scheme-Justification nr="56" idnr="8" spelling="RECDEF_1" line="139" col="20" posline="139" poscol="33">
+       <Local-Reference line="139" col="38" idnr="81" spelling="c1"/>
+       <Local-Reference line="139" col="41" idnr="85" spelling="c2"/>
+       <Local-Reference line="139" col="44" idnr="86" spelling="c5"/>
+      </Scheme-Justification>
+     </Item>
+    </Block>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Definition-Item" line="143" col="12" posline="154" poscol="3">
+  <Block kind="Registration-Block" line="143" col="12" posline="154" poscol="3">
+   <Item kind="Cluster" line="144" col="9" posline="144" poscol="36">
+    <Functorial-Registration line="144" col="9">
+     <Infix-Term nr="262" spelling="number_e" line="144" col="18">
+      <Arguments/>
+      <Arguments/>
+     </Infix-Term>
+     <Adjective-Cluster>
+      <Adjective nr="29" spelling="transcendental" line="144" col="36"/>
+     </Adjective-Cluster>
+    </Functorial-Registration>
+   </Item>
+   <Item kind="Correctness-Condition" condition="coherence" line="145" col="11" posline="153" poscol="5">
+    <Block kind="Proof" line="146" col="7" posline="153" poscol="5">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="147" col="12" posline="147" poscol="41">
+      <Proposition>
+       <Label idnr="0" spelling="" line="147" col="12"/>
+       <Predicative-Formula nr="3" spelling="in" line="147" col="15">
+        <Arguments>
+         <Infix-Term nr="262" spelling="number_e" line="147" col="12">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Infix-Term nr="3" spelling="COMPLEX" line="147" col="23">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Arguments>
+       </Predicative-Formula>
+      </Proposition>
+      <Straightforward-Justification line="147" col="26">
+       <Definition-Reference line="147" col="41" nr="47" spelling="XCMPLX_0" number="2"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Type-Changing-Statement" line="148" col="19" posline="148" poscol="67">
+      <Equality>
+       <Variable idnr="87" spelling="e" line="148" col="21"/>
+       <Infix-Term nr="262" spelling="number_e" line="148" col="32">
+        <Arguments/>
+        <Arguments/>
+       </Infix-Term>
+      </Equality>
+      <Standard-Type nr="3" spelling="Element" line="148" col="43">
+       <Simple-Term idnr="57" spelling="FC" line="148" col="49"/>
+      </Standard-Type>
+      <Straightforward-Justification line="148" col="52">
+       <Link line="148" col="8"/>
+       <Definition-Reference line="148" col="67" nr="9" spelling="COMPLFLD" number="1"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Assumption" line="149" col="10" posline="149" poscol="32">
+      <Single-Assumption line="149" col="10">
+       <Proposition>
+        <Label idnr="0" spelling="" line="149" col="19"/>
+        <Attributive-Formula line="149" col="22">
+         <Infix-Term nr="262" spelling="number_e" line="149" col="19">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+         <Adjective-Cluster>
+          <Adjective nr="141" spelling="algebraic" line="149" col="32"/>
+         </Adjective-Cluster>
+        </Attributive-Formula>
+       </Proposition>
+      </Single-Assumption>
+     </Item>
+     <Item kind="Choice-Statement" line="150" col="17" posline="151" poscol="35">
+      <Explicitly-Qualified-Segment line="150" col="19">
+       <Variables>
+        <Variable idnr="61" spelling="f" line="150" col="19"/>
+       </Variables>
+       <Clustered-Type line="150" col="57">
+        <Adjective-Cluster>
+         <Adjective nr="74" spelling="non-zero" line="150" col="34"/>
+         <Adjective nr="35" spelling="-valued" line="150" col="46">
+          <Infix-Term nr="5" spelling="INT" line="150" col="38">
+           <Arguments/>
+           <Arguments/>
+          </Infix-Term>
+         </Adjective>
+        </Adjective-Cluster>
+        <Standard-Type nr="19" spelling="Polynomial" line="150" col="57">
+         <Simple-Term idnr="57" spelling="FC" line="150" col="63"/>
+        </Standard-Type>
+       </Clustered-Type>
+      </Explicitly-Qualified-Segment>
+      <Conditions>
+       <Proposition>
+        <Label idnr="88" spelling="A1" line="151" col="2"/>
+        <Predicative-Formula nr="17" spelling="is_a_root_of" line="151" col="18">
+         <Arguments>
+          <Simple-Term idnr="87" spelling="e" line="151" col="5"/>
+         </Arguments>
+         <Arguments>
+          <Simple-Term idnr="61" spelling="f" line="151" col="20"/>
+         </Arguments>
+        </Predicative-Formula>
+       </Proposition>
+      </Conditions>
+      <Straightforward-Justification line="151" col="23">
+       <Link line="150" col="8"/>
+       <Theorem-Reference line="151" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
+      </Straightforward-Justification>
+     </Item>
+     <Item kind="Conclusion" shape="Compact-Statement" line="152" col="22" posline="152" poscol="22">
+      <Proposition>
+       <Label idnr="0" spelling="" line="152" col="22"/>
+       <Contradiction line="152" col="22"/>
+      </Proposition>
+      <Straightforward-Justification line="152" col="22"/>
+     </Item>
+    </Block>
+   </Item>
+  </Block>
+ </Item>
+</Text-Proper>
