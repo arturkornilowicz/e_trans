@@ -51,9 +51,6 @@ environ
 
 begin
 
-definition
-end;
-
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
@@ -270,8 +267,8 @@ A2:   len F = len S by Def2;
   consistency;  
 end;
 
-definition
-end;
+theorem
+2 = 2;
 
 registration
   cluster number_e -> transcendental;
