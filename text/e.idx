@@ -82,15 +82,14 @@
  <Symbol kind="I" nr="80" name="A11"/>
  <Symbol kind="I" nr="81" name="y1"/>
  <Symbol kind="I" nr="82" name="y2"/>
- <Symbol kind="I" nr="83" name="x1"/>
- <Symbol kind="I" nr="84" name="A12"/>
- <Symbol kind="I" nr="85" name="A13"/>
- <Symbol kind="I" nr="86" name="S"/>
- <Symbol kind="I" nr="87" name="Def2"/>
- <Symbol kind="I" nr="88" name="A14"/>
- <Symbol kind="I" nr="89" name="A15"/>
- <Symbol kind="I" nr="90" name="A16"/>
- <Symbol kind="I" nr="91" name="A17"/>
- <Symbol kind="I" nr="92" name="e"/>
- <Symbol kind="I" nr="93" name="f"/>
+ <Symbol kind="I" nr="83" name="A12"/>
+ <Symbol kind="I" nr="84" name="A13"/>
+ <Symbol kind="I" nr="85" name="S"/>
+ <Symbol kind="I" nr="86" name="Def2"/>
+ <Symbol kind="I" nr="87" name="A14"/>
+ <Symbol kind="I" nr="88" name="A15"/>
+ <Symbol kind="I" nr="89" name="A16"/>
+ <Symbol kind="I" nr="90" name="A17"/>
+ <Symbol kind="I" nr="91" name="e"/>
+ <Symbol kind="I" nr="92" name="f"/>
 </Symbols>

@@ -51,11 +51,6 @@ environ
 
 begin
 
-theorem 1 = 1;
-
-definition
-end;
-
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
@@ -90,8 +85,7 @@ A1: for n being Nat st 1 <= n & n < N for x being Element of D
       let n;
       assume 1 <= n & n < N;
       let x be Element of D;
-      reconsider q = x as Polynomial of F_Real;
-      reconsider y = poly_diff(q) as Element of D by POLYNOM3:def 10;
+      reconsider y = poly_diff(x) as Element of D by POLYNOM3:def 10;
       take y;
       thus thesis;
     end;
@@ -123,9 +117,8 @@ A11: for n st 1 <= n & n < N for x,y1,y2 being Element of D st
       let n;
       assume 1 <= n & n < N;
       let x,y1,y2 be Element of D;
-      reconsider x1 = x as Polynomial of F_Real;
       assume P[n,x,y1];
-      then y1 = poly_diff(x1);
+      then y1 = poly_diff(x);
       hence thesis;
     end;
 A12: len F = N & (F.1 = p1 or N = 0) &
@@ -170,7 +163,6 @@ A2:    for n being Nat st 1 <= n & n < N for x being Element of D
         assume that 1 <= n and
 A3:     n < N;
         let x be Element of D;
-        reconsider q = x as Polynomial of F_Real;
         n+1 <= N by A3,NAT_1:13;
         then n+1 in dom S by NAT_1:12,FINSEQ_3:25;
         then S.(n+1) in rng S by FUNCT_1:3;
@@ -272,9 +264,6 @@ A2:   len F = len S by Def2;
   consistency;  
 end;
 
-theorem
-2 = 2;
-
 registration
   cluster number_e -> transcendental;
   coherence
@@ -290,5 +279,4 @@ A1: e is_a_root_of f by LIOUVIL2:25;
   end;
 end;
 
-theorem 1 = 1;
 ::> 1: It is not true
