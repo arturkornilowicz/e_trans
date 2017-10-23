@@ -51,6 +51,9 @@ environ
 
 begin
 
+definition
+end;
+
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
@@ -267,6 +270,9 @@ A2:   len F = len S by Def2;
   consistency;  
 end;
 
+definition
+end;
+
 registration
   cluster number_e -> transcendental;
   coherence
@@ -281,4 +287,5 @@ A1: e is_a_root_of f by LIOUVIL2:25;
 ::>                  *1
   end;
 end;
+
 ::> 1: It is not true
