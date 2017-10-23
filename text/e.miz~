@@ -50,15 +50,10 @@ environ
  schemes FRAENKEL, FINSEQ_1, FINSEQ_2, POLYNOM3, RECDEF_1;
 
 begin
-<<<<<<< HEAD
-theorem
-1 = 1;
-=======
 
 definition
 end;
 
->>>>>>> 983343f07c5561e37d2ce864ece3ce7d2ca9e42a
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
@@ -292,10 +287,4 @@ A1: e is_a_root_of f by LIOUVIL2:25;
 ::>                  *1
   end;
 end;
-<<<<<<< HEAD
-theorem
-1 = 1;
-=======
-
->>>>>>> 983343f07c5561e37d2ce864ece3ce7d2ca9e42a
 ::> 1: It is not true

@@ -51,6 +51,8 @@ environ
 
 begin
 
+theorem 1 = 1;
+
 definition
 end;
 
@@ -287,4 +289,6 @@ A1: e is_a_root_of f by LIOUVIL2:25;
 ::>                  *1
   end;
 end;
+
+theorem 1 = 1;
 ::> 1: It is not true
