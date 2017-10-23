@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<Definientia aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<Definientia aid="E" mizfiles="/usr/local/share/mizar/">
 <Definiens constrkind="V" constrnr="50" aid="STRUCT_0" defnr="1" relnr="1">
 <Typ kind="G" nr="1">
 <Cluster/>

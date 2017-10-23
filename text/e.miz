@@ -51,6 +51,14 @@ environ
 
 begin
 
+<<<<<<< HEAD
+=======
+theorem 1 = 1;
+
+definition
+end;
+
+>>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
@@ -285,4 +293,5 @@ A1: e is_a_root_of f by LIOUVIL2:25;
   end;
 end;
 
+theorem 1 = 1;
 ::> 1: It is not true
