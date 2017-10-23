@@ -51,14 +51,11 @@ environ
 
 begin
 
-<<<<<<< HEAD
-=======
 theorem 1 = 1;
 
 definition
 end;
 
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 reserve m,n for Nat;
 reserve r for Real;
 reserve c for Element of F_Complex;
