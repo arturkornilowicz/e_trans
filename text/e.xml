@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
-<<<<<<< HEAD
 <?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
 <Article aid="E" mizfiles="c:\mizar\">
-=======
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Article aid="E" mizfiles="/usr/local/share/mizar/">
 <JustifiedTheorem line="54" col="7">
 <Proposition line="54" col="11">
 <Pred kind="R" nr="1" pid="21">
@@ -19,7 +15,6 @@
 <EndPosition line="57" col="3"/>
 </DefinitionBlock>
 
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Reservation>
 <Ident vid="55"/>
 <Ident vid="56"/>
@@ -74,11 +69,7 @@
 </Typ>
 </Reservation>
 
-<<<<<<< HEAD
-<DefinitionBlock line="69" col="10">
-=======
 <DefinitionBlock line="74" col="10">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Let nr="1">
 <Typ kind="M" nr="3" pid="59" vid="59">
 <Cluster>
@@ -200,11 +191,7 @@
 </Func>
 </Typ>
 <Const nr="1" vid="59"/>
-<<<<<<< HEAD
-<Proposition line="73" col="30">
-=======
 <Proposition line="78" col="30">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Const nr="1" vid="59"/>
 <Typ kind="M" nr="21" pid="61">
@@ -239,13 +226,8 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="73" col="38">
-<Ref nr="10" articlenr="54" kind="D" line="73" col="54"/>
-=======
 <By line="78" col="38">
 <Ref nr="10" articlenr="54" kind="D" line="78" col="54"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Reconsider>
 <DefPred nr="1" vid="63">
@@ -328,15 +310,9 @@
 </Not>
 </For>
 </DefPred>
-<<<<<<< HEAD
-<Definition kind="K" nr="1" vid="65" line="76" col="68">
-<Existence>
-<Proposition line="81" col="7">
-=======
 <Definition kind="K" nr="1" vid="65" line="81" col="68">
 <Existence>
 <Proposition line="86" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <For pid="-2" vid="0">
 <Typ kind="M" nr="6" pid="37">
@@ -505,11 +481,7 @@
 </For>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="81" col="7">
-=======
 <Proof line="86" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <Not pid="-4">
 <For pid="-2" vid="0">
@@ -679,11 +651,7 @@
 </For>
 </Not>
 </BlockThesis>
-<<<<<<< HEAD
-<Proposition line="84" col="9" nr="1" vid="66">
-=======
 <Proposition line="89" col="9" nr="1" vid="66">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -868,11 +836,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof nr="1" vid="66" line="84" col="9">
-=======
 <Proof nr="1" vid="66" line="89" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
@@ -1245,11 +1209,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="86" col="14">
-=======
 <Proposition line="91" col="14">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="32" pid="23">
 <Num nr="1"/>
@@ -1598,11 +1558,7 @@
 </Func>
 </Typ>
 <Const nr="6" vid="67"/>
-<<<<<<< HEAD
-<Proposition line="88" col="46">
-=======
 <Proposition line="93" col="46">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Const nr="6" vid="67"/>
 <Typ kind="M" nr="3" pid="59">
@@ -1653,11 +1609,7 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="88" col="46"/>
-=======
 <By line="93" col="46"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Reconsider>
 <Reconsider nr="8">
 <Typ kind="M" nr="21" pid="61" vid="68">
@@ -1693,11 +1645,7 @@
 <Func kind="K" nr="759" pid="382">
 <Const nr="7" vid="64"/>
 </Func>
-<<<<<<< HEAD
-<Proposition line="89" col="44">
-=======
 <Proposition line="94" col="44">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="759" pid="382">
 <Const nr="7" vid="64"/>
@@ -1734,13 +1682,8 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="89" col="52">
-<Ref nr="10" articlenr="54" kind="D" line="89" col="68"/>
-=======
 <By line="94" col="52">
 <Ref nr="10" articlenr="54" kind="D" line="94" col="68"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Reconsider>
 <Take>
@@ -1819,11 +1762,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="91" col="17">
-=======
 <Proposition line="96" col="17">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <PrivPred nr="1">
 <Const nr="5" vid="56"/>
 <Const nr="6" vid="67"/>
@@ -1894,27 +1833,16 @@
 </For>
 </PrivPred>
 </Proposition>
-<<<<<<< HEAD
-<By line="91" col="17"/>
-=======
 <By line="96" col="17"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="92" col="7"/>
-</Proof>
-<Consider nr="5">
-<Proposition line="96" col="47">
-=======
 <EndPosition line="97" col="7"/>
 </Proof>
 <Consider nr="5">
 <Proposition line="101" col="47">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <For pid="0" vid="69">
 <Typ kind="M" nr="6" pid="13">
@@ -2119,13 +2047,8 @@
 </For>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<From articlenr="56" nr="4" line="97" col="8">
-<Ref nr="1" vid="66" line="97" col="26"/>
-=======
 <From articlenr="56" nr="4" line="102" col="8">
 <Ref nr="1" vid="66" line="102" col="26"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </From>
 <Typ kind="M" nr="6" pid="13" vid="69">
 <Cluster/>
@@ -2152,11 +2075,7 @@
 </Func>
 </Func>
 </Typ>
-<<<<<<< HEAD
-<Proposition line="94" col="2" nr="2" vid="70">
-=======
 <Proposition line="99" col="2" nr="2" vid="70">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="69"/>
@@ -2170,11 +2089,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="95" col="2" nr="3" vid="71">
-=======
 <Proposition line="100" col="2" nr="3" vid="71">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-8">
 <And pid="-9">
 <Not pid="-10">
@@ -2201,11 +2116,7 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="96" col="2" nr="4" vid="72">
-=======
 <Proposition line="101" col="2" nr="4" vid="72">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -2484,11 +2395,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="99" col="29">
-=======
 <Proposition line="104" col="29">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="69"/>
@@ -2502,13 +2409,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="99" col="29">
-<Ref nr="2" vid="70" line="99" col="32"/>
-=======
 <By line="104" col="29">
 <Ref nr="2" vid="70" line="104" col="32"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
@@ -2639,11 +2541,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="100" col="19">
-=======
 <Proposition line="105" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="5" vid="69"/>
@@ -2652,13 +2550,8 @@
 <Const nr="1" vid="59"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="100" col="19">
-<Ref nr="3" vid="71" line="100" col="22"/>
-=======
 <By line="105" col="19">
 <Ref nr="3" vid="71" line="105" col="22"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
@@ -2780,11 +2673,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="101" col="18">
-=======
 <Proposition line="106" col="18">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -2901,34 +2790,20 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<By line="101" col="18">
-<Ref nr="2" vid="70" line="101" col="21"/>
-<Ref nr="4" vid="72" line="101" col="25"/>
-=======
 <By line="106" col="18">
 <Ref nr="2" vid="70" line="106" col="21"/>
 <Ref nr="4" vid="72" line="106" col="25"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="102" col="5"/>
-</Proof>
-</Existence>
-<Uniqueness>
-<Proposition line="104" col="7">
-=======
 <EndPosition line="107" col="5"/>
 </Proof>
 </Existence>
 <Uniqueness>
 <Proposition line="109" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For>
 <Typ kind="M" nr="6" pid="37">
 <Cluster/>
@@ -3262,11 +3137,7 @@
 </For>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="104" col="7">
-=======
 <Proof line="109" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For>
 <Typ kind="M" nr="6" pid="37">
@@ -3935,11 +3806,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="106" col="2" nr="1" vid="74">
-=======
 <Proposition line="111" col="2" nr="1" vid="74">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="69"/>
@@ -3953,11 +3820,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="107" col="2" nr="2" vid="75">
-=======
 <Proposition line="112" col="2" nr="2" vid="75">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="5" vid="69"/>
@@ -3966,11 +3829,7 @@
 <Const nr="1" vid="59"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="108" col="2" nr="3" vid="76">
-=======
 <Proposition line="113" col="2" nr="3" vid="76">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -4087,11 +3946,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="111" col="2" nr="4" vid="77">
-=======
 <Proposition line="116" col="2" nr="4" vid="77">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="6" vid="73"/>
@@ -4105,11 +3960,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="112" col="2" nr="5" vid="78">
-=======
 <Proposition line="117" col="2" nr="5" vid="78">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="6" vid="73"/>
@@ -4118,11 +3969,7 @@
 <Const nr="1" vid="59"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="113" col="3" nr="6" vid="79">
-=======
 <Proposition line="118" col="3" nr="6" vid="79">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -4247,11 +4094,7 @@
 </Pred>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="117" col="9" nr="7" vid="80">
-=======
 <Proposition line="122" col="9" nr="7" vid="80">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -4547,11 +4390,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof nr="7" vid="80" line="117" col="9">
-=======
 <Proof nr="7" vid="80" line="122" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
@@ -5146,11 +4985,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="119" col="14">
-=======
 <Proposition line="124" col="14">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="32" pid="23">
 <Num nr="1"/>
@@ -5717,11 +5552,7 @@
 </Func>
 </Typ>
 <Const nr="8" vid="67"/>
-<<<<<<< HEAD
-<Proposition line="121" col="47">
-=======
 <Proposition line="126" col="47">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Const nr="8" vid="67"/>
 <Typ kind="M" nr="3" pid="59">
@@ -5772,17 +5603,10 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="121" col="47"/>
-</Reconsider>
-<Assume>
-<Proposition line="122" col="14">
-=======
 <By line="126" col="47"/>
 </Reconsider>
 <Assume>
 <Proposition line="127" col="14">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <PrivPred nr="1">
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="67"/>
@@ -5940,11 +5764,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="123" col="29">
-=======
 <Proposition line="128" col="29">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="69" pid="18">
 <Func kind="K" nr="40"/>
 <Func kind="U" nr="1">
@@ -5956,15 +5776,9 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="123" col="29"/>
-<Conclusion>
-<Proposition line="124" col="18">
-=======
 <By linked="true" line="128" col="29"/>
 <Conclusion>
 <Proposition line="129" col="18">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <And pid="-5">
 <PrivPred nr="1">
@@ -6049,25 +5863,15 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="124" col="18"/>
-=======
 <By linked="true" line="129" col="18"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="125" col="7"/>
-</Proof>
-<Proposition line="127" col="53" nr="8" vid="84">
-=======
 <EndPosition line="130" col="7"/>
 </Proof>
 <Proposition line="132" col="53" nr="8" vid="84">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
@@ -6241,21 +6045,12 @@
 </For>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<By line="127" col="53">
-<Ref nr="1" vid="74" line="127" col="56"/>
-<Ref nr="2" vid="75" line="127" col="59"/>
-<Ref nr="3" vid="76" line="127" col="62"/>
-</By>
-<Proposition line="129" col="53" nr="9" vid="85">
-=======
 <By line="132" col="53">
 <Ref nr="1" vid="74" line="132" col="56"/>
 <Ref nr="2" vid="75" line="132" col="59"/>
 <Ref nr="3" vid="76" line="132" col="62"/>
 </By>
 <Proposition line="134" col="53" nr="9" vid="85">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
@@ -6429,15 +6224,6 @@
 </For>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<By line="129" col="53">
-<Ref nr="4" vid="77" line="129" col="56"/>
-<Ref nr="5" vid="78" line="129" col="59"/>
-<Ref nr="6" vid="79" line="129" col="63"/>
-</By>
-<Conclusion>
-<Proposition line="130" col="19">
-=======
 <By line="134" col="53">
 <Ref nr="4" vid="77" line="134" col="56"/>
 <Ref nr="5" vid="78" line="134" col="59"/>
@@ -6445,34 +6231,22 @@
 </By>
 <Conclusion>
 <Proposition line="135" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="20">
 <Const nr="5" vid="69"/>
 <Const nr="6" vid="73"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<From articlenr="56" nr="8" line="130" col="19">
-<Ref nr="7" vid="80" line="130" col="38"/>
-<Ref nr="8" vid="84" line="130" col="42"/>
-<Ref nr="9" vid="85" line="130" col="46"/>
-=======
 <From articlenr="56" nr="8" line="135" col="19">
 <Ref nr="7" vid="80" line="135" col="38"/>
 <Ref nr="8" vid="84" line="135" col="42"/>
 <Ref nr="9" vid="85" line="135" col="46"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </From>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="131" col="5"/>
-=======
 <EndPosition line="136" col="5"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Proof>
 </Uniqueness>
 <Constructor kind="K" nr="1" aid="E" relnr="848">
@@ -6604,11 +6378,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<<<<<<< HEAD
-<EndPosition line="132" col="3"/>
-=======
 <EndPosition line="137" col="3"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="848" aid="E" defnr="1" vid="65" relnr="109">
 <Typ kind="M" nr="3">
@@ -6826,11 +6596,7 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="848">
-<<<<<<< HEAD
-<Proposition line="132" col="3" nr="1" vid="65">
-=======
 <Proposition line="137" col="3" nr="1" vid="65">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="59">
 <Typ kind="M" nr="3" pid="59">
 <Cluster>
@@ -7205,11 +6971,7 @@
 </Proposition>
 </DefTheorem>
 
-<<<<<<< HEAD
-<DefinitionBlock line="134" col="10">
-=======
 <DefinitionBlock line="139" col="10">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Let nr="1">
 <Typ kind="M" nr="6" pid="37" vid="86">
 <Cluster/>
@@ -7432,15 +7194,9 @@
 </For>
 </For>
 </DefPred>
-<<<<<<< HEAD
-<Definition kind="K" nr="2" vid="87" line="141" col="72">
-<Existence>
-<Proposition line="148" col="7">
-=======
 <Definition kind="K" nr="2" vid="87" line="146" col="72">
 <Existence>
 <Proposition line="153" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Not pid="-4">
 <And pid="-5">
@@ -7719,11 +7475,7 @@
 </Not>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="148" col="7">
-=======
 <Proof line="153" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <And>
 <Not pid="-4">
@@ -8004,11 +7756,7 @@
 </And>
 </BlockThesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="154" col="9">
-=======
 <Proposition line="159" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -8244,11 +7992,7 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="154" col="9">
-=======
 <Proof line="159" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -8486,11 +8230,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="156" col="2" nr="2" vid="66">
-=======
 <Proposition line="161" col="2" nr="2" vid="66">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="1" vid="86"/>
@@ -8728,11 +8468,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="157" col="22">
-=======
 <Proposition line="162" col="22">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Func kind="K" nr="553" pid="40">
@@ -8747,13 +8483,8 @@
 </Pred>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="157" col="22"/>
-<Proposition line="158" col="24">
-=======
 <By linked="true" line="162" col="22"/>
 <Proposition line="163" col="24">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Num nr="1"/>
 <Func kind="K" nr="96" pid="58">
@@ -8761,17 +8492,10 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="158" col="24">
-<Ref nr="32" articlenr="19" kind="T" line="158" col="36"/>
-</By>
-<Proposition line="159" col="26">
-=======
 <By linked="true" line="163" col="24">
 <Ref nr="32" articlenr="19" kind="T" line="163" col="36"/>
 </By>
 <Proposition line="164" col="26">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -8787,13 +8511,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="159" col="26">
-<Ref nr="3" articlenr="26" kind="T" line="159" col="36"/>
-=======
 <By linked="true" line="164" col="26">
 <Ref nr="3" articlenr="26" kind="T" line="164" col="36"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Reconsider nr="4">
 <Typ kind="M" nr="21" pid="61" vid="62">
@@ -8830,11 +8549,7 @@
 <Const nr="1" vid="86"/>
 <Num nr="1"/>
 </Func>
-<<<<<<< HEAD
-<Proposition line="160" col="41">
-=======
 <Proposition line="165" col="41">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -8872,15 +8587,9 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="160" col="46"/>
-</Reconsider>
-<Proposition line="163" col="11" nr="3" vid="70">
-=======
 <By linked="true" line="165" col="46"/>
 </Reconsider>
 <Proposition line="168" col="11" nr="3" vid="70">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -9121,11 +8830,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof nr="3" vid="70" line="163" col="11">
-=======
 <Proof nr="3" vid="70" line="168" col="11">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
@@ -9610,21 +9315,13 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="165" col="21">
-=======
 <Proposition line="170" col="21">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="32" pid="23">
 <Num nr="1"/>
 <Const nr="5" vid="56"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="166" col="2" nr="4" vid="71">
-=======
 <Proposition line="171" col="2" nr="4" vid="71">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="32" pid="25">
 <Func kind="K" nr="95" pid="57">
@@ -10083,11 +9780,7 @@
 </Func>
 </Typ>
 <Const nr="6" vid="67"/>
-<<<<<<< HEAD
-<Proposition line="168" col="48">
-=======
 <Proposition line="173" col="48">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Const nr="6" vid="67"/>
 <Typ kind="M" nr="3" pid="59">
@@ -10138,15 +9831,9 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="168" col="48"/>
-</Reconsider>
-<Proposition line="169" col="19">
-=======
 <By line="173" col="48"/>
 </Reconsider>
 <Proposition line="174" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="32" pid="23">
 <Func kind="K" nr="232" pid="98">
 <Const nr="5" vid="56"/>
@@ -10157,19 +9844,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="169" col="19">
-<Ref nr="4" vid="71" line="169" col="22"/>
-<Ref nr="13" articlenr="6" kind="T" line="169" col="31"/>
-</By>
-<Proposition line="170" col="28">
-=======
 <By line="174" col="19">
 <Ref nr="4" vid="71" line="174" col="22"/>
 <Ref nr="13" articlenr="6" kind="T" line="174" col="31"/>
 </By>
 <Proposition line="175" col="28">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="232" pid="98">
 <Const nr="5" vid="56"/>
@@ -10180,19 +9859,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="170" col="28">
-<Ref nr="12" articlenr="6" kind="T" line="170" col="37"/>
-<Ref nr="25" articlenr="19" kind="T" line="170" col="49"/>
-</By>
-<Proposition line="171" col="32">
-=======
 <By linked="true" line="175" col="28">
 <Ref nr="12" articlenr="6" kind="T" line="175" col="37"/>
 <Ref nr="25" articlenr="19" kind="T" line="175" col="49"/>
 </By>
 <Proposition line="176" col="32">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -10211,13 +9882,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="171" col="32">
-<Ref nr="3" articlenr="26" kind="T" line="171" col="42"/>
-=======
 <By linked="true" line="176" col="32">
 <Ref nr="3" articlenr="26" kind="T" line="176" col="42"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Reconsider nr="8">
 <Typ kind="M" nr="3" pid="59" vid="59">
@@ -10273,11 +9939,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<<<<<<< HEAD
-<Proposition line="172" col="59">
-=======
 <Proposition line="177" col="59">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -10334,13 +9996,8 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="173" col="10">
-<Ref nr="10" articlenr="54" kind="D" line="173" col="26"/>
-=======
 <By linked="true" line="178" col="10">
 <Ref nr="10" articlenr="54" kind="D" line="178" col="26"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Reconsider>
 <Reconsider nr="9">
@@ -10379,11 +10036,7 @@
 <Const nr="8" vid="59"/>
 <Const nr="6" vid="67"/>
 </Func>
-<<<<<<< HEAD
-<Proposition line="174" col="39">
-=======
 <Proposition line="179" col="39">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="403" pid="338">
 <Func kind="K" nr="216" pid="295"/>
@@ -10422,13 +10075,8 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By line="174" col="47">
-<Ref nr="10" articlenr="54" kind="D" line="174" col="63"/>
-=======
 <By line="179" col="47">
 <Ref nr="10" articlenr="54" kind="D" line="179" col="63"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Reconsider>
 <Take>
@@ -10567,11 +10215,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="176" col="19">
-=======
 <Proposition line="181" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <PrivPred nr="1">
 <Const nr="5" vid="56"/>
 <Const nr="6" vid="67"/>
@@ -10702,27 +10346,16 @@
 </For>
 </PrivPred>
 </Proposition>
-<<<<<<< HEAD
-<By line="176" col="19"/>
-=======
 <By line="181" col="19"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="177" col="9"/>
-</Proof>
-<Consider nr="5">
-<Proposition line="181" col="49">
-=======
 <EndPosition line="182" col="9"/>
 </Proof>
 <Consider nr="5">
 <Proposition line="186" col="49">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <For pid="0" vid="69">
 <Typ kind="M" nr="6" pid="13">
@@ -10975,13 +10608,8 @@
 </For>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<From articlenr="56" nr="4" line="182" col="10">
-<Ref nr="3" vid="70" line="182" col="28"/>
-=======
 <From articlenr="56" nr="4" line="187" col="10">
 <Ref nr="3" vid="70" line="187" col="28"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </From>
 <Typ kind="M" nr="6" pid="13" vid="69">
 <Cluster/>
@@ -11008,11 +10636,7 @@
 </Func>
 </Func>
 </Typ>
-<<<<<<< HEAD
-<Proposition line="179" col="2" nr="4" vid="72">
-=======
 <Proposition line="184" col="2" nr="4" vid="72">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="69"/>
@@ -11022,11 +10646,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="180" col="2" nr="5" vid="74">
-=======
 <Proposition line="185" col="2" nr="5" vid="74">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-8">
 <And pid="-9">
 <Not pid="-10">
@@ -11049,11 +10669,7 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="181" col="2" nr="6" vid="75">
-=======
 <Proposition line="186" col="2" nr="6" vid="75">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -11447,11 +11063,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="184" col="29">
-=======
 <Proposition line="189" col="29">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="69"/>
@@ -11461,13 +11073,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="184" col="29">
-<Ref nr="4" vid="72" line="184" col="32"/>
-=======
 <By line="189" col="29">
 <Ref nr="4" vid="72" line="189" col="32"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
@@ -11661,11 +11268,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="185" col="23">
-=======
 <Proposition line="190" col="23">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="5" vid="69"/>
@@ -11677,17 +11280,10 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="185" col="23">
-<Ref nr="2" vid="66" line="185" col="26"/>
-<Ref nr="5" vid="74" line="185" col="29"/>
-<Ref nr="20" articlenr="25" kind="T" line="185" col="41"/>
-=======
 <By line="190" col="23">
 <Ref nr="2" vid="66" line="190" col="26"/>
 <Ref nr="5" vid="74" line="190" col="29"/>
 <Ref nr="20" articlenr="25" kind="T" line="190" col="41"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
@@ -11869,11 +11465,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="186" col="20">
-=======
 <Proposition line="191" col="20">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -12050,26 +11642,16 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<By line="186" col="20">
-<Ref nr="4" vid="72" line="186" col="23"/>
-<Ref nr="6" vid="75" line="186" col="27"/>
-=======
 <By line="191" col="20">
 <Ref nr="4" vid="72" line="191" col="23"/>
 <Ref nr="6" vid="75" line="191" col="27"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="187" col="7"/>
-=======
 <EndPosition line="192" col="7"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Proof>
 </Conclusion>
 <Thesis>
@@ -12117,11 +11699,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="188" col="15">
-=======
 <Proposition line="193" col="15">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -12164,29 +11742,17 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By line="188" col="15"/>
-=======
 <By line="193" col="15"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="189" col="5"/>
-</Proof>
-</Existence>
-<Uniqueness>
-<Proposition line="191" col="7">
-=======
 <EndPosition line="194" col="5"/>
 </Proof>
 </Existence>
 <Uniqueness>
 <Proposition line="196" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For>
 <Typ kind="M" nr="6" pid="37">
 <Cluster/>
@@ -12668,11 +12234,7 @@
 </For>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="191" col="7">
-=======
 <Proof line="196" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For>
 <Typ kind="M" nr="6" pid="37">
@@ -13637,11 +13199,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="201" col="9">
-=======
 <Proposition line="206" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -14045,11 +13603,7 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="201" col="9">
-=======
 <Proof line="206" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -14455,11 +14009,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="203" col="2" nr="2" vid="76">
-=======
 <Proposition line="208" col="2" nr="2" vid="76">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="1" vid="86"/>
@@ -14467,11 +14017,7 @@
 </Pred>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="204" col="2" nr="3" vid="77">
-=======
 <Proposition line="209" col="2" nr="3" vid="77">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="4" vid="69"/>
@@ -14481,11 +14027,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="205" col="2" nr="4" vid="78">
-=======
 <Proposition line="210" col="2" nr="4" vid="78">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="4" vid="69"/>
@@ -14497,11 +14039,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="206" col="3" nr="5" vid="79">
-=======
 <Proposition line="211" col="3" nr="5" vid="79">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -14678,11 +14216,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="210" col="3" nr="6" vid="80">
-=======
 <Proposition line="215" col="3" nr="6" vid="80">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Const nr="5" vid="73"/>
@@ -14692,11 +14226,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="211" col="3" nr="7" vid="84">
-=======
 <Proposition line="216" col="3" nr="7" vid="84">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="32">
 <Const nr="5" vid="73"/>
@@ -14708,11 +14238,7 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="212" col="3" nr="8" vid="85">
-=======
 <Proposition line="217" col="3" nr="8" vid="85">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -14897,11 +14423,7 @@
 </Pred>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="217" col="11" nr="9" vid="88">
-=======
 <Proposition line="222" col="11" nr="9" vid="88">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
 <Cluster>
@@ -15313,11 +14835,7 @@
 </Not>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<Proof nr="9" vid="88" line="217" col="11">
-=======
 <Proof nr="9" vid="88" line="222" col="11">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="17">
@@ -16144,21 +15662,13 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="219" col="21">
-=======
 <Proposition line="224" col="21">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="32" pid="23">
 <Num nr="1"/>
 <Const nr="6" vid="56"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<Proposition line="220" col="3" nr="10" vid="89">
-=======
 <Proposition line="225" col="3" nr="10" vid="89">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="32" pid="25">
 <Func kind="K" nr="95" pid="57">
@@ -16907,11 +16417,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="222" col="19">
-=======
 <Proposition line="227" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="32" pid="23">
 <Func kind="K" nr="232" pid="98">
 <Const nr="6" vid="56"/>
@@ -16922,19 +16428,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="222" col="19">
-<Ref nr="10" vid="89" line="222" col="23"/>
-<Ref nr="13" articlenr="6" kind="T" line="222" col="32"/>
-</By>
-<Proposition line="223" col="28">
-=======
 <By line="227" col="19">
 <Ref nr="10" vid="89" line="227" col="23"/>
 <Ref nr="13" articlenr="6" kind="T" line="227" col="32"/>
 </By>
 <Proposition line="228" col="28">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="232" pid="98">
 <Const nr="6" vid="56"/>
@@ -16945,19 +16443,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="223" col="28">
-<Ref nr="12" articlenr="6" kind="T" line="223" col="37"/>
-<Ref nr="25" articlenr="19" kind="T" line="223" col="49"/>
-</By>
-<Proposition line="224" col="32">
-=======
 <By linked="true" line="228" col="28">
 <Ref nr="12" articlenr="6" kind="T" line="228" col="37"/>
 <Ref nr="25" articlenr="19" kind="T" line="228" col="49"/>
 </By>
 <Proposition line="229" col="32">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -16976,13 +16466,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="224" col="32">
-<Ref nr="3" articlenr="26" kind="T" line="224" col="42"/>
-=======
 <By linked="true" line="229" col="32">
 <Ref nr="3" articlenr="26" kind="T" line="229" col="42"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Reconsider nr="10">
 <Typ kind="M" nr="3" pid="59" vid="59">
@@ -17038,11 +16523,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<<<<<<< HEAD
-<Proposition line="225" col="59">
-=======
 <Proposition line="230" col="59">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -17099,21 +16580,12 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="226" col="10">
-<Ref nr="10" articlenr="54" kind="D" line="226" col="26"/>
-</By>
-</Reconsider>
-<Assume>
-<Proposition line="227" col="16">
-=======
 <By linked="true" line="231" col="10">
 <Ref nr="10" articlenr="54" kind="D" line="231" col="26"/>
 </By>
 </Reconsider>
 <Assume>
 <Proposition line="232" col="16">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <PrivPred nr="1">
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="67"/>
@@ -17391,11 +16863,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="228" col="23">
-=======
 <Proposition line="233" col="23">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="69" pid="18">
 <Func kind="K" nr="40"/>
 <Func kind="U" nr="1">
@@ -17409,15 +16877,9 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="228" col="23"/>
-<Conclusion>
-<Proposition line="229" col="20">
-=======
 <By linked="true" line="233" col="23"/>
 <Conclusion>
 <Proposition line="234" col="20">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <And pid="-5">
 <PrivPred nr="1">
@@ -17562,25 +17024,15 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="229" col="20"/>
-=======
 <By linked="true" line="234" col="20"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="230" col="9"/>
-</Proof>
-<Proposition line="231" col="20">
-=======
 <EndPosition line="235" col="9"/>
 </Proof>
 <Proposition line="236" col="20">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Func kind="K" nr="553" pid="40">
@@ -17595,17 +17047,10 @@
 </Pred>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By line="231" col="20">
-<Ref nr="2" vid="76" line="231" col="23"/>
-</By>
-<Proposition line="232" col="24">
-=======
 <By line="236" col="20">
 <Ref nr="2" vid="76" line="236" col="23"/>
 </By>
 <Proposition line="237" col="24">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Num nr="1"/>
 <Func kind="K" nr="96" pid="58">
@@ -17613,17 +17058,10 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="232" col="24">
-<Ref nr="32" articlenr="19" kind="T" line="232" col="36"/>
-</By>
-<Proposition line="233" col="26">
-=======
 <By linked="true" line="237" col="24">
 <Ref nr="32" articlenr="19" kind="T" line="237" col="36"/>
 </By>
 <Proposition line="238" col="26">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -17639,13 +17077,8 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="233" col="26">
-<Ref nr="3" articlenr="26" kind="T" line="233" col="36"/>
-=======
 <By linked="true" line="238" col="26">
 <Ref nr="3" articlenr="26" kind="T" line="238" col="36"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Reconsider nr="6">
 <Typ kind="M" nr="21" pid="61" vid="62">
@@ -17682,11 +17115,7 @@
 <Const nr="1" vid="86"/>
 <Num nr="1"/>
 </Func>
-<<<<<<< HEAD
-<Proposition line="234" col="41">
-=======
 <Proposition line="239" col="41">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="11" pid="32">
 <Const nr="1" vid="86"/>
@@ -17724,15 +17153,9 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="234" col="46"/>
-</Reconsider>
-<Proposition line="236" col="55" nr="10" vid="90">
-=======
 <By linked="true" line="239" col="46"/>
 </Reconsider>
 <Proposition line="241" col="55" nr="10" vid="90">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
@@ -17954,21 +17377,12 @@
 </For>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<By line="236" col="55">
-<Ref nr="3" vid="77" line="236" col="58"/>
-<Ref nr="4" vid="78" line="236" col="61"/>
-<Ref nr="5" vid="79" line="236" col="65"/>
-</By>
-<Proposition line="238" col="55" nr="11" vid="91">
-=======
 <By line="241" col="55">
 <Ref nr="3" vid="77" line="241" col="58"/>
 <Ref nr="4" vid="78" line="241" col="61"/>
 <Ref nr="5" vid="79" line="241" col="65"/>
 </By>
 <Proposition line="243" col="55" nr="11" vid="91">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
@@ -18190,15 +17604,6 @@
 </For>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<By line="238" col="55">
-<Ref nr="6" vid="80" line="238" col="59"/>
-<Ref nr="7" vid="84" line="238" col="63"/>
-<Ref nr="8" vid="85" line="238" col="67"/>
-</By>
-<Conclusion>
-<Proposition line="239" col="21">
-=======
 <By line="243" col="55">
 <Ref nr="6" vid="80" line="243" col="59"/>
 <Ref nr="7" vid="84" line="243" col="63"/>
@@ -18206,34 +17611,22 @@
 </By>
 <Conclusion>
 <Proposition line="244" col="21">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="20">
 <Const nr="4" vid="69"/>
 <Const nr="5" vid="73"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<From articlenr="56" nr="8" line="239" col="21">
-<Ref nr="9" vid="88" line="239" col="40"/>
-<Ref nr="10" vid="90" line="239" col="44"/>
-<Ref nr="11" vid="91" line="239" col="48"/>
-=======
 <From articlenr="56" nr="8" line="244" col="21">
 <Ref nr="9" vid="88" line="244" col="40"/>
 <Ref nr="10" vid="90" line="244" col="44"/>
 <Ref nr="11" vid="91" line="244" col="48"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </From>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="240" col="7"/>
-=======
 <EndPosition line="245" col="7"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Proof>
 </Conclusion>
 <Thesis>
@@ -18262,11 +17655,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="241" col="15">
-=======
 <Proposition line="246" col="15">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -18290,29 +17679,17 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By line="241" col="15"/>
-=======
 <By line="246" col="15"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="242" col="5"/>
-</Proof>
-</Uniqueness>
-<Consistency>
-<Proposition line="243" col="13">
-=======
 <EndPosition line="247" col="5"/>
 </Proof>
 </Uniqueness>
 <Consistency>
 <Proposition line="248" col="13">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For>
 <Typ kind="M" nr="6" pid="37">
 <Cluster/>
@@ -18342,11 +17719,7 @@
 <Verum/>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<By line="243" col="13"/>
-=======
 <By line="248" col="13"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Consistency>
 <Constructor kind="K" nr="2" aid="E" relnr="849">
 <ArgTypes>
@@ -18435,11 +17808,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<<<<<<< HEAD
-<EndPosition line="244" col="3"/>
-=======
 <EndPosition line="249" col="3"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="849" aid="E" defnr="2" vid="87" relnr="110">
 <Typ kind="M" nr="5">
@@ -18707,11 +18076,7 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="849">
-<<<<<<< HEAD
-<Proposition line="244" col="3" nr="2" vid="87">
-=======
 <Proposition line="249" col="3" nr="2" vid="87">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="86">
 <Typ kind="M" nr="6" pid="37">
 <Cluster/>
@@ -19241,11 +18606,7 @@
 </Proposition>
 </DefTheorem>
 
-<<<<<<< HEAD
-<DefinitionBlock line="246" col="10">
-=======
 <DefinitionBlock line="251" col="10">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Let nr="1">
 <Typ kind="M" nr="6" pid="37" vid="86">
 <Cluster/>
@@ -19273,15 +18634,9 @@
 </Func>
 </Typ>
 </Let>
-<<<<<<< HEAD
-<Definition kind="K" nr="0" vid="0" line="249" col="14">
-<Coherence>
-<Proposition line="252" col="7">
-=======
 <Definition kind="K" nr="0" vid="0" line="254" col="14">
 <Coherence>
 <Proposition line="257" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <And>
 <Not pid="-4">
 <And pid="-5">
@@ -19416,11 +18771,7 @@
 </Not>
 </And>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="252" col="7">
-=======
 <Proof line="257" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <And>
 <Not pid="-4">
@@ -19587,11 +18938,7 @@
 </Typ>
 </Set>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="255" col="9">
-=======
 <Proposition line="260" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -19663,11 +19010,7 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="255" col="9">
-=======
 <Proof line="260" col="9">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -19741,11 +19084,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<<<<<<< HEAD
-<Proposition line="257" col="2" nr="3" vid="66">
-=======
 <Proposition line="262" col="2" nr="3" vid="66">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="1" vid="86"/>
@@ -19815,11 +19154,7 @@
 </Is>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<Proposition line="259" col="22" nr="4" vid="70">
-=======
 <Proposition line="264" col="22" nr="4" vid="70">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="1" pid="21">
 <Func kind="K" nr="95" pid="57">
 <Func kind="K" nr="849" pid="403">
@@ -19831,17 +19166,10 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="259" col="22">
-<Ref nr="2" vid="87" line="259" col="27"/>
-</By>
-<Proposition line="260" col="19">
-=======
 <By linked="true" line="264" col="22">
 <Ref nr="2" vid="87" line="264" col="27"/>
 </By>
 <Proposition line="265" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="32" pid="23">
 <Num nr="1"/>
 <Func kind="K" nr="95" pid="57">
@@ -19849,19 +19177,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="260" col="19">
-<Ref nr="3" vid="66" line="260" col="22"/>
-<Ref nr="20" articlenr="25" kind="T" line="260" col="34"/>
-</By>
-<Proposition line="261" col="28">
-=======
 <By line="265" col="19">
 <Ref nr="3" vid="66" line="265" col="22"/>
 <Ref nr="20" articlenr="25" kind="T" line="265" col="34"/>
 </By>
 <Proposition line="266" col="28">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="95" pid="57">
 <Func kind="K" nr="849" pid="403">
@@ -19875,19 +19195,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="261" col="28">
-<Ref nr="4" vid="70" line="261" col="31"/>
-<Ref nr="25" articlenr="19" kind="T" line="261" col="43"/>
-</By>
-<Proposition line="262" col="30">
-=======
 <By linked="true" line="266" col="28">
 <Ref nr="4" vid="70" line="266" col="31"/>
 <Ref nr="25" articlenr="19" kind="T" line="266" col="43"/>
 </By>
 <Proposition line="267" col="30">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="32">
 <Func kind="K" nr="849" pid="403">
@@ -19911,19 +19223,11 @@
 </Func>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="262" col="30">
-<Ref nr="3" articlenr="26" kind="T" line="262" col="40"/>
-</By>
-<Conclusion>
-<Proposition line="263" col="21">
-=======
 <By linked="true" line="267" col="30">
 <Ref nr="3" articlenr="26" kind="T" line="267" col="40"/>
 </By>
 <Conclusion>
 <Proposition line="268" col="21">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="11" pid="32">
 <Func kind="K" nr="849" pid="403">
@@ -19983,24 +19287,15 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="263" col="21">
-<Ref nr="10" articlenr="54" kind="D" line="263" col="37"/>
-=======
 <By linked="true" line="268" col="21">
 <Ref nr="10" articlenr="54" kind="D" line="268" col="37"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="264" col="7"/>
-=======
 <EndPosition line="269" col="7"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Proof>
 </Conclusion>
 <Thesis>
@@ -20068,11 +19363,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="265" col="15">
-=======
 <Proposition line="270" col="15">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -20135,29 +19426,17 @@
 </And>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By line="265" col="15"/>
-=======
 <By line="270" col="15"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="266" col="5"/>
-</Proof>
-</Coherence>
-<Consistency>
-<Proposition line="267" col="13">
-=======
 <EndPosition line="271" col="5"/>
 </Proof>
 </Coherence>
 <Consistency>
 <Proposition line="272" col="13">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For>
 <Typ kind="M" nr="3" pid="59">
 <Cluster>
@@ -20208,11 +19487,7 @@
 <Verum/>
 </For>
 </Proposition>
-<<<<<<< HEAD
-<By line="267" col="13"/>
-=======
 <By line="272" col="13"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Consistency>
 <Constructor kind="K" nr="3" aid="E" relnr="850">
 <ArgTypes>
@@ -20322,11 +19597,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<<<<<<< HEAD
-<EndPosition line="268" col="3"/>
-=======
 <EndPosition line="273" col="3"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="850" aid="E" defnr="3" relnr="111">
 <Typ kind="M" nr="5">
@@ -20429,11 +19700,7 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="850">
-<<<<<<< HEAD
-<Proposition line="268" col="3">
-=======
 <Proposition line="273" col="3">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <For pid="0" vid="86">
 <Typ kind="M" nr="6" pid="37">
 <Cluster/>
@@ -20511,25 +19778,17 @@
 </Proposition>
 </DefTheorem>
 
-<<<<<<< HEAD
-<JustifiedTheorem line="270" col="7">
-<Proposition line="271" col="3">
+<JustifiedTheorem line="275" col="7">
+<Proposition line="276" col="3">
 <Pred kind="R" nr="1" pid="21">
 <Num nr="2"/>
 <Num nr="2"/>
 </Pred>
 </Proposition>
-<By line="271" col="5"/>
+<By line="276" col="5"/>
 </JustifiedTheorem>
 
-<RegistrationBlock line="273" col="12">
-=======
-<DefinitionBlock line="275" col="10">
-<EndPosition line="276" col="3"/>
-</DefinitionBlock>
-
 <RegistrationBlock line="278" col="12">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Registration>
 <FCluster aid="E" nr="1">
 <ArgTypes/>
@@ -20547,22 +19806,14 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<<<<<<< HEAD
-<Proposition line="276" col="7">
-=======
 <Proposition line="281" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Pred kind="V" nr="198">
 <Func kind="K" nr="847" pid="234"/>
 </Pred>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<Proof line="276" col="7">
-=======
 <Proof line="281" col="7">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <BlockThesis>
 <Not>
 <Pred kind="V" nr="198">
@@ -20570,23 +19821,14 @@
 </Pred>
 </Not>
 </BlockThesis>
-<<<<<<< HEAD
-<Proposition line="277" col="26">
-=======
 <Proposition line="282" col="26">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="2" pid="3">
 <Func kind="K" nr="847" pid="234"/>
 <Func kind="K" nr="44" pid="75"/>
 </Pred>
 </Proposition>
-<<<<<<< HEAD
-<By line="277" col="26">
-<Ref nr="2" articlenr="47" kind="D" line="277" col="41"/>
-=======
 <By line="282" col="26">
 <Ref nr="2" articlenr="47" kind="D" line="282" col="41"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Reconsider nr="1">
 <Typ kind="M" nr="3" pid="32" vid="92">
@@ -20599,11 +19841,7 @@
 </Func>
 </Typ>
 <Func kind="K" nr="847" pid="234"/>
-<<<<<<< HEAD
-<Proposition line="278" col="56">
-=======
 <Proposition line="283" col="56">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Is>
 <Func kind="K" nr="847" pid="234"/>
 <Typ kind="M" nr="3" pid="32">
@@ -20617,21 +19855,12 @@
 </Typ>
 </Is>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="278" col="59">
-<Ref nr="1" articlenr="9" kind="D" line="278" col="74"/>
-</By>
-</Reconsider>
-<Assume>
-<Proposition line="279" col="19">
-=======
 <By linked="true" line="283" col="59">
 <Ref nr="1" articlenr="9" kind="D" line="283" col="74"/>
 </By>
 </Reconsider>
 <Assume>
 <Proposition line="284" col="19">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="V" nr="198" pid="167">
 <Func kind="K" nr="847" pid="234"/>
 </Pred>
@@ -20644,11 +19873,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Consider nr="2">
-<<<<<<< HEAD
-<Proposition line="282" col="18">
-=======
 <Proposition line="287" col="18">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <For pid="0" vid="93">
 <Typ kind="M" nr="3" pid="59">
@@ -20719,13 +19944,8 @@
 </For>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By linked="true" line="282" col="23">
-<Ref nr="25" articlenr="52" kind="T" line="282" col="35"/>
-=======
 <By linked="true" line="287" col="23">
 <Ref nr="25" articlenr="52" kind="T" line="287" col="35"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </By>
 <Typ kind="M" nr="3" pid="59" vid="93">
 <Cluster>
@@ -20785,11 +20005,7 @@
 </Func>
 </Func>
 </Typ>
-<<<<<<< HEAD
-<Proposition line="282" col="2" nr="3" vid="66">
-=======
 <Proposition line="287" col="2" nr="3" vid="66">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Pred kind="R" nr="61" pid="39">
 <Func kind="K" nr="432" pid="315"/>
 <Const nr="2" vid="93"/>
@@ -20798,38 +20014,22 @@
 </Proposition>
 </Consider>
 <Conclusion>
-<<<<<<< HEAD
-<Proposition line="283" col="22">
-=======
 <Proposition line="288" col="22">
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 <Not>
 <Verum/>
 </Not>
 </Proposition>
-<<<<<<< HEAD
-<By line="283" col="22"/>
-=======
 <By line="288" col="22"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<<<<<<< HEAD
-<EndPosition line="284" col="5"/>
-</Proof>
-</Coherence>
-</Registration>
-<EndPosition line="285" col="3"/>
-=======
 <EndPosition line="289" col="5"/>
 </Proof>
 </Coherence>
 </Registration>
 <EndPosition line="290" col="3"/>
->>>>>>> 13c31cb0b890f07ea1035ef252a0e57a0ba01ca3
 </RegistrationBlock>
 
 <JustifiedTheorem line="292" col="7">

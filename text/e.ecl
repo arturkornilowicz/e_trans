@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Registrations aid="E" mizfiles="/usr/local/share/mizar/">
+<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
+<Registrations aid="E" mizfiles="c:\mizar\">
 <RCluster aid="XREAL_0" nr="1">
 <ArgTypes/>
 <Typ kind="M" nr="1">

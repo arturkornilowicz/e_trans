@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Schemes aid="E" mizfiles="/usr/local/share/mizar/">
+<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
+<Schemes aid="E" mizfiles="c:\mizar\">
 <Scheme articlenr="55" nr="1" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
