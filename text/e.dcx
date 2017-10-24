@@ -677,8 +677,10 @@
  <Symbol kind="O" nr="262" name="number_e"/>
  <Symbol kind="O" nr="263" name="diff_seq"/>
  <Symbol kind="V" nr="143" name="R_polynomial_yielding"/>
- <Symbol kind="O" nr="264" name="poly_diff"/>
- <Symbol kind="O" nr="265" name="Partial_Sums"/>
+ <Symbol kind="O" nr="264" name="Sum_of_diffs"/>
+ <Symbol kind="O" nr="265" name="WFx"/>
+ <Symbol kind="O" nr="266" name="poly_diff"/>
+ <Symbol kind="O" nr="267" name="Partial_Sums"/>
  <Symbol kind="V" nr="144" name="summable"/>
  <Symbol kind="V" nr="145" name="absolutely_summable"/>
  <Symbol kind="G" nr="16" name="RLSStruct"/>
@@ -688,7 +690,7 @@
  <Symbol kind="V" nr="147" name="add-associative"/>
  <Symbol kind="V" nr="148" name="right_zeroed"/>
  <Symbol kind="V" nr="149" name="RealLinearSpace-like"/>
- <Symbol kind="O" nr="266" name="Trivial-RLSStruct"/>
+ <Symbol kind="O" nr="268" name="Trivial-RLSStruct"/>
  <Symbol kind="M" nr="59" name="RealLinearSpace"/>
  <Symbol kind="V" nr="150" name="scalar-distributive"/>
  <Symbol kind="V" nr="151" name="vector-distributive"/>
@@ -699,7 +701,7 @@
  <Symbol kind="G" nr="18" name="\/-SemiLattStr"/>
  <Symbol kind="U" nr="11" name="L_join"/>
  <Symbol kind="G" nr="19" name="LattStr"/>
- <Symbol kind="O" nr="267" name="&#x22;/\&#x22;"/>
+ <Symbol kind="O" nr="269" name="&#x22;/\&#x22;"/>
  <Symbol kind="V" nr="154" name="join-commutative"/>
  <Symbol kind="V" nr="155" name="join-associative"/>
  <Symbol kind="V" nr="156" name="meet-commutative"/>
@@ -717,8 +719,8 @@
  <Symbol kind="M" nr="63" name="0_Lattice"/>
  <Symbol kind="M" nr="64" name="1_Lattice"/>
  <Symbol kind="M" nr="65" name="01_Lattice"/>
- <Symbol kind="O" nr="268" name="Bottom"/>
- <Symbol kind="O" nr="269" name="Top"/>
+ <Symbol kind="O" nr="270" name="Bottom"/>
+ <Symbol kind="O" nr="271" name="Top"/>
  <Symbol kind="R" nr="34" name="is_a_complement_of"/>
  <Symbol kind="V" nr="165" name="complemented"/>
  <Symbol kind="M" nr="66" name="C_Lattice"/>
@@ -727,6 +729,44 @@
  <Symbol kind="V" nr="167" name="final"/>
  <Symbol kind="V" nr="168" name="meet-closed"/>
  <Symbol kind="V" nr="169" name="join-closed"/>
+ <Symbol kind="O" nr="272" name="CHK"/>
+ <Symbol kind="O" nr="273" name="Prod_complex_n"/>
+ <Symbol kind="O" nr="274" name="Prod_real_n"/>
+ <Symbol kind="O" nr="275" name="!c"/>
+ <Symbol kind="O" nr="276" name="ExpSeq"/>
+ <Symbol kind="O" nr="277" name="rExpSeq"/>
+ <Symbol kind="O" nr="278" name="Coef"/>
+ <Symbol kind="O" nr="279" name="Coef_e"/>
+ <Symbol kind="O" nr="280" name="Expan"/>
+ <Symbol kind="O" nr="281" name="Expan_e"/>
+ <Symbol kind="O" nr="282" name="Alfa"/>
+ <Symbol kind="O" nr="283" name="Conj"/>
+ <Symbol kind="O" nr="284" name="sin"/>
+ <Symbol kind="O" nr="285" name="cos"/>
+ <Symbol kind="O" nr="286" name="P_sin"/>
+ <Symbol kind="O" nr="287" name="P_cos"/>
+ <Symbol kind="O" nr="288" name="exp_R"/>
+ <Symbol kind="O" nr="289" name="P_dt"/>
+ <Symbol kind="O" nr="290" name="P_t"/>
+ <Symbol kind="O" nr="291" name="tan"/>
+ <Symbol kind="O" nr="292" name="cot"/>
+ <Symbol kind="O" nr="293" name="PI"/>
+ <Symbol kind="O" nr="294" name="&#x28;&#x23;&#x29;"/>
+ <Symbol kind="O" nr="295" name="/&#x22;"/>
+ <Symbol kind="O" nr="296" name="Shift"/>
+ <Symbol kind="V" nr="170" name="complex-membered"/>
+ <Symbol kind="V" nr="171" name="ext-real-membered"/>
+ <Symbol kind="V" nr="172" name="real-membered"/>
+ <Symbol kind="V" nr="173" name="rational-membered"/>
+ <Symbol kind="V" nr="174" name="integer-membered"/>
+ <Symbol kind="V" nr="175" name="natural-membered"/>
+ <Symbol kind="O" nr="297" name="--&#x3E;"/>
+ <Symbol kind="O" nr="298" name="[:]"/>
+ <Symbol kind="O" nr="299" name="[;]"/>
+ <Symbol kind="V" nr="176" name="Function-yielding"/>
+ <Symbol kind="O" nr="300" name=".--&#x3E;"/>
+ <Symbol kind="O" nr="301" name="IFEQ"/>
+ <Symbol kind="O" nr="302" name=":-&#x3E;"/>
  <Symbol kind="A" nr="1" name="XREAL_0"/>
  <Symbol kind="A" nr="2" name="NEWTON"/>
  <Symbol kind="A" nr="3" name="XXREAL_0"/>
@@ -781,6 +821,11 @@
  <Symbol kind="A" nr="52" name="LIOUVIL2"/>
  <Symbol kind="A" nr="53" name="POWER"/>
  <Symbol kind="A" nr="54" name="POLYNOM3"/>
- <Symbol kind="A" nr="55" name="FRAENKEL"/>
- <Symbol kind="A" nr="56" name="RECDEF_1"/>
+ <Symbol kind="A" nr="55" name="IRRAT_1"/>
+ <Symbol kind="A" nr="56" name="SIN_COS"/>
+ <Symbol kind="A" nr="57" name="FDIFF_2"/>
+ <Symbol kind="A" nr="58" name="RFUNCT_1"/>
+ <Symbol kind="A" nr="59" name="XBOOLE_1"/>
+ <Symbol kind="A" nr="60" name="FRAENKEL"/>
+ <Symbol kind="A" nr="61" name="RECDEF_1"/>
 </Symbols>

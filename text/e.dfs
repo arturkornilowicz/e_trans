@@ -417,7 +417,375 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="1" aid="RELAT_1" defnr="1" relnr="7">
+<Definiens constrkind="V" constrnr="11" aid="XBOOLE_0" defnr="1" relnr="7">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+</Not>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="14" aid="XBOOLE_0" defnr="2" relnr="8">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="e">
+<Choice>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11"/>
+</Cluster>
+</Typ>
+</Choice>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="15" aid="XBOOLE_0" defnr="3" relnr="9">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<And>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="16" aid="XBOOLE_0" defnr="4" relnr="10">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</And>
+</Not>
+</And>
+</Not>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="17" aid="XBOOLE_0" defnr="5" relnr="11">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</Not>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="18" aid="XBOOLE_0" defnr="6" relnr="12">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="15">
+<Func kind="K" nr="17">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="17">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="3" aid="XBOOLE_0" defnr="7" relnr="13">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<Pred kind="R" nr="1">
+<Func kind="K" nr="16">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<Func kind="K" nr="14"/>
+</Pred>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="4" aid="XBOOLE_0" defnr="8" relnr="14">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<And>
+<Pred kind="R" nr="13">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+</And>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="5" aid="XBOOLE_0" defnr="9" relnr="15">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<Not>
+<And>
+<Not>
+<Pred kind="R" nr="13">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+<Not>
+<Pred kind="R" nr="13">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="1" aid="XBOOLE_0" defnr="10" relnr="16">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<And>
+<Pred kind="R" nr="13">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+<Pred kind="R" nr="13">
+<LocusVar nr="2"/>
+<LocusVar nr="1"/>
+</Pred>
+</And>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="1" aid="RELAT_1" defnr="1" relnr="17">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -459,7 +827,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="1" aid="RELAT_1" defnr="2" relnr="8">
+<Definiens constrkind="R" constrnr="1" aid="RELAT_1" defnr="2" relnr="18">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -529,7 +897,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="13" aid="RELAT_1" defnr="3" relnr="9">
+<Definiens constrkind="R" constrnr="13" aid="RELAT_1" defnr="3" relnr="19">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -575,7 +943,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="1" aid="RELAT_1" defnr="6" relnr="10">
+<Definiens constrkind="K" constrnr="1" aid="RELAT_1" defnr="6" relnr="20">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -599,7 +967,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="2" aid="RELAT_1" defnr="7" relnr="11">
+<Definiens constrkind="K" constrnr="2" aid="RELAT_1" defnr="7" relnr="21">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -669,7 +1037,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="3" aid="RELAT_1" defnr="8" relnr="12">
+<Definiens constrkind="K" constrnr="3" aid="RELAT_1" defnr="8" relnr="22">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -773,7 +1141,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="2" aid="RELAT_1" defnr="9" relnr="13">
+<Definiens constrkind="V" constrnr="2" aid="RELAT_1" defnr="9" relnr="23">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -793,7 +1161,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="4" aid="RELAT_1" defnr="10" relnr="14">
+<Definiens constrkind="K" constrnr="4" aid="RELAT_1" defnr="10" relnr="24">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -865,7 +1233,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="5" aid="RELAT_1" defnr="11" relnr="15">
+<Definiens constrkind="K" constrnr="5" aid="RELAT_1" defnr="11" relnr="25">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -949,7 +1317,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="6" aid="RELAT_1" defnr="12" relnr="16">
+<Definiens constrkind="K" constrnr="6" aid="RELAT_1" defnr="12" relnr="26">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -1033,7 +1401,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="7" aid="RELAT_1" defnr="13" relnr="17">
+<Definiens constrkind="K" constrnr="7" aid="RELAT_1" defnr="13" relnr="27">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -1120,7 +1488,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="8" aid="RELAT_1" defnr="14" relnr="18">
+<Definiens constrkind="K" constrnr="8" aid="RELAT_1" defnr="14" relnr="28">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -1207,7 +1575,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="3" aid="RELAT_1" defnr="15" relnr="19">
+<Definiens constrkind="V" constrnr="3" aid="RELAT_1" defnr="15" relnr="29">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -1227,7 +1595,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="9" aid="RELAT_1" defnr="16" relnr="20">
+<Definiens constrkind="K" constrnr="9" aid="RELAT_1" defnr="16" relnr="30">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -1253,7 +1621,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="10" aid="RELAT_1" defnr="17" relnr="21">
+<Definiens constrkind="K" constrnr="10" aid="RELAT_1" defnr="17" relnr="31">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -1279,7 +1647,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="4" aid="RELAT_1" defnr="18" relnr="22">
+<Definiens constrkind="V" constrnr="4" aid="RELAT_1" defnr="18" relnr="32">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -1301,7 +1669,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="5" aid="RELAT_1" defnr="19" relnr="23">
+<Definiens constrkind="V" constrnr="5" aid="RELAT_1" defnr="19" relnr="33">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -1323,7 +1691,1690 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="50" aid="STRUCT_0" defnr="1" relnr="24">
+<Definiens constrkind="V" constrnr="6" aid="FUNCT_1" defnr="1" relnr="34">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Func kind="K" nr="36">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="2">
+<Func kind="K" nr="36">
+<Var nr="1"/>
+<Var nr="3"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="2"/>
+<Var nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="11" aid="FUNCT_1" defnr="2" relnr="35">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<PartialDef>
+<Pred kind="R" nr="2">
+<Func kind="K" nr="36">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="2">
+<LocusVar nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+</PartialDef>
+<Pred kind="R" nr="1">
+<LocusVar nr="3"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="66" aid="FUNCT_1" defnr="3" relnr="36">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="7" aid="FUNCT_1" defnr="4" relnr="37">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="12" aid="FUNCT_1" defnr="5" relnr="38">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<Pred kind="V" nr="7">
+<LocusVar nr="1"/>
+</Pred>
+<DefMeaning kind="e">
+<Func kind="K" nr="2">
+<LocusVar nr="1"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="7" aid="FUNCT_1" defnr="6" relnr="39">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<LocusVar nr="2"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<LocusVar nr="2"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="8" aid="FUNCT_1" defnr="7" relnr="40">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="14">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Pred>
+</And>
+</Not>
+</And>
+</Not>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="14">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+</Pred>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="3" aid="FUNCT_1" defnr="8" relnr="41">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="V" nr="11">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="2" aid="FUNCT_1" defnr="9" relnr="42">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="V" nr="11">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="8" aid="FUNCT_1" defnr="10" relnr="43">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="2">
+<Var nr="2"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="1" aid="FUNCT_1" defnr="11" relnr="44">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<And>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+<Func kind="K" nr="65">
+<LocusVar nr="2"/>
+</Func>
+</Pred>
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="2"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</And>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="13" aid="FUNCT_1" defnr="12" relnr="45">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<And>
+<Not>
+<Pred kind="V" nr="11">
+<LocusVar nr="1"/>
+</Pred>
+</Not>
+<Pred kind="V" nr="8">
+<LocusVar nr="1"/>
+</Pred>
+</And>
+<DefMeaning kind="m">
+<Not>
+<For>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="1"/>
+</Func>
+</Pred>
+<Pred kind="R" nr="1">
+<LocusVar nr="2"/>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="9" aid="FUNCT_1" defnr="13" relnr="46">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="1"/>
+</Pred>
+<Not>
+<Is>
+<Var nr="1"/>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+</Is>
+</Not>
+</And>
+</Not>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="10" aid="FUNCT_1" defnr="14" relnr="47">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<Func kind="K" nr="65">
+<LocusVar nr="2"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="14">
+<Func kind="K" nr="11">
+<LocusVar nr="2"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="44" aid="FUNCT_2" defnr="1" relnr="48">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<PartialDef>
+<Pred kind="R" nr="1">
+<LocusVar nr="1"/>
+<Func kind="K" nr="552">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<LocusVar nr="2"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</Not>
+</PartialDef>
+<Pred kind="R" nr="1">
+<LocusVar nr="3"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="147" aid="FUNCT_2" defnr="2" relnr="49">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster/>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="65">
+<Var nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="13">
+<Func kind="K" nr="66">
+<Var nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Pred>
+</And>
+</Not>
+</For>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="65">
+<Var nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+<Pred kind="R" nr="13">
+<Func kind="K" nr="66">
+<Var nr="2"/>
+</Func>
+<LocusVar nr="2"/>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+<Not>
+<Pred kind="R" nr="2">
+<Var nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="45" aid="FUNCT_2" defnr="3" relnr="50">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<LocusVar nr="1"/>
+</Adjective>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<Pred kind="R" nr="1">
+<Func kind="K" nr="553">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="46" aid="FUNCT_2" defnr="4" relnr="51">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<LocusVar nr="1"/>
+</Adjective>
+<Adjective nr="5">
+<LocusVar nr="2"/>
+</Adjective>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<And>
+<Pred kind="V" nr="7">
+<LocusVar nr="3"/>
+</Pred>
+<Pred kind="V" nr="45">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Pred>
+</And>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="141" aid="FUNCT_2" defnr="5" relnr="52">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="4"/>
+<Int x="5"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="149">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="5"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="57">
+<Func kind="K" nr="149">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="4"/>
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="142" aid="FUNCT_2" defnr="6" relnr="53">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="4"/>
+<Int x="5"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="149">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+<LocusVar nr="5"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="58">
+<Func kind="K" nr="149">
+<LocusVar nr="1"/>
+<Func kind="K" nr="20">
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+</Func>
+<LocusVar nr="4"/>
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="1" aid="FUNCT_2" defnr="7" relnr="54">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="3"/>
+<LocusVar nr="4"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="3"/>
+<LocusVar nr="4"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="5"/>
+<Int x="6"/>
+</Essentials>
+<DefMeaning kind="m">
+<And>
+<Pred kind="R" nr="1">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Pred>
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="11">
+<LocusVar nr="5"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="6"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</For>
+</And>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="R" constrnr="1" aid="FUNCT_2" defnr="8" relnr="55">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="3"/>
+<Int x="4"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="1"/>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="11">
+<LocusVar nr="3"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="11">
+<LocusVar nr="4"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="152" aid="FUNCT_2" defnr="9" relnr="56">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<Func kind="K" nr="19">
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<Func kind="K" nr="19">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+<Int x="5"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="1"/>
+<LocusVar nr="5"/>
+</Pred>
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="2"/>
+</Func>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="2"/>
+<LocusVar nr="4"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="559">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="2"/>
+</Func>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="2"/>
+<LocusVar nr="4"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="559">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+<Not>
+<Pred kind="R" nr="14">
+<Var nr="1"/>
+<LocusVar nr="5"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="153" aid="FUNCT_2" defnr="10" relnr="57">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<Func kind="K" nr="19">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<Func kind="K" nr="19">
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+<Int x="5"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="2"/>
+</Func>
+</Typ>
+<And>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="1"/>
+<LocusVar nr="5"/>
+</Pred>
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="2"/>
+<LocusVar nr="4"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="558">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</And>
+</Not>
+<Not>
+<And>
+<Not>
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="K" nr="19">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Not>
+<And>
+<Pred kind="R" nr="14">
+<Var nr="2"/>
+<LocusVar nr="4"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Func kind="K" nr="558">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+</And>
+</Not>
+</For>
+</Not>
+<Not>
+<Pred kind="R" nr="14">
+<Var nr="1"/>
+<LocusVar nr="5"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</And>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="154" aid="FUNCT_2" defnr="11" relnr="58">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="3"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="5">
+<LocusVar nr="2"/>
+</Adjective>
+<Adjective nr="6"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+<Int x="5"/>
+<Int x="6"/>
+</Essentials>
+<Pred kind="R" nr="13">
+<Func kind="K" nr="553">
+<LocusVar nr="3"/>
+<LocusVar nr="4"/>
+</Func>
+<Func kind="K" nr="65">
+<LocusVar nr="5"/>
+</Func>
+</Pred>
+<DefMeaning kind="e">
+<Func kind="K" nr="3">
+<LocusVar nr="4"/>
+<LocusVar nr="5"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="M" constrnr="7" aid="FUNCT_2" defnr="12" relnr="59">
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="3"/>
+</Typ>
+<Is>
+<Var nr="1"/>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+</Is>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="130" aid="FUNCT_2" defnr="13" relnr="60">
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="11" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<LocusVar nr="1"/>
+<LocusVar nr="2"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<LocusVar nr="2"/>
+</Typ>
+<Essentials>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+<Int x="5"/>
+</Essentials>
+<Pred kind="R" nr="14">
+<LocusVar nr="4"/>
+<LocusVar nr="1"/>
+</Pred>
+<DefMeaning kind="e">
+<Func kind="K" nr="11">
+<LocusVar nr="3"/>
+<LocusVar nr="4"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="50" aid="STRUCT_0" defnr="1" relnr="61">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1338,7 +3389,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="176" aid="STRUCT_0" defnr="2" relnr="25">
+<Definiens constrkind="K" constrnr="176" aid="STRUCT_0" defnr="2" relnr="62">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1358,7 +3409,7 @@
 <Func kind="K" nr="14"/>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="177" aid="STRUCT_0" defnr="3" relnr="26">
+<Definiens constrkind="K" constrnr="177" aid="STRUCT_0" defnr="3" relnr="63">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1380,7 +3431,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="178" aid="STRUCT_0" defnr="4" relnr="27">
+<Definiens constrkind="K" constrnr="178" aid="STRUCT_0" defnr="4" relnr="64">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1419,7 +3470,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="23" aid="STRUCT_0" defnr="5" relnr="28">
+<Definiens constrkind="R" constrnr="23" aid="STRUCT_0" defnr="5" relnr="65">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1439,7 +3490,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="179" aid="STRUCT_0" defnr="6" relnr="29">
+<Definiens constrkind="K" constrnr="179" aid="STRUCT_0" defnr="6" relnr="66">
 <Typ kind="G" nr="2">
 <Cluster/>
 </Typ>
@@ -1459,7 +3510,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="180" aid="STRUCT_0" defnr="7" relnr="30">
+<Definiens constrkind="K" constrnr="180" aid="STRUCT_0" defnr="7" relnr="67">
 <Typ kind="G" nr="3">
 <Cluster/>
 </Typ>
@@ -1479,7 +3530,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="54" aid="STRUCT_0" defnr="8" relnr="31">
+<Definiens constrkind="V" constrnr="54" aid="STRUCT_0" defnr="8" relnr="68">
 <Typ kind="G" nr="4">
 <Cluster/>
 </Typ>
@@ -1497,7 +3548,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="9" relnr="32">
+<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="9" relnr="69">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1512,7 +3563,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="10" relnr="33">
+<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="10" relnr="70">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1542,7 +3593,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="56" aid="STRUCT_0" defnr="11" relnr="34">
+<Definiens constrkind="V" constrnr="56" aid="STRUCT_0" defnr="11" relnr="71">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1557,7 +3608,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="57" aid="STRUCT_0" defnr="12" relnr="35">
+<Definiens constrkind="V" constrnr="57" aid="STRUCT_0" defnr="12" relnr="72">
 <Typ kind="G" nr="2">
 <Cluster/>
 </Typ>
@@ -1580,7 +3631,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="59" aid="STRUCT_0" defnr="13" relnr="36">
+<Definiens constrkind="V" constrnr="59" aid="STRUCT_0" defnr="13" relnr="73">
 <Typ kind="G" nr="5">
 <Cluster/>
 </Typ>
@@ -1595,7 +3646,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="181" aid="STRUCT_0" defnr="14" relnr="37">
+<Definiens constrkind="K" constrnr="181" aid="STRUCT_0" defnr="14" relnr="74">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1651,7 +3702,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="60" aid="STRUCT_0" defnr="15" relnr="38">
+<Definiens constrkind="V" constrnr="60" aid="STRUCT_0" defnr="15" relnr="75">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -1690,7 +3741,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="182" aid="STRUCT_0" defnr="16" relnr="39">
+<Definiens constrkind="K" constrnr="182" aid="STRUCT_0" defnr="16" relnr="76">
 <Typ kind="G" nr="1">
 <Cluster/>
 </Typ>
@@ -1711,7 +3762,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="183" aid="STRUCT_0" defnr="17" relnr="40">
+<Definiens constrkind="K" constrnr="183" aid="STRUCT_0" defnr="17" relnr="77">
 <Typ kind="G" nr="2">
 <Cluster/>
 </Typ>
@@ -1743,7 +3794,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="18" relnr="41">
+<Definiens constrkind="V" constrnr="55" aid="STRUCT_0" defnr="18" relnr="78">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -1769,7 +3820,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="61" aid="STRUCT_0" defnr="19" relnr="42">
+<Definiens constrkind="V" constrnr="61" aid="STRUCT_0" defnr="19" relnr="79">
 <Typ kind="M" nr="2">
 <Cluster/>
 </Typ>
@@ -1789,7 +3840,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="62" aid="STRUCT_0" defnr="20" relnr="43">
+<Definiens constrkind="V" constrnr="62" aid="STRUCT_0" defnr="20" relnr="80">
 <Typ kind="G" nr="5">
 <Cluster/>
 </Typ>
@@ -1815,7 +3866,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="63" aid="STRUCT_0" defnr="21" relnr="44">
+<Definiens constrkind="V" constrnr="63" aid="STRUCT_0" defnr="21" relnr="81">
 <Typ kind="G" nr="5">
 <Cluster/>
 </Typ>
@@ -1830,7 +3881,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="184" aid="STRUCT_0" defnr="22" relnr="45">
+<Definiens constrkind="K" constrnr="184" aid="STRUCT_0" defnr="22" relnr="82">
 <Typ kind="M" nr="1">
 <Cluster/>
 </Typ>
@@ -1857,7 +3908,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="191" aid="ALGSEQ_1" defnr="1" relnr="46">
+<Definiens constrkind="V" constrnr="191" aid="ALGSEQ_1" defnr="1" relnr="83">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -1926,7 +3977,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="64" aid="ALGSEQ_1" defnr="2" relnr="47">
+<Definiens constrkind="R" constrnr="64" aid="ALGSEQ_1" defnr="2" relnr="84">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -1993,7 +4044,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="456" aid="ALGSEQ_1" defnr="3" relnr="48">
+<Definiens constrkind="K" constrnr="456" aid="ALGSEQ_1" defnr="3" relnr="85">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2062,7 +4113,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="457" aid="ALGSEQ_1" defnr="5" relnr="49">
+<Definiens constrkind="K" constrnr="457" aid="ALGSEQ_1" defnr="5" relnr="86">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2124,7 +4175,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="210" aid="C0SP1" defnr="1" relnr="50">
+<Definiens constrkind="V" constrnr="210" aid="C0SP1" defnr="1" relnr="87">
 <Typ kind="G" nr="7">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2170,7 +4221,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="M" constrnr="22" aid="C0SP1" defnr="3" relnr="51">
+<Definiens constrkind="M" constrnr="22" aid="C0SP1" defnr="3" relnr="88">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2254,7 +4305,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="212" aid="C0SP1" defnr="4" relnr="52">
+<Definiens constrkind="V" constrnr="212" aid="C0SP1" defnr="4" relnr="89">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2321,7 +4372,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="497" aid="C0SP1" defnr="6" relnr="53">
+<Definiens constrkind="K" constrnr="497" aid="C0SP1" defnr="6" relnr="90">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2381,7 +4432,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="499" aid="C0SP1" defnr="8" relnr="54">
+<Definiens constrkind="K" constrnr="499" aid="C0SP1" defnr="8" relnr="91">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2421,7 +4472,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="M" constrnr="23" aid="C0SP1" defnr="9" relnr="55">
+<Definiens constrkind="M" constrnr="23" aid="C0SP1" defnr="9" relnr="92">
 <Typ kind="G" nr="17">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2540,7 +4591,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="500" aid="C0SP1" defnr="11" relnr="56">
+<Definiens constrkind="K" constrnr="500" aid="C0SP1" defnr="11" relnr="93">
 <Typ kind="G" nr="17">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2624,7 +4675,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="214" aid="C0SP1" defnr="12" relnr="57">
+<Definiens constrkind="V" constrnr="214" aid="C0SP1" defnr="12" relnr="94">
 <Typ kind="G" nr="12">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -2679,7 +4730,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="501" aid="C0SP1" defnr="13" relnr="58">
+<Definiens constrkind="K" constrnr="501" aid="C0SP1" defnr="13" relnr="95">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="11" value="false"/>
@@ -2730,7 +4781,7 @@
 </Fraenkel>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="502" aid="C0SP1" defnr="14" relnr="59">
+<Definiens constrkind="K" constrnr="502" aid="C0SP1" defnr="14" relnr="96">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="11" value="false"/>
@@ -2805,7 +4856,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="503" aid="C0SP1" defnr="15" relnr="60">
+<Definiens constrkind="K" constrnr="503" aid="C0SP1" defnr="15" relnr="97">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="11" value="false"/>
@@ -2857,7 +4908,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="504" aid="C0SP1" defnr="16" relnr="61">
+<Definiens constrkind="K" constrnr="504" aid="C0SP1" defnr="16" relnr="98">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="11" value="false"/>
@@ -2909,7 +4960,7 @@
 </Fraenkel>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="506" aid="C0SP1" defnr="18" relnr="62">
+<Definiens constrkind="K" constrnr="506" aid="C0SP1" defnr="18" relnr="99">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="11" value="false"/>
@@ -2973,7 +5024,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="421" aid="POLYNOM5" defnr="1" relnr="63">
+<Definiens constrkind="K" constrnr="421" aid="POLYNOM5" defnr="1" relnr="100">
 <Typ kind="G" nr="8">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3015,7 +5066,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="332" aid="POLYNOM5" defnr="2" relnr="64">
+<Definiens constrkind="K" constrnr="332" aid="POLYNOM5" defnr="2" relnr="101">
 <Typ kind="M" nr="2">
 <Cluster>
 <Adjective nr="1"/>
@@ -3076,7 +5127,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="423" aid="POLYNOM5" defnr="3" relnr="65">
+<Definiens constrkind="K" constrnr="423" aid="POLYNOM5" defnr="3" relnr="102">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3153,7 +5204,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="424" aid="POLYNOM5" defnr="4" relnr="66">
+<Definiens constrkind="K" constrnr="424" aid="POLYNOM5" defnr="4" relnr="103">
 <Typ kind="G" nr="8">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3240,7 +5291,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="425" aid="POLYNOM5" defnr="5" relnr="67">
+<Definiens constrkind="K" constrnr="425" aid="POLYNOM5" defnr="5" relnr="104">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3305,7 +5356,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="426" aid="POLYNOM5" defnr="6" relnr="68">
+<Definiens constrkind="K" constrnr="426" aid="POLYNOM5" defnr="6" relnr="105">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3473,7 +5524,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="61" aid="POLYNOM5" defnr="7" relnr="69">
+<Definiens constrkind="R" constrnr="61" aid="POLYNOM5" defnr="7" relnr="106">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3526,7 +5577,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="192" aid="POLYNOM5" defnr="8" relnr="70">
+<Definiens constrkind="V" constrnr="192" aid="POLYNOM5" defnr="8" relnr="107">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3579,7 +5630,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="193" aid="POLYNOM5" defnr="9" relnr="71">
+<Definiens constrkind="V" constrnr="193" aid="POLYNOM5" defnr="9" relnr="108">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3635,7 +5686,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="427" aid="POLYNOM5" defnr="10" relnr="72">
+<Definiens constrkind="K" constrnr="427" aid="POLYNOM5" defnr="10" relnr="109">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3720,7 +5771,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="428" aid="POLYNOM5" defnr="11" relnr="73">
+<Definiens constrkind="K" constrnr="428" aid="POLYNOM5" defnr="11" relnr="110">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3821,7 +5872,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="429" aid="POLYNOM5" defnr="12" relnr="74">
+<Definiens constrkind="K" constrnr="429" aid="POLYNOM5" defnr="12" relnr="111">
 <Typ kind="G" nr="8">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3900,7 +5951,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="430" aid="POLYNOM5" defnr="13" relnr="75">
+<Definiens constrkind="K" constrnr="430" aid="POLYNOM5" defnr="13" relnr="112">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -3985,7 +6036,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="75" aid="RATFUNC1" defnr="3" relnr="76">
+<Definiens constrkind="R" constrnr="75" aid="RATFUNC1" defnr="3" relnr="113">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4063,7 +6114,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="76" aid="RATFUNC1" defnr="4" relnr="77">
+<Definiens constrkind="R" constrnr="76" aid="RATFUNC1" defnr="4" relnr="114">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4140,7 +6191,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="673" aid="RATFUNC1" defnr="5" relnr="78">
+<Definiens constrkind="K" constrnr="673" aid="RATFUNC1" defnr="5" relnr="115">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4223,7 +6274,7 @@
 </Fraenkel>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="674" aid="RATFUNC1" defnr="6" relnr="79">
+<Definiens constrkind="K" constrnr="674" aid="RATFUNC1" defnr="6" relnr="116">
 <Typ kind="G" nr="2">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4278,7 +6329,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="259" aid="RATFUNC1" defnr="7" relnr="80">
+<Definiens constrkind="V" constrnr="259" aid="RATFUNC1" defnr="7" relnr="117">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4322,7 +6373,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="M" constrnr="33" aid="RATFUNC1" defnr="8" relnr="81">
+<Definiens constrkind="M" constrnr="33" aid="RATFUNC1" defnr="8" relnr="118">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4400,7 +6451,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="260" aid="RATFUNC1" defnr="9" relnr="82">
+<Definiens constrkind="V" constrnr="260" aid="RATFUNC1" defnr="9" relnr="119">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4430,7 +6481,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="261" aid="RATFUNC1" defnr="10" relnr="83">
+<Definiens constrkind="V" constrnr="261" aid="RATFUNC1" defnr="10" relnr="120">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4465,7 +6516,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="262" aid="RATFUNC1" defnr="11" relnr="84">
+<Definiens constrkind="V" constrnr="262" aid="RATFUNC1" defnr="11" relnr="121">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4500,7 +6551,7 @@
 </And>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="678" aid="RATFUNC1" defnr="12" relnr="85">
+<Definiens constrkind="K" constrnr="678" aid="RATFUNC1" defnr="12" relnr="122">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4575,7 +6626,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="679" aid="RATFUNC1" defnr="13" relnr="86">
+<Definiens constrkind="K" constrnr="679" aid="RATFUNC1" defnr="13" relnr="123">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="54" value="false"/>
@@ -4601,7 +6652,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="680" aid="RATFUNC1" defnr="14" relnr="87">
+<Definiens constrkind="K" constrnr="680" aid="RATFUNC1" defnr="14" relnr="124">
 <Typ kind="G" nr="10">
 <Cluster>
 <Adjective nr="54" value="false"/>
@@ -4627,7 +6678,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="681" aid="RATFUNC1" defnr="15" relnr="88">
+<Definiens constrkind="K" constrnr="681" aid="RATFUNC1" defnr="15" relnr="125">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4698,7 +6749,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="682" aid="RATFUNC1" defnr="16" relnr="89">
+<Definiens constrkind="K" constrnr="682" aid="RATFUNC1" defnr="16" relnr="126">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="55" value="false"/>
@@ -4755,7 +6806,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="685" aid="RATFUNC1" defnr="19" relnr="90">
+<Definiens constrkind="K" constrnr="685" aid="RATFUNC1" defnr="19" relnr="127">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4815,7 +6866,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="446" aid="ALGNUM_1" defnr="1" relnr="91">
+<Definiens constrkind="K" constrnr="446" aid="ALGNUM_1" defnr="1" relnr="128">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -4967,7 +7018,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="R" constrnr="63" aid="ALGNUM_1" defnr="2" relnr="92">
+<Definiens constrkind="R" constrnr="63" aid="ALGNUM_1" defnr="2" relnr="129">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -5056,7 +7107,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="447" aid="ALGNUM_1" defnr="3" relnr="93">
+<Definiens constrkind="K" constrnr="447" aid="ALGNUM_1" defnr="3" relnr="130">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -5121,7 +7172,7 @@
 </Fraenkel>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="198" aid="ALGNUM_1" defnr="4" relnr="94">
+<Definiens constrkind="V" constrnr="198" aid="ALGNUM_1" defnr="4" relnr="131">
 <Typ kind="M" nr="1">
 <Cluster>
 <Adjective nr="24"/>
@@ -5156,7 +7207,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="198" aid="ALGNUM_1" defnr="5" relnr="95">
+<Definiens constrkind="V" constrnr="198" aid="ALGNUM_1" defnr="5" relnr="132">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5174,7 +7225,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="199" aid="ALGNUM_1" defnr="6" relnr="96">
+<Definiens constrkind="V" constrnr="199" aid="ALGNUM_1" defnr="6" relnr="133">
 <Typ kind="M" nr="1">
 <Cluster>
 <Adjective nr="24"/>
@@ -5209,7 +7260,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="199" aid="ALGNUM_1" defnr="7" relnr="97">
+<Definiens constrkind="V" constrnr="199" aid="ALGNUM_1" defnr="7" relnr="134">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5227,7 +7278,7 @@
 </Pred>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="448" aid="ALGNUM_1" defnr="8" relnr="98">
+<Definiens constrkind="K" constrnr="448" aid="ALGNUM_1" defnr="8" relnr="135">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -5315,7 +7366,7 @@
 </Fraenkel>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="451" aid="ALGNUM_1" defnr="11" relnr="99">
+<Definiens constrkind="K" constrnr="451" aid="ALGNUM_1" defnr="11" relnr="136">
 <Typ kind="G" nr="11">
 <Cluster>
 <Adjective nr="50" value="false"/>
@@ -5418,7 +7469,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="452" aid="ALGNUM_1" defnr="12" relnr="100">
+<Definiens constrkind="K" constrnr="452" aid="ALGNUM_1" defnr="12" relnr="137">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5450,7 +7501,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="453" aid="ALGNUM_1" defnr="13" relnr="101">
+<Definiens constrkind="K" constrnr="453" aid="ALGNUM_1" defnr="13" relnr="138">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5503,7 +7554,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="454" aid="ALGNUM_1" defnr="14" relnr="102">
+<Definiens constrkind="K" constrnr="454" aid="ALGNUM_1" defnr="14" relnr="139">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5556,7 +7607,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="455" aid="ALGNUM_1" defnr="15" relnr="103">
+<Definiens constrkind="K" constrnr="455" aid="ALGNUM_1" defnr="15" relnr="140">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="U" nr="1">
@@ -5603,7 +7654,7 @@
 </Func>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="K" constrnr="689" aid="MEASURE5" defnr="1" relnr="104">
+<Definiens constrkind="K" constrnr="689" aid="MEASURE5" defnr="1" relnr="141">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="K" nr="48"/>
@@ -5680,7 +7731,7 @@
 </For>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="283" aid="MEASURE5" defnr="2" relnr="105">
+<Definiens constrkind="V" constrnr="283" aid="MEASURE5" defnr="2" relnr="142">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="K" nr="19">
@@ -5716,7 +7767,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="284" aid="MEASURE5" defnr="3" relnr="106">
+<Definiens constrkind="V" constrnr="284" aid="MEASURE5" defnr="3" relnr="143">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="K" nr="19">
@@ -5754,7 +7805,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="285" aid="MEASURE5" defnr="4" relnr="107">
+<Definiens constrkind="V" constrnr="285" aid="MEASURE5" defnr="4" relnr="144">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="K" nr="19">
@@ -5791,7 +7842,7 @@
 </Not>
 </DefMeaning>
 </Definiens>
-<Definiens constrkind="V" constrnr="286" aid="MEASURE5" defnr="5" relnr="108">
+<Definiens constrkind="V" constrnr="286" aid="MEASURE5" defnr="5" relnr="145">
 <Typ kind="M" nr="3">
 <Cluster/>
 <Func kind="K" nr="19">
@@ -5826,6 +7877,337 @@
 </For>
 </For>
 </Not>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="756" aid="POLYDIFF" defnr="1" relnr="146">
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Adjective>
+<Adjective nr="274"/>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="755">
+<LocusVar nr="1"/>
+<Func kind="K" nr="43"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="V" constrnr="274" aid="POLYDIFF" defnr="2" relnr="147">
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="81">
+<LocusVar nr="1"/>
+<Var nr="1"/>
+</Pred>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="757" aid="POLYDIFF" defnr="3" relnr="148">
+<Typ kind="G" nr="2">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="523">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+<Func kind="K" nr="404">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="3"/>
+<LocusVar nr="2"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="758" aid="POLYDIFF" defnr="4" relnr="149">
+<Typ kind="G" nr="2">
+<Cluster>
+<Adjective nr="50" value="false"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+<Int x="3"/>
+<Int x="4"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="523">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<LocusVar nr="1"/>
+</Func>
+<LocusVar nr="2"/>
+<LocusVar nr="3"/>
+<Func kind="K" nr="179">
+<LocusVar nr="1"/>
+</Func>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="759" aid="POLYDIFF" defnr="5" relnr="150">
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="m">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="20"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="239">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+<LocusVar nr="2"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="51">
+<Func kind="K" nr="239">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+<LocusVar nr="1"/>
+<Func kind="K" nr="232">
+<Var nr="1"/>
+<Num nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="232">
+<Var nr="1"/>
+<Num nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="760" aid="POLYDIFF" defnr="6" relnr="151">
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Typ kind="M" nr="3">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+</Func>
+</Func>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="430">
+<Func kind="K" nr="216"/>
+<LocusVar nr="1"/>
+</Func>
 </DefMeaning>
 </Definiens>
 </Definientia>

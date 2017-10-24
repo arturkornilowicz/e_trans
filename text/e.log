@@ -98,6 +98,10 @@ Constructors
   <c:\mizar\prel\a\algstr_1.dco
   <c:\mizar\prel\l\liouvil1.dco
   <c:\mizar\prel\p\power.dco
+  <c:\mizar\prel\s\sin_cos.dco
+  <c:\mizar\prel\f\funct_3.dco
+  <c:\mizar\prel\r\rfunct_1.dco
+  <c:\mizar\prel\s\square_1.dco
   The list of all imported constructors
       M   L   V   R   K   U   G
    +HIDDEN
@@ -397,6 +401,18 @@ Constructors
    +POWER
                      +4        
      40  25 321  93 847  14  25
+   +SIN_COS
+                    +28        
+     40  25 321  93 875  14  25
+   -FUNCT_3
+                    +17        
+     40  25 321  93 892  14  25
+   +RFUNCT_1
+                     +7        
+     40  25 321  93 899  14  25
+   +SQUARE_1
+                     +3        
+     40  25 321  93 902  14  25
 Requirements
   <c:\mizar\prel\h\hidden.dre
   <c:\mizar\prel\r\real.dre
@@ -413,14 +429,10 @@ Registrations
   <c:\mizar\prel\x\xxreal_0.dcl
   <c:\mizar\prel\i\int_6.dcl
   <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
   <c:\mizar\prel\p\partfun3.dco
   <c:\mizar\prel\i\int_6.dco
    The cutting off constructors:
     - RFINSEQ
-    - FUNCT_3
-    - RFUNCT_1
     - PARTFUN3
     - INT_6
   Inaccessible Clusters
@@ -709,8 +721,6 @@ Registrations
   <c:\mizar\prel\s\subset_1.dcl
   <c:\mizar\prel\n\newton04.dcl
   <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
   <c:\mizar\prel\p\partfun3.dco
   <c:\mizar\prel\f\finseq_5.dco
   <c:\mizar\prel\a\abian.dco
@@ -721,8 +731,6 @@ Registrations
   <c:\mizar\prel\n\newton04.dco
    The cutting off constructors:
     - RFINSEQ
-    - FUNCT_3
-    - RFUNCT_1
     - PARTFUN3
     - FINSEQ_5
     - ABIAN
@@ -1055,61 +1063,42 @@ Registrations
       -*IDEAL_1:V3
 
   <c:\mizar\prel\r\rfunct_1.dcl
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\r\rfunct_1.dco
    The cutting off constructors:
-    - FUNCT_3
     - SEQ_2
-    - RFUNCT_1
   Inaccessible Clusters
 
-   Functor Cluster: 709
-      -*RFUNCT_1:K1
-
-   Functor Cluster: 709
-      -*RFUNCT_1:K1
-
-   Functor Cluster: 709
-      -*RFUNCT_1:K4
-
-   Functor Cluster: 709
-      -*RFUNCT_1:K4
-
-   Functor Cluster: 709
-      -*FUNCT_3:K4
-
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V1
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V2
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V1
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V2
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V1
       -*SEQ_2:V2
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V1
       -*SEQ_2:V2
 
-   Functor Cluster: 709
+   Functor Cluster: 714
       -*SEQ_2:V2
 
-   Functor Cluster: 710
+   Functor Cluster: 715
       -*SEQ_2:V1
       -*SEQ_2:V2
 
-   Functor Cluster: 710
+   Functor Cluster: 715
       -*SEQ_2:V1
 
-   Functor Cluster: 710
+   Functor Cluster: 715
       -*SEQ_2:V2
 
   <c:\mizar\prel\p\prepower.dcl
@@ -1118,18 +1107,16 @@ Registrations
     - PREPOWER
   Inaccessible Clusters
 
-   Functor Cluster: 718
+   Functor Cluster: 723
       -*PREPOWER:K2
 
-   Functor Cluster: 718
+   Functor Cluster: 723
       -*PREPOWER:K3
 
-   Functor Cluster: 718
+   Functor Cluster: 723
       -*PREPOWER:K4
 
   <c:\mizar\prel\l\liouvil1.dcl
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
   <c:\mizar\prel\p\partfun3.dco
   <c:\mizar\prel\a\asympt_0.dco
   <c:\mizar\prel\b\bhsp_1.dco
@@ -1137,8 +1124,6 @@ Registrations
   <c:\mizar\prel\s\series_1.dco
   <c:\mizar\prel\s\seq_1.dco
    The cutting off constructors:
-    - FUNCT_3
-    - RFUNCT_1
     - PARTFUN3
     - ASYMPT_0
     - BHSP_1
@@ -1153,33 +1138,33 @@ Registrations
    Existential Cluster: 186
       -*PARTFUN3:V4
 
-   Functor Cluster: 719
+   Functor Cluster: 724
       -*SEQ_1:K1
 
-   Functor Cluster: 719
+   Functor Cluster: 724
       -*PARTFUN3:V1
       -*SEQ_1:K1
 
-   Functor Cluster: 719
+   Functor Cluster: 724
       -*SERIES_1:K2
 
-   Functor Cluster: 719
+   Functor Cluster: 724
       -*SERIES_1:K2
 
-   Functor Cluster: 719
+   Functor Cluster: 724
       -*PARTFUN3:V4
 
-   Functor Cluster: 720
+   Functor Cluster: 725
       -*SERIES_1:V1
 
-   Functor Cluster: 721
+   Functor Cluster: 726
       -*ASYMPT_0:V5
       -*RSSPACE:K2
 
-   Functor Cluster: 722
+   Functor Cluster: 727
       -*SERIES_1:V1
 
-   Functor Cluster: 724
+   Functor Cluster: 729
       -*PARTFUN3:V4
 
    Conditional Cluster: 228
@@ -1213,10 +1198,23 @@ Registrations
    Existential Cluster: 189
       -*RING_2:V5
 
-   Functor Cluster: 728
+   Functor Cluster: 733
       -*GROUP_6:V1
 
   <c:\mizar\prel\l\liouvil2.dcl
+  <c:\mizar\prel\v\valued_1.dcl
+  <c:\mizar\prel\p\partfun1.dcl
+  <c:\mizar\prel\f\funct_2.dcl
+  <c:\mizar\prel\f\fdiff_1.dcl
+  <c:\mizar\prel\s\seq_2.dco
+   The cutting off constructors:
+    - SEQ_2
+  Inaccessible Clusters
+
+   Functor Cluster: 890
+      -*SEQ_2:K1
+
+  <c:\mizar\prel\f\funcop_1.dcl
 Notations
   <c:\mizar\prel\h\hidden.dno
   <c:\mizar\prel\t\tarski.dno
@@ -1227,6 +1225,7 @@ Notations
   <c:\mizar\prel\f\funct_1.dno
   <c:\mizar\prel\r\relset_1.dno
   <c:\mizar\prel\p\partfun1.dno
+  <c:\mizar\prel\f\funct_2.dno
   <c:\mizar\prel\f\finseq_1.dno
   <c:\mizar\prel\n\numbers.dno
   <c:\mizar\prel\x\xcmplx_0.dno
@@ -1243,6 +1242,9 @@ Notations
   <c:\mizar\prel\x\xxreal_0.dno
   <c:\mizar\prel\x\xxreal_2.dno
   <c:\mizar\prel\r\rcomp_1.dno
+  <c:\mizar\prel\m\membered.dno
+  <c:\mizar\prel\f\funcop_1.dno
+  <c:\mizar\prel\r\rfunct_1.dno
   <c:\mizar\prel\v\valued_0.dno
   <c:\mizar\prel\v\valued_1.dno
   <c:\mizar\prel\i\int_1.dno
@@ -1258,6 +1260,7 @@ Notations
   <c:\mizar\prel\f\fcont_1.dno
   <c:\mizar\prel\f\fdiff_1.dno
   <c:\mizar\prel\r\rvsum_1.dno
+  <c:\mizar\prel\s\sin_cos.dno
   <c:\mizar\prel\s\struct_0.dno
   <c:\mizar\prel\a\algstr_0.dno
   <c:\mizar\prel\r\rlvect_1.dno
@@ -1290,6 +1293,7 @@ Registrations(Identify)
   <c:\mizar\prel\c\complfld.did
   <c:\mizar\prel\g\gaussint.did
   <c:\mizar\prel\i\int_3.did
+  <c:\mizar\prel\f\funct_2.did
 Registrations(Reduction)
   <c:\mizar\prel\x\xreal_0.drd
   <c:\mizar\prel\r\relat_1.drd
@@ -1303,8 +1307,6 @@ Registrations(Reduction)
   <c:\mizar\prel\g\gaussint.drd
   <c:\mizar\prel\s\subset_1.drd
   <c:\mizar\prel\n\newton04.drd
-  <c:\mizar\prel\s\square_1.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\f\finseq_5.dco
   <c:\mizar\prel\a\abian.dco
   <c:\mizar\prel\x\xboolean.dco
@@ -1312,8 +1314,6 @@ Registrations(Reduction)
   <c:\mizar\prel\f\fomodel0.dco
   <c:\mizar\prel\n\newton04.dco
    The cutting off constructors:
-    - SQUARE_1
-    - FUNCT_3
     - FINSEQ_5
     - ABIAN
     - XBOOLEAN
@@ -1323,6 +1323,7 @@ Registrations(Reduction)
   <c:\mizar\prel\p\polydiff.drd
   <c:\mizar\prel\c\complex1.drd
   <c:\mizar\prel\a\algnum_1.drd
+  <c:\mizar\prel\v\valued_1.drd
 Registrations(Properties)
   <c:\mizar\prel\x\xreal_0.dpr
   <c:\mizar\prel\r\relat_1.dpr
@@ -1331,7 +1332,10 @@ Registrations(Properties)
   <c:\mizar\prel\x\xcmplx_0.dpr
 Definitions
   <c:\mizar\prel\t\tarski.def
+  <c:\mizar\prel\x\xboole_0.def
   <c:\mizar\prel\r\relat_1.def
+  <c:\mizar\prel\f\funct_1.def
+  <c:\mizar\prel\f\funct_2.def
   <c:\mizar\prel\s\struct_0.def
   <c:\mizar\prel\a\algseq_1.def
   <c:\mizar\prel\c\c0sp1.def
@@ -1359,6 +1363,7 @@ Definitions
     - XXREAL_3
     - MEMBER_1
     - SUPINF_2
+  <c:\mizar\prel\p\polydiff.def
 Definitions
   <c:\mizar\prel\s\struct_0.def
   <c:\mizar\prel\v\vectsp_1.def
@@ -1372,7 +1377,6 @@ Definitions
     - HURWITZ
   <c:\mizar\prel\p\polynom3.def
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\t\trees_1.dco
   <c:\mizar\prel\t\trees_2.dco
   <c:\mizar\prel\t\trees_3.dco
@@ -1382,7 +1386,6 @@ Definitions
   <c:\mizar\prel\v\vfunct_1.dco
    The cutting off constructors:
     - FUNCT_6
-    - FUNCT_3
     - TREES_1
     - TREES_2
     - TREES_3
@@ -1397,15 +1400,20 @@ Definitions
     - RLTOPSP1
     - EUCLID
   <c:\mizar\prel\c\complex1.def
-  <c:\mizar\prel\s\square_1.dco
-   The cutting off constructors:
-    - SQUARE_1
   <c:\mizar\prel\r\realset1.def
   <c:\mizar\prel\p\polydiff.def
   <c:\mizar\prel\x\xcmplx_0.def
   <c:\mizar\prel\a\arytm_0.dco
    The cutting off constructors:
     - ARYTM_0
+  <c:\mizar\prel\s\sin_cos.def
+  <c:\mizar\prel\r\real_1.dco
+  <c:\mizar\prel\s\series_1.dco
+  <c:\mizar\prel\c\comseq_3.dco
+   The cutting off constructors:
+    - REAL_1
+    - SERIES_1
+    - COMSEQ_3
 Definitions
   <c:\mizar\prel\t\tarski.def
   <c:\mizar\prel\a\algnum_1.def
@@ -1416,7 +1424,6 @@ Definitions
     - HURWITZ
   <c:\mizar\prel\u\uproots.def
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\t\trees_1.dco
   <c:\mizar\prel\t\trees_2.dco
   <c:\mizar\prel\t\trees_3.dco
@@ -1425,7 +1432,6 @@ Definitions
   <c:\mizar\prel\r\recdef_1.dco
    The cutting off constructors:
     - FUNCT_6
-    - FUNCT_3
     - TREES_1
     - TREES_2
     - TREES_3
@@ -1443,12 +1449,10 @@ Definitions
    The cutting off constructors:
     - SEQ_2
   <c:\mizar\prel\i\int_1.def
+  <c:\mizar\prel\p\polydiff.def
 Theorems
   <c:\mizar\prel\x\xreal_0.the
   <c:\mizar\prel\n\newton.the
-  <c:\mizar\prel\s\square_1.dco
-   The cutting off constructors:
-    - SQUARE_1
   <c:\mizar\prel\x\xxreal_0.the
   <c:\mizar\prel\a\arytm_3.dco
   <c:\mizar\prel\a\arytm_2.dco
@@ -1459,11 +1463,9 @@ Theorems
   <c:\mizar\prel\x\xcmplx_1.the
   <c:\mizar\prel\n\nat_1.the
   <c:\mizar\prel\p\prepower.the
-  <c:\mizar\prel\s\square_1.dco
   <c:\mizar\prel\s\seq_2.dco
   <c:\mizar\prel\p\prepower.dco
    The cutting off constructors:
-    - SQUARE_1
     - SEQ_2
     - PREPOWER
   <c:\mizar\prel\a\algnum_1.the
@@ -1547,7 +1549,6 @@ Theorems
     - VFUNCT_1
   <c:\mizar\prel\u\uproots.the
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\t\trees_1.dco
   <c:\mizar\prel\t\trees_2.dco
   <c:\mizar\prel\t\trees_3.dco
@@ -1557,7 +1558,6 @@ Theorems
   <c:\mizar\prel\v\vfunct_1.dco
    The cutting off constructors:
     - FUNCT_6
-    - FUNCT_3
     - TREES_1
     - TREES_2
     - TREES_3
@@ -1567,12 +1567,10 @@ Theorems
     - VFUNCT_1
   <c:\mizar\prel\i\int_1.the
   <c:\mizar\prel\g\gaussint.the
-  <c:\mizar\prel\s\square_1.dco
   <c:\mizar\prel\q\quofield.dco
   <c:\mizar\prel\g\gcd_1.dco
   <c:\mizar\prel\p\polyalg1.dco
    The cutting off constructors:
-    - SQUARE_1
     - QUOFIELD
     - GCD_1
     - POLYALG1
@@ -1593,19 +1591,15 @@ Theorems
   <c:\mizar\prel\f\funct_2.the
   <c:\mizar\prel\a\algseq_1.the
   <c:\mizar\prel\r\rlvect_1.the
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\f\finseq_4.dco
    The cutting off constructors:
-    - FUNCT_3
     - FINSEQ_4
   <c:\mizar\prel\f\finseq_3.the
   <c:\mizar\prel\f\finseqop.dco
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
    The cutting off constructors:
     - FINSEQOP
     - FUNCT_6
-    - FUNCT_3
   <c:\mizar\prel\f\finseq_2.the
   <c:\mizar\prel\z\zfmisc_1.the
   <c:\mizar\prel\f\funct_7.the
@@ -1640,10 +1634,8 @@ Theorems
   <c:\mizar\prel\r\rolle.the
   <c:\mizar\prel\c\complex1.the
   <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\s\square_1.dco
    The cutting off constructors:
     - REAL_1
-    - SQUARE_1
   <c:\mizar\prel\p\polynom5.the
   <c:\mizar\prel\c\cfcont_1.dco
   <c:\mizar\prel\h\hahnban1.dco
@@ -1660,15 +1652,10 @@ Theorems
     - SEQ_2
     - PARTFUN2
   <c:\mizar\prel\a\absvalue.the
-  <c:\mizar\prel\s\square_1.dco
   <c:\mizar\prel\a\absvalue.dco
    The cutting off constructors:
-    - SQUARE_1
     - ABSVALUE
   <c:\mizar\prel\v\valued_1.the
-  <c:\mizar\prel\s\square_1.dco
-   The cutting off constructors:
-    - SQUARE_1
   <c:\mizar\prel\i\integra5.the
   <c:\mizar\prel\r\rfunct_2.dco
   <c:\mizar\prel\s\seq_2.dco
@@ -1683,8 +1670,6 @@ Theorems
     - INTEGRA5
   <c:\mizar\prel\i\integra1.the
   <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
   <c:\mizar\prel\r\rfinseq.dco
   <c:\mizar\prel\x\xxreal_3.dco
   <c:\mizar\prel\m\member_1.dco
@@ -1695,8 +1680,6 @@ Theorems
   <c:\mizar\prel\i\integra1.dco
    The cutting off constructors:
     - REAL_1
-    - FUNCT_3
-    - RFUNCT_1
     - RFINSEQ
     - XXREAL_3
     - MEMBER_1
@@ -1708,7 +1691,6 @@ Theorems
   <c:\mizar\prel\r\rat_1.the
   <c:\mizar\prel\n\nat_3.the
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\t\trees_1.dco
   <c:\mizar\prel\t\trees_2.dco
   <c:\mizar\prel\t\trees_3.dco
@@ -1717,7 +1699,6 @@ Theorems
   <c:\mizar\prel\n\nat_3.dco
    The cutting off constructors:
     - FUNCT_6
-    - FUNCT_3
     - TREES_1
     - TREES_2
     - TREES_3
@@ -1733,22 +1714,18 @@ Theorems
     - FINSEQOP
     - FINSEQ_4
   <c:\mizar\prel\n\niven.the
-  <c:\mizar\prel\s\sin_cos.dco
   <c:\mizar\prel\h\hurwitz.dco
   <c:\mizar\prel\v\vfunct_1.dco
   <c:\mizar\prel\n\niven.dco
    The cutting off constructors:
-    - SIN_COS
     - HURWITZ
     - VFUNCT_1
     - NIVEN
   <c:\mizar\prel\n\nat_d.the
   <c:\mizar\prel\r\rvsum_1.the
-  <c:\mizar\prel\s\square_1.dco
   <c:\mizar\prel\f\finseqop.dco
   <c:\mizar\prel\f\finseq_4.dco
    The cutting off constructors:
-    - SQUARE_1
     - FINSEQOP
     - FINSEQ_4
   <c:\mizar\prel\i\int_2.the
@@ -1804,35 +1781,28 @@ Theorems
     - FINSEQ_4
   <c:\mizar\prel\l\liouvil1.the
   <c:\mizar\prel\p\prepower.dco
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
   <c:\mizar\prel\p\partfun3.dco
   <c:\mizar\prel\s\series_1.dco
   <c:\mizar\prel\s\seq_1.dco
   <c:\mizar\prel\a\asympt_3.dco
    The cutting off constructors:
     - PREPOWER
-    - FUNCT_3
-    - RFUNCT_1
     - PARTFUN3
     - SERIES_1
     - SEQ_1
     - ASYMPT_3
   <c:\mizar\prel\l\liouvil2.the
   <c:\mizar\prel\p\power.the
-  <c:\mizar\prel\s\square_1.dco
   <c:\mizar\prel\s\seq_2.dco
   <c:\mizar\prel\p\prepower.dco
   <c:\mizar\prel\a\abian.dco
    The cutting off constructors:
-    - SQUARE_1
     - SEQ_2
     - PREPOWER
     - ABIAN
   <c:\mizar\prel\p\polynom3.the
   <c:\mizar\prel\f\finseq_5.dco
   <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\f\funct_3.dco
   <c:\mizar\prel\t\trees_1.dco
   <c:\mizar\prel\t\trees_2.dco
   <c:\mizar\prel\t\trees_3.dco
@@ -1845,7 +1815,6 @@ Theorems
    The cutting off constructors:
     - FINSEQ_5
     - FUNCT_6
-    - FUNCT_3
     - TREES_1
     - TREES_2
     - TREES_3
@@ -1855,6 +1824,41 @@ Theorems
     - MATRIX_0
     - MATRLIN
     - VFUNCT_1
+  <c:\mizar\prel\i\irrat_1.the
+  <c:\mizar\prel\s\seq_2.dco
+  <c:\mizar\prel\s\series_1.dco
+  <c:\mizar\prel\r\rfinseq.dco
+  <c:\mizar\prel\i\irrat_1.dco
+   The cutting off constructors:
+    - SEQ_2
+    - SERIES_1
+    - RFINSEQ
+    - IRRAT_1
+  <c:\mizar\prel\s\sin_cos.the
+  <c:\mizar\prel\r\real_1.dco
+  <c:\mizar\prel\s\series_1.dco
+  <c:\mizar\prel\c\comseq_3.dco
+  <c:\mizar\prel\s\seq_2.dco
+   The cutting off constructors:
+    - REAL_1
+    - SERIES_1
+    - COMSEQ_3
+    - SEQ_2
+  <c:\mizar\prel\f\fdiff_2.the
+  <c:\mizar\prel\s\seq_2.dco
+  <c:\mizar\prel\p\prob_1.dco
+  <c:\mizar\prel\p\partfun2.dco
+  <c:\mizar\prel\l\limfunc1.dco
+   The cutting off constructors:
+    - SEQ_2
+    - PROB_1
+    - PARTFUN2
+    - LIMFUNC1
+  <c:\mizar\prel\r\rfunct_1.the
+  <c:\mizar\prel\s\seq_2.dco
+   The cutting off constructors:
+    - SEQ_2
+  <c:\mizar\prel\x\xboole_1.the
 Schemes
   <c:\mizar\prel\f\fraenkel.sch
   <c:\mizar\prel\f\finseq_1.sch

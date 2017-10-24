@@ -622,7 +622,7 @@
   <SymbolCount kind="K" nr="0"/>
   <SymbolCount kind="L" nr="0"/>
   <SymbolCount kind="M" nr="0"/>
-  <SymbolCount kind="O" nr="1"/>
+  <SymbolCount kind="O" nr="3"/>
   <SymbolCount kind="R" nr="0"/>
   <SymbolCount kind="U" nr="0"/>
   <SymbolCount kind="V" nr="1"/>
@@ -670,5 +670,49 @@
   <SymbolCount kind="R" nr="1"/>
   <SymbolCount kind="U" nr="2"/>
   <SymbolCount kind="V" nr="16"/>
+ </Vocabulary>
+ <Vocabulary>
+  <ArticleID name="SIN_COS"/>
+  <SymbolCount kind="G" nr="0"/>
+  <SymbolCount kind="K" nr="0"/>
+  <SymbolCount kind="L" nr="0"/>
+  <SymbolCount kind="M" nr="0"/>
+  <SymbolCount kind="O" nr="22"/>
+  <SymbolCount kind="R" nr="0"/>
+  <SymbolCount kind="U" nr="0"/>
+  <SymbolCount kind="V" nr="0"/>
+ </Vocabulary>
+ <Vocabulary>
+  <ArticleID name="VALUED_1"/>
+  <SymbolCount kind="G" nr="0"/>
+  <SymbolCount kind="K" nr="0"/>
+  <SymbolCount kind="L" nr="0"/>
+  <SymbolCount kind="M" nr="0"/>
+  <SymbolCount kind="O" nr="3"/>
+  <SymbolCount kind="R" nr="0"/>
+  <SymbolCount kind="U" nr="0"/>
+  <SymbolCount kind="V" nr="0"/>
+ </Vocabulary>
+ <Vocabulary>
+  <ArticleID name="MEMBERED"/>
+  <SymbolCount kind="G" nr="0"/>
+  <SymbolCount kind="K" nr="0"/>
+  <SymbolCount kind="L" nr="0"/>
+  <SymbolCount kind="M" nr="0"/>
+  <SymbolCount kind="O" nr="0"/>
+  <SymbolCount kind="R" nr="0"/>
+  <SymbolCount kind="U" nr="0"/>
+  <SymbolCount kind="V" nr="6"/>
+ </Vocabulary>
+ <Vocabulary>
+  <ArticleID name="FUNCOP_1"/>
+  <SymbolCount kind="G" nr="0"/>
+  <SymbolCount kind="K" nr="0"/>
+  <SymbolCount kind="L" nr="0"/>
+  <SymbolCount kind="M" nr="0"/>
+  <SymbolCount kind="O" nr="6"/>
+  <SymbolCount kind="R" nr="0"/>
+  <SymbolCount kind="U" nr="0"/>
+  <SymbolCount kind="V" nr="1"/>
  </Vocabulary>
 </Vocabularies>
