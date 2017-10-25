@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<Article aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<Article aid="E" mizfiles="/usr/local/share/mizar/">
 <Reservation>
 <Ident vid="55"/>
 <Ident vid="56"/>
@@ -1472,7 +1472,7 @@
 <By line="118" col="60">
 <Ref nr="2" articlenr="27" kind="D" line="118" col="75"/>
 </By>
-<Proposition line="119" col="14">
+<Proposition line="120" col="11">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Func kind="K" nr="11" pid="33">
@@ -1483,8 +1483,91 @@
 </Pred>
 </Not>
 </Proposition>
-<By line="119" col="14"/>
-<Proposition line="120" col="40">
+<Proof line="120" col="11">
+<BlockThesis>
+<Not>
+<Pred kind="R" nr="1" pid="2">
+<Func kind="K" nr="11" pid="33">
+<Const nr="2" vid="66"/>
+<Const nr="4" vid="57"/>
+</Func>
+<Func kind="K" nr="47" pid="84"/>
+</Pred>
+</Not>
+</BlockThesis>
+<Assume>
+<Proposition line="122" col="2" nr="6" vid="69">
+<Pred kind="R" nr="1" pid="23">
+<Func kind="K" nr="11" pid="33">
+<Const nr="2" vid="66"/>
+<Const nr="4" vid="57"/>
+</Func>
+<Func kind="K" nr="47" pid="84"/>
+</Pred>
+</Proposition>
+</Assume>
+<Thesis>
+<Not>
+<Verum/>
+</Not>
+<ThesisExpansions/>
+</Thesis>
+<Proposition line="123" col="23">
+<Pred kind="R" nr="1" pid="37">
+<Func kind="K" nr="552" pid="40">
+<Func kind="K" nr="43" pid="80"/>
+<Const nr="2" vid="66"/>
+</Func>
+<Func kind="K" nr="43" pid="80"/>
+</Pred>
+</Proposition>
+<By line="123" col="23">
+<Ref nr="1" articlenr="16" kind="D" line="123" col="37"/>
+</By>
+<Proposition line="124" col="26">
+<Pred kind="R" nr="2" pid="3">
+<Const nr="4" vid="57"/>
+<Func kind="K" nr="552" pid="40">
+<Func kind="K" nr="43" pid="80"/>
+<Const nr="2" vid="66"/>
+</Func>
+</Pred>
+</Proposition>
+<By linked="true" line="124" col="26">
+<Ref nr="1" articlenr="1" kind="D" line="124" col="40"/>
+</By>
+<Proposition line="125" col="28">
+<Pred kind="R" nr="14" pid="5">
+<Func kind="K" nr="11" pid="33">
+<Const nr="2" vid="66"/>
+<Const nr="4" vid="57"/>
+</Func>
+<Func kind="K" nr="694" pid="288">
+<Const nr="2" vid="66"/>
+</Func>
+</Pred>
+</Proposition>
+<By linked="true" line="125" col="28">
+<Ref nr="3" articlenr="26" kind="T" line="125" col="38"/>
+</By>
+<Conclusion>
+<Proposition line="126" col="30">
+<Not>
+<Verum/>
+</Not>
+</Proposition>
+<By linked="true" line="126" col="30">
+<Ref nr="6" vid="69" line="126" col="33"/>
+<Ref nr="9" articlenr="24" kind="D" line="126" col="48"/>
+</By>
+</Conclusion>
+<Thesis>
+<Verum/>
+<ThesisExpansions/>
+</Thesis>
+<EndPosition line="127" col="9"/>
+</Proof>
+<Proposition line="128" col="40">
 <Pred kind="R" nr="81" pid="50">
 <Func kind="K" nr="895" pid="192">
 <Func kind="K" nr="43" pid="80"/>
@@ -1495,48 +1578,48 @@
 <Const nr="4" vid="57"/>
 </Pred>
 </Proposition>
-<By linked="true" line="120" col="40">
-<Ref nr="5" vid="63" line="120" col="43"/>
-<Ref nr="14" articlenr="57" kind="T" line="120" col="54"/>
+<By linked="true" line="128" col="40">
+<Ref nr="5" vid="63" line="128" col="43"/>
+<Ref nr="14" articlenr="57" kind="T" line="128" col="54"/>
 </By>
 <Conclusion>
-<Proposition line="121" col="21">
+<Proposition line="129" col="21">
 <Pred kind="R" nr="81">
 <Const nr="3" vid="67"/>
 <Const nr="4" vid="57"/>
 </Pred>
 </Proposition>
-<By linked="true" line="121" col="21">
-<Ref nr="3" vid="62" line="121" col="24"/>
-<Ref nr="4" vid="68" line="121" col="27"/>
+<By linked="true" line="129" col="21">
+<Ref nr="3" vid="62" line="129" col="24"/>
+<Ref nr="4" vid="68" line="129" col="27"/>
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="122" col="7"/>
+<EndPosition line="130" col="7"/>
 </Proof>
 <Conclusion>
-<Proposition line="123" col="16">
+<Proposition line="131" col="16">
 <Pred kind="V" nr="274">
 <Const nr="3" vid="67"/>
 </Pred>
 </Proposition>
-<By linked="true" line="123" col="16"/>
+<By linked="true" line="131" col="16"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="124" col="5"/>
+<EndPosition line="132" col="5"/>
 </Proof>
 </Coherence>
 </Registration>
-<EndPosition line="125" col="3"/>
+<EndPosition line="133" col="3"/>
 </RegistrationBlock>
 
-<RegistrationBlock line="127" col="12">
+<RegistrationBlock line="135" col="12">
 <Let nr="1">
 <Typ kind="M" nr="3" pid="11" vid="65">
 <Cluster>
@@ -1697,7 +1780,7 @@
 </Typ>
 </FCluster>
 <Coherence>
-<Proposition line="130" col="11">
+<Proposition line="138" col="11">
 <For>
 <Typ kind="M" nr="3" pid="11">
 <Cluster>
@@ -1754,14 +1837,14 @@
 </Not>
 </For>
 </Proposition>
-<By line="130" col="11"/>
+<By line="138" col="11"/>
 </Coherence>
 </Registration>
-<EndPosition line="131" col="3"/>
+<EndPosition line="139" col="3"/>
 </RegistrationBlock>
 
-<JustifiedTheorem line="133" col="7">
-<Proposition line="134" col="21" nr="3" vid="69">
+<JustifiedTheorem line="141" col="7">
+<Proposition line="142" col="21" nr="3" vid="70">
 <For pid="0" vid="57">
 <Typ kind="M" nr="1" pid="18">
 <Cluster>
@@ -1792,12 +1875,12 @@
 </Pred>
 </For>
 </Proposition>
-<By line="134" col="27">
-<Ref nr="10" articlenr="37" kind="T" line="134" col="39"/>
+<By line="142" col="27">
+<Ref nr="10" articlenr="37" kind="T" line="142" col="39"/>
 </By>
 </JustifiedTheorem>
 
-<RegistrationBlock line="136" col="12">
+<RegistrationBlock line="144" col="12">
 <Registration>
 <FCluster aid="E" nr="3">
 <ArgTypes/>
@@ -1835,20 +1918,20 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="138" col="11">
+<Proposition line="146" col="11">
 <Pred kind="V" nr="274">
 <Func kind="K" nr="869" pid="327"/>
 </Pred>
 </Proposition>
-<By line="138" col="14">
-<Ref nr="65" articlenr="56" kind="T" line="138" col="25"/>
+<By line="146" col="14">
+<Ref nr="65" articlenr="56" kind="T" line="146" col="25"/>
 </By>
 </Coherence>
 </Registration>
-<EndPosition line="139" col="3"/>
+<EndPosition line="147" col="3"/>
 </RegistrationBlock>
 
-<RegistrationBlock line="141" col="12">
+<RegistrationBlock line="149" col="12">
 <Registration>
 <FCluster aid="E" nr="4">
 <ArgTypes/>
@@ -1887,18 +1970,121 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="143" col="11">
+<Proposition line="152" col="7">
 <Pred kind="V" nr="2">
 <Func kind="K" nr="869" pid="327"/>
 </Pred>
 </Proposition>
-<By line="143" col="11"/>
+<Proof line="152" col="7">
+<BlockThesis>
+<Pred kind="V" nr="2">
+<Func kind="K" nr="869" pid="327"/>
+</Pred>
+</BlockThesis>
+<Proposition line="154" col="9">
+<Not>
+<Pred kind="R" nr="14" pid="5">
+<Func kind="K" nr="14" pid="5"/>
+<Func kind="K" nr="694" pid="288">
+<Func kind="K" nr="869" pid="327"/>
+</Func>
+</Pred>
+</Not>
+</Proposition>
+<Proof line="154" col="9">
+<BlockThesis>
+<Not>
+<Pred kind="R" nr="14" pid="5">
+<Func kind="K" nr="14" pid="5"/>
+<Func kind="K" nr="694" pid="288">
+<Func kind="K" nr="869" pid="327"/>
+</Func>
+</Pred>
+</Not>
+</BlockThesis>
+<Assume>
+<Proposition line="155" col="15">
+<Pred kind="R" nr="14" pid="5">
+<Func kind="K" nr="14" pid="5"/>
+<Func kind="K" nr="694" pid="288">
+<Func kind="K" nr="869" pid="327"/>
+</Func>
+</Pred>
+</Proposition>
+</Assume>
+<Thesis>
+<Not>
+<Verum/>
+</Not>
+<ThesisExpansions/>
+</Thesis>
+<Proposition line="156" col="56">
+<Not>
+<For pid="0" vid="60">
+<Typ kind="M" nr="3" pid="3">
+<Cluster/>
+<Cluster>
+<Adjective nr="24"/>
+<Adjective nr="25"/>
+<Adjective nr="138"/>
+</Cluster>
+<Func kind="K" nr="43" pid="80"/>
+</Typ>
+<Not>
+<Pred kind="R" nr="1" pid="23">
+<Func kind="K" nr="14" pid="5"/>
+<Func kind="K" nr="149" pid="56">
+<Func kind="K" nr="43" pid="80"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="869" pid="327"/>
+<Var nr="1"/>
+</Func>
+</Pred>
+</Not>
+</For>
+</Not>
+</Proposition>
+<By linked="true" line="156" col="56">
+<Ref nr="113" articlenr="16" kind="T" line="156" col="68"/>
+</By>
+<Conclusion>
+<Proposition line="157" col="28">
+<Not>
+<Verum/>
+</Not>
+</Proposition>
+<By linked="true" line="157" col="28">
+<Ref nr="54" articlenr="56" kind="T" line="157" col="39"/>
+</By>
+</Conclusion>
+<Thesis>
+<Verum/>
+<ThesisExpansions/>
+</Thesis>
+<EndPosition line="158" col="5"/>
+</Proof>
+<Conclusion>
+<Proposition line="159" col="19">
+<Pred kind="V" nr="2">
+<Func kind="K" nr="869" pid="327"/>
+</Pred>
+</Proposition>
+<By linked="true" line="159" col="19">
+<Ref nr="9" articlenr="24" kind="D" line="159" col="33"/>
+</By>
+</Conclusion>
+<Thesis>
+<Verum/>
+<ThesisExpansions/>
+</Thesis>
+<EndPosition line="160" col="5"/>
+</Proof>
 </Coherence>
 </Registration>
-<EndPosition line="144" col="3"/>
+<EndPosition line="161" col="3"/>
 </RegistrationBlock>
 
-<RegistrationBlock line="146" col="12">
+<RegistrationBlock line="163" col="12">
 <Registration>
 <FCluster aid="E" nr="5">
 <ArgTypes/>
@@ -1974,7 +2160,7 @@
 </Typ>
 </FCluster>
 <Coherence>
-<Proposition line="148" col="11">
+<Proposition line="165" col="11">
 <For>
 <Typ kind="M" nr="3" pid="11">
 <Cluster>
@@ -2031,15 +2217,15 @@
 </Not>
 </For>
 </Proposition>
-<By line="148" col="11"/>
+<By line="165" col="11"/>
 </Coherence>
 </Registration>
-<EndPosition line="149" col="3"/>
+<EndPosition line="166" col="3"/>
 </RegistrationBlock>
 
 <Set nr="1">
 <Func kind="K" nr="847" pid="285"/>
-<Typ kind="M" nr="1" vid="70">
+<Typ kind="M" nr="1" vid="71">
 <Cluster>
 <Adjective nr="25"/>
 </Cluster>
@@ -2052,7 +2238,7 @@
 </Set>
 
 <Reservation>
-<Ident vid="71"/>
+<Ident vid="72"/>
 <Typ kind="M" nr="3" pid="34">
 <Cluster/>
 <Cluster>
@@ -2065,7 +2251,7 @@
 </Reservation>
 
 <Reservation>
-<Ident vid="72"/>
+<Ident vid="73"/>
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -2118,9 +2304,9 @@
 </Typ>
 </Reservation>
 
-<DefinitionBlock line="169" col="10">
+<DefinitionBlock line="186" col="10">
 <Let nr="2">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -2175,11 +2361,11 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
-<Typ kind="M" nr="3" vid="73">
+<Typ kind="M" nr="3" vid="74">
 <Cluster/>
 <Cluster>
 <Adjective nr="14"/>
@@ -2207,13 +2393,13 @@
 <Func kind="K" nr="216" pid="375"/>
 </Func>
 </Func>
-<Typ kind="M" nr="2" vid="74">
+<Typ kind="M" nr="2" vid="75">
 <Cluster/>
 <Cluster/>
 </Typ>
 </Set>
 <Reconsider nr="5">
-<Typ kind="M" nr="21" pid="63" vid="75">
+<Typ kind="M" nr="21" pid="63" vid="76">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -2247,10 +2433,10 @@
 </Func>
 </Func>
 </Typ>
-<Const nr="2" vid="72"/>
-<Proposition line="173" col="30">
+<Const nr="2" vid="73"/>
+<Proposition line="190" col="30">
 <Is>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 <Typ kind="M" nr="21" pid="63">
 <Cluster/>
 <Cluster>
@@ -2287,11 +2473,11 @@
 </Typ>
 </Is>
 </Proposition>
-<By line="173" col="38">
-<Ref nr="10" articlenr="54" kind="D" line="173" col="54"/>
+<By line="190" col="38">
+<Ref nr="10" articlenr="54" kind="D" line="190" col="54"/>
 </By>
 </Reconsider>
-<DefPred nr="1" vid="76">
+<DefPred nr="1" vid="77">
 <ArgTypes>
 <Typ kind="M" nr="1" pid="1">
 <Cluster/>
@@ -2306,7 +2492,7 @@
 <Cluster/>
 </Typ>
 </ArgTypes>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -2375,9 +2561,9 @@
 </Not>
 </For>
 </DefPred>
-<Definition kind="K" nr="4" vid="78" line="176" col="68">
+<Definition kind="K" nr="4" vid="79" line="193" col="68">
 <Existence>
-<Proposition line="181" col="7">
+<Proposition line="198" col="7">
 <Not pid="-4">
 <For pid="-2" vid="0">
 <Typ kind="M" nr="6" pid="39">
@@ -2414,7 +2600,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -2424,7 +2610,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -2464,7 +2650,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -2550,7 +2736,7 @@
 </For>
 </Not>
 </Proposition>
-<Proof line="181" col="7">
+<Proof line="198" col="7">
 <BlockThesis>
 <Not pid="-4">
 <For pid="-2" vid="0">
@@ -2588,7 +2774,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -2598,7 +2784,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -2638,7 +2824,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -2724,7 +2910,7 @@
 </For>
 </Not>
 </BlockThesis>
-<Proposition line="184" col="9" nr="4" vid="62">
+<Proposition line="201" col="9" nr="4" vid="62">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -2759,7 +2945,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -2843,7 +3029,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -2921,7 +3107,7 @@
 </Not>
 </For>
 </Proposition>
-<Proof nr="4" vid="62" line="184" col="9">
+<Proof nr="4" vid="62" line="201" col="9">
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -2957,7 +3143,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -3041,7 +3227,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3155,7 +3341,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -3239,7 +3425,7 @@
 <Const nr="6" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3318,7 +3504,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="186" col="14">
+<Proposition line="203" col="14">
 <And>
 <Pred kind="R" nr="32" pid="25">
 <Num nr="1"/>
@@ -3329,7 +3515,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -3416,7 +3602,7 @@
 <Const nr="6" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3569,7 +3755,7 @@
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Var nr="1"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3681,7 +3867,7 @@
 <Func kind="K" nr="759" pid="462">
 <Const nr="7" vid="60"/>
 </Func>
-<Proposition line="188" col="44">
+<Proposition line="205" col="44">
 <Is>
 <Func kind="K" nr="759" pid="462">
 <Const nr="7" vid="60"/>
@@ -3722,8 +3908,8 @@
 </Typ>
 </Is>
 </Proposition>
-<By line="188" col="52">
-<Ref nr="10" articlenr="54" kind="D" line="188" col="68"/>
+<By line="205" col="52">
+<Ref nr="10" articlenr="54" kind="D" line="205" col="68"/>
 </By>
 </Reconsider>
 <Take>
@@ -3734,7 +3920,7 @@
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Const nr="8" vid="61"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3806,12 +3992,12 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="190" col="17">
+<Proposition line="207" col="17">
 <PrivPred nr="1">
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Const nr="8" vid="61"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -3881,18 +4067,18 @@
 </For>
 </PrivPred>
 </Proposition>
-<By line="190" col="17"/>
+<By line="207" col="17"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="191" col="7"/>
+<EndPosition line="208" col="7"/>
 </Proof>
 <Consider nr="6">
-<Proposition line="195" col="47">
+<Proposition line="212" col="47">
 <Not>
-<For pid="0" vid="79">
+<For pid="0" vid="80">
 <Typ kind="M" nr="6" pid="15">
 <Cluster/>
 <Cluster>
@@ -3927,7 +4113,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -3940,7 +4126,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -3948,7 +4134,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -3991,7 +4177,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -4012,7 +4198,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4099,10 +4285,10 @@
 </For>
 </Not>
 </Proposition>
-<From articlenr="61" nr="4" line="196" col="8">
-<Ref nr="4" vid="62" line="196" col="26"/>
+<From articlenr="61" nr="4" line="213" col="8">
+<Ref nr="4" vid="62" line="213" col="26"/>
 </From>
-<Typ kind="M" nr="6" pid="15" vid="79">
+<Typ kind="M" nr="6" pid="15" vid="80">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -4127,30 +4313,30 @@
 </Func>
 </Func>
 </Typ>
-<Proposition line="193" col="2" nr="5" vid="63">
+<Proposition line="210" col="2" nr="5" vid="63">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="194" col="2" nr="6" vid="80">
+<Proposition line="211" col="2" nr="6" vid="69">
 <Not pid="-8">
 <And pid="-9">
 <Not pid="-10">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -4158,7 +4344,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -4168,7 +4354,7 @@
 </And>
 </Not>
 </Proposition>
-<Proposition line="195" col="2" nr="7" vid="68">
+<Proposition line="212" col="2" nr="7" vid="68">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -4203,7 +4389,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -4214,17 +4400,17 @@
 <PrivPred nr="1">
 <Var nr="1"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4280,14 +4466,14 @@
 <Pred kind="R" nr="1" pid="1">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="1">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -4309,28 +4495,28 @@
 </Proposition>
 </Consider>
 <Take>
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Take>
 <Thesis>
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -4364,13 +4550,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4426,14 +4612,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -4455,32 +4641,32 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="198" col="29">
+<Proposition line="215" col="29">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 </Proposition>
-<By line="198" col="29">
-<Ref nr="5" vid="63" line="198" col="32"/>
+<By line="215" col="29">
+<Ref nr="5" vid="63" line="215" col="32"/>
 </By>
 </Conclusion>
 <Thesis>
 <And>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -4514,13 +4700,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4576,14 +4762,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -4605,17 +4791,17 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="199" col="19">
+<Proposition line="216" col="19">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 </Proposition>
-<By line="199" col="19">
-<Ref nr="6" vid="80" line="199" col="22"/>
+<By line="216" col="19">
+<Ref nr="6" vid="69" line="216" col="22"/>
 </By>
 </Conclusion>
 <Thesis>
@@ -4651,13 +4837,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4713,14 +4899,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -4741,7 +4927,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="200" col="18">
+<Proposition line="217" col="18">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -4774,13 +4960,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -4836,14 +5022,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -4862,20 +5048,20 @@
 </Not>
 </For>
 </Proposition>
-<By line="200" col="18">
-<Ref nr="5" vid="63" line="200" col="21"/>
-<Ref nr="7" vid="68" line="200" col="25"/>
+<By line="217" col="18">
+<Ref nr="5" vid="63" line="217" col="21"/>
+<Ref nr="7" vid="68" line="217" col="25"/>
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="201" col="5"/>
+<EndPosition line="218" col="5"/>
 </Proof>
 </Existence>
 <Uniqueness>
-<Proposition line="203" col="7">
+<Proposition line="220" col="7">
 <For>
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
@@ -4937,7 +5123,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -4947,7 +5133,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -4987,7 +5173,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5075,7 +5261,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -5085,7 +5271,7 @@
 <Var nr="2"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -5125,7 +5311,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5217,7 +5403,7 @@
 </For>
 </For>
 </Proposition>
-<Proof line="203" col="7">
+<Proof line="220" col="7">
 <BlockThesis>
 <For>
 <Typ kind="M" nr="6" pid="39">
@@ -5280,7 +5466,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -5290,7 +5476,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -5330,7 +5516,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5418,7 +5604,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -5428,7 +5614,7 @@
 <Var nr="2"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -5468,7 +5654,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5561,7 +5747,7 @@
 </For>
 </BlockThesis>
 <Let nr="6">
-<Typ kind="M" nr="6" pid="39" vid="79">
+<Typ kind="M" nr="6" pid="39" vid="80">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -5617,22 +5803,22 @@
 <And pid="-5">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -5666,13 +5852,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5728,14 +5914,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -5760,7 +5946,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -5770,7 +5956,7 @@
 <Const nr="7" vid="81"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -5810,7 +5996,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -5893,7 +6079,7 @@
 </For>
 <Not pid="-6">
 <Pred kind="R" nr="1">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Const nr="7" vid="81"/>
 </Pred>
 </Not>
@@ -5902,30 +6088,30 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="205" col="2" nr="4" vid="82">
+<Proposition line="222" col="2" nr="4" vid="82">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="206" col="2" nr="5" vid="83">
+<Proposition line="223" col="2" nr="5" vid="83">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 </Proposition>
-<Proposition line="207" col="2" nr="6" vid="84">
+<Proposition line="224" col="2" nr="6" vid="84">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -5958,13 +6144,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6020,14 +6206,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -6046,7 +6232,7 @@
 </Not>
 </For>
 </Proposition>
-<Proposition line="210" col="2" nr="7" vid="85">
+<Proposition line="227" col="2" nr="7" vid="85">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
 <Const nr="7" vid="81"/>
@@ -6054,22 +6240,22 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="211" col="2" nr="8" vid="86">
+<Proposition line="228" col="2" nr="8" vid="86">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
 <Const nr="7" vid="81"/>
 <Num nr="1"/>
 </Func>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Pred>
 </Proposition>
-<Proposition line="212" col="3" nr="9" vid="87">
+<Proposition line="229" col="3" nr="9" vid="87">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -6108,7 +6294,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6193,12 +6379,12 @@
 </Assume>
 <Thesis>
 <Pred kind="R" nr="1">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Const nr="7" vid="81"/>
 </Pred>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="216" col="9" nr="10" vid="88">
+<Proposition line="233" col="9" nr="10" vid="88">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -6233,7 +6419,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -6352,7 +6538,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6425,7 +6611,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="4"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6514,7 +6700,7 @@
 </Not>
 </For>
 </Proposition>
-<Proof nr="10" vid="88" line="216" col="9">
+<Proof nr="10" vid="88" line="233" col="9">
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -6550,7 +6736,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -6669,7 +6855,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6742,7 +6928,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="4"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -6867,7 +7053,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -6986,7 +7172,7 @@
 <Const nr="8" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7059,7 +7245,7 @@
 <Const nr="8" vid="56"/>
 <Var nr="1"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7149,7 +7335,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="218" col="14">
+<Proposition line="235" col="14">
 <And>
 <Pred kind="R" nr="32" pid="25">
 <Num nr="1"/>
@@ -7160,7 +7346,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -7282,7 +7468,7 @@
 <Const nr="8" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7355,7 +7541,7 @@
 <Const nr="8" vid="56"/>
 <Var nr="1"/>
 <Var nr="3"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7552,7 +7738,7 @@
 <Const nr="8" vid="56"/>
 <Const nr="9" vid="60"/>
 <Const nr="10" vid="89"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7625,7 +7811,7 @@
 <Const nr="8" vid="56"/>
 <Const nr="9" vid="60"/>
 <Const nr="11" vid="90"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7709,12 +7895,12 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="220" col="14">
+<Proposition line="237" col="14">
 <PrivPred nr="1">
 <Const nr="8" vid="56"/>
 <Const nr="9" vid="60"/>
 <Const nr="10" vid="89"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7792,7 +7978,7 @@
 <Const nr="8" vid="56"/>
 <Const nr="9" vid="60"/>
 <Const nr="11" vid="90"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7875,7 +8061,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="221" col="28">
+<Proposition line="238" col="28">
 <Pred kind="R" nr="22" pid="21">
 <Func kind="K" nr="40"/>
 <Func kind="U" nr="1">
@@ -7887,16 +8073,16 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="221" col="28"/>
+<By linked="true" line="238" col="28"/>
 <Conclusion>
-<Proposition line="222" col="18">
+<Proposition line="239" col="18">
 <Not>
 <And pid="-5">
 <PrivPred nr="1">
 <Const nr="8" vid="56"/>
 <Const nr="9" vid="60"/>
 <Const nr="11" vid="90"/>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -7978,24 +8164,24 @@
 </And>
 </Not>
 </Proposition>
-<By linked="true" line="222" col="18"/>
+<By linked="true" line="239" col="18"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="223" col="7"/>
+<EndPosition line="240" col="7"/>
 </Proof>
-<Proposition line="225" col="53" nr="11" vid="91">
+<Proposition line="242" col="53" nr="11" vid="91">
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8005,10 +8191,10 @@
 <Not pid="-10">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -8016,7 +8202,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8059,7 +8245,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8070,17 +8256,17 @@
 <PrivPred nr="1">
 <Var nr="1"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -8136,14 +8322,14 @@
 <Pred kind="R" nr="1" pid="1">
 <Var nr="2"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="1">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -8164,12 +8350,12 @@
 </For>
 </And>
 </Proposition>
-<By line="225" col="53">
-<Ref nr="4" vid="82" line="225" col="56"/>
-<Ref nr="5" vid="83" line="225" col="59"/>
-<Ref nr="6" vid="84" line="225" col="62"/>
+<By line="242" col="53">
+<Ref nr="4" vid="82" line="242" col="56"/>
+<Ref nr="5" vid="83" line="242" col="59"/>
+<Ref nr="6" vid="84" line="242" col="62"/>
 </By>
-<Proposition line="227" col="53" nr="12" vid="92">
+<Proposition line="244" col="53" nr="12" vid="92">
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
@@ -8178,7 +8364,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8191,7 +8377,7 @@
 <Const nr="7" vid="81"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -8199,7 +8385,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8242,7 +8428,7 @@
 <Func kind="K" nr="232" pid="104">
 <Func kind="K" nr="456" pid="412">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 <Num nr="1"/>
 </Func>
@@ -8263,7 +8449,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -8347,29 +8533,29 @@
 </For>
 </And>
 </Proposition>
-<By line="227" col="53">
-<Ref nr="7" vid="85" line="227" col="56"/>
-<Ref nr="8" vid="86" line="227" col="59"/>
-<Ref nr="9" vid="87" line="227" col="63"/>
+<By line="244" col="53">
+<Ref nr="7" vid="85" line="244" col="56"/>
+<Ref nr="8" vid="86" line="244" col="59"/>
+<Ref nr="9" vid="87" line="244" col="63"/>
 </By>
 <Conclusion>
-<Proposition line="228" col="19">
+<Proposition line="245" col="19">
 <Pred kind="R" nr="1" pid="22">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Const nr="7" vid="81"/>
 </Pred>
 </Proposition>
-<From articlenr="61" nr="8" line="228" col="19">
-<Ref nr="10" vid="88" line="228" col="38"/>
-<Ref nr="11" vid="91" line="228" col="42"/>
-<Ref nr="12" vid="92" line="228" col="46"/>
+<From articlenr="61" nr="8" line="245" col="19">
+<Ref nr="10" vid="88" line="245" col="38"/>
+<Ref nr="11" vid="91" line="245" col="42"/>
+<Ref nr="12" vid="92" line="245" col="46"/>
 </From>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="229" col="5"/>
+<EndPosition line="246" col="5"/>
 </Proof>
 </Uniqueness>
 <Constructor kind="K" nr="1" aid="E" relnr="903">
@@ -8509,9 +8695,9 @@
 </Visible>
 </Pattern>
 </Definition>
-<EndPosition line="230" col="3"/>
+<EndPosition line="247" col="3"/>
 </DefinitionBlock>
-<Definiens constrkind="K" constrnr="903" aid="E" defnr="1" vid="78" relnr="152">
+<Definiens constrkind="K" constrnr="903" aid="E" defnr="1" vid="79" relnr="152">
 <Typ kind="M" nr="3">
 <Cluster>
 <Adjective nr="6"/>
@@ -8650,7 +8836,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -8735,8 +8921,8 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="903">
-<Proposition line="230" col="3" nr="4" vid="78">
-<For pid="0" vid="72">
+<Proposition line="247" col="3" nr="4" vid="79">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -8881,7 +9067,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9025,7 +9211,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9122,7 +9308,7 @@
 </Proposition>
 </DefTheorem>
 
-<DefinitionBlock line="232" col="10">
+<DefinitionBlock line="249" col="10">
 <Let nr="2">
 <Typ kind="M" nr="6" pid="39" vid="93">
 <Cluster/>
@@ -9154,7 +9340,7 @@
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
 </Func>
-<Typ kind="M" nr="3" vid="73">
+<Typ kind="M" nr="3" vid="74">
 <Cluster/>
 <Cluster>
 <Adjective nr="14"/>
@@ -9182,12 +9368,12 @@
 <Func kind="K" nr="216" pid="375"/>
 </Func>
 </Func>
-<Typ kind="M" nr="2" vid="74">
+<Typ kind="M" nr="2" vid="75">
 <Cluster/>
 <Cluster/>
 </Typ>
 </Set>
-<DefPred nr="1" vid="76">
+<DefPred nr="1" vid="77">
 <ArgTypes>
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -9220,7 +9406,7 @@
 <Cluster/>
 </Typ>
 </ArgTypes>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9271,7 +9457,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9353,9 +9539,9 @@
 </For>
 </For>
 </DefPred>
-<Definition kind="K" nr="5" vid="94" line="239" col="72">
+<Definition kind="K" nr="5" vid="94" line="256" col="72">
 <Existence>
-<Proposition line="246" col="7">
+<Proposition line="263" col="7">
 <And>
 <Not pid="-4">
 <And pid="-5">
@@ -9449,7 +9635,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9500,7 +9686,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9642,7 +9828,7 @@
 </Not>
 </And>
 </Proposition>
-<Proof line="246" col="7">
+<Proof line="263" col="7">
 <BlockThesis>
 <And>
 <Not pid="-4">
@@ -9737,7 +9923,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9788,7 +9974,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -9931,7 +10117,7 @@
 </And>
 </BlockThesis>
 <Conclusion>
-<Proposition line="252" col="9">
+<Proposition line="269" col="9">
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -9940,7 +10126,7 @@
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 </Not>
-<For pid="0" vid="79">
+<For pid="0" vid="80">
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
 <Cluster>
@@ -10024,7 +10210,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10075,7 +10261,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10175,7 +10361,7 @@
 </And>
 </Not>
 </Proposition>
-<Proof line="252" col="9">
+<Proof line="269" col="9">
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -10185,7 +10371,7 @@
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 </Not>
-<For pid="0" vid="79">
+<For pid="0" vid="80">
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
 <Cluster>
@@ -10269,7 +10455,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10320,7 +10506,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10421,7 +10607,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<Proposition line="254" col="2" nr="5" vid="62">
+<Proposition line="271" col="2" nr="5" vid="62">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="2" vid="93"/>
@@ -10432,7 +10618,7 @@
 </Assume>
 <Thesis>
 <Not>
-<For pid="0" vid="79">
+<For pid="0" vid="80">
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
 <Cluster>
@@ -10516,7 +10702,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10567,7 +10753,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10667,7 +10853,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="255" col="22">
+<Proposition line="272" col="22">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Func kind="K" nr="553" pid="41">
@@ -10682,8 +10868,8 @@
 </Pred>
 </Not>
 </Proposition>
-<By linked="true" line="255" col="22"/>
-<Proposition line="256" col="24">
+<By linked="true" line="272" col="22"/>
+<Proposition line="273" col="24">
 <Pred kind="R" nr="14" pid="5">
 <Num nr="1"/>
 <Func kind="K" nr="96" pid="64">
@@ -10691,10 +10877,10 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="256" col="24">
-<Ref nr="32" articlenr="19" kind="T" line="256" col="36"/>
+<By linked="true" line="273" col="24">
+<Ref nr="32" articlenr="19" kind="T" line="273" col="36"/>
 </By>
-<Proposition line="257" col="26">
+<Proposition line="274" col="26">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -10710,11 +10896,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="257" col="26">
-<Ref nr="3" articlenr="26" kind="T" line="257" col="36"/>
+<By linked="true" line="274" col="26">
+<Ref nr="3" articlenr="26" kind="T" line="274" col="36"/>
 </By>
 <Reconsider nr="5">
-<Typ kind="M" nr="21" pid="63" vid="75">
+<Typ kind="M" nr="21" pid="63" vid="76">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -10752,7 +10938,7 @@
 <Const nr="2" vid="93"/>
 <Num nr="1"/>
 </Func>
-<Proposition line="258" col="41">
+<Proposition line="275" col="41">
 <Is>
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -10794,9 +10980,9 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="258" col="46"/>
+<By linked="true" line="275" col="46"/>
 </Reconsider>
-<Proposition line="261" col="11" nr="6" vid="63">
+<Proposition line="278" col="11" nr="6" vid="63">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -10911,7 +11097,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -10962,7 +11148,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11053,7 +11239,7 @@
 </Not>
 </For>
 </Proposition>
-<Proof nr="6" vid="63" line="261" col="11">
+<Proof nr="6" vid="63" line="278" col="11">
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -11169,7 +11355,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11220,7 +11406,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11427,7 +11613,7 @@
 <Const nr="6" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11478,7 +11664,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11570,13 +11756,13 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="263" col="21">
+<Proposition line="280" col="21">
 <Pred kind="R" nr="32" pid="25">
 <Num nr="1"/>
 <Const nr="6" vid="56"/>
 </Pred>
 </Proposition>
-<Proposition line="264" col="2" nr="7" vid="80">
+<Proposition line="281" col="2" nr="7" vid="69">
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
@@ -11664,7 +11850,7 @@
 <Const nr="6" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11715,7 +11901,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11881,7 +12067,7 @@
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Var nr="1"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -11932,7 +12118,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12019,7 +12205,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="266" col="19">
+<Proposition line="283" col="19">
 <Pred kind="R" nr="32" pid="25">
 <Func kind="K" nr="232" pid="104">
 <Const nr="6" vid="56"/>
@@ -12030,11 +12216,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By line="266" col="19">
-<Ref nr="7" vid="80" line="266" col="22"/>
-<Ref nr="13" articlenr="6" kind="T" line="266" col="31"/>
+<By line="283" col="19">
+<Ref nr="7" vid="69" line="283" col="22"/>
+<Ref nr="13" articlenr="6" kind="T" line="283" col="31"/>
 </By>
-<Proposition line="267" col="28">
+<Proposition line="284" col="28">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="232" pid="104">
 <Const nr="6" vid="56"/>
@@ -12045,11 +12231,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="267" col="28">
-<Ref nr="12" articlenr="6" kind="T" line="267" col="37"/>
-<Ref nr="25" articlenr="19" kind="T" line="267" col="49"/>
+<By linked="true" line="284" col="28">
+<Ref nr="12" articlenr="6" kind="T" line="284" col="37"/>
+<Ref nr="25" articlenr="19" kind="T" line="284" col="49"/>
 </By>
-<Proposition line="268" col="32">
+<Proposition line="285" col="32">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -12068,11 +12254,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="268" col="32">
-<Ref nr="3" articlenr="26" kind="T" line="268" col="42"/>
+<By linked="true" line="285" col="32">
+<Ref nr="3" articlenr="26" kind="T" line="285" col="42"/>
 </By>
 <Reconsider nr="8">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -12129,7 +12315,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<Proposition line="269" col="59">
+<Proposition line="286" col="59">
 <Is>
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -12190,8 +12376,8 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="270" col="10">
-<Ref nr="10" articlenr="54" kind="D" line="270" col="26"/>
+<By linked="true" line="287" col="10">
+<Ref nr="10" articlenr="54" kind="D" line="287" col="26"/>
 </By>
 </Reconsider>
 <Reconsider nr="9">
@@ -12231,14 +12417,14 @@
 </Typ>
 <Func kind="K" nr="403" pid="418">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="8" vid="72"/>
+<Const nr="8" vid="73"/>
 <Const nr="7" vid="60"/>
 </Func>
-<Proposition line="271" col="39">
+<Proposition line="288" col="39">
 <Is>
 <Func kind="K" nr="403" pid="418">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="8" vid="72"/>
+<Const nr="8" vid="73"/>
 <Const nr="7" vid="60"/>
 </Func>
 <Typ kind="M" nr="21" pid="63">
@@ -12277,8 +12463,8 @@
 </Typ>
 </Is>
 </Proposition>
-<By line="271" col="47">
-<Ref nr="10" articlenr="54" kind="D" line="271" col="63"/>
+<By line="288" col="47">
+<Ref nr="10" articlenr="54" kind="D" line="288" col="63"/>
 </By>
 </Reconsider>
 <Take>
@@ -12289,7 +12475,7 @@
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Const nr="9" vid="61"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12340,7 +12526,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12425,12 +12611,12 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="273" col="19">
+<Proposition line="290" col="19">
 <PrivPred nr="1">
 <Const nr="6" vid="56"/>
 <Const nr="7" vid="60"/>
 <Const nr="9" vid="61"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12481,7 +12667,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12564,18 +12750,18 @@
 </For>
 </PrivPred>
 </Proposition>
-<By line="273" col="19"/>
+<By line="290" col="19"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="274" col="9"/>
+<EndPosition line="291" col="9"/>
 </Proof>
 <Consider nr="6">
-<Proposition line="278" col="49">
+<Proposition line="295" col="49">
 <Not>
-<For pid="0" vid="79">
+<For pid="0" vid="80">
 <Typ kind="M" nr="6" pid="15">
 <Cluster/>
 <Cluster>
@@ -12619,7 +12805,7 @@
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -12683,7 +12869,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12734,7 +12920,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12834,10 +13020,10 @@
 </For>
 </Not>
 </Proposition>
-<From articlenr="61" nr="4" line="279" col="10">
-<Ref nr="6" vid="63" line="279" col="28"/>
+<From articlenr="61" nr="4" line="296" col="10">
+<Ref nr="6" vid="63" line="296" col="28"/>
 </From>
-<Typ kind="M" nr="6" pid="15" vid="79">
+<Typ kind="M" nr="6" pid="15" vid="80">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -12862,26 +13048,26 @@
 </Func>
 </Func>
 </Typ>
-<Proposition line="276" col="2" nr="7" vid="68">
+<Proposition line="293" col="2" nr="7" vid="68">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="277" col="2" nr="8" vid="82">
+<Proposition line="294" col="2" nr="8" vid="82">
 <Not pid="-8">
 <And pid="-9">
 <Not pid="-10">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="5" vid="75"/>
+<Const nr="5" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -12895,7 +13081,7 @@
 </And>
 </Not>
 </Proposition>
-<Proposition line="278" col="2" nr="9" vid="83">
+<Proposition line="295" col="2" nr="9" vid="83">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -12937,17 +13123,17 @@
 <PrivPred nr="1">
 <Var nr="1"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -12998,7 +13184,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13064,14 +13250,14 @@
 <Pred kind="R" nr="1" pid="1">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="1">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -13096,13 +13282,13 @@
 </Proposition>
 </Consider>
 <Take>
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Take>
 <Thesis>
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
@@ -13110,7 +13296,7 @@
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -13150,13 +13336,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13207,7 +13393,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13273,14 +13459,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -13305,25 +13491,25 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="281" col="29">
+<Proposition line="298" col="29">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
 </Func>
 </Pred>
 </Proposition>
-<By line="281" col="29">
-<Ref nr="7" vid="68" line="281" col="32"/>
+<By line="298" col="29">
+<Ref nr="7" vid="68" line="298" col="32"/>
 </By>
 </Conclusion>
 <Thesis>
 <And>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -13363,13 +13549,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13420,7 +13606,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13486,14 +13672,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -13518,10 +13704,10 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="282" col="23">
+<Proposition line="299" col="23">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -13530,10 +13716,10 @@
 </Func>
 </Pred>
 </Proposition>
-<By line="282" col="23">
-<Ref nr="5" vid="62" line="282" col="26"/>
-<Ref nr="8" vid="82" line="282" col="29"/>
-<Ref nr="20" articlenr="25" kind="T" line="282" col="41"/>
+<By line="299" col="23">
+<Ref nr="5" vid="62" line="299" col="26"/>
+<Ref nr="8" vid="82" line="299" col="29"/>
+<Ref nr="20" articlenr="25" kind="T" line="299" col="41"/>
 </By>
 </Conclusion>
 <Thesis>
@@ -13569,13 +13755,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13626,7 +13812,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13692,14 +13878,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -13723,7 +13909,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="283" col="20">
+<Proposition line="300" col="20">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -13756,13 +13942,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13813,7 +13999,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -13879,14 +14065,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="6" vid="79"/>
+<Const nr="6" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -13908,16 +14094,16 @@
 </Not>
 </For>
 </Proposition>
-<By line="283" col="20">
-<Ref nr="7" vid="68" line="283" col="23"/>
-<Ref nr="9" vid="83" line="283" col="27"/>
+<By line="300" col="20">
+<Ref nr="7" vid="68" line="300" col="23"/>
+<Ref nr="9" vid="83" line="300" col="27"/>
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="284" col="7"/>
+<EndPosition line="301" col="7"/>
 </Proof>
 </Conclusion>
 <Thesis>
@@ -13965,7 +14151,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="285" col="15">
+<Proposition line="302" col="15">
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -14008,17 +14194,17 @@
 </And>
 </Not>
 </Proposition>
-<By line="285" col="15"/>
+<By line="302" col="15"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="286" col="5"/>
+<EndPosition line="303" col="5"/>
 </Proof>
 </Existence>
 <Uniqueness>
-<Proposition line="288" col="7">
+<Proposition line="305" col="7">
 <For>
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
@@ -14136,7 +14322,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14187,7 +14373,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14337,7 +14523,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14388,7 +14574,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14516,7 +14702,7 @@
 </For>
 </For>
 </Proposition>
-<Proof line="288" col="7">
+<Proof line="305" col="7">
 <BlockThesis>
 <For>
 <Typ kind="M" nr="6" pid="39">
@@ -14635,7 +14821,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14686,7 +14872,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14836,7 +15022,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -14887,7 +15073,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15016,7 +15202,7 @@
 </For>
 </BlockThesis>
 <Let nr="5">
-<Typ kind="M" nr="6" pid="39" vid="79">
+<Typ kind="M" nr="6" pid="39" vid="80">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -15079,7 +15265,7 @@
 </Not>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
@@ -15087,7 +15273,7 @@
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -15127,13 +15313,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15184,7 +15370,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15250,14 +15436,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -15334,7 +15520,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15385,7 +15571,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15481,7 +15667,7 @@
 </For>
 <Not pid="-6">
 <Pred kind="R" nr="1">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
@@ -15494,7 +15680,7 @@
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
@@ -15503,7 +15689,7 @@
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
@@ -15513,7 +15699,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="298" col="9">
+<Proposition line="315" col="9">
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -15524,7 +15710,7 @@
 </Not>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
@@ -15532,7 +15718,7 @@
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -15572,13 +15758,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15629,7 +15815,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15695,14 +15881,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -15779,7 +15965,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15830,7 +16016,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -15926,14 +16112,14 @@
 </For>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="22">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
 </And>
 </Not>
 </Proposition>
-<Proof line="298" col="9">
+<Proof line="315" col="9">
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -15945,7 +16131,7 @@
 </Not>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
@@ -15953,7 +16139,7 @@
 </Pred>
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -15993,13 +16179,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16050,7 +16236,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16116,14 +16302,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -16200,7 +16386,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16251,7 +16437,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16347,7 +16533,7 @@
 </For>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="22">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
@@ -16355,7 +16541,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<Proposition line="300" col="2" nr="5" vid="84">
+<Proposition line="317" col="2" nr="5" vid="84">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="2" vid="93"/>
@@ -16363,20 +16549,20 @@
 </Pred>
 </Not>
 </Proposition>
-<Proposition line="301" col="2" nr="6" vid="85">
+<Proposition line="318" col="2" nr="6" vid="85">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="302" col="2" nr="7" vid="86">
+<Proposition line="319" col="2" nr="7" vid="86">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Num nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
@@ -16385,7 +16571,7 @@
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="303" col="3" nr="8" vid="87">
+<Proposition line="320" col="3" nr="8" vid="87">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -16418,13 +16604,13 @@
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Var nr="1"/>
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16475,7 +16661,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16541,14 +16727,14 @@
 <Pred kind="R" nr="1" pid="10">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -16570,7 +16756,7 @@
 </Not>
 </For>
 </Proposition>
-<Proposition line="307" col="3" nr="9" vid="88">
+<Proposition line="324" col="3" nr="9" vid="88">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
 <Const nr="6" vid="81"/>
@@ -16580,7 +16766,7 @@
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="308" col="3" nr="10" vid="91">
+<Proposition line="325" col="3" nr="10" vid="91">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
 <Const nr="6" vid="81"/>
@@ -16592,7 +16778,7 @@
 </Func>
 </Pred>
 </Proposition>
-<Proposition line="309" col="3" nr="11" vid="92">
+<Proposition line="326" col="3" nr="11" vid="92">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -16631,7 +16817,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16682,7 +16868,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16780,12 +16966,12 @@
 </Assume>
 <Thesis>
 <Pred kind="R" nr="1" pid="22">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="314" col="11" nr="12" vid="95">
+<Proposition line="331" col="11" nr="12" vid="95">
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
 <Cluster>
@@ -16935,7 +17121,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -16986,7 +17172,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17072,7 +17258,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="4"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17123,7 +17309,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17225,7 +17411,7 @@
 </Not>
 </For>
 </Proposition>
-<Proof nr="12" vid="95" line="314" col="11">
+<Proof nr="12" vid="95" line="331" col="11">
 <BlockThesis>
 <For pid="0" vid="56">
 <Typ kind="M" nr="2" pid="19">
@@ -17376,7 +17562,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17427,7 +17613,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17513,7 +17699,7 @@
 <Var nr="1"/>
 <Var nr="2"/>
 <Var nr="4"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17564,7 +17750,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17817,7 +18003,7 @@
 <Const nr="7" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17868,7 +18054,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -17954,7 +18140,7 @@
 <Const nr="7" vid="56"/>
 <Var nr="1"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18005,7 +18191,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18108,13 +18294,13 @@
 <ThesisExpansions/>
 </Thesis>
 <Assume>
-<Proposition line="316" col="21">
+<Proposition line="333" col="21">
 <Pred kind="R" nr="32" pid="25">
 <Num nr="1"/>
 <Const nr="7" vid="56"/>
 </Pred>
 </Proposition>
-<Proposition line="317" col="3" nr="13" vid="96">
+<Proposition line="334" col="3" nr="13" vid="96">
 <Not>
 <Pred kind="R" nr="32" pid="27">
 <Func kind="K" nr="95" pid="63">
@@ -18237,7 +18423,7 @@
 <Const nr="7" vid="56"/>
 <Var nr="1"/>
 <Var nr="2"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18288,7 +18474,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18374,7 +18560,7 @@
 <Const nr="7" vid="56"/>
 <Var nr="1"/>
 <Var nr="3"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18425,7 +18611,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18635,7 +18821,7 @@
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="60"/>
 <Const nr="9" vid="89"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18686,7 +18872,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18772,7 +18958,7 @@
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="60"/>
 <Const nr="10" vid="90"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18823,7 +19009,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -18919,7 +19105,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="319" col="19">
+<Proposition line="336" col="19">
 <Pred kind="R" nr="32" pid="25">
 <Func kind="K" nr="232" pid="104">
 <Const nr="7" vid="56"/>
@@ -18930,11 +19116,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By line="319" col="19">
-<Ref nr="13" vid="96" line="319" col="23"/>
-<Ref nr="13" articlenr="6" kind="T" line="319" col="32"/>
+<By line="336" col="19">
+<Ref nr="13" vid="96" line="336" col="23"/>
+<Ref nr="13" articlenr="6" kind="T" line="336" col="32"/>
 </By>
-<Proposition line="320" col="28">
+<Proposition line="337" col="28">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="232" pid="104">
 <Const nr="7" vid="56"/>
@@ -18945,11 +19131,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="320" col="28">
-<Ref nr="12" articlenr="6" kind="T" line="320" col="37"/>
-<Ref nr="25" articlenr="19" kind="T" line="320" col="49"/>
+<By linked="true" line="337" col="28">
+<Ref nr="12" articlenr="6" kind="T" line="337" col="37"/>
+<Ref nr="25" articlenr="19" kind="T" line="337" col="49"/>
 </By>
-<Proposition line="321" col="32">
+<Proposition line="338" col="32">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -18968,11 +19154,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="321" col="32">
-<Ref nr="3" articlenr="26" kind="T" line="321" col="42"/>
+<By linked="true" line="338" col="32">
+<Ref nr="3" articlenr="26" kind="T" line="338" col="42"/>
 </By>
 <Reconsider nr="11">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -19029,7 +19215,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<Proposition line="322" col="59">
+<Proposition line="339" col="59">
 <Is>
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -19090,17 +19276,17 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="323" col="10">
-<Ref nr="10" articlenr="54" kind="D" line="323" col="26"/>
+<By linked="true" line="340" col="10">
+<Ref nr="10" articlenr="54" kind="D" line="340" col="26"/>
 </By>
 </Reconsider>
 <Assume>
-<Proposition line="324" col="16">
+<Proposition line="341" col="16">
 <PrivPred nr="1">
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="60"/>
 <Const nr="9" vid="89"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19151,7 +19337,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19242,7 +19428,7 @@
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="60"/>
 <Const nr="10" vid="90"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19293,7 +19479,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19389,7 +19575,7 @@
 </Not>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="325" col="23">
+<Proposition line="342" col="23">
 <Pred kind="R" nr="22" pid="21">
 <Func kind="K" nr="40"/>
 <Func kind="U" nr="1">
@@ -19398,21 +19584,21 @@
 <Const nr="9" vid="89"/>
 <Func kind="K" nr="403" pid="418">
 <Func kind="K" nr="216" pid="375"/>
-<Const nr="11" vid="72"/>
+<Const nr="11" vid="73"/>
 <Const nr="8" vid="60"/>
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="325" col="23"/>
+<By linked="true" line="342" col="23"/>
 <Conclusion>
-<Proposition line="326" col="20">
+<Proposition line="343" col="20">
 <Not>
 <And pid="-5">
 <PrivPred nr="1">
 <Const nr="7" vid="56"/>
 <Const nr="8" vid="60"/>
 <Const nr="10" vid="90"/>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19463,7 +19649,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19558,15 +19744,15 @@
 </And>
 </Not>
 </Proposition>
-<By linked="true" line="326" col="20"/>
+<By linked="true" line="343" col="20"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="327" col="9"/>
+<EndPosition line="344" col="9"/>
 </Proof>
-<Proposition line="328" col="20">
+<Proposition line="345" col="20">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Func kind="K" nr="553" pid="41">
@@ -19581,10 +19767,10 @@
 </Pred>
 </Not>
 </Proposition>
-<By line="328" col="20">
-<Ref nr="5" vid="84" line="328" col="23"/>
+<By line="345" col="20">
+<Ref nr="5" vid="84" line="345" col="23"/>
 </By>
-<Proposition line="329" col="24">
+<Proposition line="346" col="24">
 <Pred kind="R" nr="14" pid="5">
 <Num nr="1"/>
 <Func kind="K" nr="96" pid="64">
@@ -19592,10 +19778,10 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="329" col="24">
-<Ref nr="32" articlenr="19" kind="T" line="329" col="36"/>
+<By linked="true" line="346" col="24">
+<Ref nr="32" articlenr="19" kind="T" line="346" col="36"/>
 </By>
-<Proposition line="330" col="26">
+<Proposition line="347" col="26">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -19611,11 +19797,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="330" col="26">
-<Ref nr="3" articlenr="26" kind="T" line="330" col="36"/>
+<By linked="true" line="347" col="26">
+<Ref nr="3" articlenr="26" kind="T" line="347" col="36"/>
 </By>
 <Reconsider nr="7">
-<Typ kind="M" nr="21" pid="63" vid="75">
+<Typ kind="M" nr="21" pid="63" vid="76">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -19653,7 +19839,7 @@
 <Const nr="2" vid="93"/>
 <Num nr="1"/>
 </Func>
-<Proposition line="331" col="41">
+<Proposition line="348" col="41">
 <Is>
 <Func kind="K" nr="11" pid="33">
 <Const nr="2" vid="93"/>
@@ -19695,13 +19881,13 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="331" col="46"/>
+<By linked="true" line="348" col="46"/>
 </Reconsider>
-<Proposition line="333" col="55" nr="13" vid="97">
+<Proposition line="350" col="55" nr="13" vid="97">
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 </Func>
 <Func kind="K" nr="95" pid="63">
 <Const nr="2" vid="93"/>
@@ -19712,10 +19898,10 @@
 <Not pid="-10">
 <Pred kind="R" nr="1" pid="10">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Num nr="1"/>
 </Func>
-<Const nr="7" vid="75"/>
+<Const nr="7" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -19769,17 +19955,17 @@
 <PrivPred nr="1">
 <Var nr="1"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19830,7 +20016,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -19896,14 +20082,14 @@
 <Pred kind="R" nr="1" pid="1">
 <Var nr="3"/>
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Var nr="1"/>
 </Func>
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1" pid="1">
 <Func kind="K" nr="11" pid="33">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="232" pid="104">
 <Var nr="1"/>
 <Num nr="1"/>
@@ -19927,12 +20113,12 @@
 </For>
 </And>
 </Proposition>
-<By line="333" col="55">
-<Ref nr="6" vid="85" line="333" col="58"/>
-<Ref nr="7" vid="86" line="333" col="61"/>
-<Ref nr="8" vid="87" line="333" col="65"/>
+<By line="350" col="55">
+<Ref nr="6" vid="85" line="350" col="58"/>
+<Ref nr="7" vid="86" line="350" col="61"/>
+<Ref nr="8" vid="87" line="350" col="65"/>
 </By>
-<Proposition line="335" col="55" nr="14" vid="98">
+<Proposition line="352" col="55" nr="14" vid="98">
 <And>
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
@@ -19950,7 +20136,7 @@
 <Const nr="6" vid="81"/>
 <Num nr="1"/>
 </Func>
-<Const nr="7" vid="75"/>
+<Const nr="7" vid="76"/>
 </Pred>
 </Not>
 <Not pid="-11">
@@ -20014,7 +20200,7 @@
 <Num nr="1"/>
 </Func>
 </Func>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20065,7 +20251,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20162,29 +20348,29 @@
 </For>
 </And>
 </Proposition>
-<By line="335" col="55">
-<Ref nr="9" vid="88" line="335" col="59"/>
-<Ref nr="10" vid="91" line="335" col="63"/>
-<Ref nr="11" vid="92" line="335" col="67"/>
+<By line="352" col="55">
+<Ref nr="9" vid="88" line="352" col="59"/>
+<Ref nr="10" vid="91" line="352" col="63"/>
+<Ref nr="11" vid="92" line="352" col="67"/>
 </By>
 <Conclusion>
-<Proposition line="336" col="21">
+<Proposition line="353" col="21">
 <Pred kind="R" nr="1" pid="22">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Proposition>
-<From articlenr="61" nr="8" line="336" col="21">
-<Ref nr="12" vid="95" line="336" col="40"/>
-<Ref nr="13" vid="97" line="336" col="44"/>
-<Ref nr="14" vid="98" line="336" col="48"/>
+<From articlenr="61" nr="8" line="353" col="21">
+<Ref nr="12" vid="95" line="353" col="40"/>
+<Ref nr="13" vid="97" line="353" col="44"/>
+<Ref nr="14" vid="98" line="353" col="48"/>
 </From>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="337" col="7"/>
+<EndPosition line="354" col="7"/>
 </Proof>
 </Conclusion>
 <Thesis>
@@ -20195,7 +20381,7 @@
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
@@ -20204,7 +20390,7 @@
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
@@ -20213,7 +20399,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="338" col="15">
+<Proposition line="355" col="15">
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -20221,7 +20407,7 @@
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Func kind="K" nr="14" pid="5"/>
 </Pred>
 <Pred kind="R" nr="1" pid="14">
@@ -20230,24 +20416,24 @@
 </Pred>
 <Not pid="-6">
 <Pred kind="R" nr="1">
-<Const nr="5" vid="79"/>
+<Const nr="5" vid="80"/>
 <Const nr="6" vid="81"/>
 </Pred>
 </Not>
 </And>
 </Not>
 </Proposition>
-<By line="338" col="15"/>
+<By line="355" col="15"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="339" col="5"/>
+<EndPosition line="356" col="5"/>
 </Proof>
 </Uniqueness>
 <Consistency>
-<Proposition line="340" col="13">
+<Proposition line="357" col="13">
 <For>
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
@@ -20277,7 +20463,7 @@
 <Verum/>
 </For>
 </Proposition>
-<By line="340" col="13"/>
+<By line="357" col="13"/>
 </Consistency>
 <Constructor kind="K" nr="2" aid="E" relnr="904">
 <ArgTypes>
@@ -20366,7 +20552,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<EndPosition line="341" col="3"/>
+<EndPosition line="358" col="3"/>
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="904" aid="E" defnr="2" vid="94" relnr="153">
 <Typ kind="M" nr="5">
@@ -20482,7 +20668,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20533,7 +20719,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20642,7 +20828,7 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="904">
-<Proposition line="341" col="3" nr="5" vid="94">
+<Proposition line="358" col="3" nr="5" vid="94">
 <For pid="0" vid="93">
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
@@ -20772,7 +20958,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20823,7 +21009,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -20979,7 +21165,7 @@
 </Pred>
 </Not>
 <Not pid="-6">
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -21030,7 +21216,7 @@
 </Func>
 </Func>
 </Typ>
-<For pid="0" vid="77">
+<For pid="0" vid="78">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -21188,7 +21374,7 @@
 </Proposition>
 </DefTheorem>
 
-<DefinitionBlock line="343" col="10">
+<DefinitionBlock line="360" col="10">
 <Let nr="2">
 <Typ kind="M" nr="6" pid="39" vid="93">
 <Cluster/>
@@ -21216,9 +21402,9 @@
 </Func>
 </Typ>
 </Let>
-<Definition kind="K" nr="0" vid="0" line="346" col="14">
+<Definition kind="K" nr="0" vid="0" line="363" col="14">
 <Coherence>
-<Proposition line="349" col="7">
+<Proposition line="366" col="7">
 <And>
 <Not pid="-4">
 <And pid="-5">
@@ -21361,7 +21547,7 @@
 </Not>
 </And>
 </Proposition>
-<Proof line="349" col="7">
+<Proof line="366" col="7">
 <BlockThesis>
 <And>
 <Not pid="-4">
@@ -21509,7 +21695,7 @@
 <Func kind="K" nr="904" pid="483">
 <Const nr="2" vid="93"/>
 </Func>
-<Typ kind="M" nr="6" pid="39" vid="79">
+<Typ kind="M" nr="6" pid="39" vid="80">
 <Cluster/>
 <Cluster>
 <Adjective nr="1"/>
@@ -21536,7 +21722,7 @@
 </Typ>
 </Set>
 <Conclusion>
-<Proposition line="352" col="9">
+<Proposition line="369" col="9">
 <Not pid="-4">
 <And pid="-5">
 <Not>
@@ -21612,7 +21798,7 @@
 </And>
 </Not>
 </Proposition>
-<Proof line="352" col="9">
+<Proof line="369" col="9">
 <BlockThesis>
 <Not pid="-4">
 <And pid="-5">
@@ -21690,7 +21876,7 @@
 </Not>
 </BlockThesis>
 <Assume>
-<Proposition line="354" col="2" nr="6" vid="62">
+<Proposition line="371" col="2" nr="6" vid="62">
 <Not>
 <Pred kind="R" nr="1" pid="2">
 <Const nr="2" vid="93"/>
@@ -21764,7 +21950,7 @@
 </Is>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="356" col="22" nr="7" vid="63">
+<Proposition line="373" col="22" nr="7" vid="63">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="95" pid="63">
 <Func kind="K" nr="904" pid="483">
@@ -21776,10 +21962,10 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="356" col="22">
-<Ref nr="5" vid="94" line="356" col="27"/>
+<By linked="true" line="373" col="22">
+<Ref nr="5" vid="94" line="373" col="27"/>
 </By>
-<Proposition line="357" col="19">
+<Proposition line="374" col="19">
 <Pred kind="R" nr="32" pid="25">
 <Num nr="1"/>
 <Func kind="K" nr="95" pid="63">
@@ -21787,11 +21973,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By line="357" col="19">
-<Ref nr="6" vid="62" line="357" col="22"/>
-<Ref nr="20" articlenr="25" kind="T" line="357" col="34"/>
+<By line="374" col="19">
+<Ref nr="6" vid="62" line="374" col="22"/>
+<Ref nr="20" articlenr="25" kind="T" line="374" col="34"/>
 </By>
-<Proposition line="358" col="28">
+<Proposition line="375" col="28">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="95" pid="63">
 <Func kind="K" nr="904" pid="483">
@@ -21805,11 +21991,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="358" col="28">
-<Ref nr="7" vid="63" line="358" col="31"/>
-<Ref nr="25" articlenr="19" kind="T" line="358" col="43"/>
+<By linked="true" line="375" col="28">
+<Ref nr="7" vid="63" line="375" col="31"/>
+<Ref nr="25" articlenr="19" kind="T" line="375" col="43"/>
 </By>
-<Proposition line="359" col="30">
+<Proposition line="376" col="30">
 <Pred kind="R" nr="14" pid="5">
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="904" pid="483">
@@ -21833,11 +22019,11 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="359" col="30">
-<Ref nr="3" articlenr="26" kind="T" line="359" col="40"/>
+<By linked="true" line="376" col="30">
+<Ref nr="3" articlenr="26" kind="T" line="376" col="40"/>
 </By>
 <Conclusion>
-<Proposition line="360" col="21">
+<Proposition line="377" col="21">
 <Is>
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="904" pid="483">
@@ -21901,15 +22087,15 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="360" col="21">
-<Ref nr="10" articlenr="54" kind="D" line="360" col="37"/>
+<By linked="true" line="377" col="21">
+<Ref nr="10" articlenr="54" kind="D" line="377" col="37"/>
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="361" col="7"/>
+<EndPosition line="378" col="7"/>
 </Proof>
 </Conclusion>
 <Thesis>
@@ -21981,7 +22167,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Conclusion>
-<Proposition line="362" col="15">
+<Proposition line="379" col="15">
 <Not pid="-4">
 <And pid="-5">
 <Pred kind="R" nr="1" pid="2">
@@ -22048,17 +22234,17 @@
 </And>
 </Not>
 </Proposition>
-<By line="362" col="15"/>
+<By line="379" col="15"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="363" col="5"/>
+<EndPosition line="380" col="5"/>
 </Proof>
 </Coherence>
 <Consistency>
-<Proposition line="364" col="13">
+<Proposition line="381" col="13">
 <For>
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
@@ -22113,7 +22299,7 @@
 <Verum/>
 </For>
 </Proposition>
-<By line="364" col="13"/>
+<By line="381" col="13"/>
 </Consistency>
 <Constructor kind="K" nr="3" aid="E" relnr="905">
 <ArgTypes>
@@ -22227,7 +22413,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<EndPosition line="365" col="3"/>
+<EndPosition line="382" col="3"/>
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="905" aid="E" defnr="3" relnr="154">
 <Typ kind="M" nr="5">
@@ -22334,7 +22520,7 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="905">
-<Proposition line="365" col="3">
+<Proposition line="382" col="3">
 <For pid="0" vid="93">
 <Typ kind="M" nr="6" pid="39">
 <Cluster/>
@@ -22412,9 +22598,9 @@
 </Proposition>
 </DefTheorem>
 
-<DefinitionBlock line="367" col="10">
+<DefinitionBlock line="384" col="10">
 <Let nr="2">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -22465,13 +22651,13 @@
 </Func>
 </Typ>
 </Let>
-<Definition kind="K" nr="0" vid="0" line="370" col="5">
+<Definition kind="K" nr="0" vid="0" line="387" col="5">
 <Coherence>
-<Proposition line="371" col="11">
+<Proposition line="388" col="11">
 <Is>
 <Func kind="K" nr="905" pid="484">
 <Func kind="K" nr="903" pid="482">
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 </Func>
 <Typ kind="M" nr="3" pid="61">
@@ -22526,7 +22712,7 @@
 </Typ>
 </Is>
 </Proposition>
-<By line="371" col="11"/>
+<By line="388" col="11"/>
 </Coherence>
 <Constructor kind="K" nr="4" aid="E" relnr="906">
 <ArgTypes>
@@ -22690,7 +22876,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<EndPosition line="372" col="3"/>
+<EndPosition line="389" col="3"/>
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="906" aid="E" defnr="4" relnr="155">
 <Typ kind="M" nr="3">
@@ -22806,8 +22992,8 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="906">
-<Proposition line="372" col="3">
-<For pid="0" vid="72">
+<Proposition line="389" col="3">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -22872,9 +23058,9 @@
 </Proposition>
 </DefTheorem>
 
-<DefinitionBlock line="374" col="10">
+<DefinitionBlock line="391" col="10">
 <Let nr="2">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -22925,9 +23111,9 @@
 </Func>
 </Typ>
 </Let>
-<Definition kind="K" nr="0" vid="0" line="377" col="7">
+<Definition kind="K" nr="0" vid="0" line="394" col="7">
 <Coherence>
-<Proposition line="378" col="11">
+<Proposition line="395" col="11">
 <Is>
 <Func kind="K" nr="298" pid="218">
 <Func kind="K" nr="43"/>
@@ -22940,7 +23126,7 @@
 </Func>
 <Func kind="K" nr="760" pid="463">
 <Func kind="K" nr="906" pid="485">
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 </Func>
 </Func>
@@ -22982,7 +23168,7 @@
 </Typ>
 </Is>
 </Proposition>
-<By line="378" col="11"/>
+<By line="395" col="11"/>
 </Coherence>
 <Constructor kind="K" nr="5" aid="E" relnr="907">
 <ArgTypes>
@@ -23132,7 +23318,7 @@
 </Visible>
 </Pattern>
 </Definition>
-<EndPosition line="379" col="3"/>
+<EndPosition line="396" col="3"/>
 </DefinitionBlock>
 <Definiens constrkind="K" constrnr="907" aid="E" defnr="5" relnr="156">
 <Typ kind="M" nr="3">
@@ -23244,8 +23430,8 @@
 </DefMeaning>
 </Definiens>
 <DefTheorem constrkind="K" constrnr="907">
-<Proposition line="379" col="3">
-<For pid="0" vid="72">
+<Proposition line="396" col="3">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -23320,8 +23506,8 @@
 </Proposition>
 </DefTheorem>
 
-<JustifiedTheorem line="381" col="7">
-<Proposition line="383" col="7">
+<JustifiedTheorem line="398" col="7">
+<Proposition line="400" col="7">
 <For pid="0" vid="57">
 <Typ kind="M" nr="1" pid="18">
 <Cluster>
@@ -23333,7 +23519,7 @@
 <Adjective nr="138"/>
 </Cluster>
 </Typ>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -23412,7 +23598,7 @@
 </For>
 </For>
 </Proposition>
-<Proof line="383" col="7">
+<Proof line="400" col="7">
 <BlockThesis>
 <For pid="0" vid="57">
 <Typ kind="M" nr="1" pid="18">
@@ -23425,7 +23611,7 @@
 <Adjective nr="138"/>
 </Cluster>
 </Typ>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -23517,7 +23703,7 @@
 </Typ>
 </Let>
 <Thesis>
-<For pid="0" vid="72">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -23597,7 +23783,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Let nr="3">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -23652,7 +23838,7 @@
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="907" pid="486">
-<Const nr="3" vid="72"/>
+<Const nr="3" vid="73"/>
 </Func>
 <Const nr="2" vid="57"/>
 </Func>
@@ -23667,7 +23853,7 @@
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="760" pid="463">
 <Func kind="K" nr="906" pid="485">
-<Const nr="3" vid="72"/>
+<Const nr="3" vid="73"/>
 </Func>
 </Func>
 <Const nr="2" vid="57"/>
@@ -23676,7 +23862,7 @@
 </Pred>
 <ThesisExpansions/>
 </Thesis>
-<Proposition line="384" col="29">
+<Proposition line="401" col="29">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="315" pid="236">
@@ -23695,15 +23881,15 @@
 </Func>
 </Pred>
 </Proposition>
-<By line="384" col="29">
-<Ref nr="10" articlenr="37" kind="T" line="384" col="41"/>
+<By line="401" col="29">
+<Ref nr="10" articlenr="37" kind="T" line="401" col="41"/>
 </By>
 <Conclusion>
-<Proposition line="385" col="19">
+<Proposition line="402" col="19">
 <Pred kind="R" nr="1" pid="23">
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="907" pid="486">
-<Const nr="3" vid="72"/>
+<Const nr="3" vid="73"/>
 </Func>
 <Const nr="2" vid="57"/>
 </Func>
@@ -23718,7 +23904,7 @@
 <Func kind="K" nr="11" pid="33">
 <Func kind="K" nr="760" pid="463">
 <Func kind="K" nr="906" pid="485">
-<Const nr="3" vid="72"/>
+<Const nr="3" vid="73"/>
 </Func>
 </Func>
 <Const nr="2" vid="57"/>
@@ -23726,21 +23912,21 @@
 </Func>
 </Pred>
 </Proposition>
-<By linked="true" line="385" col="19">
-<Ref nr="5" articlenr="37" kind="T" line="385" col="30"/>
+<By linked="true" line="402" col="19">
+<Ref nr="5" articlenr="37" kind="T" line="402" col="30"/>
 </By>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="386" col="5"/>
+<EndPosition line="403" col="5"/>
 </Proof>
 </JustifiedTheorem>
 
-<RegistrationBlock line="388" col="12">
+<RegistrationBlock line="405" col="12">
 <Let nr="2">
-<Typ kind="M" nr="3" pid="61" vid="72">
+<Typ kind="M" nr="3" pid="61" vid="73">
 <Cluster>
 <Adjective nr="6"/>
 <Adjective nr="44">
@@ -23881,22 +24067,22 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="391" col="11">
+<Proposition line="408" col="11">
 <Pred kind="V" nr="274">
 <Func kind="K" nr="907" pid="486">
-<Const nr="2" vid="72"/>
+<Const nr="2" vid="73"/>
 </Func>
 </Pred>
 </Proposition>
-<By line="391" col="11"/>
+<By line="408" col="11"/>
 </Coherence>
 </Registration>
-<EndPosition line="392" col="3"/>
+<EndPosition line="409" col="3"/>
 </RegistrationBlock>
 
-<JustifiedTheorem line="394" col="7">
-<Proposition line="395" col="35">
-<For pid="0" vid="72">
+<JustifiedTheorem line="411" col="7">
+<Proposition line="412" col="35">
+<For pid="0" vid="73">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
 <Adjective nr="6"/>
@@ -23975,10 +24161,10 @@
 </Pred>
 </For>
 </Proposition>
-<By line="395" col="37"/>
+<By line="412" col="37"/>
 </JustifiedTheorem>
 
-<RegistrationBlock line="397" col="12">
+<RegistrationBlock line="414" col="12">
 <Registration>
 <FCluster aid="E" nr="7">
 <ArgTypes/>
@@ -23996,14 +24182,14 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="400" col="7">
+<Proposition line="417" col="7">
 <Not>
 <Pred kind="V" nr="198">
 <Func kind="K" nr="847" pid="285"/>
 </Pred>
 </Not>
 </Proposition>
-<Proof line="400" col="7">
+<Proof line="417" col="7">
 <BlockThesis>
 <Not>
 <Pred kind="V" nr="198">
@@ -24011,17 +24197,17 @@
 </Pred>
 </Not>
 </BlockThesis>
-<Proposition line="401" col="19">
+<Proposition line="418" col="19">
 <Pred kind="R" nr="2" pid="3">
 <Func kind="K" nr="847" pid="285"/>
 <Func kind="K" nr="44" pid="81"/>
 </Pred>
 </Proposition>
-<By line="401" col="19">
-<Ref nr="2" articlenr="47" kind="D" line="401" col="34"/>
+<By line="418" col="19">
+<Ref nr="2" articlenr="47" kind="D" line="418" col="34"/>
 </By>
 <Reconsider nr="2">
-<Typ kind="M" nr="3" pid="34" vid="70">
+<Typ kind="M" nr="3" pid="34" vid="71">
 <Cluster/>
 <Cluster>
 <Adjective nr="24"/>
@@ -24031,7 +24217,7 @@
 </Func>
 </Typ>
 <Func kind="K" nr="847" pid="285"/>
-<Proposition line="402" col="45">
+<Proposition line="419" col="45">
 <Is>
 <Func kind="K" nr="847" pid="285"/>
 <Typ kind="M" nr="3" pid="34">
@@ -24045,12 +24231,12 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="402" col="48">
-<Ref nr="1" articlenr="9" kind="D" line="402" col="63"/>
+<By linked="true" line="419" col="48">
+<Ref nr="1" articlenr="9" kind="D" line="419" col="63"/>
 </By>
 </Reconsider>
 <Assume>
-<Proposition line="403" col="19">
+<Proposition line="420" col="19">
 <Pred kind="V" nr="198" pid="174">
 <Func kind="K" nr="847" pid="285"/>
 </Pred>
@@ -24063,7 +24249,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Consider nr="3">
-<Proposition line="406" col="18">
+<Proposition line="423" col="18">
 <Not>
 <For pid="0" vid="65">
 <Typ kind="M" nr="3" pid="61">
@@ -24132,14 +24318,14 @@
 <Pred kind="R" nr="61" pid="59">
 <Func kind="K" nr="432" pid="395"/>
 <Var nr="1"/>
-<Const nr="2" vid="70"/>
+<Const nr="2" vid="71"/>
 </Pred>
 </Not>
 </For>
 </Not>
 </Proposition>
-<By linked="true" line="406" col="23">
-<Ref nr="25" articlenr="52" kind="T" line="406" col="35"/>
+<By linked="true" line="423" col="23">
+<Ref nr="25" articlenr="52" kind="T" line="423" col="35"/>
 </By>
 <Typ kind="M" nr="3" pid="61" vid="65">
 <Cluster>
@@ -24203,31 +24389,31 @@
 </Func>
 </Func>
 </Typ>
-<Proposition line="406" col="2" nr="6" vid="62">
+<Proposition line="423" col="2" nr="6" vid="62">
 <Pred kind="R" nr="61" pid="59">
 <Func kind="K" nr="432" pid="395"/>
 <Const nr="3" vid="65"/>
-<Const nr="2" vid="70"/>
+<Const nr="2" vid="71"/>
 </Pred>
 </Proposition>
 </Consider>
 <Conclusion>
-<Proposition line="407" col="22">
+<Proposition line="424" col="22">
 <Not>
 <Verum/>
 </Not>
 </Proposition>
-<By line="407" col="22"/>
+<By line="424" col="22"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="408" col="5"/>
+<EndPosition line="425" col="5"/>
 </Proof>
 </Coherence>
 </Registration>
-<EndPosition line="409" col="3"/>
+<EndPosition line="426" col="3"/>
 </RegistrationBlock>
 
 </Article>

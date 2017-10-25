@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<IdentifyRegistrations aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<IdentifyRegistrations aid="E" mizfiles="/usr/local/share/mizar/">
 <Identify aid="VECTSP_1" nr="1" constrkind="K">
 <Typ kind="M" nr="3">
 <Cluster/>

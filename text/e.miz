@@ -116,8 +116,15 @@ A4: f /" g = f / g by T2;
     proof
       let r;
 A2:   f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
-      g.r <> 0;
-::>          *4
+      g.r <> 0
+      proof
+        assume
+A3:     g.r = 0;
+        dom g = REAL by FUNCT_2:def 1;
+        then r in dom g by XREAL_0:def 1;
+        then g.r in rng g by FUNCT_1:3;
+        hence contradiction by A3, RELAT_1:def 9;
+      end;
       then f/g is_differentiable_in r by A2,FDIFF_2:14;
       hence thesis by A1,A4;
     end;
@@ -142,8 +149,16 @@ end;
 
 registration
   cluster exp_R -> non-empty;
-  coherence;
-::>       *4
+  coherence
+  proof
+    not {} in rng exp_R
+    proof
+      assume {} in rng exp_R;
+      then ex x being Element of REAL st {} = exp_R.x by FUNCT_2:113;
+      hence contradiction by SIN_COS:54;
+    end;
+    hence thesis by RELAT_1:def 9;
+  end;
 end;
 
 registration

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<Constructors aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<Constructors aid="E" mizfiles="/usr/local/share/mizar/">
 <Constructor kind="V" nr="1" aid="RELAT_1" relnr="1">
 <ArgTypes>
 <Typ kind="M" nr="2">
