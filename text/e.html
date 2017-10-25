@@ -1,0 +1,929 @@
+<html prefix="oo: http://omdoc.org/ontology#">
+<style type="text/css">
+div { padding: 0 0 0 0; margin: 0 0 0 0; } 
+div.add { padding-left: 3mm; padding-bottom: 0mm;  margin: 0 0 0 0; } 
+div.box { border-width:thin; border-color:blue; border-style:solid; }
+p { margin: 0 0 0 0; } 
+body {font-family: monospace; margin: 0px;}
+a {text-decoration:none} a:hover { color: red; } 
+a.ref { font-size:x-small; }
+a.ref:link { color:green; } 
+a.ref:hover { color: red; } 
+a.txt:link { color:black; } 
+a.txt:hover { color: red; } 
+.wikiactions ul { background-color: DarkSeaGreen ; color:blue; margin: 0; padding: 6px; list-style-type: none; border-bottom: 1px solid #000; }
+.wikiactions li { display: inline; padding: .2em .4em; }
+.wikiactions a {text-decoration:underline;} 
+span.kw {font-weight: bold; }
+span.lab {font-style: italic; }
+span.comment {font-style: italic; }
+span.hide { display: none; }
+span.p1:hover { color : inherit; background-color : #BAFFFF; } 
+span.p2:hover { color : inherit; background-color : #FFCACA; }
+span.p3:hover { color : inherit; background-color : #FFFFBA; }
+span.p4:hover { color : inherit; background-color : #CACAFF; }
+span.p5:hover { color : inherit; background-color : #CAFFCA; }
+span.p0:hover { color : inherit; background-color : #FFBAFF; }
+.default { background-color: white; color: black; } 
+.default:hover { background-color: white; color: black; }
+:target { background: #5D9BF7; border: solid 1px #aaa;}
+</style>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>E</title>
+<script type="text/javascript">
+<!-- 
+function hs(obj)
+{
+// document.getElementById('myimage').nextSibling.style.display = 'block';
+if (obj.nextSibling.style.display == 'inline')
+ { obj.nextSibling.style.display = 'none'; }
+else { if (obj.nextSibling.style.display == 'none')
+ { obj.nextSibling.style.display = 'inline'; }
+ else { obj.nextSibling.style.display = 'inline';  }}
+return false;
+}
+
+function hs2(obj)
+{
+if (obj.nextSibling.style.display == 'block')
+ { obj.nextSibling.style.display = 'none'; }
+else { if (obj.nextSibling.style.display == 'none')
+ { obj.nextSibling.style.display = 'block'; }
+ else { obj.nextSibling.style.display = 'none';  }}
+return false;
+}
+function hsNdiv(obj)
+{
+var ndiv = obj;
+while (ndiv.nextSibling.nodeName != 'DIV') { ndiv = ndiv.nextSibling; }
+return hs2(ndiv);
+}
+
+// explorer7 implements XMLHttpRequest in some strange way
+function makeRequest(obj,url) {
+        var http_request = false;
+        if (window.XMLHttpRequest && !(window.ActiveXObject)) { // Mozilla, Safari,...
+            http_request = new XMLHttpRequest();
+            if (http_request.overrideMimeType) {
+                http_request.overrideMimeType('text/xml');
+            }
+        } else if (window.ActiveXObject) { // IE
+            try {
+                http_request = new ActiveXObject('Msxml2.XMLHTTP');
+            } catch (e) {
+                try {
+                    http_request = new ActiveXObject('Microsoft.XMLHTTP');
+                } catch (e) {}
+            }
+        }
+        if (!http_request) {
+            alert('Giving up :( Cannot create an XMLHTTP instance');
+            return false;
+        }
+        http_request.onreadystatechange = function() { insertRequest(obj,http_request); };
+        http_request.open('GET', url, true);
+        http_request.send(null);
+    }
+// commented the 200 state to have local requests too
+function insertRequest(obj,http_request) {
+        if (http_request.readyState == 4) {
+//            if (http_request.status == 200) {
+	    var ndiv = obj;
+	    while (ndiv.nodeName != 'SPAN') { ndiv = ndiv.nextSibling; }
+	    ndiv.innerHTML = http_request.responseText;
+	    obj.onclick = function(){ return hs2(obj) };
+//            } else {
+//                alert('There was a problem with the request.');
+//		alert(http_request.status);
+//            }
+	    }}
+// End -->
+</script><base target="mmlquery">
+</head>
+<body>
+<div><span class="comment">:: E  semantic presentation</span></div>
+<br>
+
+
+
+
+
+
+<div about="#T1" typeof="oo:Theorem">
+<span class="kw">theorem </span><span class="lab">T3</span>: <a NAME="T1"><span class="comment">:: E:1</span><br></a><div class="add"> for R being   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NM1">Relation</a> holds  R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> </div>
+<div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#T"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>R be   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NM1">Relation</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> </span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span> <a href="file://c:%5Cmizar%5Chtml/tarski.html#R1">c=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span> <span class="comment">:: according to </span><a class="ref" href="file://c:%5Cmizar%5Chtml/xboole_0.html#D10">XBOOLE_0:def 10</a> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  <a href="file://c:%5Cmizar%5Chtml/tarski.html#R1">c=</a> R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span></span><div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>x be    <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ; <span class="comment">:: according to </span><a class="ref" href="file://c:%5Cmizar%5Chtml/tarski.html#D3">TARSKI:def 3</a> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a> R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span> or x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  )</span><br>
+
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a> R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span>
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> </span><br>
+
+<span class="kw">then </span><span class="kw">consider </span>y being    <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> <span class="kw"> such that </span><br><span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+y <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK2">rng</a> R
+ </span><span class="kw">and </span><br><span about="#E" typeof="oo:Lemma">
+<span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K4">[</a><span class="default">x,y</span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K4">]</a></span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a> R
+ </span><span class="kw">and </span><br><span class="lab">A2</span>: <span about="#E" typeof="oo:Lemma">
+y <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span>
+ </span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/relat_1.html#T131">RELAT_1:131</a></span>;<br>
+<span about="#E" typeof="oo:Lemma">
+y <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A2</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/tarski.html#D1">TARSKI:def 1</a></span>;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A1</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/relat_1.html#D9">RELAT_1:def 9</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  <a href="file://c:%5Cmizar%5Chtml/tarski.html#R1">c=</a> R <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span>
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<br><div about="#T2" typeof="oo:Theorem">
+<span class="kw">theorem </span><span class="lab">T2</span>: <a NAME="T2"><span class="comment">:: E:2</span><br></a><div class="add"> for f being   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>  <a href="file://c:%5Cmizar%5Chtml/funct_1.html#NM1">Function</a><br>  for g being   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>  <a href="file://c:%5Cmizar%5Chtml/funct_1.html#NM1">Function</a> holds  f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</div>
+<div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#T"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>f be   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>  <a href="file://c:%5Cmizar%5Chtml/funct_1.html#NM1">Function</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for g being   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>  <a href="file://c:%5Cmizar%5Chtml/funct_1.html#NM1">Function</a> holds  f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span><br><span class="kw">let </span>g be   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>  <a href="file://c:%5Cmizar%5Chtml/funct_1.html#NM1">Function</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span><br>
+
+
+
+<span about="#E" typeof="oo:Lemma">
+g <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p1"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">T3</span></span>;<br>
+<span class="kw">hence </span><span class="lab">A1</span>:  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> = 
+<span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> f</span>)</span> <a href="file://c:%5Cmizar%5Chtml/subset_1.html#K9">/\</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/subset_1.html#K6">\</a> <span class="p2">(<span class="default">g <a href="file://c:%5Cmizar%5Chtml/relat_1.html#K8">"</a> <span class="p3"><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">{</a><span class="default"><a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a></span><a href="file://c:%5Cmizar%5Chtml/tarski.html#K1">}</a></span></span>)</span></span>)</span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/valued_1.html#T16">VALUED_1:16</a></span>
+<br>.= 
+ <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span>)</span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/rfunct_1.html#D1">RFUNCT_1:def 1</a></span>
+;<br> <span class="comment">:: according to </span><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#D11">FUNCT_1:def 11</a> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for b<sub>1</sub> being    <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a>   holds <br>(  not b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> or <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> b<sub>1</sub> )</span><br>
+
+<span class="kw">let </span>x be    <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> or <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x )</span><br>
+
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span>
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x</span><br>
+
+<span class="kw">hence </span><span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K1">/</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x = 
+<span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x</span>)</span> <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p1">(<span class="default">g <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x</span>)</span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A1</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/rfunct_1.html#D1">RFUNCT_1:def 1</a></span>
+<br>.= 
+<span class="p1">(<span class="default">f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/valued_1.html#T17">VALUED_1:17</a></span>
+;<br> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<div about="#RC1" typeof="oo:Theorem">
+<a NAME="RC1"><span class="kw">cluster </span></a> <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V1">Relation-like</a>   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V4">-defined</a>   <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V5">-valued</a>   <a href="file://c:%5Cmizar%5Chtml/funct_1.html#V1">Function-like</a>   non  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#V1">empty</a>   <a href="file://c:%5Cmizar%5Chtml/partfun1.html#V1">total</a>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#V1">V44</a>( <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> , <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> )  <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V1">complex-valued</a>   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V2">ext-real-valued</a>   <a href="file://c:%5Cmizar%5Chtml/valued_0.html#V3">real-valued</a>   <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>   for    <a href="file://c:%5Cmizar%5Chtml/subset_1.html#M1">Element</a> of <a href="file://c:%5Cmizar%5Chtml/zfmisc_1.html#K1">K19</a>(<a href="file://c:%5Cmizar%5Chtml/zfmisc_1.html#K2">K20</a>(<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>));<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">existence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> st <br>( b<sub>1</sub> is  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  &amp; b<sub>1</sub> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  )
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">take </span>
+<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> <a href="file://c:%5Cmizar%5Chtml/funcop_1.html#K8">--&gt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/subset_1.html#K10">In</a> (1,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>)</span>)</span>
+; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> <a href="file://c:%5Cmizar%5Chtml/funcop_1.html#K8">--&gt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/subset_1.html#K10">In</a> (1,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>)</span>)</span> is  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  &amp; <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> <a href="file://c:%5Cmizar%5Chtml/funcop_1.html#K8">--&gt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/subset_1.html#K10">In</a> (1,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>)</span>)</span> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+( <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> <a href="file://c:%5Cmizar%5Chtml/funcop_1.html#K8">--&gt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/subset_1.html#K10">In</a> (1,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>)</span>)</span> is  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  &amp; <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> <a href="file://c:%5Cmizar%5Chtml/funcop_1.html#K8">--&gt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/subset_1.html#K10">In</a> (1,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>)</span>)</span> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<span class="kw">let </span>f be   <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br><span class="kw">let </span>g be   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br>
+<div about="#FC1" typeof="oo:Theorem">
+<a NAME="FC1"><span class="kw">cluster </span></a>f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K50">/"</a> g<span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>   for  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>  st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K52">/"</a> g holds <br>b<sub>1</sub> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>h be   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( h <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K52">/"</a> g implies h is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  )</span><br>
+
+<span class="kw">assume </span><span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+h <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K52">/"</a> g
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> h is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> </span><br>
+
+<span class="lab">A4</span>: <span about="#E" typeof="oo:Lemma">
+f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K52">/"</a> g <a href="file://c:%5Cmizar%5Chtml/relset_1.html#R2">=</a> f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K3">/</a> g
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">T2</span></span>;<br>
+<span about="#E" typeof="oo:Lemma">
+h is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>r be   <a href="file://c:%5Cmizar%5Chtml/xreal_0.html#NM1">Real</a>; <span class="comment">:: according to </span><a class="ref" href="file://c:%5Cmizar%5Chtml/polydiff.html#D2">POLYDIFF:def 2</a> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> h <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#R1">is_differentiable_in</a> r</span><br>
+
+<span class="lab">A2</span>: <span about="#E" typeof="oo:Lemma">
+( f <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#R1">is_differentiable_in</a> r &amp; g <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#R1">is_differentiable_in</a> r )
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polydiff.html#D2">POLYDIFF:def 2</a></span>;<br>
+<span about="#E" typeof="oo:Lemma">
+g <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a> 
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">assume </span><span class="lab">A3</span>: <span about="#E" typeof="oo:Lemma">
+g <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a> 
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> contradiction</span><br>
+
+<span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K1">dom</a> g <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a> 
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_2.html#D1">FUNCT_2:def 1</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K1">dom</a> g
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/xreal_0.html#D1">XREAL_0:def 1</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+g <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/rvsum_1.html#K1">rng</a> g
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+contradiction
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A3</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/relat_1.html#D9">RELAT_1:def 9</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+f <a href="file://c:%5Cmizar%5Chtml/rfunct_1.html#K3">/</a> g <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#R1">is_differentiable_in</a> r
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A2</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/fdiff_2.html#T14">FDIFF_2:14</a></span>;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+h <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#R1">is_differentiable_in</a> r
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A1</span>, <span class="lab">A4</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+h is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<span class="kw">let </span>f be   <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>   <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br>
+<div about="#FC2" typeof="oo:Theorem">
+<a NAME="FC2"><span class="kw">cluster </span></a>f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K35">"</a> <span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>   for  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>  st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> f <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a>  holds <br>b<sub>1</sub> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div about="#T3" typeof="oo:Theorem">
+<span class="kw">theorem </span><span class="lab">T1</span>: <a NAME="T3"><span class="comment">:: E:3</span><br></a><div class="add"> for r being   <a href="file://c:%5Cmizar%5Chtml/xreal_0.html#NM1">Real</a> holds  <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> 1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/valued_1.html#T10">VALUED_1:10</a></span>;<br>
+</div>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<div about="#FC3" typeof="oo:Theorem">
+<a NAME="FC3"><span class="kw">cluster </span></a> <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  ;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a>  is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span></span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/sin_cos.html#T65">SIN_COS:65</a></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<div about="#FC4" typeof="oo:Theorem">
+<a NAME="FC4"><span class="kw">cluster </span></a> <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a>  ;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a>  is  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V2">non-empty</a> 
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>x be    <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ; <span class="comment">:: according to </span><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#D9">FUNCT_1:def 9</a> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> or  not <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x is  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#V1">empty</a>  )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+(  not x <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#NK1">dom</a> <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> or  not <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> x is  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#V1">empty</a>  )
+ </span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/sin_cos.html#T54">SIN_COS:54</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<div about="#FC5" typeof="oo:Theorem">
+<a NAME="FC5"><span class="kw">cluster </span></a><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K35">"</a> <span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>   for  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>  st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a>  holds <br>b<sub>1</sub> is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><span class="kw">set </span>e =  <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a> ;<br><br>
+
+
+
+
+
+<div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span>p be   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>;<br><span class="kw">set </span>N = <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1;<br><span class="kw">set </span>D =  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>;<br><span class="kw">reconsider </span>p1 = p as    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>;<br><span class="kw">defpred </span>S<sub>1</sub>[   <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ,   <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ,   <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ] <span class="kw">means </span> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> $2 holds <br>$3 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q;<br><div about="#D4" typeof="oo:Definition">
+<a NAME="K1"><span class="kw">func</span> </a> <a href="#K1" target="_self">diff_seq</a> p<span class="kw"> -&gt; </span>  <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span><span class="kw"> means </span>:<span class="lab">Def1</span>: <a NAME="D1"><span class="comment">:: E:def 1</span><br></a>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="kw">it</span> holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br><span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) );<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">existence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st <br>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) )
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 holds <br> for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>n be   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 implies  for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y] )</span><br>
+
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]</span><br>
+
+<span class="kw">let </span>x be    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]</span><br>
+
+<span class="kw">reconsider </span>y =  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> x as    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>;<br>
+<span class="kw">take </span>
+y
+; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> S<sub>1</sub>[n,x,y]</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+S<sub>1</sub>[n,x,y]
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span class="kw">consider </span>F being    <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#M2">FinSequence</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span><span class="kw"> such that </span><br><span class="lab">A2</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1
+ </span><span class="kw">and </span><br><span class="lab">A3</span>: <span about="#E" typeof="oo:Lemma">
+( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  )
+ </span><span class="kw">and </span><br><span class="lab">A4</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 holds <br>S<sub>1</sub>[n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>]
+ </span><span class="kw">from</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/recdef_1.html#S4">RECDEF_1:sch 4</a>(<span class="lab">A1</span>);<br></span>
+<span class="kw">take </span>
+F
+; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A2</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A3</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A2</span>, <span class="lab">A4</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">uniqueness</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub>, b<sub>2</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) holds <br>b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub>
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>F, G be   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G )</span><br>
+
+<span class="kw">assume </span><span class="kw">that </span><br><span class="lab">A5</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1
+ </span><span class="kw">and </span><br><span class="lab">A6</span>: <span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p
+ </span><span class="kw">and </span><br><span class="lab">A7</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q
+ </span><span class="kw">and </span><br><span class="lab">A8</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1
+ </span><span class="kw">and </span><br><span class="lab">A9</span>: <span about="#E" typeof="oo:Lemma">
+G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p
+ </span><span class="kw">and </span><br><span class="lab">A10</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G</span><br>
+
+<span class="lab">A11</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 holds <br> for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>n be   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 implies  for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2</span><br>
+
+<span class="kw">let </span>x, y1, y2 be    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] implies y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+S<sub>1</sub>[n,x,y1]
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not S<sub>1</sub>[n,x,y2] or y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> x
+ </span>
+;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+(  not S<sub>1</sub>[n,x,y2] or y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span class="lab">A12</span>: <span about="#E" typeof="oo:Lemma">
+(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; ( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  ) &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 holds <br>S<sub>1</sub>[n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>] ) )
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A5</span>, <span class="lab">A6</span>, <span class="lab">A7</span></span>;<br>
+<span class="lab">A13</span>: <span about="#E" typeof="oo:Lemma">
+(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; ( G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  ) &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 holds <br>S<sub>1</sub>[n,G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>] ) )
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A8</span>, <span class="lab">A9</span>, <span class="lab">A10</span></span>;<br>
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G
+ </span><span class="kw">from</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/recdef_1.html#S8">RECDEF_1:sch 8</a>(<span class="lab">A11</span>, <span class="lab">A12</span>, <span class="lab">A13</span>);</span> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+
+
+
+
+<div about="#DT1" typeof="oo:Definition">:: <span class="kw">deftheorem </span><span class="lab">Def1</span>   defines <a href="#K1" target="_self">diff_seq</a> <a onclick="hs(this)" href="javascript:()">E:def 1 : <br></a><span class="hide"> for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a><br>  for b<sub>2</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> holds <br> ( b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="#K1" target="_self">diff_seq</a> p iff (  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/algseq_1.html#K1">len</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 &amp; b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> holds <br> for q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K4">poly_diff</a> q ) ) );<br></span>
+</div>
+<br><div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span>S be   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>;<br><span class="kw">set </span>N =  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S;<br><span class="kw">set </span>D =  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>;<br><span class="kw">defpred </span>S<sub>1</sub>[  <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>,   <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ,   <a href="file://c:%5Cmizar%5Chtml/hidden.html#M1">object</a> ] <span class="kw">means </span> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">$1 <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> $2 holds <br>$3 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q;<br><div about="#D5" typeof="oo:Definition">
+<a NAME="K2"><span class="kw">func</span> </a> <a href="#K2" target="_self">Partial_Sums</a> S<span class="kw"> -&gt; </span>  <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span><span class="kw"> means </span>:<span class="lab">Def2</span>: <a NAME="D2"><span class="comment">:: E:def 2</span><br></a>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="kw">it</span> holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br><span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) )<span class="kw"> if </span>S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> <br><span class="kw"> otherwise </span><span class="kw">it</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> ;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">existence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st <br>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) ) ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  ) )
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  ex F being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st <br>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) ) )
+ </span> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  )</span><div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">assume </span><span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  ex F being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st <br>(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) )</span><br>
+
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>
+;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K4">dom</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_3.html#T32">FINSEQ_3:32</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">then </span><span class="kw">reconsider </span>p1 = S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 as    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> ;<br>
+<span class="lab">A2</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S holds <br> for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>n be   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S implies  for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y] )</span><br>
+
+<span class="kw">assume </span><span class="kw">that </span><br><span about="#E" typeof="oo:Lemma">
+1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n
+ </span><span class="kw">and </span><br><span class="lab">A3</span>: <span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for x being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]</span><br>
+
+<span class="kw">let </span>x be    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  ex y being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st S<sub>1</sub>[n,x,y]</span><br>
+
+<span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A3</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/nat_1.html#T13">NAT_1:13</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K4">dom</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/nat_1.html#T12">NAT_1:12</a>, <a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_3.html#T25">FINSEQ_3:25</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">then </span><span class="kw">reconsider </span>p = S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> as   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>;<br>
+<span class="kw">reconsider </span>y = p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> x as    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>;<br>
+<span class="kw">take </span>
+y
+; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> S<sub>1</sub>[n,x,y]</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+S<sub>1</sub>[n,x,y]
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span class="kw">consider </span>F being    <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#M2">FinSequence</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span><span class="kw"> such that </span><br><span class="lab">A4</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span><span class="kw">and </span><br><span class="lab">A5</span>: <span about="#E" typeof="oo:Lemma">
+( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  )
+ </span><span class="kw">and </span><br><span class="lab">A6</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S holds <br>S<sub>1</sub>[n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>]
+ </span><span class="kw">from</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/recdef_1.html#S4">RECDEF_1:sch 4</a>(<span class="lab">A2</span>);<br></span>
+<span class="kw">take </span>
+F
+; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A4</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A1</span>, <span class="lab">A5</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_1.html#T20">FINSEQ_1:20</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q
+ </span><span class="kw">by</span> <span class="lab"><span class="lab">A4</span>, <span class="lab">A6</span></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+(  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  ex b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> st b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">uniqueness</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub>, b<sub>2</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> holds <br> ( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>1</sub> holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) implies b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies b<sub>1</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> ) )
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>F, G be   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G ) )</span><br>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) &amp;  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G )
+ </span> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G )</span><div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">assume </span><span class="kw">that </span><br><span class="lab">A7</span>: <span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span><span class="kw">and </span><br><span class="lab">A8</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span><span class="kw">and </span><br><span class="lab">A9</span>: <span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1
+ </span><span class="kw">and </span><br><span class="lab">A10</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q
+ </span><span class="kw">and </span><br><span class="lab">A11</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span><span class="kw">and </span><br><span class="lab">A12</span>: <span about="#E" typeof="oo:Lemma">
+G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1
+ </span><span class="kw">and </span><br><span class="lab">A13</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G</span><br>
+
+<span class="lab">A14</span>: <span about="#E" typeof="oo:Lemma">
+ for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S holds <br> for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2
+ </span>
+<div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>n be   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S implies  for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span class="kw">assume </span><span class="kw">that </span><br><span about="#E" typeof="oo:Lemma">
+1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n
+ </span><span class="kw">and </span><br><span class="lab">A15</span>: <span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for x, y1, y2 being    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>  st S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] holds <br>y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2</span><br>
+
+<span class="kw">let </span>x, y1, y2 be    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> ( S<sub>1</sub>[n,x,y1] &amp; S<sub>1</sub>[n,x,y2] implies y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A15</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/nat_1.html#T13">NAT_1:13</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K4">dom</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/nat_1.html#T12">NAT_1:12</a>, <a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_3.html#T25">FINSEQ_3:25</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">then </span><span class="kw">reconsider </span>p = S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> as   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>;<br>
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+S<sub>1</sub>[n,x,y1]
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not S<sub>1</sub>[n,x,y2] or y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )</span><br>
+
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> x
+ </span>
+;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+(  not S<sub>1</sub>[n,x,y2] or y1 <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a> y2 )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A7</span></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K4">dom</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_3.html#T32">FINSEQ_3:32</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">then </span><span class="kw">reconsider </span>p1 = S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 as    <a href="file://c:%5Cmizar%5Chtml/ring_4.html#M1">Element</a> of  the <a href="file://c:%5Cmizar%5Chtml/struct_0.html#U1">carrier</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> ;<br>
+<span class="lab">A16</span>: <span about="#E" typeof="oo:Lemma">
+(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; ( F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  ) &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S holds <br>S<sub>1</sub>[n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,F <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>] ) )
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A8</span>, <span class="lab">A9</span>, <span class="lab">A10</span></span>;<br>
+<span class="lab">A17</span>: <span about="#E" typeof="oo:Lemma">
+(  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; ( G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p1 or  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K5">0</a>  ) &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S holds <br>S<sub>1</sub>[n,G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n,G <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span>] ) )
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A11</span>, <span class="lab">A12</span>, <span class="lab">A13</span></span>;<br>
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G
+ </span><span class="kw">from</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/recdef_1.html#S8">RECDEF_1:sch 8</a>(<span class="lab">A14</span>, <span class="lab">A16</span>, <span class="lab">A17</span>);</span> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+(  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  &amp; G <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies F <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> G )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">consistency</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> holds  verum
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+
+
+
+
+<div about="#DT2" typeof="oo:Definition">:: <span class="kw">deftheorem </span><span class="lab">Def2</span>   defines <a href="#K2" target="_self">Partial_Sums</a> <a onclick="hs(this)" href="javascript:()">E:def 2 : <br></a><span class="hide"> for S, b<sub>2</sub> being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> holds <br> ( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies ( b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="#K2" target="_self">Partial_Sums</a> S iff (  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S &amp; b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> 1 &amp; (  for n being   <a href="file://c:%5Cmizar%5Chtml/nat_1.html#NM1">Nat</a>  st 1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a> n &amp; n <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#NR3">&lt;</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> b<sub>2</sub> holds <br> for p, q being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>  st p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> S <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> &amp; q <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> n holds <br>b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default">n <a href="file://c:%5Cmizar%5Chtml/nat_1.html#K1">+</a> 1</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> p <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K8">+</a> q ) ) ) ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies ( b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="#K2" target="_self">Partial_Sums</a> S iff b<sub>2</sub> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  ) ) );<br></span>
+</div>
+<br><div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span>S be   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span>;<br><div about="#D0" typeof="oo:Definition">
+<a NAME="K3"><span class="kw">func</span> </a> <a href="#K3" target="_self">Sum</a> S<span class="kw"> -&gt; </span>  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a><span class="kw"> equals </span><a NAME="D3"><span class="comment">:: E:def 3</span><br></a><span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span><span class="kw"> if </span>S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> <br><span class="kw"> otherwise </span> <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K9">0_.</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K9">0_.</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> ) )
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">set </span>F =  <a href="#K2" target="_self">Partial_Sums</a> S;<br>
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> )
+ </span> <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K9">0_.</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> )</span><div>
+<a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">assume </span><span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a> 
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span><br>
+
+<span class="kw">then </span><span class="lab">A2</span>: <span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">Def2</span></span>;<br>
+<span about="#E" typeof="oo:Lemma">
+1 <a href="file://c:%5Cmizar%5Chtml/xxreal_0.html#R1">&lt;=</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> S
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A1</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_1.html#T20">FINSEQ_1:20</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K4">dom</a> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span>
+ </span>
+<span class="kw">by</span> <span class="lab"><span class="lab">A2</span>, <a class="ref" href="file://c:%5Cmizar%5Chtml/finseq_3.html#T25">FINSEQ_3:25</a></span>;<br>
+<span class="kw">then </span><span about="#E" typeof="oo:Lemma">
+<span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/tarski.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/relset_1.html#K2">rng</a> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span>
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/funct_1.html#T3">FUNCT_1:3</a></span>;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+<span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>
+ </span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/polynom3.html#D10">POLYNOM3:def 10</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+(  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K9">0_.</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> )
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">consistency</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ for b<sub>1</sub> being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds  verum
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+
+
+
+
+<div about="#DT3" typeof="oo:Definition">:: <span class="kw">deftheorem </span>   defines <a href="#K3" target="_self">Sum</a> <a onclick="hs(this)" href="javascript:()">E:def 3 : <br></a><span class="hide"> for S being   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM7">FinSequence</a> of <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polynom3.html#K13">Polynom-Ring</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a></span>)</span> holds <br> ( ( S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  <a href="#K3" target="_self">Sum</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/finseq_1.html#K3">len</a> <span class="p2">(<span class="default"><a href="#K2" target="_self">Partial_Sums</a> S</span>)</span></span>)</span> ) &amp; (  not S <a href="file://c:%5Cmizar%5Chtml/hidden.html#NR2">&lt;&gt;</a>  <a href="file://c:%5Cmizar%5Chtml/xboole_0.html#K1">{}</a>  implies  <a href="#K3" target="_self">Sum</a> S <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#K9">0_.</a> <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> ) );<br></span>
+</div>
+<br><div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span>p be   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>;<br><div about="#D0" typeof="oo:Definition">
+<a NAME="K4"><span class="kw">func</span> </a> <a href="#K4" target="_self">Sum_of_diffs</a> p<span class="kw"> -&gt; </span>  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a><span class="kw"> equals </span><a NAME="D4"><span class="comment">:: E:def 4</span><br></a> <a href="#K3" target="_self">Sum</a> <span class="p1">(<span class="default"><a href="#K1" target="_self">diff_seq</a> p</span>)</span>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ <a href="#K3" target="_self">Sum</a> <span class="p1">(<span class="default"><a href="#K1" target="_self">diff_seq</a> p</span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+
+
+
+
+<div about="#DT4" typeof="oo:Definition">:: <span class="kw">deftheorem </span>   defines <a href="#K4" target="_self">Sum_of_diffs</a> <a onclick="hs(this)" href="javascript:()">E:def 4 : <br></a><span class="hide"> for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds   <a href="#K4" target="_self">Sum_of_diffs</a> p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a>  <a href="#K3" target="_self">Sum</a> <span class="p1">(<span class="default"><a href="#K1" target="_self">diff_seq</a> p</span>)</span>;<br></span>
+</div>
+<br><div>
+<span class="kw">definition</span><div class="add">
+<span class="kw">let </span>p be   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>;<br><div about="#D0" typeof="oo:Definition">
+<a NAME="K5"><span class="kw">func</span> </a> <a href="#K5" target="_self">WFx</a> p<span class="kw"> -&gt; </span>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a><span class="kw"> equals </span><a NAME="D5"><span class="comment">:: E:def 5</span><br></a><span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K20">(#)</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p2">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span>;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+<span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K20">(#)</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p2">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span> is   <a href="file://c:%5Cmizar%5Chtml/funct_2.html#NM1">Function</a> of <a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>,<a href="file://c:%5Cmizar%5Chtml/numbers.html#K1">REAL</a>
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+
+
+
+
+<div about="#DT5" typeof="oo:Definition">:: <span class="kw">deftheorem </span>   defines <a href="#K5" target="_self">WFx</a> <a onclick="hs(this)" href="javascript:()">E:def 5 : <br></a><span class="hide"> for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds   <a href="#K5" target="_self">WFx</a> p <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K20">(#)</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p2">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span>;<br></span>
+</div>
+<br><div about="#T4" typeof="oo:Theorem">
+<span class="kw">theorem </span><a NAME="T4"><span class="comment">:: E:4</span><br></a><div class="add"> for r being   <a href="file://c:%5Cmizar%5Chtml/xreal_0.html#NM1">Real</a><br>  for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds  <span class="p1">(<span class="default"><a href="#K5" target="_self">WFx</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K3">*</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p3">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span>
+</div>
+<div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#T"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">let </span>r be   <a href="file://c:%5Cmizar%5Chtml/xreal_0.html#NM1">Real</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide">  for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds  <span class="p1">(<span class="default"><a href="#K5" target="_self">WFx</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K3">*</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p3">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span><br><span class="kw">let </span>p be   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> <span class="p1">(<span class="default"><a href="#K5" target="_self">WFx</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K3">*</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p3">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span><br>
+
+
+
+<span about="#E" typeof="oo:Lemma">
+<span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> 1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p1">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span>
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/valued_1.html#T10">VALUED_1:10</a></span>;<br>
+<span class="kw">hence </span><span about="#E" typeof="oo:Lemma">
+<span class="p1">(<span class="default"><a href="#K5" target="_self">WFx</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r <a href="file://c:%5Cmizar%5Chtml/hidden.html#R1">=</a> <span class="p1">(<span class="default">1 <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K7">/</a> <span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#K3">*</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> <span class="p3">(<span class="default"><a href="#K4" target="_self">Sum_of_diffs</a> p</span>)</span></span>)</span> <a href="file://c:%5Cmizar%5Chtml/funct_1.html#K1">.</a> r</span>)</span>
+ </span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/valued_1.html#T5">VALUED_1:5</a></span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<span class="kw">let </span>p be   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a>;<br>
+<div about="#FC6" typeof="oo:Theorem">
+<a NAME="FC6"><span class="kw">cluster </span></a> <a href="#K5" target="_self">WFx</a> p<span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a>  ;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ <a href="#K5" target="_self">WFx</a> p is  <a href="file://c:%5Cmizar%5Chtml/fdiff_1.html#V4">differentiable</a> 
+ </span></span>;<br>
+</div>
+<span class="kw">end;</span>
+</div>
+<br><div about="#T5" typeof="oo:Theorem">
+<span class="kw">theorem </span><a NAME="T5"><span class="comment">:: E:5</span><br></a><div class="add"> for p being   <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/vectsp_1.html#K2">F_Real</a> holds  <span class="p1">(<span class="default"><a href="#K5" target="_self">WFx</a> p</span>)</span> <a href="file://c:%5Cmizar%5Chtml/polydiff.html#K1">`|</a>  <a href="file://c:%5Cmizar%5Chtml/funct_2.html#R2">=</a>  <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K32">-</a> <span class="p1">(<span class="default"><span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/sin_cos.html#K22">exp_R</a> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K37">"</a></span>)</span> <a href="file://c:%5Cmizar%5Chtml/valued_1.html#K20">(#)</a> <span class="p2">(<span class="default"><a href="file://c:%5Cmizar%5Chtml/polydiff.html#K5">Eval</a> p</span>)</span></span>)</span> ;<br>
+</div>
+</div>
+<br><div>
+<span class="kw">registration</span><div class="add">
+<div about="#FC7" typeof="oo:Theorem">
+<a NAME="FC7"><span class="kw">cluster </span></a> <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a> <span class="kw"> -&gt; </span> <a href="file://c:%5Cmizar%5Chtml/algnum_1.html#NV5">transcendental</a>  ;<br>
+</div>
+<a class="txt" onclick="hs(this)" href="javascript:()"><span class="kw">coherence</span> </a><span class="hide"><br><span about="#E" typeof="oo:Lemma">
+ not  <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a>  is  <a href="file://c:%5Cmizar%5Chtml/algnum_1.html#V1">algebraic</a> 
+ </span></span><div about="#PF" typeof="oo:Proof">
+<span rel="oo:proves" resource="#E"></span><a class="txt" onclick="hs2(this)" href="javascript:()"><span class="kw">proof </span></a><div class="add">
+
+<span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a>  <a href="file://c:%5Cmizar%5Chtml/hidden.html#R2">in</a>  <a href="file://c:%5Cmizar%5Chtml/numbers.html#K2">COMPLEX</a> 
+ </span>
+<span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/xcmplx_0.html#D2">XCMPLX_0:def 2</a></span>;<br>
+<span class="kw">then </span><span class="kw">reconsider </span>e =  <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a>  as   <a href="file://c:%5Cmizar%5Chtml/struct_0.html#NM1">Element</a> of <a href="file://c:%5Cmizar%5Chtml/complfld.html#K1">F_Complex</a> <span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/complfld.html#D1">COMPLFLD:def 1</a></span>;<br>
+<span class="kw">assume </span><span about="#E" typeof="oo:Lemma">
+ <a href="file://c:%5Cmizar%5Chtml/power.html#K4">number_e</a>  is  <a href="file://c:%5Cmizar%5Chtml/algnum_1.html#V1">algebraic</a> 
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> contradiction</span><br>
+
+<span class="kw">then </span><span class="kw">consider </span>f being   <a href="file://c:%5Cmizar%5Chtml/numbers.html#K4">INT</a>  <a href="file://c:%5Cmizar%5Chtml/relat_1.html#V5">-valued</a>   <a href="file://c:%5Cmizar%5Chtml/uproots.html#V1">non-zero</a>  <a href="file://c:%5Cmizar%5Chtml/polynom3.html#NM1">Polynomial</a> of <a href="file://c:%5Cmizar%5Chtml/complfld.html#K1">F_Complex</a><span class="kw"> such that </span><br><span class="lab">A1</span>: <span about="#E" typeof="oo:Lemma">
+e <a href="file://c:%5Cmizar%5Chtml/polynom5.html#R1">is_a_root_of</a> f
+ </span><span class="kw">by</span> <span class="lab"><a class="ref" href="file://c:%5Cmizar%5Chtml/liouvil2.html#T25">LIOUVIL2:25</a></span>;<br>
+<span class="kw">thus </span><span about="#E" typeof="oo:Lemma">
+contradiction
+ </span>; <a class="txt" onclick="hs(this)" href="javascript:()"><span class="comment">::  thesis: </span></a><span class="hide"> verum</span><br>
+
+
+</div>
+<span class="kw">end;</span>
+</div>
+</div>
+<span class="kw">end;</span>
+</div>
+<br>
+</body>
+</html>
