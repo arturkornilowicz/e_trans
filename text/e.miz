@@ -135,15 +135,11 @@ registration
     let h be Function of REAL,REAL such that
 A1: h = f /" g;
 A2: f /" g = f / g by T2;
-    h is differentiable
-    proof
-      let r;
-A3:   f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
-      g.r <> 0 by T4;
-      hence thesis by A1,A2,A3,FDIFF_2:14;
-    end;
-    hence thesis;
-  end;
+    let r;
+A3: f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
+    g.r <> 0 by T4;
+    hence thesis by A1,A2,A3,FDIFF_2:14;
+  end;  
 end;
 
 registration
@@ -153,16 +149,11 @@ registration
   proof
     let g be Function of REAL,REAL such that
 A1: g = f";
-    g is differentiable
-    proof
-      let r;
-A2:   f.r <> 0 by T4;
-      f is_differentiable_in r by POLYDIFF:def 2;
-      then f^ is_differentiable_in r by A2, FDIFF_2:15;
-      hence g is_differentiable_in r by A1, T2a;
-
-    end;
-    hence thesis;
+    let r;
+A2: f.r <> 0 by T4;
+    f is_differentiable_in r by POLYDIFF:def 2;
+    then f^ is_differentiable_in r by A2, FDIFF_2:15;
+    hence g is_differentiable_in r by A1, T2a;
   end;
 end;
 
