@@ -111,15 +111,15 @@ registration
   proof
     let h be Function of REAL,REAL such that
 A1: h = f /" g;
-A4: f /" g = f / g by T2;
+A2: f /" g = f / g by T2;
     h is differentiable
     proof
       let r;
-A2:   f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
-      g.r <> 0;
-::>          *4
-      then f/g is_differentiable_in r by A2,FDIFF_2:14;
-      hence thesis by A1,A4;
+A3:   f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
+      dom g = REAL by FUNCT_2:def 1;
+      then g.r in rng g by XREAL_0:def 1,FUNCT_1:3;
+      then g.r <> 0 by RELAT_1:def 9;
+      hence thesis by A1,A2,A3,FDIFF_2:14;
     end;
     hence thesis;
   end;
@@ -142,8 +142,12 @@ end;
 
 registration
   cluster exp_R -> non-empty;
-  coherence;
-::>       *4
+  coherence
+  proof
+    let x be object;
+    assume x in dom exp_R;
+    hence thesis by SIN_COS:54;
+  end;
 end;
 
 registration
