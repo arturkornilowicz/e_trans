@@ -765,6 +765,8 @@ V176 Function-yielding
 O300 .-->
 O301 IFEQ
 O302 :->
+O303 ^2
+O304 sqrt
 A1 XREAL_0
 A2 NEWTON
 A3 XXREAL_0

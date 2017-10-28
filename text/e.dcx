@@ -767,6 +767,8 @@
  <Symbol kind="O" nr="300" name=".--&#x3E;"/>
  <Symbol kind="O" nr="301" name="IFEQ"/>
  <Symbol kind="O" nr="302" name=":-&#x3E;"/>
+ <Symbol kind="O" nr="303" name="&#x5E;2"/>
+ <Symbol kind="O" nr="304" name="sqrt"/>
  <Symbol kind="A" nr="1" name="XREAL_0"/>
  <Symbol kind="A" nr="2" name="NEWTON"/>
  <Symbol kind="A" nr="3" name="XXREAL_0"/>

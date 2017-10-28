@@ -32,19 +32,19 @@
  <Symbol kind="I" nr="30" name="LATTICES"/>
  <Symbol kind="I" nr="31" name="MEMBERED"/>
  <Symbol kind="I" nr="32" name="FUNCOP_1"/>
- <Symbol kind="I" nr="33" name="RELSET_1"/>
- <Symbol kind="I" nr="34" name="SETWOP_2"/>
- <Symbol kind="I" nr="35" name="RCOMP_1"/>
- <Symbol kind="I" nr="36" name="COMSEQ_2"/>
- <Symbol kind="I" nr="37" name="FCONT_1"/>
- <Symbol kind="I" nr="38" name="RING_4"/>
- <Symbol kind="I" nr="39" name="TOPMETR"/>
- <Symbol kind="I" nr="40" name="EC_PF_1"/>
- <Symbol kind="I" nr="41" name="GR_CY_1"/>
- <Symbol kind="I" nr="42" name="REALSET1"/>
- <Symbol kind="I" nr="43" name="FINSOP_1"/>
- <Symbol kind="I" nr="44" name="ALGSTR_1"/>
- <Symbol kind="I" nr="45" name="SQUARE_1"/>
+ <Symbol kind="I" nr="33" name="SQUARE_1"/>
+ <Symbol kind="I" nr="34" name="RELSET_1"/>
+ <Symbol kind="I" nr="35" name="SETWOP_2"/>
+ <Symbol kind="I" nr="36" name="RCOMP_1"/>
+ <Symbol kind="I" nr="37" name="COMSEQ_2"/>
+ <Symbol kind="I" nr="38" name="FCONT_1"/>
+ <Symbol kind="I" nr="39" name="RING_4"/>
+ <Symbol kind="I" nr="40" name="TOPMETR"/>
+ <Symbol kind="I" nr="41" name="EC_PF_1"/>
+ <Symbol kind="I" nr="42" name="GR_CY_1"/>
+ <Symbol kind="I" nr="43" name="REALSET1"/>
+ <Symbol kind="I" nr="44" name="FINSOP_1"/>
+ <Symbol kind="I" nr="45" name="ALGSTR_1"/>
  <Symbol kind="I" nr="46" name="ORDINAL1"/>
  <Symbol kind="I" nr="47" name="INT_6"/>
  <Symbol kind="I" nr="48" name="WSIERP_1"/>

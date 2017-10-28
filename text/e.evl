@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Environ aid="E">
- <Directive name="vocabularies" argnr="65">
+ <Directive name="vocabularies" argnr="66">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="NUMBERS" line="6" col="21"/>
   <Ident name="SUBSET_1" line="6" col="31"/>
@@ -66,6 +66,7 @@
   <Ident name="VALUED_1" line="14" col="33"/>
   <Ident name="MEMBERED" line="14" col="43"/>
   <Ident name="FUNCOP_1" line="14" col="53"/>
+  <Ident name="SQUARE_1" line="14" col="63"/>
  </Directive>
  <Directive name="notations" argnr="60">
   <Ident name="HIDDEN" line="1" col="1"/>
