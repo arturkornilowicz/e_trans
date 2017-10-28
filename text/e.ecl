@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
-<Registrations aid="E" mizfiles="c:\mizar\">
+<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
+<Registrations aid="E" mizfiles="/usr/local/share/mizar/">
 <RCluster aid="XREAL_0" nr="1">
 <ArgTypes/>
 <Typ kind="M" nr="1">
@@ -28783,6 +28783,36 @@
 <Cluster>
 <Adjective nr="1"/>
 <Adjective nr="6"/>
+</Cluster>
+</FCluster>
+<FCluster aid="SQUARE_1" nr="1">
+<ArgTypes>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Func kind="K" nr="900">
+<LocusVar nr="1"/>
+</Func>
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</FCluster>
+<FCluster aid="SQUARE_1" nr="2">
+<ArgTypes>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+</ArgTypes>
+<Func kind="K" nr="900">
+<LocusVar nr="1"/>
+</Func>
+<Cluster>
+<Adjective nr="25"/>
 </Cluster>
 </FCluster>
 <CCluster aid="XREAL_0" nr="1">

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Symbols aid="E" mizfiles="c:\mizar\">
+<Symbols aid="E" mizfiles="/usr/local/share/mizar/">
  <Symbol kind="&#xAF;" nr="0" name="&#x23;&#x29;"/>
  <Symbol kind="Z" nr="1" name="&#x24;1"/>
  <Symbol kind="Z" nr="2" name="&#x24;2"/>

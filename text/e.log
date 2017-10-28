@@ -1,107 +1,107 @@
 Constructors
-  <c:\mizar\prel\h\hidden.dco
-  <c:\mizar\prel\r\relat_1.dco
-  <c:\mizar\prel\f\funct_1.dco
-  <c:\mizar\prel\x\xboole_0.dco
-  <c:\mizar\prel\z\zfmisc_1.dco
-  <c:\mizar\prel\s\subset_1.dco
-  <c:\mizar\prel\t\tarski.dco
-  <c:\mizar\prel\o\ordinal1.dco
-  <c:\mizar\prel\n\numbers.dco
-  <c:\mizar\prel\x\xcmplx_0.dco
-  <c:\mizar\prel\x\xreal_0.dco
-  <c:\mizar\prel\x\xtuple_0.dco
-  <c:\mizar\prel\c\complex1.dco
-  <c:\mizar\prel\i\int_1.dco
-  <c:\mizar\prel\i\int_2.dco
-  <c:\mizar\prel\f\finset_1.dco
-  <c:\mizar\prel\c\card_1.dco
-  <c:\mizar\prel\f\finseq_1.dco
-  <c:\mizar\prel\n\newton.dco
-  <c:\mizar\prel\p\partfun1.dco
-  <c:\mizar\prel\m\mcart_1.dco
-  <c:\mizar\prel\f\funct_2.dco
-  <c:\mizar\prel\f\funcop_1.dco
-  <c:\mizar\prel\s\struct_0.dco
-  <c:\mizar\prel\a\algstr_0.dco
-  <c:\mizar\prel\r\rlvect_1.dco
-  <c:\mizar\prel\n\normsp_0.dco
-  <c:\mizar\prel\n\normsp_1.dco
-  <c:\mizar\prel\b\binop_1.dco
-  <c:\mizar\prel\v\vectsp_1.dco
-  <c:\mizar\prel\g\group_1.dco
-  <c:\mizar\prel\x\xxreal_0.dco
-  <c:\mizar\prel\n\nat_1.dco
-  <c:\mizar\prel\s\setfam_1.dco
-  <c:\mizar\prel\r\relat_2.dco
-  <c:\mizar\prel\e\eqrel_1.dco
-  <c:\mizar\prel\f\finseq_2.dco
-  <c:\mizar\prel\f\finseq_3.dco
-  <c:\mizar\prel\r\rat_1.dco
-  <c:\mizar\prel\v\valued_0.dco
-  <c:\mizar\prel\m\membered.dco
-  <c:\mizar\prel\v\valued_1.dco
-  <c:\mizar\prel\f\finsub_1.dco
-  <c:\mizar\prel\c\card_3.dco
-  <c:\mizar\prel\w\wellord1.dco
-  <c:\mizar\prel\p\pboole.dco
-  <c:\mizar\prel\p\pre_poly.dco
-  <c:\mizar\prel\p\polynom3.dco
-  <c:\mizar\prel\p\polynom1.dco
-  <c:\mizar\prel\p\polynom5.dco
-  <c:\mizar\prel\c\comptrig.dco
-  <c:\mizar\prel\c\complfld.dco
-  <c:\mizar\prel\r\ring_4.dco
-  <c:\mizar\prel\a\algnum_1.dco
-  <c:\mizar\prel\a\algseq_1.dco
-  <c:\mizar\prel\f\funcsdom.dco
-  <c:\mizar\prel\l\lopban_1.dco
-  <c:\mizar\prel\l\lopban_2.dco
-  <c:\mizar\prel\c\c0sp1.dco
-  <c:\mizar\prel\p\polynom4.dco
-  <c:\mizar\prel\f\funct_7.dco
-  <c:\mizar\prel\e\enumset1.dco
-  <c:\mizar\prel\d\domain_1.dco
-  <c:\mizar\prel\p\pre_topc.dco
-  <c:\mizar\prel\c\connsp_2.dco
-  <c:\mizar\prel\r\relset_1.dco
-  <c:\mizar\prel\b\borsuk_1.dco
-  <c:\mizar\prel\f\funct_5.dco
-  <c:\mizar\prel\m\metric_1.dco
-  <c:\mizar\prel\t\topmetr.dco
-  <c:\mizar\prel\i\int_3.dco
-  <c:\mizar\prel\e\ec_pf_1.dco
-  <c:\mizar\prel\b\binop_2.dco
-  <c:\mizar\prel\n\nat_d.dco
-  <c:\mizar\prel\v\vectsp_2.dco
-  <c:\mizar\prel\u\uproots.dco
-  <c:\mizar\prel\r\ratfunc1.dco
-  <c:\mizar\prel\x\xxreal_1.dco
-  <c:\mizar\prel\r\rcomp_1.dco
-  <c:\mizar\prel\r\rvsum_1.dco
-  <c:\mizar\prel\g\gr_cy_1.dco
-  <c:\mizar\prel\f\fvsum_1.dco
-  <c:\mizar\prel\g\gaussint.dco
-  <c:\mizar\prel\r\realset1.dco
-  <c:\mizar\prel\f\fdiff_1.dco
-  <c:\mizar\prel\p\polydiff.dco
-  <c:\mizar\prel\x\xxreal_2.dco
-  <c:\mizar\prel\f\fcont_1.dco
-  <c:\mizar\prel\m\measure5.dco
-  <c:\mizar\prel\c\comseq_2.dco
-  <c:\mizar\prel\l\lattices.dco
-  <c:\mizar\prel\g\group_2.dco
-  <c:\mizar\prel\g\group_3.dco
-  <c:\mizar\prel\g\group_4.dco
-  <c:\mizar\prel\f\funct_4.dco
-  <c:\mizar\prel\f\finsop_1.dco
-  <c:\mizar\prel\a\algstr_1.dco
-  <c:\mizar\prel\l\liouvil1.dco
-  <c:\mizar\prel\p\power.dco
-  <c:\mizar\prel\s\sin_cos.dco
-  <c:\mizar\prel\f\funct_3.dco
-  <c:\mizar\prel\r\rfunct_1.dco
-  <c:\mizar\prel\s\square_1.dco
+  </usr/local/share/mizar/prel/h/hidden.dco
+  </usr/local/share/mizar/prel/r/relat_1.dco
+  </usr/local/share/mizar/prel/f/funct_1.dco
+  </usr/local/share/mizar/prel/x/xboole_0.dco
+  </usr/local/share/mizar/prel/z/zfmisc_1.dco
+  </usr/local/share/mizar/prel/s/subset_1.dco
+  </usr/local/share/mizar/prel/t/tarski.dco
+  </usr/local/share/mizar/prel/o/ordinal1.dco
+  </usr/local/share/mizar/prel/n/numbers.dco
+  </usr/local/share/mizar/prel/x/xcmplx_0.dco
+  </usr/local/share/mizar/prel/x/xreal_0.dco
+  </usr/local/share/mizar/prel/x/xtuple_0.dco
+  </usr/local/share/mizar/prel/c/complex1.dco
+  </usr/local/share/mizar/prel/i/int_1.dco
+  </usr/local/share/mizar/prel/i/int_2.dco
+  </usr/local/share/mizar/prel/f/finset_1.dco
+  </usr/local/share/mizar/prel/c/card_1.dco
+  </usr/local/share/mizar/prel/f/finseq_1.dco
+  </usr/local/share/mizar/prel/n/newton.dco
+  </usr/local/share/mizar/prel/p/partfun1.dco
+  </usr/local/share/mizar/prel/m/mcart_1.dco
+  </usr/local/share/mizar/prel/f/funct_2.dco
+  </usr/local/share/mizar/prel/f/funcop_1.dco
+  </usr/local/share/mizar/prel/s/struct_0.dco
+  </usr/local/share/mizar/prel/a/algstr_0.dco
+  </usr/local/share/mizar/prel/r/rlvect_1.dco
+  </usr/local/share/mizar/prel/n/normsp_0.dco
+  </usr/local/share/mizar/prel/n/normsp_1.dco
+  </usr/local/share/mizar/prel/b/binop_1.dco
+  </usr/local/share/mizar/prel/v/vectsp_1.dco
+  </usr/local/share/mizar/prel/g/group_1.dco
+  </usr/local/share/mizar/prel/x/xxreal_0.dco
+  </usr/local/share/mizar/prel/n/nat_1.dco
+  </usr/local/share/mizar/prel/s/setfam_1.dco
+  </usr/local/share/mizar/prel/r/relat_2.dco
+  </usr/local/share/mizar/prel/e/eqrel_1.dco
+  </usr/local/share/mizar/prel/f/finseq_2.dco
+  </usr/local/share/mizar/prel/f/finseq_3.dco
+  </usr/local/share/mizar/prel/r/rat_1.dco
+  </usr/local/share/mizar/prel/v/valued_0.dco
+  </usr/local/share/mizar/prel/m/membered.dco
+  </usr/local/share/mizar/prel/v/valued_1.dco
+  </usr/local/share/mizar/prel/f/finsub_1.dco
+  </usr/local/share/mizar/prel/c/card_3.dco
+  </usr/local/share/mizar/prel/w/wellord1.dco
+  </usr/local/share/mizar/prel/p/pboole.dco
+  </usr/local/share/mizar/prel/p/pre_poly.dco
+  </usr/local/share/mizar/prel/p/polynom3.dco
+  </usr/local/share/mizar/prel/p/polynom1.dco
+  </usr/local/share/mizar/prel/p/polynom5.dco
+  </usr/local/share/mizar/prel/c/comptrig.dco
+  </usr/local/share/mizar/prel/c/complfld.dco
+  </usr/local/share/mizar/prel/r/ring_4.dco
+  </usr/local/share/mizar/prel/a/algnum_1.dco
+  </usr/local/share/mizar/prel/a/algseq_1.dco
+  </usr/local/share/mizar/prel/f/funcsdom.dco
+  </usr/local/share/mizar/prel/l/lopban_1.dco
+  </usr/local/share/mizar/prel/l/lopban_2.dco
+  </usr/local/share/mizar/prel/c/c0sp1.dco
+  </usr/local/share/mizar/prel/p/polynom4.dco
+  </usr/local/share/mizar/prel/f/funct_7.dco
+  </usr/local/share/mizar/prel/e/enumset1.dco
+  </usr/local/share/mizar/prel/d/domain_1.dco
+  </usr/local/share/mizar/prel/p/pre_topc.dco
+  </usr/local/share/mizar/prel/c/connsp_2.dco
+  </usr/local/share/mizar/prel/r/relset_1.dco
+  </usr/local/share/mizar/prel/b/borsuk_1.dco
+  </usr/local/share/mizar/prel/f/funct_5.dco
+  </usr/local/share/mizar/prel/m/metric_1.dco
+  </usr/local/share/mizar/prel/t/topmetr.dco
+  </usr/local/share/mizar/prel/i/int_3.dco
+  </usr/local/share/mizar/prel/e/ec_pf_1.dco
+  </usr/local/share/mizar/prel/b/binop_2.dco
+  </usr/local/share/mizar/prel/n/nat_d.dco
+  </usr/local/share/mizar/prel/v/vectsp_2.dco
+  </usr/local/share/mizar/prel/u/uproots.dco
+  </usr/local/share/mizar/prel/r/ratfunc1.dco
+  </usr/local/share/mizar/prel/x/xxreal_1.dco
+  </usr/local/share/mizar/prel/r/rcomp_1.dco
+  </usr/local/share/mizar/prel/r/rvsum_1.dco
+  </usr/local/share/mizar/prel/g/gr_cy_1.dco
+  </usr/local/share/mizar/prel/f/fvsum_1.dco
+  </usr/local/share/mizar/prel/g/gaussint.dco
+  </usr/local/share/mizar/prel/r/realset1.dco
+  </usr/local/share/mizar/prel/f/fdiff_1.dco
+  </usr/local/share/mizar/prel/p/polydiff.dco
+  </usr/local/share/mizar/prel/x/xxreal_2.dco
+  </usr/local/share/mizar/prel/f/fcont_1.dco
+  </usr/local/share/mizar/prel/m/measure5.dco
+  </usr/local/share/mizar/prel/c/comseq_2.dco
+  </usr/local/share/mizar/prel/l/lattices.dco
+  </usr/local/share/mizar/prel/g/group_2.dco
+  </usr/local/share/mizar/prel/g/group_3.dco
+  </usr/local/share/mizar/prel/g/group_4.dco
+  </usr/local/share/mizar/prel/f/funct_4.dco
+  </usr/local/share/mizar/prel/f/finsop_1.dco
+  </usr/local/share/mizar/prel/a/algstr_1.dco
+  </usr/local/share/mizar/prel/l/liouvil1.dco
+  </usr/local/share/mizar/prel/p/power.dco
+  </usr/local/share/mizar/prel/s/sin_cos.dco
+  </usr/local/share/mizar/prel/f/funct_3.dco
+  </usr/local/share/mizar/prel/r/rfunct_1.dco
+  </usr/local/share/mizar/prel/s/square_1.dco
   The list of all imported constructors
       M   L   V   R   K   U   G
    +HIDDEN
@@ -414,23 +414,23 @@ Constructors
                      +3        
      40  25 321  93 902  14  25
 Requirements
-  <c:\mizar\prel\h\hidden.dre
-  <c:\mizar\prel\r\real.dre
-  <c:\mizar\prel\n\numerals.dre
-  <c:\mizar\prel\s\subset.dre
-  <c:\mizar\prel\b\boole.dre
-  <c:\mizar\prel\a\arithm.dre
+  </usr/local/share/mizar/prel/h/hidden.dre
+  </usr/local/share/mizar/prel/r/real.dre
+  </usr/local/share/mizar/prel/n/numerals.dre
+  </usr/local/share/mizar/prel/s/subset.dre
+  </usr/local/share/mizar/prel/b/boole.dre
+  </usr/local/share/mizar/prel/a/arithm.dre
 Registrations
-  <c:\mizar\prel\x\xreal_0.dcl
-  <c:\mizar\prel\r\relat_1.dcl
-  <c:\mizar\prel\o\ordinal1.dcl
-  <c:\mizar\prel\r\rat_1.dcl
-  <c:\mizar\prel\i\int_1.dcl
-  <c:\mizar\prel\x\xxreal_0.dcl
-  <c:\mizar\prel\i\int_6.dcl
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\p\partfun3.dco
-  <c:\mizar\prel\i\int_6.dco
+  </usr/local/share/mizar/prel/x/xreal_0.dcl
+  </usr/local/share/mizar/prel/r/relat_1.dcl
+  </usr/local/share/mizar/prel/o/ordinal1.dcl
+  </usr/local/share/mizar/prel/r/rat_1.dcl
+  </usr/local/share/mizar/prel/i/int_1.dcl
+  </usr/local/share/mizar/prel/x/xxreal_0.dcl
+  </usr/local/share/mizar/prel/i/int_6.dcl
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/p/partfun3.dco
+  </usr/local/share/mizar/prel/i/int_6.dco
    The cutting off constructors:
     - RFINSEQ
     - PARTFUN3
@@ -463,11 +463,11 @@ Registrations
       -*PARTFUN3:V1
       -*INT_6:V1
 
-  <c:\mizar\prel\v\vectsp_1.dcl
-  <c:\mizar\prel\p\polynom3.dcl
-  <c:\mizar\prel\w\wellord2.dco
-  <c:\mizar\prel\o\orders_1.dco
-  <c:\mizar\prel\v\vfunct_1.dco
+  </usr/local/share/mizar/prel/v/vectsp_1.dcl
+  </usr/local/share/mizar/prel/p/polynom3.dcl
+  </usr/local/share/mizar/prel/w/wellord2.dco
+  </usr/local/share/mizar/prel/o/orders_1.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
    The cutting off constructors:
     - WELLORD2
     - ORDERS_1
@@ -480,25 +480,25 @@ Registrations
    Functor Cluster: 123
       -*VFUNCT_1:K5
 
-  <c:\mizar\prel\s\struct_0.dcl
-  <c:\mizar\prel\m\membered.dcl
-  <c:\mizar\prel\r\relset_1.dcl
-  <c:\mizar\prel\p\polynom5.dcl
-  <c:\mizar\prel\r\ring_4.dcl
-  <c:\mizar\prel\h\hurwitz.dco
-  <c:\mizar\prel\g\gcd_1.dco
-  <c:\mizar\prel\q\quofield.dco
-  <c:\mizar\prel\m\mod_4.dco
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\r\ring_1.dco
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\v\vectsp_4.dco
-  <c:\mizar\prel\v\vectsp_5.dco
-  <c:\mizar\prel\v\vectsp_7.dco
-  <c:\mizar\prel\h\hahnban1.dco
-  <c:\mizar\prel\v\vectsp10.dco
-  <c:\mizar\prel\r\ring_2.dco
-  <c:\mizar\prel\r\ring_3.dco
+  </usr/local/share/mizar/prel/s/struct_0.dcl
+  </usr/local/share/mizar/prel/m/membered.dcl
+  </usr/local/share/mizar/prel/r/relset_1.dcl
+  </usr/local/share/mizar/prel/p/polynom5.dcl
+  </usr/local/share/mizar/prel/r/ring_4.dcl
+  </usr/local/share/mizar/prel/h/hurwitz.dco
+  </usr/local/share/mizar/prel/g/gcd_1.dco
+  </usr/local/share/mizar/prel/q/quofield.dco
+  </usr/local/share/mizar/prel/m/mod_4.dco
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/r/ring_1.dco
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/v/vectsp_4.dco
+  </usr/local/share/mizar/prel/v/vectsp_5.dco
+  </usr/local/share/mizar/prel/v/vectsp_7.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
+  </usr/local/share/mizar/prel/v/vectsp10.dco
+  </usr/local/share/mizar/prel/r/ring_2.dco
+  </usr/local/share/mizar/prel/r/ring_3.dco
    The cutting off constructors:
     - HURWITZ
     - GCD_1
@@ -611,13 +611,13 @@ Registrations
    Conditional Cluster: 98
       -*GCD_1:V3
 
-  <c:\mizar\prel\x\xcmplx_0.dcl
-  <c:\mizar\prel\n\numbers.dcl
-  <c:\mizar\prel\x\xboole_0.dcl
-  <c:\mizar\prel\n\nat_1.dcl
-  <c:\mizar\prel\v\valued_0.dcl
-  <c:\mizar\prel\r\ratfunc1.dcl
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/x/xcmplx_0.dcl
+  </usr/local/share/mizar/prel/n/numbers.dcl
+  </usr/local/share/mizar/prel/x/xboole_0.dcl
+  </usr/local/share/mizar/prel/n/nat_1.dcl
+  </usr/local/share/mizar/prel/v/valued_0.dcl
+  </usr/local/share/mizar/prel/r/ratfunc1.dcl
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - HURWITZ
   Inaccessible Clusters
@@ -631,12 +631,12 @@ Registrations
    Functor Cluster: 421
       -*HURWITZ:K3
 
-  <c:\mizar\prel\f\finseq_1.dcl
-  <c:\mizar\prel\n\newton.dcl
-  <c:\mizar\prel\f\finseq_2.dcl
-  <c:\mizar\prel\w\wsierp_1.dcl
-  <c:\mizar\prel\a\absvalue.dcl
-  <c:\mizar\prel\a\absvalue.dco
+  </usr/local/share/mizar/prel/f/finseq_1.dcl
+  </usr/local/share/mizar/prel/n/newton.dcl
+  </usr/local/share/mizar/prel/f/finseq_2.dcl
+  </usr/local/share/mizar/prel/w/wsierp_1.dcl
+  </usr/local/share/mizar/prel/a/absvalue.dcl
+  </usr/local/share/mizar/prel/a/absvalue.dco
    The cutting off constructors:
     - ABSVALUE
   Inaccessible Clusters
@@ -644,9 +644,9 @@ Registrations
    Functor Cluster: 479
       -*ABSVALUE:K1
 
-  <c:\mizar\prel\n\niven.dcl
-  <c:\mizar\prel\v\vfunct_1.dco
-  <c:\mizar\prel\n\niven.dco
+  </usr/local/share/mizar/prel/n/niven.dcl
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
+  </usr/local/share/mizar/prel/n/niven.dco
    The cutting off constructors:
     - VFUNCT_1
     - NIVEN
@@ -664,14 +664,14 @@ Registrations
    Functor Cluster: 489
       -*NIVEN:K1
 
-  <c:\mizar\prel\c\complfld.dcl
-  <c:\mizar\prel\a\algstr_1.dcl
-  <c:\mizar\prel\p\polynom4.dcl
-  <c:\mizar\prel\c\classes2.dco
-  <c:\mizar\prel\g\graph_1.dco
-  <c:\mizar\prel\c\cat_1.dco
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\r\ringcat1.dco
+  </usr/local/share/mizar/prel/c/complfld.dcl
+  </usr/local/share/mizar/prel/a/algstr_1.dcl
+  </usr/local/share/mizar/prel/p/polynom4.dcl
+  </usr/local/share/mizar/prel/c/classes2.dco
+  </usr/local/share/mizar/prel/g/graph_1.dco
+  </usr/local/share/mizar/prel/c/cat_1.dco
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/r/ringcat1.dco
    The cutting off constructors:
     - CLASSES2
     - GRAPH_1
@@ -686,8 +686,8 @@ Registrations
    Functor Cluster: 507
       -*RINGCAT1:V1
 
-  <c:\mizar\prel\g\gaussint.dcl
-  <c:\mizar\prel\p\polyalg1.dco
+  </usr/local/share/mizar/prel/g/gaussint.dcl
+  </usr/local/share/mizar/prel/p/polyalg1.dco
    The cutting off constructors:
     - POLYALG1
   Inaccessible Clusters
@@ -709,8 +709,8 @@ Registrations
       -*POLYALG1:V2
       -*POLYALG1:G1
 
-  <c:\mizar\prel\i\int_3.dcl
-  <c:\mizar\prel\g\gcd_1.dco
+  </usr/local/share/mizar/prel/i/int_3.dcl
+  </usr/local/share/mizar/prel/g/gcd_1.dco
    The cutting off constructors:
     - GCD_1
   Inaccessible Clusters
@@ -718,17 +718,17 @@ Registrations
    Conditional Cluster: 173
       -*GCD_1:V3
 
-  <c:\mizar\prel\s\subset_1.dcl
-  <c:\mizar\prel\n\newton04.dcl
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\p\partfun3.dco
-  <c:\mizar\prel\f\finseq_5.dco
-  <c:\mizar\prel\a\abian.dco
-  <c:\mizar\prel\x\xboolean.dco
-  <c:\mizar\prel\m\margrel1.dco
-  <c:\mizar\prel\f\fomodel0.dco
-  <c:\mizar\prel\r\rfinseq2.dco
-  <c:\mizar\prel\n\newton04.dco
+  </usr/local/share/mizar/prel/s/subset_1.dcl
+  </usr/local/share/mizar/prel/n/newton04.dcl
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/p/partfun3.dco
+  </usr/local/share/mizar/prel/f/finseq_5.dco
+  </usr/local/share/mizar/prel/a/abian.dco
+  </usr/local/share/mizar/prel/x/xboolean.dco
+  </usr/local/share/mizar/prel/m/margrel1.dco
+  </usr/local/share/mizar/prel/f/fomodel0.dco
+  </usr/local/share/mizar/prel/r/rfinseq2.dco
+  </usr/local/share/mizar/prel/n/newton04.dco
    The cutting off constructors:
     - RFINSEQ
     - PARTFUN3
@@ -862,9 +862,9 @@ Registrations
    Conditional Cluster: 192
       -*PARTFUN3:V4
 
-  <c:\mizar\prel\u\uproots.dcl
-  <c:\mizar\prel\p\polydiff.dcl
-  <c:\mizar\prel\t\taylor_1.dco
+  </usr/local/share/mizar/prel/u/uproots.dcl
+  </usr/local/share/mizar/prel/p/polydiff.dcl
+  </usr/local/share/mizar/prel/t/taylor_1.dco
    The cutting off constructors:
     - TAYLOR_1
   Inaccessible Clusters
@@ -872,14 +872,14 @@ Registrations
    Functor Cluster: 599
       -*TAYLOR_1:K1
 
-  <c:\mizar\prel\x\xxreal_1.dcl
-  <c:\mizar\prel\x\xxreal_2.dcl
-  <c:\mizar\prel\f\finset_1.dcl
-  <c:\mizar\prel\f\fcont_1.dcl
-  <c:\mizar\prel\c\complex1.dcl
-  <c:\mizar\prel\r\rcomp_1.dcl
-  <c:\mizar\prel\i\ideal_1.dcl
-  <c:\mizar\prel\i\ideal_1.dco
+  </usr/local/share/mizar/prel/x/xxreal_1.dcl
+  </usr/local/share/mizar/prel/x/xxreal_2.dcl
+  </usr/local/share/mizar/prel/f/finset_1.dcl
+  </usr/local/share/mizar/prel/f/fcont_1.dcl
+  </usr/local/share/mizar/prel/c/complex1.dcl
+  </usr/local/share/mizar/prel/r/rcomp_1.dcl
+  </usr/local/share/mizar/prel/i/ideal_1.dcl
+  </usr/local/share/mizar/prel/i/ideal_1.dco
    The cutting off constructors:
     - IDEAL_1
   Inaccessible Clusters
@@ -1062,8 +1062,8 @@ Registrations
       -*IDEAL_1:V2
       -*IDEAL_1:V3
 
-  <c:\mizar\prel\r\rfunct_1.dcl
-  <c:\mizar\prel\s\seq_2.dco
+  </usr/local/share/mizar/prel/r/rfunct_1.dcl
+  </usr/local/share/mizar/prel/s/seq_2.dco
    The cutting off constructors:
     - SEQ_2
   Inaccessible Clusters
@@ -1101,8 +1101,8 @@ Registrations
    Functor Cluster: 715
       -*SEQ_2:V2
 
-  <c:\mizar\prel\p\prepower.dcl
-  <c:\mizar\prel\p\prepower.dco
+  </usr/local/share/mizar/prel/p/prepower.dcl
+  </usr/local/share/mizar/prel/p/prepower.dco
    The cutting off constructors:
     - PREPOWER
   Inaccessible Clusters
@@ -1116,13 +1116,13 @@ Registrations
    Functor Cluster: 723
       -*PREPOWER:K4
 
-  <c:\mizar\prel\l\liouvil1.dcl
-  <c:\mizar\prel\p\partfun3.dco
-  <c:\mizar\prel\a\asympt_0.dco
-  <c:\mizar\prel\b\bhsp_1.dco
-  <c:\mizar\prel\r\rsspace.dco
-  <c:\mizar\prel\s\series_1.dco
-  <c:\mizar\prel\s\seq_1.dco
+  </usr/local/share/mizar/prel/l/liouvil1.dcl
+  </usr/local/share/mizar/prel/p/partfun3.dco
+  </usr/local/share/mizar/prel/a/asympt_0.dco
+  </usr/local/share/mizar/prel/b/bhsp_1.dco
+  </usr/local/share/mizar/prel/r/rsspace.dco
+  </usr/local/share/mizar/prel/s/series_1.dco
+  </usr/local/share/mizar/prel/s/seq_1.dco
    The cutting off constructors:
     - PARTFUN3
     - ASYMPT_0
@@ -1170,16 +1170,16 @@ Registrations
    Conditional Cluster: 228
       -*ASYMPT_0:V5
 
-  <c:\mizar\prel\a\algnum_1.dcl
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\r\ring_1.dco
-  <c:\mizar\prel\v\vectsp_4.dco
-  <c:\mizar\prel\v\vectsp_5.dco
-  <c:\mizar\prel\v\vectsp_7.dco
-  <c:\mizar\prel\h\hahnban1.dco
-  <c:\mizar\prel\v\vectsp10.dco
-  <c:\mizar\prel\r\ring_2.dco
+  </usr/local/share/mizar/prel/a/algnum_1.dcl
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/r/ring_1.dco
+  </usr/local/share/mizar/prel/v/vectsp_4.dco
+  </usr/local/share/mizar/prel/v/vectsp_5.dco
+  </usr/local/share/mizar/prel/v/vectsp_7.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
+  </usr/local/share/mizar/prel/v/vectsp10.dco
+  </usr/local/share/mizar/prel/r/ring_2.dco
    The cutting off constructors:
     - GROUP_6
     - IDEAL_1
@@ -1201,12 +1201,12 @@ Registrations
    Functor Cluster: 733
       -*GROUP_6:V1
 
-  <c:\mizar\prel\l\liouvil2.dcl
-  <c:\mizar\prel\v\valued_1.dcl
-  <c:\mizar\prel\p\partfun1.dcl
-  <c:\mizar\prel\f\funct_2.dcl
-  <c:\mizar\prel\f\fdiff_1.dcl
-  <c:\mizar\prel\s\seq_2.dco
+  </usr/local/share/mizar/prel/l/liouvil2.dcl
+  </usr/local/share/mizar/prel/v/valued_1.dcl
+  </usr/local/share/mizar/prel/p/partfun1.dcl
+  </usr/local/share/mizar/prel/f/funct_2.dcl
+  </usr/local/share/mizar/prel/f/fdiff_1.dcl
+  </usr/local/share/mizar/prel/s/seq_2.dco
    The cutting off constructors:
     - SEQ_2
   Inaccessible Clusters
@@ -1214,105 +1214,107 @@ Registrations
    Functor Cluster: 890
       -*SEQ_2:K1
 
-  <c:\mizar\prel\f\funcop_1.dcl
+  </usr/local/share/mizar/prel/f/funcop_1.dcl
+  </usr/local/share/mizar/prel/s/square_1.dcl
 Notations
-  <c:\mizar\prel\h\hidden.dno
-  <c:\mizar\prel\t\tarski.dno
-  <c:\mizar\prel\x\xboole_0.dno
-  <c:\mizar\prel\s\subset_1.dno
-  <c:\mizar\prel\f\finset_1.dno
-  <c:\mizar\prel\r\relat_1.dno
-  <c:\mizar\prel\f\funct_1.dno
-  <c:\mizar\prel\r\relset_1.dno
-  <c:\mizar\prel\p\partfun1.dno
-  <c:\mizar\prel\f\funct_2.dno
-  <c:\mizar\prel\f\finseq_1.dno
-  <c:\mizar\prel\n\numbers.dno
-  <c:\mizar\prel\x\xcmplx_0.dno
-  <c:\mizar\prel\c\complex1.dno
-  <c:\mizar\prel\x\xreal_0.dno
-  <c:\mizar\prel\n\nat_1.dno
-  <c:\mizar\prel\n\nat_d.dno
-  <c:\mizar\prel\f\finseq_2.dno
-  <c:\mizar\prel\b\binop_2.dno
-  <c:\mizar\prel\s\setwop_2.dno
-  <c:\mizar\prel\s\setwop_2.dco
+  </usr/local/share/mizar/prel/h/hidden.dno
+  </usr/local/share/mizar/prel/t/tarski.dno
+  </usr/local/share/mizar/prel/x/xboole_0.dno
+  </usr/local/share/mizar/prel/s/subset_1.dno
+  </usr/local/share/mizar/prel/f/finset_1.dno
+  </usr/local/share/mizar/prel/r/relat_1.dno
+  </usr/local/share/mizar/prel/f/funct_1.dno
+  </usr/local/share/mizar/prel/r/relset_1.dno
+  </usr/local/share/mizar/prel/p/partfun1.dno
+  </usr/local/share/mizar/prel/f/funct_2.dno
+  </usr/local/share/mizar/prel/f/finseq_1.dno
+  </usr/local/share/mizar/prel/n/numbers.dno
+  </usr/local/share/mizar/prel/x/xcmplx_0.dno
+  </usr/local/share/mizar/prel/c/complex1.dno
+  </usr/local/share/mizar/prel/x/xreal_0.dno
+  </usr/local/share/mizar/prel/n/nat_1.dno
+  </usr/local/share/mizar/prel/n/nat_d.dno
+  </usr/local/share/mizar/prel/f/finseq_2.dno
+  </usr/local/share/mizar/prel/b/binop_2.dno
+  </usr/local/share/mizar/prel/s/setwop_2.dno
+  </usr/local/share/mizar/prel/s/setwop_2.dco
    The cutting off constructors:
     - SETWOP_2
-  <c:\mizar\prel\x\xxreal_0.dno
-  <c:\mizar\prel\x\xxreal_2.dno
-  <c:\mizar\prel\r\rcomp_1.dno
-  <c:\mizar\prel\m\membered.dno
-  <c:\mizar\prel\f\funcop_1.dno
-  <c:\mizar\prel\r\rfunct_1.dno
-  <c:\mizar\prel\v\valued_0.dno
-  <c:\mizar\prel\v\valued_1.dno
-  <c:\mizar\prel\i\int_1.dno
-  <c:\mizar\prel\p\power.dno
-  <c:\mizar\prel\n\newton.dno
-  <c:\mizar\prel\r\rat_1.dno
-  <c:\mizar\prel\c\comseq_2.dno
-  <c:\mizar\prel\m\measure5.dno
-  <c:\mizar\prel\i\irrat_1.dno
-  <c:\mizar\prel\i\irrat_1.dco
+  </usr/local/share/mizar/prel/x/xxreal_0.dno
+  </usr/local/share/mizar/prel/x/xxreal_2.dno
+  </usr/local/share/mizar/prel/r/rcomp_1.dno
+  </usr/local/share/mizar/prel/s/square_1.dno
+  </usr/local/share/mizar/prel/m/membered.dno
+  </usr/local/share/mizar/prel/f/funcop_1.dno
+  </usr/local/share/mizar/prel/r/rfunct_1.dno
+  </usr/local/share/mizar/prel/v/valued_0.dno
+  </usr/local/share/mizar/prel/v/valued_1.dno
+  </usr/local/share/mizar/prel/i/int_1.dno
+  </usr/local/share/mizar/prel/p/power.dno
+  </usr/local/share/mizar/prel/n/newton.dno
+  </usr/local/share/mizar/prel/r/rat_1.dno
+  </usr/local/share/mizar/prel/c/comseq_2.dno
+  </usr/local/share/mizar/prel/m/measure5.dno
+  </usr/local/share/mizar/prel/i/irrat_1.dno
+  </usr/local/share/mizar/prel/i/irrat_1.dco
    The cutting off constructors:
     - IRRAT_1
-  <c:\mizar\prel\f\fcont_1.dno
-  <c:\mizar\prel\f\fdiff_1.dno
-  <c:\mizar\prel\r\rvsum_1.dno
-  <c:\mizar\prel\s\sin_cos.dno
-  <c:\mizar\prel\s\struct_0.dno
-  <c:\mizar\prel\a\algstr_0.dno
-  <c:\mizar\prel\r\rlvect_1.dno
-  <c:\mizar\prel\g\group_1.dno
-  <c:\mizar\prel\g\group_4.dno
-  <c:\mizar\prel\v\vectsp_1.dno
-  <c:\mizar\prel\c\c0sp1.dno
-  <c:\mizar\prel\i\int_3.dno
-  <c:\mizar\prel\c\complfld.dno
-  <c:\mizar\prel\g\gaussint.dno
-  <c:\mizar\prel\p\polyalg1.dco
+  </usr/local/share/mizar/prel/f/fcont_1.dno
+  </usr/local/share/mizar/prel/f/fdiff_1.dno
+  </usr/local/share/mizar/prel/r/rvsum_1.dno
+  </usr/local/share/mizar/prel/s/sin_cos.dno
+  </usr/local/share/mizar/prel/s/struct_0.dno
+  </usr/local/share/mizar/prel/a/algstr_0.dno
+  </usr/local/share/mizar/prel/r/rlvect_1.dno
+  </usr/local/share/mizar/prel/g/group_1.dno
+  </usr/local/share/mizar/prel/g/group_4.dno
+  </usr/local/share/mizar/prel/v/vectsp_1.dno
+  </usr/local/share/mizar/prel/c/c0sp1.dno
+  </usr/local/share/mizar/prel/i/int_3.dno
+  </usr/local/share/mizar/prel/c/complfld.dno
+  </usr/local/share/mizar/prel/g/gaussint.dno
+  </usr/local/share/mizar/prel/p/polyalg1.dco
    The cutting off constructors:
     - POLYALG1
-  <c:\mizar\prel\a\algseq_1.dno
-  <c:\mizar\prel\p\polynom3.dno
-  <c:\mizar\prel\p\polynom4.dno
-  <c:\mizar\prel\p\polynom5.dno
-  <c:\mizar\prel\u\uproots.dno
-  <c:\mizar\prel\r\ratfunc1.dno
-  <c:\mizar\prel\r\ring_4.dno
-  <c:\mizar\prel\g\gcd_1.dco
+  </usr/local/share/mizar/prel/a/algseq_1.dno
+  </usr/local/share/mizar/prel/p/polynom3.dno
+  </usr/local/share/mizar/prel/p/polynom4.dno
+  </usr/local/share/mizar/prel/p/polynom5.dno
+  </usr/local/share/mizar/prel/u/uproots.dno
+  </usr/local/share/mizar/prel/r/ratfunc1.dno
+  </usr/local/share/mizar/prel/r/ring_4.dno
+  </usr/local/share/mizar/prel/g/gcd_1.dco
    The cutting off constructors:
     - GCD_1
-  <c:\mizar\prel\a\algnum_1.dno
-  <c:\mizar\prel\p\polydiff.dno
-  <c:\mizar\prel\f\fvsum_1.dno
-  <c:\mizar\prel\l\liouvil1.dno
+  </usr/local/share/mizar/prel/a/algnum_1.dno
+  </usr/local/share/mizar/prel/p/polydiff.dno
+  </usr/local/share/mizar/prel/f/fvsum_1.dno
+  </usr/local/share/mizar/prel/l/liouvil1.dno
 Registrations(Identify)
-  <c:\mizar\prel\v\vectsp_1.did
-  <c:\mizar\prel\c\complfld.did
-  <c:\mizar\prel\g\gaussint.did
-  <c:\mizar\prel\i\int_3.did
-  <c:\mizar\prel\f\funct_2.did
+  </usr/local/share/mizar/prel/v/vectsp_1.did
+  </usr/local/share/mizar/prel/c/complfld.did
+  </usr/local/share/mizar/prel/g/gaussint.did
+  </usr/local/share/mizar/prel/i/int_3.did
+  </usr/local/share/mizar/prel/f/funct_2.did
 Registrations(Reduction)
-  <c:\mizar\prel\x\xreal_0.drd
-  <c:\mizar\prel\r\relat_1.drd
-  <c:\mizar\prel\i\int_1.drd
-  <c:\mizar\prel\x\xxreal_0.drd
-  <c:\mizar\prel\v\vectsp_1.drd
-  <c:\mizar\prel\x\xcmplx_0.drd
-  <c:\mizar\prel\n\nat_1.drd
-  <c:\mizar\prel\n\newton.drd
-  <c:\mizar\prel\a\absvalue.drd
-  <c:\mizar\prel\g\gaussint.drd
-  <c:\mizar\prel\s\subset_1.drd
-  <c:\mizar\prel\n\newton04.drd
-  <c:\mizar\prel\f\finseq_5.dco
-  <c:\mizar\prel\a\abian.dco
-  <c:\mizar\prel\x\xboolean.dco
-  <c:\mizar\prel\m\margrel1.dco
-  <c:\mizar\prel\f\fomodel0.dco
-  <c:\mizar\prel\n\newton04.dco
+  </usr/local/share/mizar/prel/x/xreal_0.drd
+  </usr/local/share/mizar/prel/r/relat_1.drd
+  </usr/local/share/mizar/prel/i/int_1.drd
+  </usr/local/share/mizar/prel/x/xxreal_0.drd
+  </usr/local/share/mizar/prel/v/vectsp_1.drd
+  </usr/local/share/mizar/prel/x/xcmplx_0.drd
+  </usr/local/share/mizar/prel/n/nat_1.drd
+  </usr/local/share/mizar/prel/n/newton.drd
+  </usr/local/share/mizar/prel/a/absvalue.drd
+  </usr/local/share/mizar/prel/g/gaussint.drd
+  </usr/local/share/mizar/prel/s/subset_1.drd
+  </usr/local/share/mizar/prel/n/newton04.drd
+  </usr/local/share/mizar/prel/f/finseq_5.dco
+  </usr/local/share/mizar/prel/a/abian.dco
+  </usr/local/share/mizar/prel/x/xboolean.dco
+  </usr/local/share/mizar/prel/m/margrel1.dco
+  </usr/local/share/mizar/prel/f/fomodel0.dco
+  </usr/local/share/mizar/prel/n/newton04.dco
    The cutting off constructors:
     - FINSEQ_5
     - ABIAN
@@ -1320,70 +1322,70 @@ Registrations(Reduction)
     - MARGREL1
     - FOMODEL0
     - NEWTON04
-  <c:\mizar\prel\p\polydiff.drd
-  <c:\mizar\prel\c\complex1.drd
-  <c:\mizar\prel\a\algnum_1.drd
-  <c:\mizar\prel\v\valued_1.drd
+  </usr/local/share/mizar/prel/p/polydiff.drd
+  </usr/local/share/mizar/prel/c/complex1.drd
+  </usr/local/share/mizar/prel/a/algnum_1.drd
+  </usr/local/share/mizar/prel/v/valued_1.drd
 Registrations(Properties)
-  <c:\mizar\prel\x\xreal_0.dpr
-  <c:\mizar\prel\r\relat_1.dpr
-  <c:\mizar\prel\o\ordinal1.dpr
-  <c:\mizar\prel\x\xxreal_0.dpr
-  <c:\mizar\prel\x\xcmplx_0.dpr
+  </usr/local/share/mizar/prel/x/xreal_0.dpr
+  </usr/local/share/mizar/prel/r/relat_1.dpr
+  </usr/local/share/mizar/prel/o/ordinal1.dpr
+  </usr/local/share/mizar/prel/x/xxreal_0.dpr
+  </usr/local/share/mizar/prel/x/xcmplx_0.dpr
 Definitions
-  <c:\mizar\prel\t\tarski.def
-  <c:\mizar\prel\x\xboole_0.def
-  <c:\mizar\prel\r\relat_1.def
-  <c:\mizar\prel\f\funct_1.def
-  <c:\mizar\prel\f\funct_2.def
-  <c:\mizar\prel\s\struct_0.def
-  <c:\mizar\prel\a\algseq_1.def
-  <c:\mizar\prel\c\c0sp1.def
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\s\seq_4.dco
+  </usr/local/share/mizar/prel/t/tarski.def
+  </usr/local/share/mizar/prel/x/xboole_0.def
+  </usr/local/share/mizar/prel/r/relat_1.def
+  </usr/local/share/mizar/prel/f/funct_1.def
+  </usr/local/share/mizar/prel/f/funct_2.def
+  </usr/local/share/mizar/prel/s/struct_0.def
+  </usr/local/share/mizar/prel/a/algseq_1.def
+  </usr/local/share/mizar/prel/c/c0sp1.def
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/s/seq_4.dco
    The cutting off constructors:
     - IDEAL_1
     - SEQ_4
-  <c:\mizar\prel\p\polynom5.def
-  <c:\mizar\prel\r\ratfunc1.def
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/p/polynom5.def
+  </usr/local/share/mizar/prel/r/ratfunc1.def
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - HURWITZ
-  <c:\mizar\prel\a\algnum_1.def
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/a/algnum_1.def
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - IDEAL_1
     - HURWITZ
-  <c:\mizar\prel\m\measure5.def
-  <c:\mizar\prel\x\xxreal_3.dco
-  <c:\mizar\prel\m\member_1.dco
-  <c:\mizar\prel\s\supinf_2.dco
+  </usr/local/share/mizar/prel/m/measure5.def
+  </usr/local/share/mizar/prel/x/xxreal_3.dco
+  </usr/local/share/mizar/prel/m/member_1.dco
+  </usr/local/share/mizar/prel/s/supinf_2.dco
    The cutting off constructors:
     - XXREAL_3
     - MEMBER_1
     - SUPINF_2
-  <c:\mizar\prel\p\polydiff.def
+  </usr/local/share/mizar/prel/p/polydiff.def
 Definitions
-  <c:\mizar\prel\s\struct_0.def
-  <c:\mizar\prel\v\vectsp_1.def
-  <c:\mizar\prel\g\gaussint.def
-  <c:\mizar\prel\q\quofield.dco
+  </usr/local/share/mizar/prel/s/struct_0.def
+  </usr/local/share/mizar/prel/v/vectsp_1.def
+  </usr/local/share/mizar/prel/g/gaussint.def
+  </usr/local/share/mizar/prel/q/quofield.dco
    The cutting off constructors:
     - QUOFIELD
-  <c:\mizar\prel\r\ratfunc1.def
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/r/ratfunc1.def
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - HURWITZ
-  <c:\mizar\prel\p\polynom3.def
-  <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\t\trees_1.dco
-  <c:\mizar\prel\t\trees_2.dco
-  <c:\mizar\prel\t\trees_3.dco
-  <c:\mizar\prel\t\trees_4.dco
-  <c:\mizar\prel\w\wsierp_1.dco
-  <c:\mizar\prel\r\recdef_1.dco
-  <c:\mizar\prel\v\vfunct_1.dco
+  </usr/local/share/mizar/prel/p/polynom3.def
+  </usr/local/share/mizar/prel/f/funct_6.dco
+  </usr/local/share/mizar/prel/t/trees_1.dco
+  </usr/local/share/mizar/prel/t/trees_2.dco
+  </usr/local/share/mizar/prel/t/trees_3.dco
+  </usr/local/share/mizar/prel/t/trees_4.dco
+  </usr/local/share/mizar/prel/w/wsierp_1.dco
+  </usr/local/share/mizar/prel/r/recdef_1.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
    The cutting off constructors:
     - FUNCT_6
     - TREES_1
@@ -1393,43 +1395,43 @@ Definitions
     - WSIERP_1
     - RECDEF_1
     - VFUNCT_1
-  <c:\mizar\prel\i\int_3.def
-  <c:\mizar\prel\r\rltopsp1.dco
-  <c:\mizar\prel\e\euclid.dco
+  </usr/local/share/mizar/prel/i/int_3.def
+  </usr/local/share/mizar/prel/r/rltopsp1.dco
+  </usr/local/share/mizar/prel/e/euclid.dco
    The cutting off constructors:
     - RLTOPSP1
     - EUCLID
-  <c:\mizar\prel\c\complex1.def
-  <c:\mizar\prel\r\realset1.def
-  <c:\mizar\prel\p\polydiff.def
-  <c:\mizar\prel\x\xcmplx_0.def
-  <c:\mizar\prel\a\arytm_0.dco
+  </usr/local/share/mizar/prel/c/complex1.def
+  </usr/local/share/mizar/prel/r/realset1.def
+  </usr/local/share/mizar/prel/p/polydiff.def
+  </usr/local/share/mizar/prel/x/xcmplx_0.def
+  </usr/local/share/mizar/prel/a/arytm_0.dco
    The cutting off constructors:
     - ARYTM_0
-  <c:\mizar\prel\s\sin_cos.def
-  <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\s\series_1.dco
-  <c:\mizar\prel\c\comseq_3.dco
+  </usr/local/share/mizar/prel/s/sin_cos.def
+  </usr/local/share/mizar/prel/r/real_1.dco
+  </usr/local/share/mizar/prel/s/series_1.dco
+  </usr/local/share/mizar/prel/c/comseq_3.dco
    The cutting off constructors:
     - REAL_1
     - SERIES_1
     - COMSEQ_3
 Definitions
-  <c:\mizar\prel\t\tarski.def
-  <c:\mizar\prel\a\algnum_1.def
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/t/tarski.def
+  </usr/local/share/mizar/prel/a/algnum_1.def
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - IDEAL_1
     - HURWITZ
-  <c:\mizar\prel\u\uproots.def
-  <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\t\trees_1.dco
-  <c:\mizar\prel\t\trees_2.dco
-  <c:\mizar\prel\t\trees_3.dco
-  <c:\mizar\prel\t\trees_4.dco
-  <c:\mizar\prel\w\wsierp_1.dco
-  <c:\mizar\prel\r\recdef_1.dco
+  </usr/local/share/mizar/prel/u/uproots.def
+  </usr/local/share/mizar/prel/f/funct_6.dco
+  </usr/local/share/mizar/prel/t/trees_1.dco
+  </usr/local/share/mizar/prel/t/trees_2.dco
+  </usr/local/share/mizar/prel/t/trees_3.dco
+  </usr/local/share/mizar/prel/t/trees_4.dco
+  </usr/local/share/mizar/prel/w/wsierp_1.dco
+  </usr/local/share/mizar/prel/r/recdef_1.dco
    The cutting off constructors:
     - FUNCT_6
     - TREES_1
@@ -1438,47 +1440,47 @@ Definitions
     - TREES_4
     - WSIERP_1
     - RECDEF_1
-  <c:\mizar\prel\a\algseq_1.def
-  <c:\mizar\prel\r\ratfunc1.def
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/a/algseq_1.def
+  </usr/local/share/mizar/prel/r/ratfunc1.def
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - HURWITZ
-  <c:\mizar\prel\p\polynom5.def
-  <c:\mizar\prel\f\fdiff_1.def
-  <c:\mizar\prel\s\seq_2.dco
+  </usr/local/share/mizar/prel/p/polynom5.def
+  </usr/local/share/mizar/prel/f/fdiff_1.def
+  </usr/local/share/mizar/prel/s/seq_2.dco
    The cutting off constructors:
     - SEQ_2
-  <c:\mizar\prel\i\int_1.def
-  <c:\mizar\prel\p\polydiff.def
+  </usr/local/share/mizar/prel/i/int_1.def
+  </usr/local/share/mizar/prel/p/polydiff.def
 Theorems
-  <c:\mizar\prel\x\xreal_0.the
-  <c:\mizar\prel\n\newton.the
-  <c:\mizar\prel\x\xxreal_0.the
-  <c:\mizar\prel\a\arytm_3.dco
-  <c:\mizar\prel\a\arytm_2.dco
+  </usr/local/share/mizar/prel/x/xreal_0.the
+  </usr/local/share/mizar/prel/n/newton.the
+  </usr/local/share/mizar/prel/x/xxreal_0.the
+  </usr/local/share/mizar/prel/a/arytm_3.dco
+  </usr/local/share/mizar/prel/a/arytm_2.dco
    The cutting off constructors:
     - ARYTM_3
     - ARYTM_2
-  <c:\mizar\prel\x\xreal_1.the
-  <c:\mizar\prel\x\xcmplx_1.the
-  <c:\mizar\prel\n\nat_1.the
-  <c:\mizar\prel\p\prepower.the
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\p\prepower.dco
+  </usr/local/share/mizar/prel/x/xreal_1.the
+  </usr/local/share/mizar/prel/x/xcmplx_1.the
+  </usr/local/share/mizar/prel/n/nat_1.the
+  </usr/local/share/mizar/prel/p/prepower.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/p/prepower.dco
    The cutting off constructors:
     - SEQ_2
     - PREPOWER
-  <c:\mizar\prel\a\algnum_1.the
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\r\ring_1.dco
-  <c:\mizar\prel\v\vectsp_4.dco
-  <c:\mizar\prel\v\vectsp_5.dco
-  <c:\mizar\prel\v\vectsp_7.dco
-  <c:\mizar\prel\h\hahnban1.dco
-  <c:\mizar\prel\v\vectsp10.dco
-  <c:\mizar\prel\r\ring_2.dco
-  <c:\mizar\prel\h\hurwitz.dco
+  </usr/local/share/mizar/prel/a/algnum_1.the
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/r/ring_1.dco
+  </usr/local/share/mizar/prel/v/vectsp_4.dco
+  </usr/local/share/mizar/prel/v/vectsp_5.dco
+  </usr/local/share/mizar/prel/v/vectsp_7.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
+  </usr/local/share/mizar/prel/v/vectsp10.dco
+  </usr/local/share/mizar/prel/r/ring_2.dco
+  </usr/local/share/mizar/prel/h/hurwitz.dco
    The cutting off constructors:
     - GROUP_6
     - IDEAL_1
@@ -1490,32 +1492,32 @@ Theorems
     - VECTSP10
     - RING_2
     - HURWITZ
-  <c:\mizar\prel\c\complfld.the
-  <c:\mizar\prel\r\ring_3.the
-  <c:\mizar\prel\b\binom.dco
-  <c:\mizar\prel\q\quofield.dco
-  <c:\mizar\prel\m\mod_4.dco
-  <c:\mizar\prel\c\classes2.dco
-  <c:\mizar\prel\g\graph_1.dco
-  <c:\mizar\prel\c\cat_1.dco
-  <c:\mizar\prel\r\ringcat1.dco
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\r\ring_1.dco
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\v\vectsp_4.dco
-  <c:\mizar\prel\v\vectsp_5.dco
-  <c:\mizar\prel\v\vectsp_7.dco
-  <c:\mizar\prel\h\hahnban1.dco
-  <c:\mizar\prel\v\vectsp10.dco
-  <c:\mizar\prel\r\ring_2.dco
-  <c:\mizar\prel\m\matrix_0.dco
-  <c:\mizar\prel\m\matrlin.dco
-  <c:\mizar\prel\m\matrix_1.dco
-  <c:\mizar\prel\m\mod_2.dco
-  <c:\mizar\prel\f\finseqop.dco
-  <c:\mizar\prel\m\matrix_3.dco
-  <c:\mizar\prel\m\matrlin2.dco
-  <c:\mizar\prel\r\ring_3.dco
+  </usr/local/share/mizar/prel/c/complfld.the
+  </usr/local/share/mizar/prel/r/ring_3.the
+  </usr/local/share/mizar/prel/b/binom.dco
+  </usr/local/share/mizar/prel/q/quofield.dco
+  </usr/local/share/mizar/prel/m/mod_4.dco
+  </usr/local/share/mizar/prel/c/classes2.dco
+  </usr/local/share/mizar/prel/g/graph_1.dco
+  </usr/local/share/mizar/prel/c/cat_1.dco
+  </usr/local/share/mizar/prel/r/ringcat1.dco
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/r/ring_1.dco
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/v/vectsp_4.dco
+  </usr/local/share/mizar/prel/v/vectsp_5.dco
+  </usr/local/share/mizar/prel/v/vectsp_7.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
+  </usr/local/share/mizar/prel/v/vectsp10.dco
+  </usr/local/share/mizar/prel/r/ring_2.dco
+  </usr/local/share/mizar/prel/m/matrix_0.dco
+  </usr/local/share/mizar/prel/m/matrlin.dco
+  </usr/local/share/mizar/prel/m/matrix_1.dco
+  </usr/local/share/mizar/prel/m/mod_2.dco
+  </usr/local/share/mizar/prel/f/finseqop.dco
+  </usr/local/share/mizar/prel/m/matrix_3.dco
+  </usr/local/share/mizar/prel/m/matrlin2.dco
+  </usr/local/share/mizar/prel/r/ring_3.dco
    The cutting off constructors:
     - BINOM
     - QUOFIELD
@@ -1541,21 +1543,21 @@ Theorems
     - MATRIX_3
     - MATRLIN2
     - RING_3
-  <c:\mizar\prel\p\polynom4.the
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\v\vfunct_1.dco
+  </usr/local/share/mizar/prel/p/polynom4.the
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
    The cutting off constructors:
     - RFINSEQ
     - VFUNCT_1
-  <c:\mizar\prel\u\uproots.the
-  <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\t\trees_1.dco
-  <c:\mizar\prel\t\trees_2.dco
-  <c:\mizar\prel\t\trees_3.dco
-  <c:\mizar\prel\t\trees_4.dco
-  <c:\mizar\prel\w\wsierp_1.dco
-  <c:\mizar\prel\r\recdef_1.dco
-  <c:\mizar\prel\v\vfunct_1.dco
+  </usr/local/share/mizar/prel/u/uproots.the
+  </usr/local/share/mizar/prel/f/funct_6.dco
+  </usr/local/share/mizar/prel/t/trees_1.dco
+  </usr/local/share/mizar/prel/t/trees_2.dco
+  </usr/local/share/mizar/prel/t/trees_3.dco
+  </usr/local/share/mizar/prel/t/trees_4.dco
+  </usr/local/share/mizar/prel/w/wsierp_1.dco
+  </usr/local/share/mizar/prel/r/recdef_1.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
    The cutting off constructors:
     - FUNCT_6
     - TREES_1
@@ -1565,22 +1567,22 @@ Theorems
     - WSIERP_1
     - RECDEF_1
     - VFUNCT_1
-  <c:\mizar\prel\i\int_1.the
-  <c:\mizar\prel\g\gaussint.the
-  <c:\mizar\prel\q\quofield.dco
-  <c:\mizar\prel\g\gcd_1.dco
-  <c:\mizar\prel\p\polyalg1.dco
+  </usr/local/share/mizar/prel/i/int_1.the
+  </usr/local/share/mizar/prel/g/gaussint.the
+  </usr/local/share/mizar/prel/q/quofield.dco
+  </usr/local/share/mizar/prel/g/gcd_1.dco
+  </usr/local/share/mizar/prel/p/polyalg1.dco
    The cutting off constructors:
     - QUOFIELD
     - GCD_1
     - POLYALG1
-  <c:\mizar\prel\c\c0sp1.the
-  <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\b\bhsp_1.dco
-  <c:\mizar\prel\r\rsspace.dco
-  <c:\mizar\prel\r\rsspace3.dco
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\s\seq_4.dco
+  </usr/local/share/mizar/prel/c/c0sp1.the
+  </usr/local/share/mizar/prel/r/real_1.dco
+  </usr/local/share/mizar/prel/b/bhsp_1.dco
+  </usr/local/share/mizar/prel/r/rsspace.dco
+  </usr/local/share/mizar/prel/r/rsspace3.dco
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/s/seq_4.dco
    The cutting off constructors:
     - REAL_1
     - BHSP_1
@@ -1588,96 +1590,96 @@ Theorems
     - RSSPACE3
     - IDEAL_1
     - SEQ_4
-  <c:\mizar\prel\f\funct_2.the
-  <c:\mizar\prel\a\algseq_1.the
-  <c:\mizar\prel\r\rlvect_1.the
-  <c:\mizar\prel\f\finseq_4.dco
+  </usr/local/share/mizar/prel/f/funct_2.the
+  </usr/local/share/mizar/prel/a/algseq_1.the
+  </usr/local/share/mizar/prel/r/rlvect_1.the
+  </usr/local/share/mizar/prel/f/finseq_4.dco
    The cutting off constructors:
     - FINSEQ_4
-  <c:\mizar\prel\f\finseq_3.the
-  <c:\mizar\prel\f\finseqop.dco
-  <c:\mizar\prel\f\funct_6.dco
+  </usr/local/share/mizar/prel/f/finseq_3.the
+  </usr/local/share/mizar/prel/f/finseqop.dco
+  </usr/local/share/mizar/prel/f/funct_6.dco
    The cutting off constructors:
     - FINSEQOP
     - FUNCT_6
-  <c:\mizar\prel\f\finseq_2.the
-  <c:\mizar\prel\z\zfmisc_1.the
-  <c:\mizar\prel\f\funct_7.the
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\r\rewrite1.dco
-  <c:\mizar\prel\c\classes1.dco
+  </usr/local/share/mizar/prel/f/finseq_2.the
+  </usr/local/share/mizar/prel/z/zfmisc_1.the
+  </usr/local/share/mizar/prel/f/funct_7.the
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/r/rewrite1.dco
+  </usr/local/share/mizar/prel/c/classes1.dco
    The cutting off constructors:
     - RFINSEQ
     - REWRITE1
     - CLASSES1
-  <c:\mizar\prel\r\ratfunc1.the
-  <c:\mizar\prel\h\hurwitz.dco
-  <c:\mizar\prel\v\vfunct_1.dco
-  <c:\mizar\prel\f\finseq_5.dco
+  </usr/local/share/mizar/prel/r/ratfunc1.the
+  </usr/local/share/mizar/prel/h/hurwitz.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
+  </usr/local/share/mizar/prel/f/finseq_5.dco
    The cutting off constructors:
     - HURWITZ
     - VFUNCT_1
     - FINSEQ_5
-  <c:\mizar\prel\r\relat_1.the
-  <c:\mizar\prel\f\finseq_1.the
-  <c:\mizar\prel\w\wellord2.dco
+  </usr/local/share/mizar/prel/r/relat_1.the
+  </usr/local/share/mizar/prel/f/finseq_1.the
+  </usr/local/share/mizar/prel/w/wellord2.dco
    The cutting off constructors:
     - WELLORD2
-  <c:\mizar\prel\f\funct_1.the
-  <c:\mizar\prel\p\polydiff.the
-  <c:\mizar\prel\v\vfunct_1.dco
-  <c:\mizar\prel\t\taylor_1.dco
+  </usr/local/share/mizar/prel/f/funct_1.the
+  </usr/local/share/mizar/prel/p/polydiff.the
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
+  </usr/local/share/mizar/prel/t/taylor_1.dco
    The cutting off constructors:
     - VFUNCT_1
     - TAYLOR_1
-  <c:\mizar\prel\x\xxreal_2.the
-  <c:\mizar\prel\r\rolle.the
-  <c:\mizar\prel\c\complex1.the
-  <c:\mizar\prel\r\real_1.dco
+  </usr/local/share/mizar/prel/x/xxreal_2.the
+  </usr/local/share/mizar/prel/r/rolle.the
+  </usr/local/share/mizar/prel/c/complex1.the
+  </usr/local/share/mizar/prel/r/real_1.dco
    The cutting off constructors:
     - REAL_1
-  <c:\mizar\prel\p\polynom5.the
-  <c:\mizar\prel\c\cfcont_1.dco
-  <c:\mizar\prel\h\hahnban1.dco
+  </usr/local/share/mizar/prel/p/polynom5.the
+  </usr/local/share/mizar/prel/c/cfcont_1.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
    The cutting off constructors:
     - CFCONT_1
     - HAHNBAN1
-  <c:\mizar\prel\x\xxreal_1.the
-  <c:\mizar\prel\x\xboole_0.the
-  <c:\mizar\prel\t\tarski.the
-  <c:\mizar\prel\f\fdiff_1.the
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\p\partfun2.dco
+  </usr/local/share/mizar/prel/x/xxreal_1.the
+  </usr/local/share/mizar/prel/x/xboole_0.the
+  </usr/local/share/mizar/prel/t/tarski.the
+  </usr/local/share/mizar/prel/f/fdiff_1.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/p/partfun2.dco
    The cutting off constructors:
     - SEQ_2
     - PARTFUN2
-  <c:\mizar\prel\a\absvalue.the
-  <c:\mizar\prel\a\absvalue.dco
+  </usr/local/share/mizar/prel/a/absvalue.the
+  </usr/local/share/mizar/prel/a/absvalue.dco
    The cutting off constructors:
     - ABSVALUE
-  <c:\mizar\prel\v\valued_1.the
-  <c:\mizar\prel\i\integra5.the
-  <c:\mizar\prel\r\rfunct_2.dco
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\i\integra1.dco
-  <c:\mizar\prel\s\seq_4.dco
-  <c:\mizar\prel\i\integra5.dco
+  </usr/local/share/mizar/prel/v/valued_1.the
+  </usr/local/share/mizar/prel/i/integra5.the
+  </usr/local/share/mizar/prel/r/rfunct_2.dco
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/i/integra1.dco
+  </usr/local/share/mizar/prel/s/seq_4.dco
+  </usr/local/share/mizar/prel/i/integra5.dco
    The cutting off constructors:
     - RFUNCT_2
     - SEQ_2
     - INTEGRA1
     - SEQ_4
     - INTEGRA5
-  <c:\mizar\prel\i\integra1.the
-  <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\x\xxreal_3.dco
-  <c:\mizar\prel\m\member_1.dco
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\m\measure6.dco
-  <c:\mizar\prel\f\finseq_6.dco
-  <c:\mizar\prel\s\seq_4.dco
-  <c:\mizar\prel\i\integra1.dco
+  </usr/local/share/mizar/prel/i/integra1.the
+  </usr/local/share/mizar/prel/r/real_1.dco
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/x/xxreal_3.dco
+  </usr/local/share/mizar/prel/m/member_1.dco
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/m/measure6.dco
+  </usr/local/share/mizar/prel/f/finseq_6.dco
+  </usr/local/share/mizar/prel/s/seq_4.dco
+  </usr/local/share/mizar/prel/i/integra1.dco
    The cutting off constructors:
     - REAL_1
     - RFINSEQ
@@ -1688,15 +1690,15 @@ Theorems
     - FINSEQ_6
     - SEQ_4
     - INTEGRA1
-  <c:\mizar\prel\r\rat_1.the
-  <c:\mizar\prel\n\nat_3.the
-  <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\t\trees_1.dco
-  <c:\mizar\prel\t\trees_2.dco
-  <c:\mizar\prel\t\trees_3.dco
-  <c:\mizar\prel\t\trees_4.dco
-  <c:\mizar\prel\w\wsierp_1.dco
-  <c:\mizar\prel\n\nat_3.dco
+  </usr/local/share/mizar/prel/r/rat_1.the
+  </usr/local/share/mizar/prel/n/nat_3.the
+  </usr/local/share/mizar/prel/f/funct_6.dco
+  </usr/local/share/mizar/prel/t/trees_1.dco
+  </usr/local/share/mizar/prel/t/trees_2.dco
+  </usr/local/share/mizar/prel/t/trees_3.dco
+  </usr/local/share/mizar/prel/t/trees_4.dco
+  </usr/local/share/mizar/prel/w/wsierp_1.dco
+  </usr/local/share/mizar/prel/n/nat_3.dco
    The cutting off constructors:
     - FUNCT_6
     - TREES_1
@@ -1705,58 +1707,58 @@ Theorems
     - TREES_4
     - WSIERP_1
     - NAT_3
-  <c:\mizar\prel\f\fvsum_1.the
-  <c:\mizar\prel\s\setwiseo.dco
-  <c:\mizar\prel\f\finseqop.dco
-  <c:\mizar\prel\f\finseq_4.dco
+  </usr/local/share/mizar/prel/f/fvsum_1.the
+  </usr/local/share/mizar/prel/s/setwiseo.dco
+  </usr/local/share/mizar/prel/f/finseqop.dco
+  </usr/local/share/mizar/prel/f/finseq_4.dco
    The cutting off constructors:
     - SETWISEO
     - FINSEQOP
     - FINSEQ_4
-  <c:\mizar\prel\n\niven.the
-  <c:\mizar\prel\h\hurwitz.dco
-  <c:\mizar\prel\v\vfunct_1.dco
-  <c:\mizar\prel\n\niven.dco
+  </usr/local/share/mizar/prel/n/niven.the
+  </usr/local/share/mizar/prel/h/hurwitz.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
+  </usr/local/share/mizar/prel/n/niven.dco
    The cutting off constructors:
     - HURWITZ
     - VFUNCT_1
     - NIVEN
-  <c:\mizar\prel\n\nat_d.the
-  <c:\mizar\prel\r\rvsum_1.the
-  <c:\mizar\prel\f\finseqop.dco
-  <c:\mizar\prel\f\finseq_4.dco
+  </usr/local/share/mizar/prel/n/nat_d.the
+  </usr/local/share/mizar/prel/r/rvsum_1.the
+  </usr/local/share/mizar/prel/f/finseqop.dco
+  </usr/local/share/mizar/prel/f/finseq_4.dco
    The cutting off constructors:
     - FINSEQOP
     - FINSEQ_4
-  <c:\mizar\prel\i\int_2.the
-  <c:\mizar\prel\x\xcmplx_0.the
-  <c:\mizar\prel\a\arytm_0.dco
+  </usr/local/share/mizar/prel/i/int_2.the
+  </usr/local/share/mizar/prel/x/xcmplx_0.the
+  </usr/local/share/mizar/prel/a/arytm_0.dco
    The cutting off constructors:
     - ARYTM_0
-  <c:\mizar\prel\n\numbers.the
-  <c:\mizar\prel\a\arytm_3.dco
-  <c:\mizar\prel\a\arytm_2.dco
+  </usr/local/share/mizar/prel/n/numbers.the
+  </usr/local/share/mizar/prel/a/arytm_3.dco
+  </usr/local/share/mizar/prel/a/arytm_2.dco
    The cutting off constructors:
     - ARYTM_3
     - ARYTM_2
-  <c:\mizar\prel\r\ring_2.the
-  <c:\mizar\prel\i\ideal_1.dco
-  <c:\mizar\prel\r\ring_1.dco
-  <c:\mizar\prel\g\gcd_1.dco
-  <c:\mizar\prel\q\quofield.dco
-  <c:\mizar\prel\m\mod_4.dco
-  <c:\mizar\prel\g\group_6.dco
-  <c:\mizar\prel\c\classes2.dco
-  <c:\mizar\prel\g\graph_1.dco
-  <c:\mizar\prel\c\cat_1.dco
-  <c:\mizar\prel\r\ringcat1.dco
-  <c:\mizar\prel\h\hurwitz.dco
-  <c:\mizar\prel\v\vectsp_4.dco
-  <c:\mizar\prel\v\vectsp_5.dco
-  <c:\mizar\prel\v\vectsp_7.dco
-  <c:\mizar\prel\h\hahnban1.dco
-  <c:\mizar\prel\v\vectsp10.dco
-  <c:\mizar\prel\r\ring_2.dco
+  </usr/local/share/mizar/prel/r/ring_2.the
+  </usr/local/share/mizar/prel/i/ideal_1.dco
+  </usr/local/share/mizar/prel/r/ring_1.dco
+  </usr/local/share/mizar/prel/g/gcd_1.dco
+  </usr/local/share/mizar/prel/q/quofield.dco
+  </usr/local/share/mizar/prel/m/mod_4.dco
+  </usr/local/share/mizar/prel/g/group_6.dco
+  </usr/local/share/mizar/prel/c/classes2.dco
+  </usr/local/share/mizar/prel/g/graph_1.dco
+  </usr/local/share/mizar/prel/c/cat_1.dco
+  </usr/local/share/mizar/prel/r/ringcat1.dco
+  </usr/local/share/mizar/prel/h/hurwitz.dco
+  </usr/local/share/mizar/prel/v/vectsp_4.dco
+  </usr/local/share/mizar/prel/v/vectsp_5.dco
+  </usr/local/share/mizar/prel/v/vectsp_7.dco
+  </usr/local/share/mizar/prel/h/hahnban1.dco
+  </usr/local/share/mizar/prel/v/vectsp10.dco
+  </usr/local/share/mizar/prel/r/ring_2.dco
    The cutting off constructors:
     - IDEAL_1
     - RING_1
@@ -1775,43 +1777,43 @@ Theorems
     - HAHNBAN1
     - VECTSP10
     - RING_2
-  <c:\mizar\prel\g\group_4.the
-  <c:\mizar\prel\f\finseq_4.dco
+  </usr/local/share/mizar/prel/g/group_4.the
+  </usr/local/share/mizar/prel/f/finseq_4.dco
    The cutting off constructors:
     - FINSEQ_4
-  <c:\mizar\prel\l\liouvil1.the
-  <c:\mizar\prel\p\prepower.dco
-  <c:\mizar\prel\p\partfun3.dco
-  <c:\mizar\prel\s\series_1.dco
-  <c:\mizar\prel\s\seq_1.dco
-  <c:\mizar\prel\a\asympt_3.dco
+  </usr/local/share/mizar/prel/l/liouvil1.the
+  </usr/local/share/mizar/prel/p/prepower.dco
+  </usr/local/share/mizar/prel/p/partfun3.dco
+  </usr/local/share/mizar/prel/s/series_1.dco
+  </usr/local/share/mizar/prel/s/seq_1.dco
+  </usr/local/share/mizar/prel/a/asympt_3.dco
    The cutting off constructors:
     - PREPOWER
     - PARTFUN3
     - SERIES_1
     - SEQ_1
     - ASYMPT_3
-  <c:\mizar\prel\l\liouvil2.the
-  <c:\mizar\prel\p\power.the
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\p\prepower.dco
-  <c:\mizar\prel\a\abian.dco
+  </usr/local/share/mizar/prel/l/liouvil2.the
+  </usr/local/share/mizar/prel/p/power.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/p/prepower.dco
+  </usr/local/share/mizar/prel/a/abian.dco
    The cutting off constructors:
     - SEQ_2
     - PREPOWER
     - ABIAN
-  <c:\mizar\prel\p\polynom3.the
-  <c:\mizar\prel\f\finseq_5.dco
-  <c:\mizar\prel\f\funct_6.dco
-  <c:\mizar\prel\t\trees_1.dco
-  <c:\mizar\prel\t\trees_2.dco
-  <c:\mizar\prel\t\trees_3.dco
-  <c:\mizar\prel\t\trees_4.dco
-  <c:\mizar\prel\w\wsierp_1.dco
-  <c:\mizar\prel\r\recdef_1.dco
-  <c:\mizar\prel\m\matrix_0.dco
-  <c:\mizar\prel\m\matrlin.dco
-  <c:\mizar\prel\v\vfunct_1.dco
+  </usr/local/share/mizar/prel/p/polynom3.the
+  </usr/local/share/mizar/prel/f/finseq_5.dco
+  </usr/local/share/mizar/prel/f/funct_6.dco
+  </usr/local/share/mizar/prel/t/trees_1.dco
+  </usr/local/share/mizar/prel/t/trees_2.dco
+  </usr/local/share/mizar/prel/t/trees_3.dco
+  </usr/local/share/mizar/prel/t/trees_4.dco
+  </usr/local/share/mizar/prel/w/wsierp_1.dco
+  </usr/local/share/mizar/prel/r/recdef_1.dco
+  </usr/local/share/mizar/prel/m/matrix_0.dco
+  </usr/local/share/mizar/prel/m/matrlin.dco
+  </usr/local/share/mizar/prel/v/vfunct_1.dco
    The cutting off constructors:
     - FINSEQ_5
     - FUNCT_6
@@ -1824,44 +1826,44 @@ Theorems
     - MATRIX_0
     - MATRLIN
     - VFUNCT_1
-  <c:\mizar\prel\i\irrat_1.the
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\s\series_1.dco
-  <c:\mizar\prel\r\rfinseq.dco
-  <c:\mizar\prel\i\irrat_1.dco
+  </usr/local/share/mizar/prel/i/irrat_1.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/s/series_1.dco
+  </usr/local/share/mizar/prel/r/rfinseq.dco
+  </usr/local/share/mizar/prel/i/irrat_1.dco
    The cutting off constructors:
     - SEQ_2
     - SERIES_1
     - RFINSEQ
     - IRRAT_1
-  <c:\mizar\prel\s\sin_cos.the
-  <c:\mizar\prel\r\real_1.dco
-  <c:\mizar\prel\s\series_1.dco
-  <c:\mizar\prel\c\comseq_3.dco
-  <c:\mizar\prel\s\seq_2.dco
+  </usr/local/share/mizar/prel/s/sin_cos.the
+  </usr/local/share/mizar/prel/r/real_1.dco
+  </usr/local/share/mizar/prel/s/series_1.dco
+  </usr/local/share/mizar/prel/c/comseq_3.dco
+  </usr/local/share/mizar/prel/s/seq_2.dco
    The cutting off constructors:
     - REAL_1
     - SERIES_1
     - COMSEQ_3
     - SEQ_2
-  <c:\mizar\prel\f\fdiff_2.the
-  <c:\mizar\prel\s\seq_2.dco
-  <c:\mizar\prel\p\prob_1.dco
-  <c:\mizar\prel\p\partfun2.dco
-  <c:\mizar\prel\l\limfunc1.dco
+  </usr/local/share/mizar/prel/f/fdiff_2.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
+  </usr/local/share/mizar/prel/p/prob_1.dco
+  </usr/local/share/mizar/prel/p/partfun2.dco
+  </usr/local/share/mizar/prel/l/limfunc1.dco
    The cutting off constructors:
     - SEQ_2
     - PROB_1
     - PARTFUN2
     - LIMFUNC1
-  <c:\mizar\prel\r\rfunct_1.the
-  <c:\mizar\prel\s\seq_2.dco
+  </usr/local/share/mizar/prel/r/rfunct_1.the
+  </usr/local/share/mizar/prel/s/seq_2.dco
    The cutting off constructors:
     - SEQ_2
-  <c:\mizar\prel\x\xboole_1.the
+  </usr/local/share/mizar/prel/x/xboole_1.the
 Schemes
-  <c:\mizar\prel\f\fraenkel.sch
-  <c:\mizar\prel\f\finseq_1.sch
-  <c:\mizar\prel\f\finseq_2.sch
-  <c:\mizar\prel\p\polynom3.sch
-  <c:\mizar\prel\r\recdef_1.sch
+  </usr/local/share/mizar/prel/f/fraenkel.sch
+  </usr/local/share/mizar/prel/f/finseq_1.sch
+  </usr/local/share/mizar/prel/f/finseq_2.sch
+  </usr/local/share/mizar/prel/p/polynom3.sch
+  </usr/local/share/mizar/prel/r/recdef_1.sch

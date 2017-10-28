@@ -68,7 +68,7 @@
   <Ident name="FUNCOP_1" line="14" col="53"/>
   <Ident name="SQUARE_1" line="14" col="63"/>
  </Directive>
- <Directive name="notations" argnr="60">
+ <Directive name="notations" argnr="61">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="TARSKI" line="15" col="17"/>
   <Ident name="XBOOLE_0" line="15" col="27"/>
@@ -92,6 +92,7 @@
   <Ident name="XXREAL_0" line="18" col="43"/>
   <Ident name="XXREAL_2" line="18" col="53"/>
   <Ident name="RCOMP_1" line="18" col="62"/>
+  <Ident name="SQUARE_1" line="18" col="72"/>
   <Ident name="MEMBERED" line="19" col="14"/>
   <Ident name="FUNCOP_1" line="19" col="24"/>
   <Ident name="RFUNCT_1" line="19" col="34"/>
@@ -213,7 +214,7 @@
   <Ident name="POLYNOM3" line="55" col="47"/>
   <Ident name="RECDEF_1" line="55" col="57"/>
  </Directive>
- <Directive name="registrations" argnr="52">
+ <Directive name="registrations" argnr="53">
   <Ident name="XREAL_0" line="31" col="22"/>
   <Ident name="RELAT_1" line="31" col="31"/>
   <Ident name="ORDINAL1" line="31" col="41"/>
@@ -266,6 +267,7 @@
   <Ident name="FUNCT_2" line="37" col="73"/>
   <Ident name="FDIFF_1" line="38" col="13"/>
   <Ident name="FUNCOP_1" line="38" col="23"/>
+  <Ident name="SQUARE_1" line="38" col="33"/>
  </Directive>
  <Directive name="constructors" argnr="31">
   <Ident name="HIDDEN" line="1" col="1"/>
