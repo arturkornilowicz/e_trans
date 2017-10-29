@@ -828,6 +828,7 @@
  <Symbol kind="A" nr="57" name="FDIFF_2"/>
  <Symbol kind="A" nr="58" name="RFUNCT_1"/>
  <Symbol kind="A" nr="59" name="XBOOLE_1"/>
- <Symbol kind="A" nr="60" name="FRAENKEL"/>
- <Symbol kind="A" nr="61" name="RECDEF_1"/>
+ <Symbol kind="A" nr="60" name="SQUARE_1"/>
+ <Symbol kind="A" nr="61" name="FRAENKEL"/>
+ <Symbol kind="A" nr="62" name="RECDEF_1"/>
 </Symbols>

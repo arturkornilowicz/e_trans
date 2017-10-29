@@ -1216,6 +1216,237 @@ Registrations
 
   </usr/local/share/mizar/prel/f/funcop_1.dcl
   </usr/local/share/mizar/prel/s/square_1.dcl
+  </usr/local/share/mizar/prel/p/partfun3.dcl
+  </usr/local/share/mizar/prel/p/partfun3.dco
+   The cutting off constructors:
+    - PARTFUN3
+  Inaccessible Clusters
+
+   Existential Cluster: 213
+      -*PARTFUN3:V2
+
+   Existential Cluster: 213
+      -*PARTFUN3:V1
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+
+   Functor Cluster: 924
+      -*PARTFUN3:V2
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+
+   Functor Cluster: 925
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 925
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V3
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 925
+      -*PARTFUN3:V2
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+
+   Functor Cluster: 925
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 926
+      -*PARTFUN3:V4
+
+   Functor Cluster: 926
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 926
+      -*PARTFUN3:V4
+
+   Functor Cluster: 926
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 926
+      -*PARTFUN3:V3
+
+   Functor Cluster: 926
+      -*PARTFUN3:V2
+
+   Functor Cluster: 926
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 926
+      -*PARTFUN3:V1
+
+   Functor Cluster: 926
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 927
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 927
+      -*PARTFUN3:V4
+
+   Functor Cluster: 927
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 927
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 927
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 927
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 927
+      -*PARTFUN3:V1
+
+   Functor Cluster: 927
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 927
+      -*PARTFUN3:V4
+
+   Functor Cluster: 928
+      -*PARTFUN3:V3
+
+   Functor Cluster: 928
+      -*PARTFUN3:V4
+
+   Functor Cluster: 928
+      -*PARTFUN3:V1
+
+   Functor Cluster: 928
+      -*PARTFUN3:V2
+
+   Functor Cluster: 930
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 930
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 930
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 930
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 930
+      -*PARTFUN3:V4
+
+   Functor Cluster: 930
+      -*PARTFUN3:V1
+
+   Functor Cluster: 930
+      -*PARTFUN3:V3
+
+   Functor Cluster: 930
+      -*PARTFUN3:V4
+
+   Functor Cluster: 930
+      -*PARTFUN3:V1
+
+   Functor Cluster: 930
+      -*PARTFUN3:V2
+
+   Functor Cluster: 931
+      -*PARTFUN3:K1
+
+   Functor Cluster: 931
+      -*PARTFUN3:V4
+      -*PARTFUN3:K1
+
+   Functor Cluster: 931
+      -*PARTFUN3:V1
+      -*PARTFUN3:K1
+
+   Conditional Cluster: 257
+      -*PARTFUN3:V1
+      -*PARTFUN3:V4
+
+   Conditional Cluster: 257
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
 Notations
   </usr/local/share/mizar/prel/h/hidden.dno
   </usr/local/share/mizar/prel/t/tarski.dno
@@ -1416,6 +1647,7 @@ Definitions
     - REAL_1
     - SERIES_1
     - COMSEQ_3
+  </usr/local/share/mizar/prel/v/valued_1.def
 Definitions
   </usr/local/share/mizar/prel/t/tarski.def
   </usr/local/share/mizar/prel/a/algnum_1.def
@@ -1861,6 +2093,7 @@ Theorems
    The cutting off constructors:
     - SEQ_2
   </usr/local/share/mizar/prel/x/xboole_1.the
+  </usr/local/share/mizar/prel/s/square_1.the
 Schemes
   </usr/local/share/mizar/prel/f/fraenkel.sch
   </usr/local/share/mizar/prel/f/finseq_1.sch

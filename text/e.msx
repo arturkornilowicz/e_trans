@@ -2718,7 +2718,7 @@
         </Universal-Quantifier-Formula>
        </Proposition>
       </Conditions>
-      <Scheme-Justification nr="61" idnr="4" schnr="0" spelling="RECDEF_1" line="257" col="8" posline="257" poscol="8">
+      <Scheme-Justification nr="62" idnr="4" schnr="0" spelling="RECDEF_1" line="257" col="8" posline="257" poscol="8">
        <Local-Reference line="257" col="26" idnr="62" spelling="A1" serialnr="54" labelnr="6"/>
       </Scheme-Justification>
      </Item>
@@ -3438,7 +3438,7 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Scheme-Justification nr="61" idnr="8" schnr="0" spelling="RECDEF_1" line="289" col="19" posline="289" poscol="19">
+      <Scheme-Justification nr="62" idnr="8" schnr="0" spelling="RECDEF_1" line="289" col="19" posline="289" poscol="19">
        <Local-Reference line="289" col="38" idnr="90" spelling="A11" serialnr="69" labelnr="12"/>
        <Local-Reference line="289" col="42" idnr="93" spelling="A12" serialnr="74" labelnr="13"/>
        <Local-Reference line="289" col="46" idnr="94" spelling="A13" serialnr="75" labelnr="14"/>
@@ -4441,7 +4441,7 @@
           </Universal-Quantifier-Formula>
          </Proposition>
         </Conditions>
-        <Scheme-Justification nr="61" idnr="4" schnr="0" spelling="RECDEF_1" line="340" col="10" posline="340" poscol="10">
+        <Scheme-Justification nr="62" idnr="4" schnr="0" spelling="RECDEF_1" line="340" col="10" posline="340" poscol="10">
          <Local-Reference line="340" col="28" idnr="63" spelling="A2" serialnr="84" labelnr="8"/>
         </Scheme-Justification>
        </Item>
@@ -5809,7 +5809,7 @@
           </Arguments>
          </Predicative-Formula>
         </Proposition>
-        <Scheme-Justification nr="61" idnr="8" schnr="0" spelling="RECDEF_1" line="397" col="21" posline="397" poscol="21">
+        <Scheme-Justification nr="62" idnr="8" schnr="0" spelling="RECDEF_1" line="397" col="21" posline="397" poscol="21">
          <Local-Reference line="397" col="40" idnr="97" spelling="A14" serialnr="106" labelnr="14"/>
          <Local-Reference line="397" col="44" idnr="99" spelling="A16" serialnr="118" labelnr="15"/>
          <Local-Reference line="397" col="48" idnr="100" spelling="A17" serialnr="119" labelnr="16"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
 <Schemes aid="E" mizfiles="/usr/local/share/mizar/">
-<Scheme articlenr="60" nr="1" aid="FRAENKEL">
+<Scheme articlenr="61" nr="1" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -55,7 +55,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="2" aid="FRAENKEL">
+<Scheme articlenr="61" nr="2" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -132,7 +132,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="3" aid="FRAENKEL">
+<Scheme articlenr="61" nr="3" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -200,7 +200,7 @@
 </And>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="4" aid="FRAENKEL">
+<Scheme articlenr="61" nr="4" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -293,7 +293,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="5" aid="FRAENKEL">
+<Scheme articlenr="61" nr="5" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -346,7 +346,7 @@
 </Pred>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="6" aid="FRAENKEL">
+<Scheme articlenr="61" nr="6" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -408,7 +408,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="7" aid="FRAENKEL">
+<Scheme articlenr="61" nr="7" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -484,7 +484,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="8" aid="FRAENKEL">
+<Scheme articlenr="61" nr="8" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -599,7 +599,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="9" aid="FRAENKEL">
+<Scheme articlenr="61" nr="9" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -740,7 +740,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="10" aid="FRAENKEL">
+<Scheme articlenr="61" nr="10" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -762,7 +762,7 @@
 <Func kind="F" nr="1"/>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="11" aid="FRAENKEL">
+<Scheme articlenr="61" nr="11" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -838,7 +838,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="12" aid="FRAENKEL">
+<Scheme articlenr="61" nr="12" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -914,7 +914,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="13" aid="FRAENKEL">
+<Scheme articlenr="61" nr="13" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -992,7 +992,7 @@
 </Fraenkel>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="14" aid="FRAENKEL">
+<Scheme articlenr="61" nr="14" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1048,7 +1048,7 @@
 </Fraenkel>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="15" aid="FRAENKEL">
+<Scheme articlenr="61" nr="15" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1119,7 +1119,7 @@
 </Fraenkel>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="16" aid="FRAENKEL">
+<Scheme articlenr="61" nr="16" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1214,7 +1214,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="17" aid="FRAENKEL">
+<Scheme articlenr="61" nr="17" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1250,7 +1250,7 @@
 <Func kind="F" nr="2"/>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="18" aid="FRAENKEL">
+<Scheme articlenr="61" nr="18" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1288,7 +1288,7 @@
 <Func kind="F" nr="2"/>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="19" aid="FRAENKEL">
+<Scheme articlenr="61" nr="19" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1391,7 +1391,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="20" aid="FRAENKEL">
+<Scheme articlenr="61" nr="20" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1448,7 +1448,7 @@
 </Fraenkel>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="21" aid="FRAENKEL">
+<Scheme articlenr="61" nr="21" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1479,7 +1479,7 @@
 <Func kind="F" nr="2"/>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="22" aid="FRAENKEL">
+<Scheme articlenr="61" nr="22" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -1534,7 +1534,7 @@
 <Func kind="F" nr="4"/>
 </Pred>
 </Scheme>
-<Scheme articlenr="60" nr="23" aid="FRAENKEL">
+<Scheme articlenr="61" nr="23" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -1651,7 +1651,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="24" aid="FRAENKEL">
+<Scheme articlenr="61" nr="24" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -1763,7 +1763,7 @@
 </For>
 </Not>
 </Scheme>
-<Scheme articlenr="60" nr="25" aid="FRAENKEL">
+<Scheme articlenr="61" nr="25" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster/>
@@ -1867,7 +1867,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="26" aid="FRAENKEL">
+<Scheme articlenr="61" nr="26" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -1959,7 +1959,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="27" aid="FRAENKEL">
+<Scheme articlenr="61" nr="27" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -2045,7 +2045,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="60" nr="28" aid="FRAENKEL">
+<Scheme articlenr="61" nr="28" aid="FRAENKEL">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -2867,7 +2867,7 @@
 </For>
 </Not>
 </Scheme>
-<Scheme articlenr="61" nr="1" aid="RECDEF_1">
+<Scheme articlenr="62" nr="1" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster/>
@@ -2948,7 +2948,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="2" aid="RECDEF_1">
+<Scheme articlenr="62" nr="2" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -3044,7 +3044,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="3" aid="RECDEF_1">
+<Scheme articlenr="62" nr="3" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster/>
@@ -3175,7 +3175,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="4" aid="RECDEF_1">
+<Scheme articlenr="62" nr="4" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -3311,7 +3311,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="5" aid="RECDEF_1">
+<Scheme articlenr="62" nr="5" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -3460,7 +3460,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="6" aid="RECDEF_1">
+<Scheme articlenr="62" nr="6" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -3568,7 +3568,7 @@
 </For>
 </Not>
 </Scheme>
-<Scheme articlenr="61" nr="7" aid="RECDEF_1">
+<Scheme articlenr="62" nr="7" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster/>
@@ -3784,7 +3784,7 @@
 </For>
 </And>
 </Scheme>
-<Scheme articlenr="61" nr="8" aid="RECDEF_1">
+<Scheme articlenr="62" nr="8" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -4003,7 +4003,7 @@
 </For>
 </And>
 </Scheme>
-<Scheme articlenr="61" nr="9" aid="RECDEF_1">
+<Scheme articlenr="62" nr="9" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -4267,7 +4267,7 @@
 </For>
 </Not>
 </Scheme>
-<Scheme articlenr="61" nr="10" aid="RECDEF_1">
+<Scheme articlenr="62" nr="10" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -4469,7 +4469,7 @@
 </For>
 </Not>
 </Scheme>
-<Scheme articlenr="61" nr="11" aid="RECDEF_1">
+<Scheme articlenr="62" nr="11" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster/>
@@ -4741,7 +4741,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="12" aid="RECDEF_1">
+<Scheme articlenr="62" nr="12" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="1">
 <Cluster/>
@@ -4954,7 +4954,7 @@
 </For>
 </And>
 </Scheme>
-<Scheme articlenr="61" nr="13" aid="RECDEF_1">
+<Scheme articlenr="62" nr="13" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -5261,7 +5261,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="14" aid="RECDEF_1">
+<Scheme articlenr="62" nr="14" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -5505,7 +5505,7 @@
 </For>
 </And>
 </Scheme>
-<Scheme articlenr="61" nr="15" aid="RECDEF_1">
+<Scheme articlenr="62" nr="15" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -5919,7 +5919,7 @@
 </For>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="16" aid="RECDEF_1">
+<Scheme articlenr="62" nr="16" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -6227,7 +6227,7 @@
 </For>
 </And>
 </Scheme>
-<Scheme articlenr="61" nr="17" aid="RECDEF_1">
+<Scheme articlenr="62" nr="17" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>
@@ -6317,7 +6317,7 @@
 </Not>
 </For>
 </Scheme>
-<Scheme articlenr="61" nr="18" aid="RECDEF_1">
+<Scheme articlenr="62" nr="18" aid="RECDEF_1">
 <ArgTypes>
 <Typ kind="M" nr="2">
 <Cluster>

@@ -1075,7 +1075,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Proposition line="108" col="17">
-<Pred kind="R" nr="1" pid="10">
+<Pred kind="R" nr="1" pid="40">
 <Func kind="K" nr="8" pid="38">
 <Const nr="1" vid="64"/>
 <Func kind="K" nr="33" pid="1">
@@ -1449,7 +1449,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Proposition line="125" col="17">
-<Pred kind="R" nr="1" pid="10">
+<Pred kind="R" nr="1" pid="40">
 <Func kind="K" nr="8" pid="38">
 <Const nr="2" vid="68"/>
 <Func kind="K" nr="33" pid="1">
@@ -5692,7 +5692,7 @@
 </For>
 </Not>
 </Proposition>
-<From articlenr="61" nr="4" line="257" col="8">
+<From articlenr="62" nr="4" line="257" col="8">
 <Ref nr="6" vid="62" line="257" col="26"/>
 </From>
 <Typ kind="M" nr="6" pid="15" vid="83">
@@ -9952,7 +9952,7 @@
 <Const nr="7" vid="84"/>
 </Pred>
 </Proposition>
-<From articlenr="61" nr="8" line="289" col="19">
+<From articlenr="62" nr="8" line="289" col="19">
 <Ref nr="12" vid="90" line="289" col="38"/>
 <Ref nr="13" vid="93" line="289" col="42"/>
 <Ref nr="14" vid="94" line="289" col="46"/>
@@ -14427,7 +14427,7 @@
 </For>
 </Not>
 </Proposition>
-<From articlenr="61" nr="4" line="340" col="10">
+<From articlenr="62" nr="4" line="340" col="10">
 <Ref nr="8" vid="63" line="340" col="28"/>
 </From>
 <Typ kind="M" nr="6" pid="15" vid="83">
@@ -21767,7 +21767,7 @@
 <Const nr="6" vid="84"/>
 </Pred>
 </Proposition>
-<From articlenr="61" nr="8" line="397" col="21">
+<From articlenr="62" nr="8" line="397" col="21">
 <Ref nr="14" vid="97" line="397" col="40"/>
 <Ref nr="15" vid="99" line="397" col="44"/>
 <Ref nr="16" vid="100" line="397" col="48"/>

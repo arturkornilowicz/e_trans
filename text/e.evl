@@ -146,7 +146,7 @@
   <Ident name="MEASURE5" line="42" col="24"/>
   <Ident name="POLYDIFF" line="42" col="34"/>
  </Directive>
- <Directive name="theorems" argnr="59">
+ <Directive name="theorems" argnr="60">
   <Ident name="XREAL_0" line="47" col="17"/>
   <Ident name="NEWTON" line="47" col="25"/>
   <Ident name="XXREAL_0" line="47" col="35"/>
@@ -206,6 +206,7 @@
   <Ident name="FDIFF_2" line="54" col="48"/>
   <Ident name="RFUNCT_1" line="54" col="58"/>
   <Ident name="XBOOLE_1" line="54" col="68"/>
+  <Ident name="SQUARE_1" line="54" col="78"/>
  </Directive>
  <Directive name="schemes" argnr="5">
   <Ident name="FRAENKEL" line="55" col="17"/>
@@ -214,7 +215,7 @@
   <Ident name="POLYNOM3" line="55" col="47"/>
   <Ident name="RECDEF_1" line="55" col="57"/>
  </Directive>
- <Directive name="registrations" argnr="53">
+ <Directive name="registrations" argnr="54">
   <Ident name="XREAL_0" line="31" col="22"/>
   <Ident name="RELAT_1" line="31" col="31"/>
   <Ident name="ORDINAL1" line="31" col="41"/>
@@ -268,6 +269,7 @@
   <Ident name="FDIFF_1" line="38" col="13"/>
   <Ident name="FUNCOP_1" line="38" col="23"/>
   <Ident name="SQUARE_1" line="38" col="33"/>
+  <Ident name="PARTFUN3" line="38" col="43"/>
  </Directive>
  <Directive name="constructors" argnr="31">
   <Ident name="HIDDEN" line="1" col="1"/>
@@ -310,7 +312,7 @@
   <Ident name="BOOLE" line="39" col="43"/>
   <Ident name="ARITHM" line="39" col="51"/>
  </Directive>
- <Directive name="equalities" argnr="11">
+ <Directive name="equalities" argnr="12">
   <Ident name="STRUCT_0" line="43" col="20"/>
   <Ident name="VECTSP_1" line="43" col="30"/>
   <Ident name="GAUSSINT" line="43" col="40"/>
@@ -322,6 +324,7 @@
   <Ident name="POLYDIFF" line="44" col="24"/>
   <Ident name="XCMPLX_0" line="44" col="34"/>
   <Ident name="SIN_COS" line="44" col="43"/>
+  <Ident name="VALUED_1" line="44" col="53"/>
  </Directive>
  <Directive name="expansions" argnr="9">
   <Ident name="TARSKI" line="45" col="18"/>
