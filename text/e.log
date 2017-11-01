@@ -2094,6 +2094,10 @@ Theorems
     - SEQ_2
   </usr/local/share/mizar/prel/x/xboole_1.the
   </usr/local/share/mizar/prel/s/square_1.the
+  </usr/local/share/mizar/prel/v/valued_2.the
+  </usr/local/share/mizar/prel/v/valued_2.dco
+   The cutting off constructors:
+    - VALUED_2
 Schemes
   </usr/local/share/mizar/prel/f/fraenkel.sch
   </usr/local/share/mizar/prel/f/finseq_1.sch

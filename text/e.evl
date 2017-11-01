@@ -146,7 +146,7 @@
   <Ident name="MEASURE5" line="42" col="24"/>
   <Ident name="POLYDIFF" line="42" col="34"/>
  </Directive>
- <Directive name="theorems" argnr="60">
+ <Directive name="theorems" argnr="61">
   <Ident name="XREAL_0" line="47" col="17"/>
   <Ident name="NEWTON" line="47" col="25"/>
   <Ident name="XXREAL_0" line="47" col="35"/>
@@ -207,13 +207,14 @@
   <Ident name="RFUNCT_1" line="54" col="58"/>
   <Ident name="XBOOLE_1" line="54" col="68"/>
   <Ident name="SQUARE_1" line="54" col="78"/>
+  <Ident name="VALUED_2" line="55" col="14"/>
  </Directive>
  <Directive name="schemes" argnr="5">
-  <Ident name="FRAENKEL" line="55" col="17"/>
-  <Ident name="FINSEQ_1" line="55" col="27"/>
-  <Ident name="FINSEQ_2" line="55" col="37"/>
-  <Ident name="POLYNOM3" line="55" col="47"/>
-  <Ident name="RECDEF_1" line="55" col="57"/>
+  <Ident name="FRAENKEL" line="56" col="17"/>
+  <Ident name="FINSEQ_1" line="56" col="27"/>
+  <Ident name="FINSEQ_2" line="56" col="37"/>
+  <Ident name="POLYNOM3" line="56" col="47"/>
+  <Ident name="RECDEF_1" line="56" col="57"/>
  </Directive>
  <Directive name="registrations" argnr="54">
   <Ident name="XREAL_0" line="31" col="22"/>

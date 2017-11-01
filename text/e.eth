@@ -234007,4 +234007,828 @@
 </For>
 </For>
 </Theorem>
+<Theorem articlenr="61" nr="7" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Not>
+<And>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="3"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</Not>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="8" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Not>
+<And>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="3"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</Not>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="9" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Not>
+<And>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="3"/>
+<Func kind="K" nr="14"/>
+</Pred>
+</Not>
+<Pred kind="V" nr="2">
+<Var nr="3"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="302">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="302">
+<Var nr="3"/>
+<Var nr="2"/>
+</Func>
+</Pred>
+<Not>
+<Pred kind="R" nr="1">
+<Var nr="1"/>
+<Var nr="2"/>
+</Pred>
+</Not>
+</And>
+</Not>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="10" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="285">
+<Var nr="2"/>
+<Var nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="291">
+<Func kind="K" nr="308">
+<Var nr="2"/>
+</Func>
+<Var nr="1"/>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="11" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="291">
+<Var nr="2"/>
+<Var nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="285">
+<Func kind="K" nr="308">
+<Var nr="2"/>
+</Func>
+<Var nr="1"/>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="12" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="285">
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Func kind="K" nr="50">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="13" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="291">
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="285">
+<Var nr="3"/>
+<Func kind="K" nr="54">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="14" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="285">
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Func kind="K" nr="54">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="15" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="291">
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="291">
+<Var nr="3"/>
+<Func kind="K" nr="50">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="16" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="302">
+<Func kind="K" nr="302">
+<Var nr="3"/>
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="302">
+<Var nr="3"/>
+<Func kind="K" nr="51">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="17" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="279">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="323">
+<Func kind="K" nr="308">
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="18" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="323">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+<Func kind="K" nr="308">
+<Func kind="K" nr="323">
+<Var nr="2"/>
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="19" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="328">
+<Func kind="K" nr="296">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+<Var nr="3"/>
+</Func>
+<Func kind="K" nr="296">
+<Var nr="1"/>
+<Func kind="K" nr="328">
+<Var nr="2"/>
+<Var nr="3"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="20" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="296">
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+<Var nr="3"/>
+</Func>
+<Func kind="K" nr="328">
+<Func kind="K" nr="296">
+<Var nr="1"/>
+<Var nr="3"/>
+</Func>
+<Var nr="2"/>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="21" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="328">
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+<Var nr="3"/>
+</Func>
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Func kind="K" nr="296">
+<Var nr="2"/>
+<Var nr="3"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="22" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="302">
+<Func kind="K" nr="308">
+<Var nr="2"/>
+</Func>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="302">
+<Var nr="2"/>
+<Func kind="K" nr="52">
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="23" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="302">
+<Func kind="K" nr="308">
+<Var nr="2"/>
+</Func>
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="308">
+<Func kind="K" nr="302">
+<Var nr="2"/>
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="24" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="302">
+<Var nr="2"/>
+<Func kind="K" nr="52">
+<Var nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="308">
+<Func kind="K" nr="302">
+<Var nr="2"/>
+<Var nr="1"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="25" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="296">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="296">
+<Func kind="K" nr="308">
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="26" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="328">
+<Func kind="K" nr="308">
+<Var nr="1"/>
+</Func>
+<Var nr="2"/>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
+<Theorem articlenr="61" nr="27" aid="VALUED_2" kind="T">
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<For>
+<Typ kind="M" nr="2">
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="6"/>
+<Adjective nr="154"/>
+</Cluster>
+</Typ>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="308">
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Var nr="2"/>
+</Func>
+</Func>
+<Func kind="K" nr="328">
+<Var nr="1"/>
+<Func kind="K" nr="308">
+<Var nr="2"/>
+</Func>
+</Func>
+</Pred>
+</For>
+</For>
+</Theorem>
 </Theorems>

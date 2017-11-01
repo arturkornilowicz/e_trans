@@ -51,7 +51,8 @@ environ
       COMPLEX1, POLYNOM5, XXREAL_1, XBOOLE_0, TARSKI, FDIFF_1, ABSVALUE,
       VALUED_1, INTEGRA5, INTEGRA1, RAT_1, NAT_3, FVSUM_1, NIVEN, NAT_D,
       RVSUM_1, INT_2, XCMPLX_0, NUMBERS, RING_2, GROUP_4, LIOUVIL1, LIOUVIL2,
-      POWER, POLYNOM3, IRRAT_1, SIN_COS, FDIFF_2, RFUNCT_1, XBOOLE_1, SQUARE_1;
+      POWER, POLYNOM3, IRRAT_1, SIN_COS, FDIFF_2, RFUNCT_1, XBOOLE_1, SQUARE_1,
+      VALUED_2;
  schemes FRAENKEL, FINSEQ_1, FINSEQ_2, POLYNOM3, RECDEF_1;
 
 begin :: Preliminaries
@@ -105,8 +106,7 @@ theorem T2a:
   for f being non-empty complex-valued Function holds f" = f^
   proof
     let f be non-empty complex-valued Function;
-    f"{0} = {} by T3;
-    hence
+    thus
 A1: dom(f") = dom f \ f"{0} by VALUED_1:def 7
     .= dom(f^) by RFUNCT_1:def 2;
     let x be object;
@@ -122,8 +122,7 @@ theorem T2:
   proof
     let f be complex-valued Function;
     let g be non-empty complex-valued Function;
-    g"{0} = {} by T3;
-    hence
+    thus
 A1: dom(f/"g) = dom f /\ (dom g \ g"{0}) by VALUED_1:16
     .= dom(f/g) by RFUNCT_1:def 1;
     let x be object;
@@ -132,6 +131,38 @@ A1: dom(f/"g) = dom f /\ (dom g \ g"{0}) by VALUED_1:16
     .= (f/"g).x by VALUED_1:17;
   end;
 
+theorem T6:
+  for f, g, h being complex-valued Function
+  st dom f c= dom h & dom g c= dom h & h is non-empty
+  holds f/"g = (f(#)h)/"(g(#)h)
+  proof
+    let f, g, h be complex-valued Function;
+    assume
+A0: dom f c= dom h;
+    then
+A1: dom f /\ dom h = dom f by XBOOLE_1:28;
+    assume dom g c= dom h;
+    then
+A2: dom g /\ dom h = dom g by XBOOLE_1:28;
+A3: dom(f(#)h) = dom f /\ dom h by VALUED_1:def 4;
+A4: dom(g(#)h) = dom g /\ dom h by VALUED_1:def 4;
+    assume
+A8: h is non-empty;
+A9: dom(f/"g) = dom(f) /\ dom (g) by VALUED_1:16;
+    hence dom(f/"g) = dom((f(#)h)/"(g(#)h)) by A1, A2, A3, A4, VALUED_1:16;
+    let x be object;
+    assume
+A10: x in dom(f/"g);
+A5: (f(#)h).x = f.x * h.x by VALUED_1:5;
+A6: (g(#)h).x = g.x * h.x by VALUED_1:5;
+    x in dom f by A9, A10, XBOOLE_0:def 4;
+    then
+A7: h.x <> {} by A0, A8, FUNCT_1:def 9;
+    thus (f/"g).x = f.x / g.x by VALUED_1:17
+    .= (f.x * h.x) / (g.x * h.x) by A7, XCMPLX_1:91
+    .= ((f(#)h)/"(g(#)h)).x by A5, A6, VALUED_1:17;
+  end;
+  
 registration
   let f be differentiable Function of REAL,REAL;
   let g be non-empty differentiable Function of REAL,REAL;
@@ -163,7 +194,7 @@ A2: f.r <> 0 by T4;
   end;
 end;
 
-theorem
+theorem T5:
   for f being non-empty differentiable Function of REAL,REAL holds
   f" `| = -(f `|)/"(f^2)
   proof
@@ -176,16 +207,28 @@ A4: diff(f,r) = (f `|).r by POLYDIFF:10;
 A5: (f.r)^2 = (f^2).r by VALUED_1:11;
     thus (f" `|).r = diff(f",r) by POLYDIFF:10
     .= -diff(f,r)/(f.r)^2 by A1, A2, A3, FDIFF_2:15
-    .= -(((f `|).r)/((f^2).r)) by A4, A5
-    .= -(((f `|)/"(f^2)).r) by VALUED_1:17
+    .= -(((f `|)/"(f^2)).r) by A4, A5, VALUED_1:17
     .= (-(f `|)/"(f^2)).r by VALUED_1:8;
   end;
 
 theorem
   for f being differentiable Function of REAL,REAL
   for g being non-empty differentiable Function of REAL,REAL holds
-  (f /" g) `| = ((f`|)(#)g - f(#)(g`|)) /" (g^2);
-::>                                            *4
+  (f /" g) `| = ((f`|)(#)g - f(#)(g`|)) /" (g^2)
+  proof
+    let f be differentiable Function of REAL,REAL;
+    let g be non-empty differentiable Function of REAL,REAL;
+A1: ((f `|)(#)g) /" (g^2) = ((f `|)(#)g) / (g^2) by T2;
+A2: (f(#)(g `|))/"(g^2) = (f(#)(g `|))/(g^2) by T2;
+A3: ((f `|)(#)g-f(#)(g `|))/"(g^2) = ((f `|)(#)g-f(#)(g `|))/(g^2) by T2;
+A4: dom(f `|) = REAL & dom(g) = REAL by FUNCT_2:def 1;
+A6: (f `|) /" g = ((f `|)(#)g)/"(g(#)g) by A4, T6;
+    thus (f /" g) `| = g"(#)(f`|) + f(#)((g") `|) by POLYDIFF:16
+    .= (f `|) /" g + f(#) -((g `|)/"(g^2)) by T5
+    .= (f `|) /" g + -((g `|)/"(g^2)(#)f) by VALUED_2:25
+    .= (f `|) /" g - f(#)(g `|)/"(g^2) by VALUED_2:20
+    .= ((f `|)(#)g - f(#)(g `|)) /" (g^2) by A1, A2, A3, A6, RFUNCT_1:39;
+  end;
 
 theorem T1:
   exp_R".r = 1/(exp_R.r) by VALUED_1:10;
