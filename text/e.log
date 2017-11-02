@@ -1648,6 +1648,7 @@ Definitions
     - SERIES_1
     - COMSEQ_3
   </usr/local/share/mizar/prel/v/valued_1.def
+  </usr/local/share/mizar/prel/s/square_1.def
 Definitions
   </usr/local/share/mizar/prel/t/tarski.def
   </usr/local/share/mizar/prel/a/algnum_1.def

@@ -41,7 +41,7 @@ environ
       STRUCT_0, ALGSEQ_1, C0SP1, POLYNOM5, RATFUNC1,
       ALGNUM_1, MEASURE5, POLYDIFF;
  equalities STRUCT_0, VECTSP_1, GAUSSINT, RATFUNC1, POLYNOM3, INT_3, COMPLEX1,
-      REALSET1, POLYDIFF, XCMPLX_0, SIN_COS, VALUED_1;
+      REALSET1, POLYDIFF, XCMPLX_0, SIN_COS, VALUED_1, SQUARE_1;
  expansions TARSKI, ALGNUM_1, UPROOTS, ALGSEQ_1, RATFUNC1, POLYNOM5, FDIFF_1,
       INT_1, POLYDIFF;
  theorems XREAL_0, NEWTON, XXREAL_0, XREAL_1, XCMPLX_1, NAT_1, PREPOWER,
@@ -131,6 +131,28 @@ A1: dom(f/"g) = dom f /\ (dom g \ g"{0}) by VALUED_1:16
     .= (f/"g).x by VALUED_1:17;
   end;
 
+theorem T10:
+  for f being non-empty complex-valued Function holds f/"(f^2) = f"
+  proof
+    let f be non-empty complex-valued Function;
+AA: dom(f") = dom f by VALUED_1:def 7;
+    thus
+A0: dom (f/"(f^2)) = dom f /\ dom (f^2) by VALUED_1:16
+    .= dom f /\ dom f by VALUED_1:11
+    .= dom (f") by VALUED_1:def 7;
+    let x be object;
+    set a = f.x;
+    assume x in dom (f/"(f^2));
+    then
+A1: a <> {} by AA, A0, FUNCT_1:def 9;
+    thus (f/"(f^2)).x = a/((f^2).x) by VALUED_1:17
+    .= a/(a^2) by VALUED_1:11
+    .= a*(a"*a") by XCMPLX_1:204
+    .= a*a"*a"
+    .= 1*a" by A1,XCMPLX_0:def 7
+    .= (f").x by VALUED_1:10;
+  end;  
+
 theorem T6:
   for f, g, h being complex-valued Function
   st dom f c= dom h & dom g c= dom h & h is non-empty
@@ -196,7 +218,7 @@ end;
 
 theorem T5:
   for f being non-empty differentiable Function of REAL,REAL holds
-  f" `| = -(f `|)/"(f^2)
+  f"`| = -(f`|)/"(f^2)
   proof
     let f be non-empty differentiable Function of REAL,REAL;
     let r be Element of REAL;
@@ -496,9 +518,38 @@ registration
   coherence;
 end;
 
+theorem T7:
+  exp_R `| = exp_R
+  proof
+    set f = exp_R;
+    let r be Element of REAL;
+    thus f`|.r = diff(f,r) by POLYDIFF:10
+    .= f.r by SIN_COS:66;
+  end;
+
+theorem T8:
+  exp_R" `| = -exp_R"
+  proof
+    set f = exp_R;
+    thus f"`| = -f/"(f^2) by T5, T7
+    .= -f" by T10;
+  end;
+
+theorem T9:
+  Eval Sum_of_diffs(p) - ( (Eval Sum_of_diffs(p)) `| ) = Eval p;
+::>                                                           *4
+
 theorem
-  (WFx(p)) `| = - (exp_R") (#) Eval p;
-::>                                 *4
+  (WFx(p)) `| = - (exp_R") (#) Eval p
+  proof
+    set f = exp_R";
+    set g = Eval Sum_of_diffs(p);
+    thus (WFx(p)) `| = (-f)(#)g + (--f)(#)(g`|) by T8, POLYDIFF:16
+    .= (-f)(#)g - (-f)(#)(g`|) by VALUED_2:25
+    .= (-f)(#)(g - (g`|)) by RFUNCT_1:15
+    .= -f(#)(g - (g`|)) by VALUED_2:25
+    .= -f(#)Eval p by T9;
+  end;
 
 registration
   cluster number_e -> transcendental;

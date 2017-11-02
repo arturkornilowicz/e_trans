@@ -7065,4 +7065,58 @@
 </Func>
 </DefMeaning>
 </Definiens>
+<Definiens constrkind="K" constrnr="900" aid="SQUARE_1" defnr="1" relnr="149">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="24"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="2">
+<Cluster/>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<DefMeaning kind="e">
+<Func kind="K" nr="51">
+<LocusVar nr="1"/>
+<LocusVar nr="1"/>
+</Func>
+</DefMeaning>
+</Definiens>
+<Definiens constrkind="K" constrnr="902" aid="SQUARE_1" defnr="2" relnr="150">
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Typ kind="M" nr="1">
+<Cluster>
+<Adjective nr="25"/>
+</Cluster>
+</Typ>
+<Essentials>
+<Int x="1"/>
+<Int x="2"/>
+</Essentials>
+<Pred kind="R" nr="32">
+<Func kind="K" nr="47"/>
+<LocusVar nr="1"/>
+</Pred>
+<DefMeaning kind="m">
+<And>
+<Pred kind="R" nr="32">
+<Func kind="K" nr="47"/>
+<LocusVar nr="2"/>
+</Pred>
+<Pred kind="R" nr="1">
+<Func kind="K" nr="900">
+<LocusVar nr="2"/>
+</Func>
+<LocusVar nr="1"/>
+</Pred>
+</And>
+</DefMeaning>
+</Definiens>
 </Definientia>

@@ -313,7 +313,7 @@
   <Ident name="BOOLE" line="39" col="43"/>
   <Ident name="ARITHM" line="39" col="51"/>
  </Directive>
- <Directive name="equalities" argnr="12">
+ <Directive name="equalities" argnr="13">
   <Ident name="STRUCT_0" line="43" col="20"/>
   <Ident name="VECTSP_1" line="43" col="30"/>
   <Ident name="GAUSSINT" line="43" col="40"/>
@@ -326,6 +326,7 @@
   <Ident name="XCMPLX_0" line="44" col="34"/>
   <Ident name="SIN_COS" line="44" col="43"/>
   <Ident name="VALUED_1" line="44" col="53"/>
+  <Ident name="SQUARE_1" line="44" col="63"/>
  </Directive>
  <Directive name="expansions" argnr="9">
   <Ident name="TARSKI" line="45" col="18"/>
