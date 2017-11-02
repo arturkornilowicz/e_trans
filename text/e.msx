@@ -8366,39 +8366,121 @@
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="538" col="7" posline="539" poscol="63">
+ <Item kind="Theorem-Item" line="538" col="7" posline="539" poscol="50">
   <Proposition>
-   <Label idnr="109" spelling="T9" line="538" col="10" serialnr="171" labelnr="13"/>
-   <Universal-Quantifier-Formula line="539" col="56">
-    <Implicitly-Qualified-Segment line="539" col="56" nr="4">
-     <Variable idnr="87" spelling="p" line="539" col="56" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+   <Label idnr="109" spelling="T12" line="538" col="11" serialnr="171" labelnr="13"/>
+   <Universal-Quantifier-Formula line="539" col="19">
+    <Implicitly-Qualified-Segment line="539" col="19" nr="4">
+     <Variable idnr="87" spelling="p" line="539" col="19" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
     </Implicitly-Qualified-Segment>
-    <Predicative-Formula nr="1" spelling="=" line="539" col="56">
+    <Predicative-Formula nr="1" spelling="=" line="539" col="19">
      <Arguments>
-      <Infix-Term nr="16" spelling="-" line="539" col="24">
+      <Infix-Term nr="264" spelling="Sum_of_diffs" line="539" col="14">
+       <Arguments/>
        <Arguments>
-        <Infix-Term nr="209" spelling="Eval" line="539" col="6">
+        <Simple-Term idnr="87" spelling="p" line="539" col="16" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+       </Arguments>
+      </Infix-Term>
+     </Arguments>
+     <Arguments>
+      <Infix-Term nr="27" spelling="&#x2B;" line="539" col="23">
+       <Arguments>
+        <Simple-Term idnr="87" spelling="p" line="539" col="21" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+       </Arguments>
+       <Arguments>
+        <Infix-Term nr="266" spelling="poly_diff" line="539" col="33">
          <Arguments/>
          <Arguments>
-          <Infix-Term nr="264" spelling="Sum_of_diffs" line="539" col="19">
+          <Infix-Term nr="264" spelling="Sum_of_diffs" line="539" col="46">
            <Arguments/>
            <Arguments>
-            <Simple-Term idnr="87" spelling="p" line="539" col="21" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+            <Simple-Term idnr="87" spelling="p" line="539" col="48" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+           </Arguments>
+          </Infix-Term>
+         </Arguments>
+        </Infix-Term>
+       </Arguments>
+      </Infix-Term>
+     </Arguments>
+    </Predicative-Formula>
+   </Universal-Quantifier-Formula>
+  </Proposition>
+  <Straightforward-Justification line="539" col="50"/>
+ </Item>
+ <Item kind="Theorem-Item" line="541" col="7" posline="542" poscol="50">
+  <Proposition>
+   <Label idnr="110" spelling="T11" line="541" col="11" serialnr="172" labelnr="14"/>
+   <Universal-Quantifier-Formula line="542" col="48">
+    <Implicitly-Qualified-Segment line="542" col="48" nr="4">
+     <Variable idnr="87" spelling="p" line="542" col="48" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+    </Implicitly-Qualified-Segment>
+    <Predicative-Formula nr="1" spelling="=" line="542" col="48">
+     <Arguments>
+      <Infix-Term nr="16" spelling="-" line="542" col="19">
+       <Arguments>
+        <Infix-Term nr="264" spelling="Sum_of_diffs" line="542" col="14">
+         <Arguments/>
+         <Arguments>
+          <Simple-Term idnr="87" spelling="p" line="542" col="16" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+         </Arguments>
+        </Infix-Term>
+       </Arguments>
+       <Arguments>
+        <Infix-Term nr="266" spelling="poly_diff" line="542" col="29">
+         <Arguments/>
+         <Arguments>
+          <Infix-Term nr="264" spelling="Sum_of_diffs" line="542" col="42">
+           <Arguments/>
+           <Arguments>
+            <Simple-Term idnr="87" spelling="p" line="542" col="44" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+           </Arguments>
+          </Infix-Term>
+         </Arguments>
+        </Infix-Term>
+       </Arguments>
+      </Infix-Term>
+     </Arguments>
+     <Arguments>
+      <Simple-Term idnr="87" spelling="p" line="542" col="50" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+     </Arguments>
+    </Predicative-Formula>
+   </Universal-Quantifier-Formula>
+  </Proposition>
+  <Straightforward-Justification line="542" col="50"/>
+ </Item>
+ <Item kind="Theorem-Item" line="544" col="7" posline="551" poscol="5">
+  <Proposition>
+   <Label idnr="111" spelling="T9" line="544" col="10" serialnr="173" labelnr="15"/>
+   <Universal-Quantifier-Formula line="545" col="56">
+    <Implicitly-Qualified-Segment line="545" col="56" nr="4">
+     <Variable idnr="87" spelling="p" line="545" col="56" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+    </Implicitly-Qualified-Segment>
+    <Predicative-Formula nr="1" spelling="=" line="545" col="56">
+     <Arguments>
+      <Infix-Term nr="16" spelling="-" line="545" col="24">
+       <Arguments>
+        <Infix-Term nr="209" spelling="Eval" line="545" col="6">
+         <Arguments/>
+         <Arguments>
+          <Infix-Term nr="264" spelling="Sum_of_diffs" line="545" col="19">
+           <Arguments/>
+           <Arguments>
+            <Simple-Term idnr="87" spelling="p" line="545" col="21" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
            </Arguments>
           </Infix-Term>
          </Arguments>
         </Infix-Term>
        </Arguments>
        <Arguments>
-        <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="539" col="52">
+        <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="545" col="52">
          <Arguments>
-          <Infix-Term nr="209" spelling="Eval" line="539" col="32">
+          <Infix-Term nr="209" spelling="Eval" line="545" col="32">
            <Arguments/>
            <Arguments>
-            <Infix-Term nr="264" spelling="Sum_of_diffs" line="539" col="45">
+            <Infix-Term nr="264" spelling="Sum_of_diffs" line="545" col="45">
              <Arguments/>
              <Arguments>
-              <Simple-Term idnr="87" spelling="p" line="539" col="47" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+              <Simple-Term idnr="87" spelling="p" line="545" col="47" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
              </Arguments>
             </Infix-Term>
            </Arguments>
@@ -8410,33 +8492,152 @@
       </Infix-Term>
      </Arguments>
      <Arguments>
-      <Infix-Term nr="209" spelling="Eval" line="539" col="61">
+      <Infix-Term nr="209" spelling="Eval" line="545" col="61">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="87" spelling="p" line="539" col="63" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+        <Simple-Term idnr="87" spelling="p" line="545" col="63" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Predicative-Formula>
    </Universal-Quantifier-Formula>
   </Proposition>
-  <Straightforward-Justification line="539" col="63"/>
- </Item>
- <Item kind="Theorem-Item" line="541" col="7" posline="551" poscol="5">
-  <Proposition>
-   <Label idnr="0" spelling="" line="542" col="3" serialnr="172" labelnr="0"/>
-   <Universal-Quantifier-Formula line="542" col="15">
-    <Implicitly-Qualified-Segment line="542" col="15" nr="4">
-     <Variable idnr="87" spelling="p" line="542" col="15" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+  <Block kind="Proof" line="546" col="7" posline="551" poscol="5">
+   <Item kind="Generalization" line="546" col="7" posline="546" poscol="7">
+    <Implicitly-Qualified-Segment line="546" col="7" nr="4">
+     <Variable idnr="87" spelling="p" line="546" col="7" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
     </Implicitly-Qualified-Segment>
-    <Predicative-Formula nr="1" spelling="=" line="542" col="15">
+   </Item>
+   <Item kind="Constant-Definition" line="547" col="28" posline="547" poscol="27">
+    <Variable idnr="101" spelling="S" line="547" col="9" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+    <Infix-Term nr="264" spelling="Sum_of_diffs" line="547" col="24">
+     <Arguments/>
      <Arguments>
-      <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="542" col="13">
+      <Simple-Term idnr="87" spelling="p" line="547" col="26" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+     </Arguments>
+    </Infix-Term>
+   </Item>
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="548" col="8" posline="548" poscol="48">
+    <Proposition>
+     <Label idnr="0" spelling="" line="548" col="8" serialnr="174" labelnr="0"/>
+     <Predicative-Formula nr="1" spelling="=" line="548" col="14">
+      <Arguments>
+       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="548" col="12">
+        <Arguments>
+         <Infix-Term nr="209" spelling="Eval" line="548" col="8">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="101" spelling="S" line="548" col="10" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments/>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="209" spelling="Eval" line="548" col="19">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="266" spelling="poly_diff" line="548" col="29">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="101" spelling="S" line="548" col="31" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+     </Predicative-Formula>
+    </Proposition>
+    <Straightforward-Justification line="548" col="36">
+     <Theorem-Reference line="548" col="48" nr="27" spelling="POLYDIFF" number="61"/>
+    </Straightforward-Justification>
+   </Item>
+   <Item kind="Conclusion" shape="Iterative-Equality" line="549" col="14" posline="550" poscol="20">
+    <Proposition>
+     <Label idnr="0" spelling="" line="549" col="14" serialnr="175" labelnr="0"/>
+     <Predicative-Formula nr="1" spelling="=" line="549" col="31">
+      <Arguments>
+       <Infix-Term nr="16" spelling="-" line="549" col="18">
+        <Arguments>
+         <Infix-Term nr="209" spelling="Eval" line="549" col="14">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="101" spelling="S" line="549" col="16" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="549" col="28">
+          <Arguments>
+           <Infix-Term nr="209" spelling="Eval" line="549" col="24">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="101" spelling="S" line="549" col="26" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments/>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="209" spelling="Eval" line="549" col="36">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="16" spelling="-" line="549" col="39">
+          <Arguments>
+           <Simple-Term idnr="101" spelling="S" line="549" col="38" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+          </Arguments>
+          <Arguments>
+           <Infix-Term nr="266" spelling="poly_diff" line="549" col="48">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="101" spelling="S" line="549" col="50" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+     </Predicative-Formula>
+    </Proposition>
+    <Straightforward-Justification line="549" col="55">
+     <Link line="549" col="9" labelnr="1869182049"/>
+     <Local-Reference line="549" col="9" idnr="0" spelling="" serialnr="174" labelnr="15"/>
+     <Theorem-Reference line="549" col="67" nr="27" spelling="POLYDIFF" number="57"/>
+    </Straightforward-Justification>
+    <Iterative-Step line="550" col="6">
+     <Infix-Term nr="209" spelling="Eval" line="550" col="11">
+      <Arguments/>
+      <Arguments>
+       <Simple-Term idnr="87" spelling="p" line="550" col="13" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+      </Arguments>
+     </Infix-Term>
+     <Straightforward-Justification line="550" col="16">
+      <Local-Reference line="550" col="20" idnr="110" spelling="T11" serialnr="172" labelnr="14"/>
+     </Straightforward-Justification>
+    </Iterative-Step>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Theorem-Item" line="553" col="7" posline="563" poscol="5">
+  <Proposition>
+   <Label idnr="0" spelling="" line="554" col="3" serialnr="176" labelnr="0"/>
+   <Universal-Quantifier-Formula line="554" col="15">
+    <Implicitly-Qualified-Segment line="554" col="15" nr="4">
+     <Variable idnr="87" spelling="p" line="554" col="15" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+    </Implicitly-Qualified-Segment>
+    <Predicative-Formula nr="1" spelling="=" line="554" col="15">
+     <Arguments>
+      <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="554" col="13">
        <Arguments>
-        <Infix-Term nr="265" spelling="WFx" line="542" col="6">
+        <Infix-Term nr="265" spelling="WFx" line="554" col="6">
          <Arguments/>
          <Arguments>
-          <Simple-Term idnr="87" spelling="p" line="542" col="8" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+          <Simple-Term idnr="87" spelling="p" line="554" col="8" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
          </Arguments>
         </Infix-Term>
        </Arguments>
@@ -8444,14 +8645,14 @@
       </Infix-Term>
      </Arguments>
      <Arguments>
-      <Infix-Term nr="16" spelling="-" line="542" col="17">
+      <Infix-Term nr="16" spelling="-" line="554" col="17">
        <Arguments/>
        <Arguments>
-        <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="542" col="30">
+        <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="554" col="30">
          <Arguments>
-          <Infix-Term nr="109" spelling="&#x22;" line="542" col="25">
+          <Infix-Term nr="109" spelling="&#x22;" line="554" col="25">
            <Arguments>
-            <Infix-Term nr="288" spelling="exp_R" line="542" col="24">
+            <Infix-Term nr="288" spelling="exp_R" line="554" col="24">
              <Arguments/>
              <Arguments/>
             </Infix-Term>
@@ -8460,10 +8661,10 @@
           </Infix-Term>
          </Arguments>
          <Arguments>
-          <Infix-Term nr="209" spelling="Eval" line="542" col="35">
+          <Infix-Term nr="209" spelling="Eval" line="554" col="35">
            <Arguments/>
            <Arguments>
-            <Simple-Term idnr="87" spelling="p" line="542" col="37" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
+            <Simple-Term idnr="87" spelling="p" line="554" col="37" origin="Reserved" kind="Bound" serialnr="5" varnr="1"/>
            </Arguments>
           </Infix-Term>
          </Arguments>
@@ -8474,17 +8675,17 @@
     </Predicative-Formula>
    </Universal-Quantifier-Formula>
   </Proposition>
-  <Block kind="Proof" line="543" col="7" posline="551" poscol="5">
-   <Item kind="Generalization" line="543" col="7" posline="543" poscol="7">
-    <Implicitly-Qualified-Segment line="543" col="7" nr="4">
-     <Variable idnr="87" spelling="p" line="543" col="7" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+  <Block kind="Proof" line="555" col="7" posline="563" poscol="5">
+   <Item kind="Generalization" line="555" col="7" posline="555" poscol="7">
+    <Implicitly-Qualified-Segment line="555" col="7" nr="4">
+     <Variable idnr="87" spelling="p" line="555" col="7" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
     </Implicitly-Qualified-Segment>
    </Item>
-   <Item kind="Constant-Definition" line="544" col="19" posline="544" poscol="18">
-    <Variable idnr="64" spelling="f" line="544" col="9" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
-    <Infix-Term nr="109" spelling="&#x22;" line="544" col="18">
+   <Item kind="Constant-Definition" line="556" col="19" posline="556" poscol="18">
+    <Variable idnr="64" spelling="f" line="556" col="9" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
+    <Infix-Term nr="109" spelling="&#x22;" line="556" col="18">
      <Arguments>
-      <Infix-Term nr="288" spelling="exp_R" line="544" col="17">
+      <Infix-Term nr="288" spelling="exp_R" line="556" col="17">
        <Arguments/>
        <Arguments/>
       </Infix-Term>
@@ -8492,31 +8693,31 @@
      <Arguments/>
     </Infix-Term>
    </Item>
-   <Item kind="Constant-Definition" line="545" col="33" posline="545" poscol="32">
-    <Variable idnr="68" spelling="g" line="545" col="9" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
-    <Infix-Term nr="209" spelling="Eval" line="545" col="16">
+   <Item kind="Constant-Definition" line="557" col="33" posline="557" poscol="32">
+    <Variable idnr="68" spelling="g" line="557" col="9" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
+    <Infix-Term nr="209" spelling="Eval" line="557" col="16">
      <Arguments/>
      <Arguments>
-      <Infix-Term nr="264" spelling="Sum_of_diffs" line="545" col="29">
+      <Infix-Term nr="264" spelling="Sum_of_diffs" line="557" col="29">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="87" spelling="p" line="545" col="31" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+        <Simple-Term idnr="87" spelling="p" line="557" col="31" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Infix-Term>
    </Item>
-   <Item kind="Conclusion" shape="Iterative-Equality" line="546" col="10" posline="550" poscol="24">
+   <Item kind="Conclusion" shape="Iterative-Equality" line="558" col="10" posline="562" poscol="24">
     <Proposition>
-     <Label idnr="0" spelling="" line="546" col="10" serialnr="173" labelnr="0"/>
-     <Predicative-Formula nr="1" spelling="=" line="546" col="22">
+     <Label idnr="0" spelling="" line="558" col="10" serialnr="177" labelnr="0"/>
+     <Predicative-Formula nr="1" spelling="=" line="558" col="22">
       <Arguments>
-       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="546" col="20">
+       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="558" col="20">
         <Arguments>
-         <Infix-Term nr="265" spelling="WFx" line="546" col="13">
+         <Infix-Term nr="265" spelling="WFx" line="558" col="13">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="87" spelling="p" line="546" col="15" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+           <Simple-Term idnr="87" spelling="p" line="558" col="15" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -8524,41 +8725,41 @@
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="27" spelling="&#x2B;" line="546" col="33">
+       <Infix-Term nr="27" spelling="&#x2B;" line="558" col="33">
         <Arguments>
-         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="546" col="30">
+         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="558" col="30">
           <Arguments>
-           <Infix-Term nr="16" spelling="-" line="546" col="25">
+           <Infix-Term nr="16" spelling="-" line="558" col="25">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="64" spelling="f" line="546" col="26" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+             <Simple-Term idnr="64" spelling="f" line="558" col="26" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Simple-Term idnr="68" spelling="g" line="546" col="31" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+           <Simple-Term idnr="68" spelling="g" line="558" col="31" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="546" col="42">
+         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="558" col="42">
           <Arguments>
-           <Infix-Term nr="16" spelling="-" line="546" col="36">
+           <Infix-Term nr="16" spelling="-" line="558" col="36">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="16" spelling="-" line="546" col="37">
+             <Infix-Term nr="16" spelling="-" line="558" col="37">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="64" spelling="f" line="546" col="38" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+               <Simple-Term idnr="64" spelling="f" line="558" col="38" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="546" col="46">
+           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="558" col="46">
             <Arguments>
-             <Simple-Term idnr="68" spelling="g" line="546" col="44" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+             <Simple-Term idnr="68" spelling="g" line="558" col="44" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
             </Arguments>
             <Arguments/>
            </Infix-Term>
@@ -8569,41 +8770,41 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="546" col="50">
-     <Local-Reference line="546" col="53" idnr="108" spelling="T8" serialnr="169" labelnr="12"/>
-     <Theorem-Reference line="546" col="66" nr="27" spelling="POLYDIFF" number="16"/>
+    <Straightforward-Justification line="558" col="50">
+     <Local-Reference line="558" col="53" idnr="108" spelling="T8" serialnr="169" labelnr="12"/>
+     <Theorem-Reference line="558" col="66" nr="27" spelling="POLYDIFF" number="16"/>
     </Straightforward-Justification>
-    <Iterative-Step line="547" col="6">
-     <Infix-Term nr="16" spelling="-" line="547" col="17">
+    <Iterative-Step line="559" col="6">
+     <Infix-Term nr="16" spelling="-" line="559" col="17">
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="547" col="14">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="559" col="14">
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="547" col="9">
+         <Infix-Term nr="16" spelling="-" line="559" col="9">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="64" spelling="f" line="547" col="10" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+           <Simple-Term idnr="64" spelling="f" line="559" col="10" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Simple-Term idnr="68" spelling="g" line="547" col="15" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+         <Simple-Term idnr="68" spelling="g" line="559" col="15" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="547" col="25">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="559" col="25">
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="547" col="20">
+         <Infix-Term nr="16" spelling="-" line="559" col="20">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="64" spelling="f" line="547" col="21" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+           <Simple-Term idnr="64" spelling="f" line="559" col="21" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="547" col="29">
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="559" col="29">
           <Arguments>
-           <Simple-Term idnr="68" spelling="g" line="547" col="27" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+           <Simple-Term idnr="68" spelling="g" line="559" col="27" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
           </Arguments>
           <Arguments/>
          </Infix-Term>
@@ -8611,29 +8812,29 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="547" col="33">
-      <Theorem-Reference line="547" col="45" nr="61" spelling="VALUED_2" number="25"/>
+     <Straightforward-Justification line="559" col="33">
+      <Theorem-Reference line="559" col="45" nr="61" spelling="VALUED_2" number="25"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="548" col="6">
-     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="548" col="14">
+    <Iterative-Step line="560" col="6">
+     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="560" col="14">
       <Arguments>
-       <Infix-Term nr="16" spelling="-" line="548" col="9">
+       <Infix-Term nr="16" spelling="-" line="560" col="9">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="64" spelling="f" line="548" col="10" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+         <Simple-Term idnr="64" spelling="f" line="560" col="10" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="16" spelling="-" line="548" col="18">
+       <Infix-Term nr="16" spelling="-" line="560" col="18">
         <Arguments>
-         <Simple-Term idnr="68" spelling="g" line="548" col="16" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+         <Simple-Term idnr="68" spelling="g" line="560" col="16" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="548" col="23">
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="560" col="23">
           <Arguments>
-           <Simple-Term idnr="68" spelling="g" line="548" col="21" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+           <Simple-Term idnr="68" spelling="g" line="560" col="21" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
           </Arguments>
           <Arguments/>
          </Infix-Term>
@@ -8641,27 +8842,27 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="548" col="28">
-      <Theorem-Reference line="548" col="40" nr="58" spelling="RFUNCT_1" number="15"/>
+     <Straightforward-Justification line="560" col="28">
+      <Theorem-Reference line="560" col="40" nr="58" spelling="RFUNCT_1" number="15"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="549" col="6">
-     <Infix-Term nr="16" spelling="-" line="549" col="8">
+    <Iterative-Step line="561" col="6">
+     <Infix-Term nr="16" spelling="-" line="561" col="8">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="549" col="12">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="561" col="12">
         <Arguments>
-         <Simple-Term idnr="64" spelling="f" line="549" col="9" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+         <Simple-Term idnr="64" spelling="f" line="561" col="9" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="549" col="16">
+         <Infix-Term nr="16" spelling="-" line="561" col="16">
           <Arguments>
-           <Simple-Term idnr="68" spelling="g" line="549" col="14" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+           <Simple-Term idnr="68" spelling="g" line="561" col="14" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="549" col="21">
+           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="561" col="21">
             <Arguments>
-             <Simple-Term idnr="68" spelling="g" line="549" col="19" origin="DefConstant" kind="Constant" serialnr="18" varnr="4"/>
+             <Simple-Term idnr="68" spelling="g" line="561" col="19" origin="DefConstant" kind="Constant" serialnr="19" varnr="4"/>
             </Arguments>
             <Arguments/>
            </Infix-Term>
@@ -8671,120 +8872,120 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="549" col="26">
-      <Theorem-Reference line="549" col="38" nr="61" spelling="VALUED_2" number="25"/>
+     <Straightforward-Justification line="561" col="26">
+      <Theorem-Reference line="561" col="38" nr="61" spelling="VALUED_2" number="25"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="550" col="6">
-     <Infix-Term nr="16" spelling="-" line="550" col="8">
+    <Iterative-Step line="562" col="6">
+     <Infix-Term nr="16" spelling="-" line="562" col="8">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="550" col="12">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="562" col="12">
         <Arguments>
-         <Simple-Term idnr="64" spelling="f" line="550" col="9" origin="DefConstant" kind="Constant" serialnr="17" varnr="3"/>
+         <Simple-Term idnr="64" spelling="f" line="562" col="9" origin="DefConstant" kind="Constant" serialnr="18" varnr="3"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="550" col="16">
+         <Infix-Term nr="209" spelling="Eval" line="562" col="16">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="87" spelling="p" line="550" col="18" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
+           <Simple-Term idnr="87" spelling="p" line="562" col="18" origin="Reserved" kind="Constant" serialnr="5" varnr="2"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="550" col="21">
-      <Local-Reference line="550" col="24" idnr="109" spelling="T9" serialnr="171" labelnr="13"/>
+     <Straightforward-Justification line="562" col="21">
+      <Local-Reference line="562" col="24" idnr="111" spelling="T9" serialnr="173" labelnr="15"/>
      </Straightforward-Justification>
     </Iterative-Step>
    </Item>
   </Block>
  </Item>
- <Item kind="Definition-Item" line="553" col="12" posline="565" poscol="3">
-  <Block kind="Registration-Block" line="553" col="12" posline="565" poscol="3">
-   <Item kind="Cluster" line="554" col="9" posline="554" poscol="36">
-    <Functorial-Registration line="554" col="9">
-     <Infix-Term nr="262" spelling="number_e" line="554" col="18">
+ <Item kind="Definition-Item" line="565" col="12" posline="577" poscol="3">
+  <Block kind="Registration-Block" line="565" col="12" posline="577" poscol="3">
+   <Item kind="Cluster" line="566" col="9" posline="566" poscol="36">
+    <Functorial-Registration line="566" col="9">
+     <Infix-Term nr="262" spelling="number_e" line="566" col="18">
       <Arguments/>
       <Arguments/>
      </Infix-Term>
      <Adjective-Cluster>
-      <Adjective nr="29" spelling="transcendental" line="554" col="36"/>
+      <Adjective nr="29" spelling="transcendental" line="566" col="36"/>
      </Adjective-Cluster>
     </Functorial-Registration>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="555" col="11" posline="564" poscol="5">
-    <Block kind="Proof" line="556" col="7" posline="564" poscol="5">
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="557" col="5" posline="557" poscol="34">
+   <Item kind="Correctness-Condition" condition="coherence" line="567" col="11" posline="576" poscol="5">
+    <Block kind="Proof" line="568" col="7" posline="576" poscol="5">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="569" col="5" posline="569" poscol="34">
       <Proposition>
-       <Label idnr="0" spelling="" line="557" col="5" serialnr="174" labelnr="0"/>
-       <Predicative-Formula nr="3" spelling="in" line="557" col="8">
+       <Label idnr="0" spelling="" line="569" col="5" serialnr="178" labelnr="0"/>
+       <Predicative-Formula nr="3" spelling="in" line="569" col="8">
         <Arguments>
-         <Simple-Term idnr="85" spelling="e" line="557" col="5" origin="DefConstant" kind="Constant" serialnr="2" varnr="1"/>
+         <Simple-Term idnr="85" spelling="e" line="569" col="5" origin="DefConstant" kind="Constant" serialnr="2" varnr="1"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="3" spelling="COMPLEX" line="557" col="16">
+         <Infix-Term nr="3" spelling="COMPLEX" line="569" col="16">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="557" col="19">
-       <Definition-Reference line="557" col="34" nr="47" spelling="XCMPLX_0" number="2"/>
+      <Straightforward-Justification line="569" col="19">
+       <Definition-Reference line="569" col="34" nr="47" spelling="XCMPLX_0" number="2"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Type-Changing-Statement" line="558" col="19" posline="558" poscol="63">
+     <Item kind="Type-Changing-Statement" line="570" col="19" posline="570" poscol="63">
       <Equality>
-       <Variable idnr="85" spelling="e" line="558" col="21" origin="DefConstant" kind="Constant" serialnr="19" varnr="2"/>
-       <Simple-Term idnr="85" spelling="e" line="558" col="21" origin="DefConstant" kind="Constant" serialnr="2" varnr="1"/>
+       <Variable idnr="85" spelling="e" line="570" col="21" origin="DefConstant" kind="Constant" serialnr="20" varnr="2"/>
+       <Simple-Term idnr="85" spelling="e" line="570" col="21" origin="DefConstant" kind="Constant" serialnr="2" varnr="1"/>
       </Equality>
-      <Standard-Type nr="3" spelling="Element" line="558" col="32">
-       <Infix-Term nr="89" spelling="F_Complex" line="558" col="45">
+      <Standard-Type nr="3" spelling="Element" line="570" col="32">
+       <Infix-Term nr="89" spelling="F_Complex" line="570" col="45">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
       </Standard-Type>
-      <Straightforward-Justification line="558" col="48">
-       <Link line="558" col="8" labelnr="0"/>
-       <Local-Reference line="558" col="8" idnr="0" spelling="" serialnr="174" labelnr="13"/>
-       <Definition-Reference line="558" col="63" nr="9" spelling="COMPLFLD" number="1"/>
+      <Straightforward-Justification line="570" col="48">
+       <Link line="570" col="8" labelnr="0"/>
+       <Local-Reference line="570" col="8" idnr="0" spelling="" serialnr="178" labelnr="15"/>
+       <Definition-Reference line="570" col="63" nr="9" spelling="COMPLFLD" number="1"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Assumption" line="559" col="10" posline="559" poscol="32">
-      <Single-Assumption line="559" col="10">
+     <Item kind="Assumption" line="571" col="10" posline="571" poscol="32">
+      <Single-Assumption line="571" col="10">
        <Proposition>
-        <Label idnr="0" spelling="" line="559" col="19" serialnr="175" labelnr="0"/>
-        <Attributive-Formula line="559" col="22">
-         <Infix-Term nr="262" spelling="number_e" line="559" col="19">
+        <Label idnr="0" spelling="" line="571" col="19" serialnr="179" labelnr="0"/>
+        <Attributive-Formula line="571" col="22">
+         <Infix-Term nr="262" spelling="number_e" line="571" col="19">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
          <Adjective-Cluster>
-          <Adjective nr="141" spelling="algebraic" line="559" col="32"/>
+          <Adjective nr="141" spelling="algebraic" line="571" col="32"/>
          </Adjective-Cluster>
         </Attributive-Formula>
        </Proposition>
       </Single-Assumption>
      </Item>
-     <Item kind="Choice-Statement" line="560" col="17" posline="562" poscol="35">
-      <Explicitly-Qualified-Segment line="560" col="19">
+     <Item kind="Choice-Statement" line="572" col="17" posline="574" poscol="35">
+      <Explicitly-Qualified-Segment line="572" col="19">
        <Variables>
-        <Variable idnr="64" spelling="f" line="560" col="19" origin="Constant" kind="Constant" serialnr="58" varnr="3"/>
+        <Variable idnr="64" spelling="f" line="572" col="19" origin="Constant" kind="Constant" serialnr="59" varnr="3"/>
        </Variables>
-       <Clustered-Type line="560" col="57">
+       <Clustered-Type line="572" col="57">
         <Adjective-Cluster>
-         <Adjective nr="74" spelling="non-zero" line="560" col="34"/>
-         <Adjective nr="35" spelling="-valued" line="560" col="46">
-          <Infix-Term nr="5" spelling="INT" line="560" col="38">
+         <Adjective nr="74" spelling="non-zero" line="572" col="34"/>
+         <Adjective nr="35" spelling="-valued" line="572" col="46">
+          <Infix-Term nr="5" spelling="INT" line="572" col="38">
            <Arguments/>
            <Arguments/>
           </Infix-Term>
          </Adjective>
         </Adjective-Cluster>
-        <Standard-Type nr="19" spelling="Polynomial" line="560" col="57">
-         <Infix-Term nr="89" spelling="F_Complex" line="560" col="70">
+        <Standard-Type nr="19" spelling="Polynomial" line="572" col="57">
+         <Infix-Term nr="89" spelling="F_Complex" line="572" col="70">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
@@ -8793,29 +8994,29 @@
       </Explicitly-Qualified-Segment>
       <Conditions>
        <Proposition>
-        <Label idnr="62" spelling="A1" line="562" col="2" serialnr="176" labelnr="14"/>
-        <Predicative-Formula nr="17" spelling="is_a_root_of" line="562" col="18">
+        <Label idnr="62" spelling="A1" line="574" col="2" serialnr="180" labelnr="16"/>
+        <Predicative-Formula nr="17" spelling="is_a_root_of" line="574" col="18">
          <Arguments>
-          <Simple-Term idnr="85" spelling="e" line="562" col="5" origin="DefConstant" kind="Constant" serialnr="19" varnr="2"/>
+          <Simple-Term idnr="85" spelling="e" line="574" col="5" origin="DefConstant" kind="Constant" serialnr="20" varnr="2"/>
          </Arguments>
          <Arguments>
-          <Simple-Term idnr="64" spelling="f" line="562" col="20" origin="Constant" kind="Constant" serialnr="58" varnr="3"/>
+          <Simple-Term idnr="64" spelling="f" line="574" col="20" origin="Constant" kind="Constant" serialnr="59" varnr="3"/>
          </Arguments>
         </Predicative-Formula>
        </Proposition>
       </Conditions>
-      <Straightforward-Justification line="562" col="23">
-       <Link line="560" col="8" labelnr="1869182049"/>
-       <Local-Reference line="560" col="8" idnr="0" spelling="" serialnr="175" labelnr="14"/>
-       <Theorem-Reference line="562" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
+      <Straightforward-Justification line="574" col="23">
+       <Link line="572" col="8" labelnr="1869182049"/>
+       <Local-Reference line="572" col="8" idnr="0" spelling="" serialnr="179" labelnr="16"/>
+       <Theorem-Reference line="574" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Conclusion" shape="Compact-Statement" line="563" col="22" posline="563" poscol="22">
+     <Item kind="Conclusion" shape="Compact-Statement" line="575" col="22" posline="575" poscol="22">
       <Proposition>
-       <Label idnr="0" spelling="" line="563" col="22" serialnr="177" labelnr="0"/>
-       <Contradiction line="563" col="22"/>
+       <Label idnr="0" spelling="" line="575" col="22" serialnr="181" labelnr="0"/>
+       <Contradiction line="575" col="22"/>
       </Proposition>
-      <Straightforward-Justification line="563" col="22"/>
+      <Straightforward-Justification line="575" col="22"/>
      </Item>
     </Block>
    </Item>

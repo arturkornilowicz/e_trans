@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xml" href="file:///usr/local/share/mizar/miz.xml"?>
-<Article aid="E" mizfiles="/usr/local/share/mizar/">
+<?xml-stylesheet type="text/xml" href="file://c:\mizar\miz.xml"?>
+<Article aid="E" mizfiles="c:\mizar\">
 <Reservation>
 <Ident vid="55"/>
 <Ident vid="56"/>
@@ -27765,7 +27765,159 @@
 </JustifiedTheorem>
 
 <JustifiedTheorem line="538" col="7">
-<Proposition line="539" col="61" nr="13" vid="109">
+<Proposition line="539" col="46" nr="13" vid="109">
+<For pid="0" vid="87">
+<Typ kind="M" nr="3" pid="61">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="11" value="false"/>
+<Adjective nr="43">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Pred kind="R" nr="22" pid="21">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216"/>
+</Func>
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="403" pid="427">
+<Func kind="K" nr="216"/>
+<Var nr="1"/>
+<Func kind="K" nr="759" pid="471">
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+</Func>
+</Func>
+</Pred>
+</For>
+</Proposition>
+<By line="539" col="50"/>
+</JustifiedTheorem>
+
+<JustifiedTheorem line="541" col="7">
+<Proposition line="542" col="42" nr="14" vid="110">
+<For pid="0" vid="87">
+<Typ kind="M" nr="3" pid="61">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="11" value="false"/>
+<Adjective nr="43">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Pred kind="R" nr="22" pid="21">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+<Func kind="K" nr="207" pid="428">
+<Func kind="K" nr="216"/>
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+<Func kind="K" nr="759" pid="471">
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+</Func>
+</Func>
+<Var nr="1"/>
+</Pred>
+</For>
+</Proposition>
+<By line="542" col="50"/>
+</JustifiedTheorem>
+
+<JustifiedTheorem line="544" col="7">
+<Proposition line="546" col="7" nr="15" vid="111">
 <For pid="0" vid="87">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
@@ -27843,11 +27995,299 @@
 </Pred>
 </For>
 </Proposition>
-<By line="539" col="63"/>
+<Proof nr="15" vid="111" line="546" col="7">
+<BlockThesis>
+<For pid="0" vid="87">
+<Typ kind="M" nr="3" pid="61">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="11" value="false"/>
+<Adjective nr="43">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+<Pred kind="R" nr="22" pid="21">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="325" pid="249">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+</Func>
+<Func kind="K" nr="756" pid="470">
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Var nr="1"/>
+</Func>
+</Func>
+</Func>
+</Func>
+<Func kind="K" nr="760" pid="472">
+<Var nr="1"/>
+</Func>
+</Pred>
+</For>
+</BlockThesis>
+<Let nr="2">
+<Typ kind="M" nr="3" pid="61" vid="87">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="11" value="false"/>
+<Adjective nr="43">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+</Let>
+<Thesis>
+<Pred kind="R" nr="22" pid="21">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="325" pid="249">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+<Func kind="K" nr="756" pid="470">
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+</Func>
+</Func>
+<Func kind="K" nr="760" pid="472">
+<Const nr="2" vid="87"/>
+</Func>
+</Pred>
+<ThesisExpansions/>
+</Thesis>
+<Set nr="3">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+<Typ kind="M" nr="3" pid="61" vid="101">
+<Cluster>
+<Adjective nr="6"/>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Cluster>
+<Adjective nr="1"/>
+<Adjective nr="4">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="5">
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="6"/>
+<Adjective nr="11" value="false"/>
+<Adjective nr="43">
+<Func kind="K" nr="40"/>
+</Adjective>
+<Adjective nr="44">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Adjective>
+<Adjective nr="154"/>
+<Adjective nr="155"/>
+<Adjective nr="156"/>
+<Adjective nr="191">
+<Func kind="K" nr="216" pid="384"/>
+</Adjective>
+</Cluster>
+<Func kind="K" nr="19">
+<Func kind="K" nr="20">
+<Func kind="K" nr="40"/>
+<Func kind="U" nr="1">
+<Func kind="K" nr="216" pid="384"/>
+</Func>
+</Func>
+</Func>
+</Typ>
+</Set>
+<Proposition line="548" col="36">
+<Pred kind="R" nr="22" pid="21">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="756" pid="470">
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+</Func>
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="759" pid="471">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+</Func>
+</Pred>
+</Proposition>
+<By line="548" col="36">
+<Ref nr="61" articlenr="27" kind="T" line="548" col="48"/>
+</By>
+<Conclusion>
+<IterEquality line="550" col="16">
+<Func kind="K" nr="325" pid="249">
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="43"/>
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+<Func kind="K" nr="756" pid="470">
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+</Func>
+</Func>
+<IterStep>
+<Func kind="K" nr="760" pid="472">
+<Func kind="K" nr="207" pid="428">
+<Func kind="K" nr="216"/>
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+<Func kind="K" nr="759" pid="471">
+<Func kind="K" nr="906" pid="494">
+<Const nr="2" vid="87"/>
+</Func>
+</Func>
+</Func>
+</Func>
+<By linked="true" line="549" col="55">
+<Ref nr="57" articlenr="27" kind="T" line="549" col="67"/>
+</By>
+</IterStep>
+<IterStep>
+<Func kind="K" nr="760" pid="472">
+<Const nr="2" vid="87"/>
+</Func>
+<By line="550" col="16">
+<Ref nr="14" vid="110" line="550" col="20"/>
+</By>
+</IterStep>
+</IterEquality>
+</Conclusion>
+<Thesis>
+<Verum/>
+<ThesisExpansions/>
+</Thesis>
+<EndPosition line="551" col="5"/>
+</Proof>
 </JustifiedTheorem>
 
-<JustifiedTheorem line="541" col="7">
-<Proposition line="543" col="7">
+<JustifiedTheorem line="553" col="7">
+<Proposition line="555" col="7">
 <For pid="0" vid="87">
 <Typ kind="M" nr="3" pid="61">
 <Cluster>
@@ -27927,7 +28367,7 @@
 </Pred>
 </For>
 </Proposition>
-<Proof line="543" col="7">
+<Proof line="555" col="7">
 <BlockThesis>
 <For pid="0" vid="87">
 <Typ kind="M" nr="3" pid="61">
@@ -28164,7 +28604,7 @@
 </Typ>
 </Set>
 <Conclusion>
-<IterEquality line="550" col="21">
+<IterEquality line="562" col="21">
 <Func kind="K" nr="756" pid="470">
 <Func kind="K" nr="907" pid="495">
 <Const nr="2" vid="87"/>
@@ -28220,9 +28660,9 @@
 </Func>
 </Func>
 </Func>
-<By line="546" col="50">
-<Ref nr="12" vid="108" line="546" col="53"/>
-<Ref nr="16" articlenr="27" kind="T" line="546" col="66"/>
+<By line="558" col="50">
+<Ref nr="12" vid="108" line="558" col="53"/>
+<Ref nr="16" articlenr="27" kind="T" line="558" col="66"/>
 </By>
 </IterStep>
 <IterStep>
@@ -28271,8 +28711,8 @@
 </Func>
 </Func>
 </Func>
-<By line="547" col="33">
-<Ref nr="25" articlenr="61" kind="T" line="547" col="45"/>
+<By line="559" col="33">
+<Ref nr="25" articlenr="61" kind="T" line="559" col="45"/>
 </By>
 </IterStep>
 <IterStep>
@@ -28307,8 +28747,8 @@
 </Func>
 </Func>
 </Func>
-<By line="548" col="28">
-<Ref nr="15" articlenr="58" kind="T" line="548" col="40"/>
+<By line="560" col="28">
+<Ref nr="15" articlenr="58" kind="T" line="560" col="40"/>
 </By>
 </IterStep>
 <IterStep>
@@ -28343,8 +28783,8 @@
 </Func>
 </Func>
 </Func>
-<By line="549" col="26">
-<Ref nr="25" articlenr="61" kind="T" line="549" col="38"/>
+<By line="561" col="26">
+<Ref nr="25" articlenr="61" kind="T" line="561" col="38"/>
 </By>
 </IterStep>
 <IterStep>
@@ -28365,8 +28805,8 @@
 </Func>
 </Func>
 </Func>
-<By line="550" col="21">
-<Ref nr="13" vid="109" line="550" col="24"/>
+<By line="562" col="21">
+<Ref nr="15" vid="111" line="562" col="24"/>
 </By>
 </IterStep>
 </IterEquality>
@@ -28375,11 +28815,11 @@
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="551" col="5"/>
+<EndPosition line="563" col="5"/>
 </Proof>
 </JustifiedTheorem>
 
-<RegistrationBlock line="553" col="12">
+<RegistrationBlock line="565" col="12">
 <Registration>
 <FCluster aid="E" nr="8">
 <ArgTypes/>
@@ -28397,14 +28837,14 @@
 </Cluster>
 </FCluster>
 <Coherence>
-<Proposition line="556" col="7">
+<Proposition line="568" col="7">
 <Not>
 <Pred kind="V" nr="198">
 <Func kind="K" nr="847" pid="294"/>
 </Pred>
 </Not>
 </Proposition>
-<Proof line="556" col="7">
+<Proof line="568" col="7">
 <BlockThesis>
 <Not>
 <Pred kind="V" nr="198">
@@ -28412,14 +28852,14 @@
 </Pred>
 </Not>
 </BlockThesis>
-<Proposition line="557" col="19">
+<Proposition line="569" col="19">
 <Pred kind="R" nr="2" pid="3">
 <Func kind="K" nr="847" pid="294"/>
 <Func kind="K" nr="44" pid="81"/>
 </Pred>
 </Proposition>
-<By line="557" col="19">
-<Ref nr="2" articlenr="47" kind="D" line="557" col="34"/>
+<By line="569" col="19">
+<Ref nr="2" articlenr="47" kind="D" line="569" col="34"/>
 </By>
 <Reconsider nr="2">
 <Typ kind="M" nr="3" pid="34" vid="85">
@@ -28432,7 +28872,7 @@
 </Func>
 </Typ>
 <Func kind="K" nr="847" pid="294"/>
-<Proposition line="558" col="45">
+<Proposition line="570" col="45">
 <Is>
 <Func kind="K" nr="847" pid="294"/>
 <Typ kind="M" nr="3" pid="34">
@@ -28446,12 +28886,12 @@
 </Typ>
 </Is>
 </Proposition>
-<By linked="true" line="558" col="48">
-<Ref nr="1" articlenr="9" kind="D" line="558" col="63"/>
+<By linked="true" line="570" col="48">
+<Ref nr="1" articlenr="9" kind="D" line="570" col="63"/>
 </By>
 </Reconsider>
 <Assume>
-<Proposition line="559" col="19">
+<Proposition line="571" col="19">
 <Pred kind="V" nr="198" pid="174">
 <Func kind="K" nr="847" pid="294"/>
 </Pred>
@@ -28464,7 +28904,7 @@
 <ThesisExpansions/>
 </Thesis>
 <Consider nr="3">
-<Proposition line="562" col="18">
+<Proposition line="574" col="18">
 <Not>
 <For pid="0" vid="64">
 <Typ kind="M" nr="3" pid="61">
@@ -28539,8 +28979,8 @@
 </For>
 </Not>
 </Proposition>
-<By linked="true" line="562" col="23">
-<Ref nr="25" articlenr="52" kind="T" line="562" col="35"/>
+<By linked="true" line="574" col="23">
+<Ref nr="25" articlenr="52" kind="T" line="574" col="35"/>
 </By>
 <Typ kind="M" nr="3" pid="61" vid="64">
 <Cluster>
@@ -28604,7 +29044,7 @@
 </Func>
 </Func>
 </Typ>
-<Proposition line="562" col="2" nr="14" vid="62">
+<Proposition line="574" col="2" nr="16" vid="62">
 <Pred kind="R" nr="61" pid="59">
 <Func kind="K" nr="432" pid="404"/>
 <Const nr="3" vid="64"/>
@@ -28613,22 +29053,22 @@
 </Proposition>
 </Consider>
 <Conclusion>
-<Proposition line="563" col="22">
+<Proposition line="575" col="22">
 <Not>
 <Verum/>
 </Not>
 </Proposition>
-<By line="563" col="22"/>
+<By line="575" col="22"/>
 </Conclusion>
 <Thesis>
 <Verum/>
 <ThesisExpansions/>
 </Thesis>
-<EndPosition line="564" col="5"/>
+<EndPosition line="576" col="5"/>
 </Proof>
 </Coherence>
 </Registration>
-<EndPosition line="565" col="3"/>
+<EndPosition line="577" col="3"/>
 </RegistrationBlock>
 
 </Article>

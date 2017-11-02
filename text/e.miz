@@ -535,9 +535,22 @@ theorem T8:
     .= -f" by T10;
   end;
 
+theorem T12:
+  Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p));
+::>                                              *4
+
+theorem T11:
+  Sum_of_diffs(p) - poly_diff(Sum_of_diffs(p)) = p;
+::>                                              *4
+
 theorem T9:
-  Eval Sum_of_diffs(p) - ( (Eval Sum_of_diffs(p)) `| ) = Eval p;
-::>                                                           *4
+  Eval Sum_of_diffs(p) - ( (Eval Sum_of_diffs(p)) `| ) = Eval p
+  proof
+    set S = Sum_of_diffs(p);
+    Eval S`| = Eval(poly_diff(S)) by POLYDIFF:61;
+    hence Eval S - (Eval S`|) = Eval(S-poly_diff(S)) by POLYDIFF:57
+    .= Eval p by T11;
+  end;
 
 theorem
   (WFx(p)) `| = - (exp_R") (#) Eval p

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Symbols aid="E" mizfiles="/usr/local/share/mizar/">
+<Symbols aid="E" mizfiles="c:\mizar\">
  <Symbol kind="I" nr="1" name="SUBSET_1"/>
  <Symbol kind="I" nr="2" name="CARD_1"/>
  <Symbol kind="I" nr="3" name="ARYTM_1"/>
@@ -108,5 +108,7 @@
  <Symbol kind="I" nr="106" name="A17"/>
  <Symbol kind="I" nr="107" name="T7"/>
  <Symbol kind="I" nr="108" name="T8"/>
- <Symbol kind="I" nr="109" name="T9"/>
+ <Symbol kind="I" nr="109" name="T12"/>
+ <Symbol kind="I" nr="110" name="T11"/>
+ <Symbol kind="I" nr="111" name="T9"/>
 </Symbols>
