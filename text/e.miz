@@ -21,7 +21,8 @@ environ
       NEWTON, RAT_1, COMSEQ_2, MEASURE5, IRRAT_1, FCONT_1,
       FDIFF_1, RVSUM_1, SIN_COS, STRUCT_0, ALGSTR_0,
       RLVECT_1, GROUP_1, GROUP_4, VECTSP_1, C0SP1,
-      INT_3, COMPLFLD, GAUSSINT, ALGSEQ_1, POLYNOM3, POLYNOM4, POLYNOM5,
+      INT_3, COMPLFLD, GAUSSINT, NORMSP_1,
+      ALGSEQ_1, POLYNOM3, POLYNOM4, POLYNOM5,
       UPROOTS, RATFUNC1, RING_4, ALGNUM_1, POLYDIFF, FVSUM_1, LIOUVIL1;
  constructors NEWTON, ALGNUM_1, ALGSEQ_1, C0SP1, POLYNOM4, FUNCT_7, TOPMETR,
       EC_PF_1, BINOP_2, NAT_D, RATFUNC1, RCOMP_1, UPROOTS, GR_CY_1, FVSUM_1,
@@ -59,6 +60,8 @@ begin :: Preliminaries
 
 reserve m,n for Nat;
 reserve r for Real;
+
+  set E = exp_R;
 
 theorem T3:
   for R being non-empty Relation holds R"{{}} = {}
@@ -265,7 +268,7 @@ registration
   coherence
   proof
     let x be object;
-    assume x in dom exp_R;
+    assume x in dom E;
     hence thesis by SIN_COS:54;
   end;
 end;
@@ -274,6 +277,21 @@ registration
   cluster exp_R" -> differentiable for Function of REAL,REAL;
   coherence;
 end;
+
+theorem T7:
+  exp_R `| = exp_R
+  proof
+    let r be Element of REAL;
+    thus E`|.r = diff(E,r) by POLYDIFF:10
+    .= E.r by SIN_COS:66;
+  end;
+
+theorem T8:
+  exp_R" `| = -exp_R"
+  proof
+    thus E"`| = -E/"(E^2) by T5, T7
+    .= -E" by T10;
+  end;
 
 begin
 
@@ -357,24 +375,26 @@ A13: len G = N & (G.1 = p1 or N = 0) &
 end;
 
 definition
-  let S be FinSequence of Polynom-Ring F_Real;
+  let R be add-associative right_zeroed right_complementable distributive
+           non empty doubleLoopStr;
+  let S be FinSequence of Polynom-Ring R;
   set N = len(S);
-  set D = the carrier of Polynom-Ring F_Real;
+  set D = the carrier of Polynom-Ring R;
   defpred P[Nat,object,object] means
-  for p, q being Polynomial of F_Real st p = S.($1+1) & q = $2 holds
+  for p, q being Polynomial of R st p = S.($1+1) & q = $2 holds
    $3 = p + q;
-  func Partial_Sums(S) -> FinSequence of Polynom-Ring F_Real means :Def2:
+  func Partial_Sums(S) -> FinSequence of Polynom-Ring R means :Def2:
   len(it) = len(S) & it.1 = S.1 &
   for n st 1 <= n < len(it) holds
-   for p, q being Polynomial of F_Real st p = S.(n+1) & q = it.n holds
+   for p, q being Polynomial of R st p = S.(n+1) & q = it.n holds
     it.(n+1) = p + q if S <> {}
   otherwise it = {};
   existence
   proof
-    thus S <> {} implies ex F being FinSequence of Polynom-Ring F_Real st
+    thus S <> {} implies ex F being FinSequence of Polynom-Ring R st
      len(F) = len(S) &
      F.1 = S.1 & for n st 1 <= n < len(F) holds
-     for p, q being Polynomial of F_Real st p = S.(n+1) & q = F.n holds
+     for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
      F.(n+1) = p + q
     proof
       assume
@@ -393,8 +413,7 @@ A3:     n < N;
         n+1 <= N by A3,NAT_1:13;
         then n+1 in dom S by NAT_1:12,FINSEQ_3:25;
         then S.(n+1) in rng S by FUNCT_1:3;
-        then reconsider p = S.(n+1) as Polynomial of F_Real
-        by POLYNOM3:def 10;
+        then reconsider p = S.(n+1) as Polynomial of R by POLYNOM3:def 10;
         reconsider y = p + x as Element of D by POLYNOM3:def 10;
         take y;
         thus thesis;
@@ -413,13 +432,13 @@ A6:   for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)]
   end;
   uniqueness
   proof
-    let F,G be FinSequence of Polynom-Ring F_Real;
+    let F,G be FinSequence of Polynom-Ring R;
     thus S <> {} &
     len(F) = N & F.1 = S.1 & (for n st 1 <= n < len(F) holds
-    for p, q being Polynomial of F_Real st p = S.(n+1) & q = F.n holds
+    for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
     F.(n+1) = p + q) &
     len(G) = N & G.1 = S.1 & (for n st 1 <= n < len(G) holds
-    for p, q being Polynomial of F_Real st p = S.(n+1) & q = G.n holds
+    for p, q being Polynomial of R st p = S.(n+1) & q = G.n holds
     G.(n+1) = p + q)
     implies F = G
     proof
@@ -428,13 +447,13 @@ A7:   S <> {} and
 A8:   len(F) = N and
 A9:   F.1 = S.1 and
 A10:  for n st 1 <= n < len(F) holds
-      for p, q being Polynomial of F_Real st p = S.(n+1) & q = F.n holds
+      for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
       F.(n+1) = p + q
       and
 A11:  len(G) = N and
 A12:  G.1 = S.1 and
 A13:  for n st 1 <= n < len(G) holds
-      for p, q being Polynomial of F_Real st p = S.(n+1) & q = G.n holds
+      for p, q being Polynomial of R st p = S.(n+1) & q = G.n holds
       G.(n+1) = p + q;
 A14:  for n st 1 <= n & n < N for x,y1,y2 being Element of D st
       P[n,x,y1] & P[n,x,y2] holds y1 = y2
@@ -446,8 +465,7 @@ A15:    n < N;
         n+1 <= N by A15,NAT_1:13;
         then n+1 in dom S by NAT_1:12,FINSEQ_3:25;
         then S.(n+1) in rng S by FUNCT_1:3;
-        then reconsider p = S.(n+1) as Polynomial of F_Real
-        by POLYNOM3:def 10;
+        then reconsider p = S.(n+1) as Polynomial of R by POLYNOM3:def 10;
         assume P[n,x,y1];
         then y1 = p + x;
         hence thesis;
@@ -468,14 +486,64 @@ A17:  len G = N & (G.1 = p1 or N = 0) &
 end;
 
 definition
-  let S be FinSequence of Polynom-Ring F_Real;
-  func Sum(S) -> Polynomial of F_Real equals
+  let R be add-associative right_zeroed right_complementable distributive
+           non empty doubleLoopStr;
+  let p be Polynomial of R;
+  redefine func <*p*> -> FinSequence of Polynom-Ring R;
+  coherence;
+::>       *4
+end;
+
+definition
+  let R be add-associative right_zeroed right_complementable distributive
+           non empty doubleLoopStr;
+  let p,q be Polynomial of R;
+  redefine func <*p,q*> -> FinSequence of Polynom-Ring R;
+  coherence;
+::>       *4
+end;
+
+definition
+  let R be add-associative right_zeroed right_complementable distributive
+           non empty doubleLoopStr;
+  let p,q,r be Polynomial of R;
+  redefine func <*p,q,r*> -> FinSequence of Polynom-Ring R;
+  coherence;
+::>       *4
+end;
+
+theorem
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p being Polynomial of R
+  holds Partial_Sums(<*p*>) = <*p*>;
+::>                               *4
+
+theorem
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p,q being Polynomial of R
+  holds Partial_Sums(<*p,q*>) = <*p,p+q*>;
+::>                                     *4
+
+theorem
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p,q,r being Polynomial of R
+  holds Partial_Sums(<*p,q,r*>) = <*p,p+q,p+q+r*>;
+::>                                             *4
+
+definition
+  let R be add-associative right_zeroed right_complementable distributive
+           non empty doubleLoopStr;
+  let S be FinSequence of Polynom-Ring R;
+  func Sum(S) -> Polynomial of R equals
   Partial_Sums(S).len(Partial_Sums(S)) if S <> {}
-  otherwise 0_.F_Real;
+  otherwise 0_.R;
   coherence
   proof
     set F = Partial_Sums(S);
-    thus S <> {} implies F.len(F) is Polynomial of F_Real
+    thus S <> {} implies F.len(F) is Polynomial of R
     proof
       assume
 A1:   S <> {};
@@ -490,6 +558,34 @@ A2:   len F = len S by Def2;
   end;
   consistency;  
 end;
+
+theorem T20:
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p being Polynomial of R
+  holds Sum(<*p*>) = p;
+::>                  *4
+
+theorem
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p,q being Polynomial of R
+  holds Sum(<*p*>) = p+q;
+::>                    *4
+
+theorem
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for p,q,r being Polynomial of R
+  holds Sum(<*p,q,r*>) = p+q+r;
+::>                          *4
+
+theorem T21:
+  for R being add-associative right_zeroed right_complementable distributive
+              non empty doubleLoopStr
+  for S1,S2 being FinSequence of Polynom-Ring R
+  holds Sum(S1^S2) = Sum S1 + Sum S2;
+::>                                *4
 
 definition
   let p;
@@ -508,7 +604,7 @@ end;
 theorem
   WFx(p).r = 1/(exp_R.r) * (Eval Sum_of_diffs(p)).r
   proof
-    exp_R".r = 1/(exp_R.r) by VALUED_1:10;
+    E".r = 1/(E.r) by VALUED_1:10;
     hence thesis by VALUED_1:5;
   end;
 
@@ -518,26 +614,22 @@ registration
   coherence;
 end;
 
-theorem T7:
-  exp_R `| = exp_R
-  proof
-    set f = exp_R;
-    let r be Element of REAL;
-    thus f`|.r = diff(f,r) by POLYDIFF:10
-    .= f.r by SIN_COS:66;
-  end;
+theorem T13:
+  poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p));
+::>                                                     *4
 
-theorem T8:
-  exp_R" `| = -exp_R"
-  proof
-    set f = exp_R;
-    thus f"`| = -f/"(f^2) by T5, T7
-    .= -f" by T10;
-  end;
-
+theorem T22:
+  diff_seq(p) = <*p*>^diff_seq(poly_diff(p));
+::>                                        *4
+  
 theorem T12:
-  Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p));
-::>                                              *4
+  Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p))
+  proof
+A1: Sum_of_diffs(poly_diff(p)) =  poly_diff(Sum_of_diffs(p)) by T13;
+    thus Sum_of_diffs(p) = Sum(<*p*>^diff_seq(poly_diff(p))) by T22
+    .= Sum(<*p*>) + Sum diff_seq(poly_diff(p)) by T21
+    .= p + poly_diff(Sum_of_diffs(p)) by A1, T20;
+  end;
 
 theorem T11:
   Sum_of_diffs(p) - poly_diff(Sum_of_diffs(p)) = p;
@@ -555,7 +647,7 @@ theorem T9:
 theorem
   (WFx(p)) `| = - (exp_R") (#) Eval p
   proof
-    set f = exp_R";
+    set f = E";
     set g = Eval Sum_of_diffs(p);
     thus (WFx(p)) `| = (-f)(#)g + (--f)(#)(g`|) by T8, POLYDIFF:16
     .= (-f)(#)g - (-f)(#)(g`|) by VALUED_2:25
