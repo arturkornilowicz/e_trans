@@ -726,4 +726,15 @@
   <SymbolCount kind="U" nr="0"/>
   <SymbolCount kind="V" nr="0"/>
  </Vocabulary>
+ <Vocabulary>
+  <ArticleID name="AFINSQ_1"/>
+  <SymbolCount kind="G" nr="0"/>
+  <SymbolCount kind="K" nr="1"/>
+  <SymbolCount kind="L" nr="1"/>
+  <SymbolCount kind="M" nr="1"/>
+  <SymbolCount kind="O" nr="3"/>
+  <SymbolCount kind="R" nr="0"/>
+  <SymbolCount kind="U" nr="0"/>
+  <SymbolCount kind="V" nr="0"/>
+ </Vocabulary>
 </Vocabularies>

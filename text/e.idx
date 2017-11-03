@@ -32,12 +32,12 @@
  <Symbol kind="I" nr="30" name="LATTICES"/>
  <Symbol kind="I" nr="31" name="MEMBERED"/>
  <Symbol kind="I" nr="32" name="FUNCOP_1"/>
- <Symbol kind="I" nr="33" name="RELSET_1"/>
- <Symbol kind="I" nr="34" name="SETWOP_2"/>
- <Symbol kind="I" nr="35" name="RCOMP_1"/>
- <Symbol kind="I" nr="36" name="COMSEQ_2"/>
- <Symbol kind="I" nr="37" name="FCONT_1"/>
- <Symbol kind="I" nr="38" name="NORMSP_1"/>
+ <Symbol kind="I" nr="33" name="AFINSQ_1"/>
+ <Symbol kind="I" nr="34" name="RELSET_1"/>
+ <Symbol kind="I" nr="35" name="SETWOP_2"/>
+ <Symbol kind="I" nr="36" name="RCOMP_1"/>
+ <Symbol kind="I" nr="37" name="COMSEQ_2"/>
+ <Symbol kind="I" nr="38" name="FCONT_1"/>
  <Symbol kind="I" nr="39" name="RING_4"/>
  <Symbol kind="I" nr="40" name="TOPMETR"/>
  <Symbol kind="I" nr="41" name="EC_PF_1"/>
@@ -90,32 +90,38 @@
  <Symbol kind="I" nr="88" name="e"/>
  <Symbol kind="I" nr="89" name="c"/>
  <Symbol kind="I" nr="90" name="p"/>
- <Symbol kind="I" nr="91" name="N"/>
- <Symbol kind="I" nr="92" name="D"/>
- <Symbol kind="I" nr="93" name="p1"/>
- <Symbol kind="I" nr="94" name="P"/>
- <Symbol kind="I" nr="95" name="q"/>
- <Symbol kind="I" nr="96" name="Def1"/>
- <Symbol kind="I" nr="97" name="F"/>
- <Symbol kind="I" nr="98" name="G"/>
- <Symbol kind="I" nr="99" name="A11"/>
- <Symbol kind="I" nr="100" name="y1"/>
- <Symbol kind="I" nr="101" name="y2"/>
- <Symbol kind="I" nr="102" name="A12"/>
- <Symbol kind="I" nr="103" name="A13"/>
- <Symbol kind="I" nr="104" name="S"/>
- <Symbol kind="I" nr="105" name="Def2"/>
- <Symbol kind="I" nr="106" name="A14"/>
- <Symbol kind="I" nr="107" name="A15"/>
- <Symbol kind="I" nr="108" name="A16"/>
- <Symbol kind="I" nr="109" name="A17"/>
- <Symbol kind="I" nr="110" name="T20"/>
- <Symbol kind="I" nr="111" name="T21"/>
- <Symbol kind="I" nr="112" name="S1"/>
- <Symbol kind="I" nr="113" name="S2"/>
- <Symbol kind="I" nr="114" name="T13"/>
- <Symbol kind="I" nr="115" name="T22"/>
- <Symbol kind="I" nr="116" name="T12"/>
- <Symbol kind="I" nr="117" name="T11"/>
- <Symbol kind="I" nr="118" name="T9"/>
+ <Symbol kind="I" nr="91" name="T34"/>
+ <Symbol kind="I" nr="92" name="q"/>
+ <Symbol kind="I" nr="93" name="N"/>
+ <Symbol kind="I" nr="94" name="D"/>
+ <Symbol kind="I" nr="95" name="p1"/>
+ <Symbol kind="I" nr="96" name="P"/>
+ <Symbol kind="I" nr="97" name="Def1"/>
+ <Symbol kind="I" nr="98" name="F"/>
+ <Symbol kind="I" nr="99" name="G"/>
+ <Symbol kind="I" nr="100" name="A11"/>
+ <Symbol kind="I" nr="101" name="y1"/>
+ <Symbol kind="I" nr="102" name="y2"/>
+ <Symbol kind="I" nr="103" name="A12"/>
+ <Symbol kind="I" nr="104" name="A13"/>
+ <Symbol kind="I" nr="105" name="S"/>
+ <Symbol kind="I" nr="106" name="Def2"/>
+ <Symbol kind="I" nr="107" name="A14"/>
+ <Symbol kind="I" nr="108" name="A15"/>
+ <Symbol kind="I" nr="109" name="A16"/>
+ <Symbol kind="I" nr="110" name="A17"/>
+ <Symbol kind="I" nr="111" name="DSum"/>
+ <Symbol kind="I" nr="112" name="T20"/>
+ <Symbol kind="I" nr="113" name="T21"/>
+ <Symbol kind="I" nr="114" name="S1"/>
+ <Symbol kind="I" nr="115" name="S2"/>
+ <Symbol kind="I" nr="116" name="T30"/>
+ <Symbol kind="I" nr="117" name="T31"/>
+ <Symbol kind="I" nr="118" name="T22"/>
+ <Symbol kind="I" nr="119" name="T13"/>
+ <Symbol kind="I" nr="120" name="Q"/>
+ <Symbol kind="I" nr="121" name="k"/>
+ <Symbol kind="I" nr="122" name="T12"/>
+ <Symbol kind="I" nr="123" name="T11"/>
+ <Symbol kind="I" nr="124" name="T9"/>
 </Symbols>

@@ -641,7 +641,7 @@ Registrations
     - ABSVALUE
   Inaccessible Clusters
 
-   Functor Cluster: 479
+   Functor Cluster: 478
       -*ABSVALUE:K1
 
   <c:\mizar\prel\n\niven.dcl
@@ -652,16 +652,16 @@ Registrations
     - NIVEN
   Inaccessible Clusters
 
-   Functor Cluster: 482
+   Functor Cluster: 481
+      -*NIVEN:K1
+
+   Functor Cluster: 483
       -*NIVEN:K1
 
    Functor Cluster: 484
-      -*NIVEN:K1
-
-   Functor Cluster: 485
       -*VFUNCT_1:K5
 
-   Functor Cluster: 489
+   Functor Cluster: 488
       -*NIVEN:K1
 
   <c:\mizar\prel\c\complfld.dcl
@@ -680,10 +680,10 @@ Registrations
     - RINGCAT1
   Inaccessible Clusters
 
-   Functor Cluster: 507
+   Functor Cluster: 506
       -*GROUP_6:V1
 
-   Functor Cluster: 507
+   Functor Cluster: 506
       -*RINGCAT1:V1
 
   <c:\mizar\prel\g\gaussint.dcl
@@ -700,11 +700,11 @@ Registrations
       -*POLYALG1:V1
       -*POLYALG1:V2
 
-   Functor Cluster: 521
+   Functor Cluster: 520
       -*POLYALG1:V1
       -*POLYALG1:G1
 
-   Functor Cluster: 521
+   Functor Cluster: 520
       -*POLYALG1:V1
       -*POLYALG1:V2
       -*POLYALG1:G1
@@ -741,113 +741,113 @@ Registrations
     - NEWTON04
   Inaccessible Clusters
 
-   Functor Cluster: 567
+   Functor Cluster: 566
       -*RFINSEQ:K1
 
-   Functor Cluster: 567
+   Functor Cluster: 566
       -*RFINSEQ:K1
 
-   Functor Cluster: 567
+   Functor Cluster: 566
       -*RFINSEQ:K1
 
-   Functor Cluster: 572
+   Functor Cluster: 571
       -*PARTFUN3:V4
 
-   Functor Cluster: 572
+   Functor Cluster: 571
       -*PARTFUN3:V3
 
-   Functor Cluster: 572
+   Functor Cluster: 571
       -*PARTFUN3:V4
 
-   Functor Cluster: 572
+   Functor Cluster: 571
       -*PARTFUN3:V4
       -*RFINSEQ:K2
 
-   Functor Cluster: 573
+   Functor Cluster: 572
       -*PARTFUN3:V4
 
-   Functor Cluster: 573
+   Functor Cluster: 572
       -*PARTFUN3:V4
 
-   Functor Cluster: 573
+   Functor Cluster: 572
+      -*PARTFUN3:V3
+
+   Functor Cluster: 572
+      -*PARTFUN3:V4
+
+   Functor Cluster: 572
       -*PARTFUN3:V3
 
    Functor Cluster: 573
-      -*PARTFUN3:V4
-
-   Functor Cluster: 573
-      -*PARTFUN3:V3
-
-   Functor Cluster: 574
       -*RFINSEQ:K1
 
-   Functor Cluster: 574
+   Functor Cluster: 573
       -*RFINSEQ:K1
       -*NEWTON04:K2
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*PARTFUN3:V4
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*PARTFUN3:V4
       -*RFINSEQ:K1
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*PARTFUN3:V4
       -*RFINSEQ2:K4
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*PARTFUN3:V3
       -*RFINSEQ2:K3
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*FINSEQ_5:K3
 
-   Functor Cluster: 576
+   Functor Cluster: 575
       -*FINSEQ_5:K3
 
-   Functor Cluster: 578
+   Functor Cluster: 577
       -*PARTFUN3:V4
 
-   Functor Cluster: 579
+   Functor Cluster: 578
       -*NEWTON04:K3
 
-   Functor Cluster: 585
+   Functor Cluster: 584
       -*NEWTON04:K3
 
-   Functor Cluster: 585
+   Functor Cluster: 584
       -*NEWTON04:K3
 
-   Functor Cluster: 585
+   Functor Cluster: 584
+      -*NEWTON04:K4
+
+   Functor Cluster: 584
       -*NEWTON04:K4
 
    Functor Cluster: 585
       -*NEWTON04:K4
 
    Functor Cluster: 586
-      -*NEWTON04:K4
+      -*NEWTON04:K3
 
-   Functor Cluster: 587
+   Functor Cluster: 588
       -*NEWTON04:K3
 
    Functor Cluster: 589
-      -*NEWTON04:K3
-
-   Functor Cluster: 590
       -*NEWTON04:K4
 
-   Functor Cluster: 590
+   Functor Cluster: 589
       -*ABIAN:V1
       -*NEWTON04:K4
 
-   Functor Cluster: 591
+   Functor Cluster: 590
       -*PARTFUN3:V4
       -*NEWTON04:K3
 
-   Functor Cluster: 591
+   Functor Cluster: 590
       -*PARTFUN3:V4
 
-   Functor Cluster: 591
+   Functor Cluster: 590
       -*NEWTON04:K4
 
    Conditional Cluster: 192
@@ -869,7 +869,7 @@ Registrations
     - TAYLOR_1
   Inaccessible Clusters
 
-   Functor Cluster: 599
+   Functor Cluster: 598
       -*TAYLOR_1:K1
 
   <c:\mizar\prel\x\xxreal_1.dcl
@@ -929,129 +929,129 @@ Registrations
    Existential Cluster: 183
       -*IDEAL_1:V6
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V3
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:K3
 
-   Functor Cluster: 708
-      -*IDEAL_1:V1
-      -*IDEAL_1:V3
-      -*IDEAL_1:K3
-
-   Functor Cluster: 708
-      -*IDEAL_1:V1
-      -*IDEAL_1:K3
-
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:V3
       -*IDEAL_1:K3
 
-   Functor Cluster: 708
+   Functor Cluster: 707
+      -*IDEAL_1:V1
+      -*IDEAL_1:K3
+
+   Functor Cluster: 707
+      -*IDEAL_1:V1
+      -*IDEAL_1:V3
+      -*IDEAL_1:K3
+
+   Functor Cluster: 707
       -*IDEAL_1:K10
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:K10
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V3
       -*IDEAL_1:K10
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:K11
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:K11
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V3
       -*IDEAL_1:K11
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:K11
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V3
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:K14
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:K14
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V3
       -*IDEAL_1:K14
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:K14
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:K16
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:V2
       -*IDEAL_1:K16
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:K16
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:V3
       -*IDEAL_1:K16
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:K17
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:V3
       -*IDEAL_1:K17
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:K17
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V2
       -*IDEAL_1:V3
       -*IDEAL_1:K17
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V1
       -*IDEAL_1:V2
       -*IDEAL_1:V3
       -*IDEAL_1:V5
       -*IDEAL_1:K7
 
-   Functor Cluster: 708
+   Functor Cluster: 707
       -*IDEAL_1:V6
 
    Conditional Cluster: 227
@@ -1068,37 +1068,37 @@ Registrations
     - SEQ_2
   Inaccessible Clusters
 
-   Functor Cluster: 714
+   Functor Cluster: 713
       -*SEQ_2:V1
 
+   Functor Cluster: 713
+      -*SEQ_2:V2
+
+   Functor Cluster: 713
+      -*SEQ_2:V1
+
+   Functor Cluster: 713
+      -*SEQ_2:V2
+
+   Functor Cluster: 713
+      -*SEQ_2:V1
+      -*SEQ_2:V2
+
+   Functor Cluster: 713
+      -*SEQ_2:V1
+      -*SEQ_2:V2
+
+   Functor Cluster: 713
+      -*SEQ_2:V2
+
    Functor Cluster: 714
+      -*SEQ_2:V1
       -*SEQ_2:V2
 
    Functor Cluster: 714
       -*SEQ_2:V1
 
    Functor Cluster: 714
-      -*SEQ_2:V2
-
-   Functor Cluster: 714
-      -*SEQ_2:V1
-      -*SEQ_2:V2
-
-   Functor Cluster: 714
-      -*SEQ_2:V1
-      -*SEQ_2:V2
-
-   Functor Cluster: 714
-      -*SEQ_2:V2
-
-   Functor Cluster: 715
-      -*SEQ_2:V1
-      -*SEQ_2:V2
-
-   Functor Cluster: 715
-      -*SEQ_2:V1
-
-   Functor Cluster: 715
       -*SEQ_2:V2
 
   <c:\mizar\prel\p\prepower.dcl
@@ -1107,13 +1107,13 @@ Registrations
     - PREPOWER
   Inaccessible Clusters
 
-   Functor Cluster: 723
+   Functor Cluster: 722
       -*PREPOWER:K2
 
-   Functor Cluster: 723
+   Functor Cluster: 722
       -*PREPOWER:K3
 
-   Functor Cluster: 723
+   Functor Cluster: 722
       -*PREPOWER:K4
 
   <c:\mizar\prel\l\liouvil1.dcl
@@ -1138,33 +1138,33 @@ Registrations
    Existential Cluster: 186
       -*PARTFUN3:V4
 
-   Functor Cluster: 724
+   Functor Cluster: 723
       -*SEQ_1:K1
 
-   Functor Cluster: 724
+   Functor Cluster: 723
       -*PARTFUN3:V1
       -*SEQ_1:K1
 
-   Functor Cluster: 724
+   Functor Cluster: 723
       -*SERIES_1:K2
 
-   Functor Cluster: 724
+   Functor Cluster: 723
       -*SERIES_1:K2
 
-   Functor Cluster: 724
+   Functor Cluster: 723
       -*PARTFUN3:V4
 
-   Functor Cluster: 725
+   Functor Cluster: 724
       -*SERIES_1:V1
 
-   Functor Cluster: 726
+   Functor Cluster: 725
       -*ASYMPT_0:V5
       -*RSSPACE:K2
 
-   Functor Cluster: 727
+   Functor Cluster: 726
       -*SERIES_1:V1
 
-   Functor Cluster: 729
+   Functor Cluster: 728
       -*PARTFUN3:V4
 
    Conditional Cluster: 228
@@ -1198,7 +1198,7 @@ Registrations
    Existential Cluster: 189
       -*RING_2:V5
 
-   Functor Cluster: 733
+   Functor Cluster: 732
       -*GROUP_6:V1
 
   <c:\mizar\prel\l\liouvil2.dcl
@@ -1211,7 +1211,7 @@ Registrations
     - SEQ_2
   Inaccessible Clusters
 
-   Functor Cluster: 890
+   Functor Cluster: 889
       -*SEQ_2:K1
 
   <c:\mizar\prel\f\funcop_1.dcl
@@ -1228,64 +1228,97 @@ Registrations
    Existential Cluster: 213
       -*PARTFUN3:V1
 
+   Functor Cluster: 923
+      -*PARTFUN3:V1
+
+   Functor Cluster: 923
+      -*PARTFUN3:V2
+
+   Functor Cluster: 923
+      -*PARTFUN3:V3
+
+   Functor Cluster: 923
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+      -*PARTFUN3:V3
+
+   Functor Cluster: 924
+      -*PARTFUN3:V2
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V3
+      -*PARTFUN3:V4
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 924
+      -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
    Functor Cluster: 924
       -*PARTFUN3:V1
 
    Functor Cluster: 924
-      -*PARTFUN3:V2
-
-   Functor Cluster: 924
-      -*PARTFUN3:V3
-
-   Functor Cluster: 924
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V3
-
-   Functor Cluster: 925
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V1
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V1
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V2
-      -*PARTFUN3:V3
-
-   Functor Cluster: 925
-      -*PARTFUN3:V2
-      -*PARTFUN3:V3
-
-   Functor Cluster: 925
-      -*PARTFUN3:V3
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V3
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V1
-      -*PARTFUN3:V3
-
-   Functor Cluster: 925
       -*PARTFUN3:V1
       -*PARTFUN3:V2
-      -*PARTFUN3:V3
 
    Functor Cluster: 925
-      -*PARTFUN3:V2
-      -*PARTFUN3:V4
-
-   Functor Cluster: 925
-      -*PARTFUN3:V1
-      -*PARTFUN3:V2
       -*PARTFUN3:V4
 
    Functor Cluster: 925
@@ -1301,10 +1334,8 @@ Registrations
 
    Functor Cluster: 925
       -*PARTFUN3:V3
-      -*PARTFUN3:V4
 
    Functor Cluster: 925
-      -*PARTFUN3:V1
       -*PARTFUN3:V2
 
    Functor Cluster: 925
@@ -1319,9 +1350,6 @@ Registrations
       -*PARTFUN3:V2
 
    Functor Cluster: 926
-      -*PARTFUN3:V4
-
-   Functor Cluster: 926
       -*PARTFUN3:V3
       -*PARTFUN3:V4
 
@@ -1334,9 +1362,7 @@ Registrations
 
    Functor Cluster: 926
       -*PARTFUN3:V3
-
-   Functor Cluster: 926
-      -*PARTFUN3:V2
+      -*PARTFUN3:V4
 
    Functor Cluster: 926
       -*PARTFUN3:V1
@@ -1344,98 +1370,72 @@ Registrations
 
    Functor Cluster: 926
       -*PARTFUN3:V1
+      -*PARTFUN3:V2
+
+   Functor Cluster: 926
+      -*PARTFUN3:V1
 
    Functor Cluster: 926
       -*PARTFUN3:V1
       -*PARTFUN3:V2
 
-   Functor Cluster: 927
-      -*PARTFUN3:V3
-      -*PARTFUN3:V4
-
-   Functor Cluster: 927
+   Functor Cluster: 926
       -*PARTFUN3:V4
 
    Functor Cluster: 927
       -*PARTFUN3:V3
+
+   Functor Cluster: 927
       -*PARTFUN3:V4
 
    Functor Cluster: 927
+      -*PARTFUN3:V1
+
+   Functor Cluster: 927
+      -*PARTFUN3:V2
+
+   Functor Cluster: 929
       -*PARTFUN3:V3
       -*PARTFUN3:V4
 
-   Functor Cluster: 927
-      -*PARTFUN3:V1
-      -*PARTFUN3:V2
-
-   Functor Cluster: 927
-      -*PARTFUN3:V1
-      -*PARTFUN3:V2
-
-   Functor Cluster: 927
-      -*PARTFUN3:V1
-
-   Functor Cluster: 927
-      -*PARTFUN3:V1
-      -*PARTFUN3:V2
-
-   Functor Cluster: 927
-      -*PARTFUN3:V4
-
-   Functor Cluster: 928
-      -*PARTFUN3:V3
-
-   Functor Cluster: 928
-      -*PARTFUN3:V4
-
-   Functor Cluster: 928
-      -*PARTFUN3:V1
-
-   Functor Cluster: 928
-      -*PARTFUN3:V2
-
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V3
       -*PARTFUN3:V4
 
-   Functor Cluster: 930
-      -*PARTFUN3:V3
-      -*PARTFUN3:V4
-
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V1
       -*PARTFUN3:V2
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V1
       -*PARTFUN3:V2
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V4
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V1
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V3
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V4
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V1
 
-   Functor Cluster: 930
+   Functor Cluster: 929
       -*PARTFUN3:V2
 
-   Functor Cluster: 931
+   Functor Cluster: 930
       -*PARTFUN3:K1
 
-   Functor Cluster: 931
+   Functor Cluster: 930
       -*PARTFUN3:V4
       -*PARTFUN3:K1
 
-   Functor Cluster: 931
+   Functor Cluster: 930
       -*PARTFUN3:V1
       -*PARTFUN3:K1
 
@@ -1458,6 +1458,16 @@ Notations
   <c:\mizar\prel\r\relset_1.dno
   <c:\mizar\prel\p\partfun1.dno
   <c:\mizar\prel\f\funct_2.dno
+  <c:\mizar\prel\a\afinsq_1.dno
+  <c:\mizar\prel\o\ordinal2.dco
+  <c:\mizar\prel\c\classes2.dco
+  <c:\mizar\prel\o\ordinal4.dco
+  <c:\mizar\prel\a\afinsq_1.dco
+   The cutting off constructors:
+    - ORDINAL2
+    - CLASSES2
+    - ORDINAL4
+    - AFINSQ_1
   <c:\mizar\prel\f\finseq_1.dno
   <c:\mizar\prel\n\numbers.dno
   <c:\mizar\prel\x\xcmplx_0.dno
@@ -2100,9 +2110,14 @@ Theorems
   <c:\mizar\prel\v\valued_2.dco
    The cutting off constructors:
     - VALUED_2
+  <c:\mizar\prel\n\normsp_1.the
+  <c:\mizar\prel\s\seq_2.dco
+   The cutting off constructors:
+    - SEQ_2
 Schemes
   <c:\mizar\prel\f\fraenkel.sch
   <c:\mizar\prel\f\finseq_1.sch
   <c:\mizar\prel\f\finseq_2.sch
   <c:\mizar\prel\p\polynom3.sch
   <c:\mizar\prel\r\recdef_1.sch
+  <c:\mizar\prel\n\nat_1.sch

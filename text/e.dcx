@@ -769,6 +769,12 @@
  <Symbol kind="O" nr="302" name=":-&#x3E;"/>
  <Symbol kind="O" nr="303" name="&#x5E;2"/>
  <Symbol kind="O" nr="304" name="sqrt"/>
+ <Symbol kind="M" nr="68" name="XFinSequence"/>
+ <Symbol kind="K" nr="12" name="&#x3C;&#x25;"/>
+ <Symbol kind="L" nr="12" name="&#x25;&#x3E;"/>
+ <Symbol kind="O" nr="305" name="&#x3C;&#x25;&#x3E;"/>
+ <Symbol kind="O" nr="306" name="&#x5E;omega"/>
+ <Symbol kind="O" nr="307" name="Replace"/>
  <Symbol kind="A" nr="1" name="XREAL_0"/>
  <Symbol kind="A" nr="2" name="NEWTON"/>
  <Symbol kind="A" nr="3" name="XXREAL_0"/>
@@ -830,6 +836,7 @@
  <Symbol kind="A" nr="59" name="XBOOLE_1"/>
  <Symbol kind="A" nr="60" name="SQUARE_1"/>
  <Symbol kind="A" nr="61" name="VALUED_2"/>
- <Symbol kind="A" nr="62" name="FRAENKEL"/>
- <Symbol kind="A" nr="63" name="RECDEF_1"/>
+ <Symbol kind="A" nr="62" name="NORMSP_1"/>
+ <Symbol kind="A" nr="63" name="FRAENKEL"/>
+ <Symbol kind="A" nr="64" name="RECDEF_1"/>
 </Symbols>

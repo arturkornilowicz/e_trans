@@ -15658,22 +15658,6 @@
 <Adjective nr="29"/>
 </Cluster>
 </FCluster>
-<FCluster aid="ABSVALUE" nr="1">
-<ArgTypes>
-<Typ kind="M" nr="1">
-<Cluster>
-<Adjective nr="25"/>
-<Adjective nr="140" value="false"/>
-</Cluster>
-</Typ>
-</ArgTypes>
-<Func kind="K" nr="79">
-<LocusVar nr="1"/>
-</Func>
-<Cluster>
-<Adjective nr="25"/>
-</Cluster>
-</FCluster>
 <FCluster aid="NIVEN" nr="1">
 <ArgTypes>
 <Typ kind="G" nr="2">

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Environ aid="E">
- <Directive name="vocabularies" argnr="66">
+ <Directive name="vocabularies" argnr="67">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="NUMBERS" line="6" col="21"/>
   <Ident name="SUBSET_1" line="6" col="31"/>
@@ -67,8 +67,9 @@
   <Ident name="MEMBERED" line="14" col="43"/>
   <Ident name="FUNCOP_1" line="14" col="53"/>
   <Ident name="SQUARE_1" line="14" col="63"/>
+  <Ident name="AFINSQ_1" line="14" col="73"/>
  </Directive>
- <Directive name="notations" argnr="62">
+ <Directive name="notations" argnr="63">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="TARSKI" line="15" col="17"/>
   <Ident name="XBOOLE_0" line="15" col="27"/>
@@ -79,6 +80,7 @@
   <Ident name="RELSET_1" line="15" col="75"/>
   <Ident name="PARTFUN1" line="16" col="14"/>
   <Ident name="FUNCT_2" line="16" col="23"/>
+  <Ident name="AFINSQ_1" line="16" col="33"/>
   <Ident name="FINSEQ_1" line="17" col="14"/>
   <Ident name="NUMBERS" line="17" col="23"/>
   <Ident name="XCMPLX_0" line="17" col="33"/>
@@ -147,7 +149,7 @@
   <Ident name="MEASURE5" line="43" col="24"/>
   <Ident name="POLYDIFF" line="43" col="34"/>
  </Directive>
- <Directive name="theorems" argnr="61">
+ <Directive name="theorems" argnr="62">
   <Ident name="XREAL_0" line="48" col="17"/>
   <Ident name="NEWTON" line="48" col="25"/>
   <Ident name="XXREAL_0" line="48" col="35"/>
@@ -209,13 +211,15 @@
   <Ident name="XBOOLE_1" line="55" col="68"/>
   <Ident name="SQUARE_1" line="55" col="78"/>
   <Ident name="VALUED_2" line="56" col="14"/>
+  <Ident name="NORMSP_1" line="56" col="24"/>
  </Directive>
- <Directive name="schemes" argnr="5">
+ <Directive name="schemes" argnr="6">
   <Ident name="FRAENKEL" line="57" col="17"/>
   <Ident name="FINSEQ_1" line="57" col="27"/>
   <Ident name="FINSEQ_2" line="57" col="37"/>
   <Ident name="POLYNOM3" line="57" col="47"/>
   <Ident name="RECDEF_1" line="57" col="57"/>
+  <Ident name="NAT_1" line="57" col="64"/>
  </Directive>
  <Directive name="registrations" argnr="54">
   <Ident name="XREAL_0" line="32" col="22"/>
