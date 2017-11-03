@@ -1447,6 +1447,7 @@ Registrations
       -*PARTFUN3:V2
       -*PARTFUN3:V3
 
+  <c:\mizar\prel\r\rlvect_1.dcl
 Notations
   <c:\mizar\prel\h\hidden.dno
   <c:\mizar\prel\t\tarski.dno
@@ -1568,6 +1569,7 @@ Registrations(Reduction)
   <c:\mizar\prel\c\complex1.drd
   <c:\mizar\prel\a\algnum_1.drd
   <c:\mizar\prel\v\valued_1.drd
+  <c:\mizar\prel\r\rlvect_1.drd
 Registrations(Properties)
   <c:\mizar\prel\x\xreal_0.dpr
   <c:\mizar\prel\r\relat_1.dpr

@@ -104,24 +104,14 @@
  <Symbol kind="I" nr="102" name="y2"/>
  <Symbol kind="I" nr="103" name="A12"/>
  <Symbol kind="I" nr="104" name="A13"/>
- <Symbol kind="I" nr="105" name="S"/>
- <Symbol kind="I" nr="106" name="Def2"/>
- <Symbol kind="I" nr="107" name="A14"/>
- <Symbol kind="I" nr="108" name="A15"/>
- <Symbol kind="I" nr="109" name="A16"/>
- <Symbol kind="I" nr="110" name="A17"/>
- <Symbol kind="I" nr="111" name="DSum"/>
- <Symbol kind="I" nr="112" name="T20"/>
- <Symbol kind="I" nr="113" name="T21"/>
- <Symbol kind="I" nr="114" name="S1"/>
- <Symbol kind="I" nr="115" name="S2"/>
- <Symbol kind="I" nr="116" name="T30"/>
- <Symbol kind="I" nr="117" name="T31"/>
- <Symbol kind="I" nr="118" name="T22"/>
- <Symbol kind="I" nr="119" name="T13"/>
- <Symbol kind="I" nr="120" name="Q"/>
- <Symbol kind="I" nr="121" name="k"/>
- <Symbol kind="I" nr="122" name="T12"/>
- <Symbol kind="I" nr="123" name="T11"/>
- <Symbol kind="I" nr="124" name="T9"/>
+ <Symbol kind="I" nr="105" name="T30"/>
+ <Symbol kind="I" nr="106" name="T31"/>
+ <Symbol kind="I" nr="107" name="T22"/>
+ <Symbol kind="I" nr="108" name="T13"/>
+ <Symbol kind="I" nr="109" name="Q"/>
+ <Symbol kind="I" nr="110" name="S"/>
+ <Symbol kind="I" nr="111" name="k"/>
+ <Symbol kind="I" nr="112" name="T12"/>
+ <Symbol kind="I" nr="113" name="T11"/>
+ <Symbol kind="I" nr="114" name="T9"/>
 </Symbols>

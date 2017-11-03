@@ -523,9 +523,8 @@
  <Format kind="O" nr="521" symbolnr="35" argnr="0" leftargnr="0"/>
  <Format kind="O" nr="522" symbolnr="42" argnr="0" leftargnr="0"/>
  <Format kind="O" nr="523" symbolnr="263" argnr="1" leftargnr="0"/>
- <Format kind="O" nr="524" symbolnr="267" argnr="1" leftargnr="0"/>
- <Format kind="O" nr="525" symbolnr="264" argnr="1" leftargnr="0"/>
- <Format kind="O" nr="526" symbolnr="265" argnr="1" leftargnr="0"/>
+ <Format kind="O" nr="524" symbolnr="264" argnr="1" leftargnr="0"/>
+ <Format kind="O" nr="525" symbolnr="265" argnr="1" leftargnr="0"/>
  <Priority kind="K" symbolnr="4" value="64"/>
  <Priority kind="K" symbolnr="5" value="64"/>
  <Priority kind="K" symbolnr="6" value="64"/>
