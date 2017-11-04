@@ -327,13 +327,16 @@ theorem T34:
     .= p.n;
   end;
 
+theorem T31:
+  poly_diff 0_.F_Real = 0_.F_Real by POLYDIFF:46;
+
 definition
   let p be Polynomial of F_Real;
   set N = len(p)+1;
   set D = the carrier of Polynom-Ring F_Real;
   reconsider p1 = p as Element of D by POLYNOM3:def 10;
   defpred P[object,object,object] means
-  for q being Polynomial of F_Real st q = $2 holds $3 = poly_diff(q);
+   for q being Polynomial of F_Real st q = $2 holds $3 = poly_diff(q);
   func diff_seq(p) -> FinSequence of Polynom-Ring F_Real means :Def1:
   len(it) = len(p)+1 & it.1 = p &
   for n st 1 <= n < len(it) holds
@@ -389,6 +392,10 @@ A13: len G = N & (G.1 = p1 or N = 0) &
     thus F = G from RECDEF_1:sch 8(A11,A12,A13);
   end;
 end;
+
+theorem T22:
+  diff_seq(p) = <*p*>^diff_seq(poly_diff(p));
+::>                                        *4
 
 :: definition
 ::   let R be add-associative right_zeroed right_complementable distributive
@@ -600,40 +607,25 @@ definition
   coherence by POLYNOM3:def 10;
 end;
 
-definition
-  let p;
-  func WFx(p) -> Function of REAL,REAL equals
-  exp_R" (#) Eval Sum_of_diffs(p);
-  coherence;
-end;
-
-theorem
-  WFx(p).r = 1/(exp_R.r) * (Eval Sum_of_diffs(p)).r
-  proof
-    E".r = 1/(E.r) by VALUED_1:10;
-    hence thesis by VALUED_1:5;
-  end;
-
-registration
-  let p;
-  cluster WFx(p) -> differentiable;
-  coherence;
-end;
-
 theorem T30:
   Sum_of_diffs 0_.F_Real = 0_.F_Real;
 ::>                                *4
 
-theorem T31:
-  poly_diff 0_.F_Real = 0_.F_Real by POLYDIFF:46;
+theorem T50:
+  p + Sum_of_diffs(poly_diff(p)) = Sum_of_diffs(p)
+  proof
+    reconsider P = p as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
+A6: Sum <*P*> = P by RLVECT_1:44;
+    thus p + Sum_of_diffs(poly_diff(p)) = P + Sum diff_seq(poly_diff(p))
+     by POLYNOM3:def 10
+    .= Sum(<*P*>^diff_seq(poly_diff(p))) by A6, RLVECT_1:41
+    .= Sum_of_diffs(p) by T22;
+  end;
 
-theorem T22:
-  diff_seq(p) = <*p*>^diff_seq(poly_diff(p));
-::>                                        *4
-  
 theorem T13:
   poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p))
   proof
+AA: <%0.F_Real%> = 0_.F_Real by POLYNOM5:34;
     set P = poly_diff(Sum_of_diffs(p));
     set Q = Sum_of_diffs(poly_diff(p));
     set S = diff_seq(poly_diff(p));
@@ -643,21 +635,28 @@ A1: P[0]
     proof
       let p;
       assume 0 = len p;
-      then p = <%0.F_Real%> by ALGSEQ_1:14
-      .= 0_.F_Real by POLYNOM5:34;
+      then p = 0_.F_Real by AA, ALGSEQ_1:14;
       hence thesis by T30, T31;
     end;
 A2: for k being Nat st P[k] holds P[k+1]
     proof
       let k be Nat;
-      assume P[k];
-      then
-      for p st k = len p holds
-       poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p));
+      assume
+A5:   P[k];
       let p such that
 A4:   k+1 = len p;
-      thus poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p));
-::>                                                              *4
+      set p1 = poly_diff(p);
+      len p1 = k+1-1 by AA, A4, ALGSEQ_1:14, POLYDIFF:44;
+      then
+A7:   poly_diff(Sum_of_diffs(p1)) = Sum_of_diffs(poly_diff(p1)) by A5;
+      reconsider P = p as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
+A6:   Sum <*P*> = P by RLVECT_1:44;
+      diff_seq(p) = <*p*>^diff_seq(p1) by T22;
+      then Sum_of_diffs(p) = Sum <*P*> + Sum diff_seq(p1) by RLVECT_1:41
+      .= p + Sum_of_diffs(p1) by A6, POLYNOM3:def 10;      
+      hence poly_diff(Sum_of_diffs(p))
+       = p1 + Sum_of_diffs(poly_diff(p1)) by A7,POLYDIFF:47
+      .= Sum_of_diffs(p1) by T50;
     end;
 A3: for k being Nat holds P[k] from NAT_1:sch 2(A1,A2);
     len p = len p;
@@ -712,6 +711,26 @@ theorem T9:
     hence Eval S - (Eval S`|) = Eval(S-poly_diff(S)) by POLYDIFF:57
     .= Eval p by T11;
   end;
+
+definition
+  let p;
+  func WFx(p) -> Function of REAL,REAL equals
+  exp_R" (#) Eval Sum_of_diffs(p);
+  coherence;
+end;
+
+theorem
+  WFx(p).r = 1/(exp_R.r) * (Eval Sum_of_diffs(p)).r
+  proof
+    E".r = 1/(E.r) by VALUED_1:10;
+    hence thesis by VALUED_1:5;
+  end;
+
+registration
+  let p;
+  cluster WFx(p) -> differentiable;
+  coherence;
+end;
 
 theorem
   (WFx(p)) `| = - (exp_R") (#) Eval p
