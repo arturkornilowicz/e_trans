@@ -393,6 +393,10 @@ A13: len G = N & (G.1 = p1 or N = 0) &
   end;
 end;
 
+theorem T22a:
+  diff_seq(0_.F_Real) = <*0_.F_Real*>;
+::>                                 *4
+
 theorem T22:
   diff_seq(p) = <*p*>^diff_seq(poly_diff(p));
 ::>                                        *4
@@ -608,8 +612,13 @@ definition
 end;
 
 theorem T30:
-  Sum_of_diffs 0_.F_Real = 0_.F_Real;
-::>                                *4
+  Sum_of_diffs 0_.F_Real = 0_.F_Real
+  proof
+    reconsider P = 0_.F_Real as Element of Polynom-Ring F_Real
+    by POLYNOM3:def 10;
+    diff_seq(0_.F_Real) = <*P*> by T22a;
+    hence thesis by RLVECT_1:44;
+  end;
 
 theorem T50:
   p + Sum_of_diffs(poly_diff(p)) = Sum_of_diffs(p)

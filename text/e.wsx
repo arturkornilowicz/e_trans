@@ -5687,34 +5687,72 @@
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="396" col="7" posline="397" poscol="44">
+ <Item kind="Theorem-Item" line="396" col="7" posline="397" poscol="37">
   <Proposition>
-   <Label idnr="106" spelling="T22" line="396" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="397" col="15">
+   <Label idnr="106" spelling="T22a" line="396" col="12"/>
+   <Predicative-Formula nr="1" spelling="=" line="397" col="23">
     <Arguments>
      <Infix-Term nr="263" spelling="diff_seq" line="397" col="10">
       <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="397" col="12"/>
+       <Infix-Term nr="182" spelling="0_." line="397" col="14">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="113" spelling="F_Real" line="397" col="20">
+          <Arguments/>
+          <Arguments/>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
       </Arguments>
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="223" spelling="&#x5E;" line="397" col="22">
+     <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="397" col="37">
+      <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="397" col="37"/>
+      <Infix-Term nr="182" spelling="0_." line="397" col="29">
+       <Arguments/>
+       <Arguments>
+        <Infix-Term nr="113" spelling="F_Real" line="397" col="35">
+         <Arguments/>
+         <Arguments/>
+        </Infix-Term>
+       </Arguments>
+      </Infix-Term>
+     </Circumfix-Term>
+    </Arguments>
+   </Predicative-Formula>
+  </Proposition>
+  <Straightforward-Justification line="397" col="37"/>
+ </Item>
+ <Item kind="Theorem-Item" line="399" col="7" posline="400" poscol="44">
+  <Proposition>
+   <Label idnr="107" spelling="T22" line="399" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="400" col="15">
+    <Arguments>
+     <Infix-Term nr="263" spelling="diff_seq" line="400" col="10">
+      <Arguments/>
       <Arguments>
-       <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="397" col="21">
-        <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="397" col="21"/>
-        <Simple-Term idnr="90" spelling="p" line="397" col="19"/>
+       <Simple-Term idnr="90" spelling="p" line="400" col="12"/>
+      </Arguments>
+     </Infix-Term>
+    </Arguments>
+    <Arguments>
+     <Infix-Term nr="223" spelling="&#x5E;" line="400" col="22">
+      <Arguments>
+       <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="400" col="21">
+        <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="400" col="21"/>
+        <Simple-Term idnr="90" spelling="p" line="400" col="19"/>
        </Circumfix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="263" spelling="diff_seq" line="397" col="30">
+       <Infix-Term nr="263" spelling="diff_seq" line="400" col="30">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="397" col="40">
+         <Infix-Term nr="266" spelling="poly_diff" line="400" col="40">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="397" col="42"/>
+           <Simple-Term idnr="90" spelling="p" line="400" col="42"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -5724,64 +5762,64 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Straightforward-Justification line="397" col="44"/>
+  <Straightforward-Justification line="400" col="44"/>
  </Item>
- <Item kind="Definition-Item" line="602" col="10" posline="607" poscol="3">
-  <Block kind="Definitional-Block" line="602" col="10" posline="607" poscol="3">
-   <Item kind="Loci-Declaration" line="603" col="8" posline="603" poscol="7">
-    <Implicitly-Qualified-Segment line="603" col="7">
-     <Variable idnr="90" spelling="p" line="603" col="7"/>
+ <Item kind="Definition-Item" line="605" col="10" posline="610" poscol="3">
+  <Block kind="Definitional-Block" line="605" col="10" posline="610" poscol="3">
+   <Item kind="Loci-Declaration" line="606" col="8" posline="606" poscol="7">
+    <Implicitly-Qualified-Segment line="606" col="7">
+     <Variable idnr="90" spelling="p" line="606" col="7"/>
     </Implicitly-Qualified-Segment>
    </Item>
-   <Item kind="Functor-Definition" shape="Equals" line="604" col="6" posline="605" poscol="17">
-    <Operation-Functor-Pattern nr="264" spelling="Sum_of_diffs" line="604" col="19">
+   <Item kind="Functor-Definition" shape="Equals" line="607" col="6" posline="608" poscol="17">
+    <Operation-Functor-Pattern nr="264" spelling="Sum_of_diffs" line="607" col="19">
      <Loci/>
      <Loci>
-      <Locus idnr="90" spelling="p" line="604" col="21"/>
+      <Locus idnr="90" spelling="p" line="607" col="21"/>
      </Loci>
     </Operation-Functor-Pattern>
     <Type-Specification>
-     <Standard-Type nr="19" spelling="Polynomial" line="604" col="36">
-      <Infix-Term nr="113" spelling="F_Real" line="604" col="46">
+     <Standard-Type nr="19" spelling="Polynomial" line="607" col="36">
+      <Infix-Term nr="113" spelling="F_Real" line="607" col="46">
        <Arguments/>
        <Arguments/>
       </Infix-Term>
      </Standard-Type>
     </Type-Specification>
-    <Definiens line="604" col="53" kind="Simple-Definiens" shape="Term-Expression">
-     <Label idnr="0" spelling="" line="605" col="5"/>
-     <Infix-Term nr="73" spelling="Sum" line="605" col="5">
+    <Definiens line="607" col="53" kind="Simple-Definiens" shape="Term-Expression">
+     <Label idnr="0" spelling="" line="608" col="5"/>
+     <Infix-Term nr="73" spelling="Sum" line="608" col="5">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="263" spelling="diff_seq" line="605" col="14">
+       <Infix-Term nr="263" spelling="diff_seq" line="608" col="14">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="605" col="16"/>
+         <Simple-Term idnr="90" spelling="p" line="608" col="16"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
     </Definiens>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="606" col="11" posline="606" poscol="30">
-    <Straightforward-Justification line="606" col="14">
-     <Definition-Reference line="606" col="30" nr="54" spelling="POLYNOM3" number="10"/>
+   <Item kind="Correctness-Condition" condition="coherence" line="609" col="11" posline="609" poscol="30">
+    <Straightforward-Justification line="609" col="14">
+     <Definition-Reference line="609" col="30" nr="54" spelling="POLYNOM3" number="10"/>
     </Straightforward-Justification>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="609" col="7" posline="610" poscol="36">
+ <Item kind="Theorem-Item" line="612" col="7" posline="619" poscol="5">
   <Proposition>
-   <Label idnr="107" spelling="T30" line="609" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="610" col="26">
+   <Label idnr="108" spelling="T30" line="612" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="613" col="26">
     <Arguments>
-     <Infix-Term nr="264" spelling="Sum_of_diffs" line="610" col="14">
+     <Infix-Term nr="264" spelling="Sum_of_diffs" line="613" col="14">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="182" spelling="0_." line="610" col="18">
+       <Infix-Term nr="182" spelling="0_." line="613" col="18">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="113" spelling="F_Real" line="610" col="24">
+         <Infix-Term nr="113" spelling="F_Real" line="613" col="24">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
@@ -5791,10 +5829,10 @@
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="182" spelling="0_." line="610" col="30">
+     <Infix-Term nr="182" spelling="0_." line="613" col="30">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="113" spelling="F_Real" line="610" col="36">
+       <Infix-Term nr="113" spelling="F_Real" line="613" col="36">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
@@ -5803,25 +5841,96 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Straightforward-Justification line="610" col="36"/>
- </Item>
- <Item kind="Theorem-Item" line="612" col="7" posline="621" poscol="5">
-  <Proposition>
-   <Label idnr="108" spelling="T50" line="612" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="613" col="34">
-    <Arguments>
-     <Infix-Term nr="27" spelling="&#x2B;" line="613" col="5">
+  <Block kind="Proof" line="614" col="7" posline="619" poscol="5">
+   <Item kind="Type-Changing-Statement" line="615" col="14" posline="616" poscol="22">
+    <Equality>
+     <Variable idnr="97" spelling="P" line="615" col="16"/>
+     <Infix-Term nr="182" spelling="0_." line="615" col="22">
+      <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="613" col="3"/>
+       <Infix-Term nr="113" spelling="F_Real" line="615" col="28">
+        <Arguments/>
+        <Arguments/>
+       </Infix-Term>
       </Arguments>
+     </Infix-Term>
+    </Equality>
+    <Standard-Type nr="3" spelling="Element" line="615" col="39">
+     <Infix-Term nr="97" spelling="Polynom-Ring" line="615" col="55">
+      <Arguments/>
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="613" col="18">
+       <Infix-Term nr="113" spelling="F_Real" line="615" col="62">
+        <Arguments/>
+        <Arguments/>
+       </Infix-Term>
+      </Arguments>
+     </Infix-Term>
+    </Standard-Type>
+    <Straightforward-Justification line="616" col="6">
+     <Definition-Reference line="616" col="22" nr="54" spelling="POLYNOM3" number="10"/>
+    </Straightforward-Justification>
+   </Item>
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="617" col="12" posline="617" poscol="39">
+    <Proposition>
+     <Label idnr="0" spelling="" line="617" col="12"/>
+     <Predicative-Formula nr="1" spelling="=" line="617" col="25">
+      <Arguments>
+       <Infix-Term nr="263" spelling="diff_seq" line="617" col="12">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="613" col="28">
+         <Infix-Term nr="182" spelling="0_." line="617" col="16">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="613" col="30"/>
+           <Infix-Term nr="113" spelling="F_Real" line="617" col="22">
+            <Arguments/>
+            <Arguments/>
+           </Infix-Term>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="617" col="31">
+        <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="617" col="31"/>
+        <Simple-Term idnr="97" spelling="P" line="617" col="29"/>
+       </Circumfix-Term>
+      </Arguments>
+     </Predicative-Formula>
+    </Proposition>
+    <Straightforward-Justification line="617" col="34">
+     <Local-Reference line="617" col="39" idnr="106" spelling="T22a"/>
+    </Straightforward-Justification>
+   </Item>
+   <Item kind="Conclusion" shape="Compact-Statement" line="618" col="16" posline="618" poscol="31">
+    <Proposition>
+     <Label idnr="0" spelling="" line="618" col="16"/>
+     <Thesis line="618" col="16"/>
+    </Proposition>
+    <Straightforward-Justification line="618" col="19">
+     <Link line="618" col="9"/>
+     <Theorem-Reference line="618" col="31" nr="18" spelling="RLVECT_1" number="44"/>
+    </Straightforward-Justification>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Theorem-Item" line="621" col="7" posline="630" poscol="5">
+  <Proposition>
+   <Label idnr="109" spelling="T50" line="621" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="622" col="34">
+    <Arguments>
+     <Infix-Term nr="27" spelling="&#x2B;" line="622" col="5">
+      <Arguments>
+       <Simple-Term idnr="90" spelling="p" line="622" col="3"/>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="622" col="18">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="266" spelling="poly_diff" line="622" col="28">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="90" spelling="p" line="622" col="30"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -5830,77 +5939,77 @@
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="264" spelling="Sum_of_diffs" line="613" col="47">
+     <Infix-Term nr="264" spelling="Sum_of_diffs" line="622" col="47">
       <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="613" col="49"/>
+       <Simple-Term idnr="90" spelling="p" line="622" col="49"/>
       </Arguments>
      </Infix-Term>
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="614" col="7" posline="621" poscol="5">
-   <Item kind="Type-Changing-Statement" line="615" col="14" posline="615" poscol="73">
+  <Block kind="Proof" line="623" col="7" posline="630" poscol="5">
+   <Item kind="Type-Changing-Statement" line="624" col="14" posline="624" poscol="73">
     <Equality>
-     <Variable idnr="97" spelling="P" line="615" col="16"/>
-     <Simple-Term idnr="90" spelling="p" line="615" col="20"/>
+     <Variable idnr="97" spelling="P" line="624" col="16"/>
+     <Simple-Term idnr="90" spelling="p" line="624" col="20"/>
     </Equality>
-    <Standard-Type nr="3" spelling="Element" line="615" col="31">
-     <Infix-Term nr="97" spelling="Polynom-Ring" line="615" col="47">
+    <Standard-Type nr="3" spelling="Element" line="624" col="31">
+     <Infix-Term nr="97" spelling="Polynom-Ring" line="624" col="47">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="113" spelling="F_Real" line="615" col="54">
+       <Infix-Term nr="113" spelling="F_Real" line="624" col="54">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
     </Standard-Type>
-    <Straightforward-Justification line="615" col="57">
-     <Definition-Reference line="615" col="73" nr="54" spelling="POLYNOM3" number="10"/>
+    <Straightforward-Justification line="624" col="57">
+     <Definition-Reference line="624" col="73" nr="54" spelling="POLYNOM3" number="10"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="616" col="2" posline="616" poscol="32">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="625" col="2" posline="625" poscol="32">
     <Proposition>
-     <Label idnr="82" spelling="A6" line="616" col="2"/>
-     <Predicative-Formula nr="1" spelling="=" line="616" col="15">
+     <Label idnr="82" spelling="A6" line="625" col="2"/>
+     <Predicative-Formula nr="1" spelling="=" line="625" col="15">
       <Arguments>
-       <Infix-Term nr="73" spelling="Sum" line="616" col="7">
+       <Infix-Term nr="73" spelling="Sum" line="625" col="7">
         <Arguments/>
         <Arguments>
-         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="616" col="13">
-          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="616" col="13"/>
-          <Simple-Term idnr="97" spelling="P" line="616" col="11"/>
+         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="625" col="13">
+          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="625" col="13"/>
+          <Simple-Term idnr="97" spelling="P" line="625" col="11"/>
          </Circumfix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Simple-Term idnr="97" spelling="P" line="616" col="17"/>
+       <Simple-Term idnr="97" spelling="P" line="625" col="17"/>
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="616" col="20">
-     <Theorem-Reference line="616" col="32" nr="18" spelling="RLVECT_1" number="44"/>
+    <Straightforward-Justification line="625" col="20">
+     <Theorem-Reference line="625" col="32" nr="18" spelling="RLVECT_1" number="44"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Conclusion" shape="Iterative-Equality" line="617" col="10" posline="620" poscol="29">
+   <Item kind="Conclusion" shape="Iterative-Equality" line="626" col="10" posline="629" poscol="29">
     <Proposition>
-     <Label idnr="0" spelling="" line="617" col="10"/>
-     <Predicative-Formula nr="1" spelling="=" line="617" col="41">
+     <Label idnr="0" spelling="" line="626" col="10"/>
+     <Predicative-Formula nr="1" spelling="=" line="626" col="41">
       <Arguments>
-       <Infix-Term nr="27" spelling="&#x2B;" line="617" col="12">
+       <Infix-Term nr="27" spelling="&#x2B;" line="626" col="12">
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="617" col="10"/>
+         <Simple-Term idnr="90" spelling="p" line="626" col="10"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="617" col="25">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="626" col="25">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="266" spelling="poly_diff" line="617" col="35">
+           <Infix-Term nr="266" spelling="poly_diff" line="626" col="35">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="617" col="37"/>
+             <Simple-Term idnr="90" spelling="p" line="626" col="37"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -5909,21 +6018,21 @@
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="27" spelling="&#x2B;" line="617" col="45">
+       <Infix-Term nr="27" spelling="&#x2B;" line="626" col="45">
         <Arguments>
-         <Simple-Term idnr="97" spelling="P" line="617" col="43"/>
+         <Simple-Term idnr="97" spelling="P" line="626" col="43"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="73" spelling="Sum" line="617" col="49">
+         <Infix-Term nr="73" spelling="Sum" line="626" col="49">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="263" spelling="diff_seq" line="617" col="58">
+           <Infix-Term nr="263" spelling="diff_seq" line="626" col="58">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="266" spelling="poly_diff" line="617" col="68">
+             <Infix-Term nr="266" spelling="poly_diff" line="626" col="68">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="90" spelling="p" line="617" col="70"/>
+               <Simple-Term idnr="90" spelling="p" line="626" col="70"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
@@ -5935,28 +6044,28 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="618" col="7">
-     <Definition-Reference line="618" col="23" nr="54" spelling="POLYNOM3" number="10"/>
+    <Straightforward-Justification line="627" col="7">
+     <Definition-Reference line="627" col="23" nr="54" spelling="POLYNOM3" number="10"/>
     </Straightforward-Justification>
-    <Iterative-Step line="619" col="6">
-     <Infix-Term nr="73" spelling="Sum" line="619" col="10">
+    <Iterative-Step line="628" col="6">
+     <Infix-Term nr="73" spelling="Sum" line="628" col="10">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="223" spelling="&#x5E;" line="619" col="17">
+       <Infix-Term nr="223" spelling="&#x5E;" line="628" col="17">
         <Arguments>
-         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="619" col="16">
-          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="619" col="16"/>
-          <Simple-Term idnr="97" spelling="P" line="619" col="14"/>
+         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="628" col="16">
+          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="628" col="16"/>
+          <Simple-Term idnr="97" spelling="P" line="628" col="14"/>
          </Circumfix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="263" spelling="diff_seq" line="619" col="25">
+         <Infix-Term nr="263" spelling="diff_seq" line="628" col="25">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="266" spelling="poly_diff" line="619" col="35">
+           <Infix-Term nr="266" spelling="poly_diff" line="628" col="35">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="619" col="37"/>
+             <Simple-Term idnr="90" spelling="p" line="628" col="37"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -5965,50 +6074,50 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="619" col="43">
-      <Local-Reference line="619" col="46" idnr="82" spelling="A6"/>
-      <Theorem-Reference line="619" col="59" nr="18" spelling="RLVECT_1" number="41"/>
+     <Straightforward-Justification line="628" col="43">
+      <Local-Reference line="628" col="46" idnr="82" spelling="A6"/>
+      <Theorem-Reference line="628" col="59" nr="18" spelling="RLVECT_1" number="41"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="620" col="6">
-     <Infix-Term nr="264" spelling="Sum_of_diffs" line="620" col="19">
+    <Iterative-Step line="629" col="6">
+     <Infix-Term nr="264" spelling="Sum_of_diffs" line="629" col="19">
       <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="620" col="21"/>
+       <Simple-Term idnr="90" spelling="p" line="629" col="21"/>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="620" col="25">
-      <Local-Reference line="620" col="29" idnr="106" spelling="T22"/>
+     <Straightforward-Justification line="629" col="25">
+      <Local-Reference line="629" col="29" idnr="107" spelling="T22"/>
      </Straightforward-Justification>
     </Iterative-Step>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="623" col="7" posline="662" poscol="5">
+ <Item kind="Theorem-Item" line="632" col="7" posline="671" poscol="5">
   <Proposition>
-   <Label idnr="109" spelling="T13" line="623" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="624" col="30">
+   <Label idnr="110" spelling="T13" line="632" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="633" col="30">
     <Arguments>
-     <Infix-Term nr="266" spelling="poly_diff" line="624" col="11">
+     <Infix-Term nr="266" spelling="poly_diff" line="633" col="11">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="624" col="24">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="633" col="24">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="624" col="26"/>
+         <Simple-Term idnr="90" spelling="p" line="633" col="26"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="264" spelling="Sum_of_diffs" line="624" col="43">
+     <Infix-Term nr="264" spelling="Sum_of_diffs" line="633" col="43">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="266" spelling="poly_diff" line="624" col="53">
+       <Infix-Term nr="266" spelling="poly_diff" line="633" col="53">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="624" col="55"/>
+         <Simple-Term idnr="90" spelling="p" line="633" col="55"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
@@ -6016,18 +6125,18 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="625" col="7" posline="662" poscol="5">
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="626" col="2" posline="626" poscol="43">
+  <Block kind="Proof" line="634" col="7" posline="671" poscol="5">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="635" col="2" posline="635" poscol="43">
     <Proposition>
-     <Label idnr="71" spelling="AA" line="626" col="2"/>
-     <Predicative-Formula nr="1" spelling="=" line="626" col="18">
+     <Label idnr="71" spelling="AA" line="635" col="2"/>
+     <Predicative-Formula nr="1" spelling="=" line="635" col="18">
       <Arguments>
-       <Circumfix-Term nr="12" spelling="&#x3C;&#x25;" line="626" col="16">
-        <Right-Circumflex-Symbol nr="12" spelling="&#x25;&#x3E;" line="626" col="16"/>
-        <Infix-Term nr="161" spelling="0." line="626" col="8">
+       <Circumfix-Term nr="12" spelling="&#x3C;&#x25;" line="635" col="16">
+        <Right-Circumflex-Symbol nr="12" spelling="&#x25;&#x3E;" line="635" col="16"/>
+        <Infix-Term nr="161" spelling="0." line="635" col="8">
          <Arguments/>
          <Arguments>
-          <Infix-Term nr="113" spelling="F_Real" line="626" col="14">
+          <Infix-Term nr="113" spelling="F_Real" line="635" col="14">
            <Arguments/>
            <Arguments/>
           </Infix-Term>
@@ -6036,10 +6145,10 @@
        </Circumfix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="182" spelling="0_." line="626" col="22">
+       <Infix-Term nr="182" spelling="0_." line="635" col="22">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="113" spelling="F_Real" line="626" col="28">
+         <Infix-Term nr="113" spelling="F_Real" line="635" col="28">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
@@ -6048,97 +6157,97 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="626" col="31">
-     <Theorem-Reference line="626" col="43" nr="31" spelling="POLYNOM5" number="34"/>
+    <Straightforward-Justification line="635" col="31">
+     <Theorem-Reference line="635" col="43" nr="31" spelling="POLYNOM5" number="34"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Constant-Definition" line="627" col="39" posline="627" poscol="38">
-    <Variable idnr="97" spelling="P" line="627" col="9"/>
-    <Infix-Term nr="266" spelling="poly_diff" line="627" col="21">
+   <Item kind="Constant-Definition" line="636" col="39" posline="636" poscol="38">
+    <Variable idnr="97" spelling="P" line="636" col="9"/>
+    <Infix-Term nr="266" spelling="poly_diff" line="636" col="21">
      <Arguments/>
      <Arguments>
-      <Infix-Term nr="264" spelling="Sum_of_diffs" line="627" col="34">
+      <Infix-Term nr="264" spelling="Sum_of_diffs" line="636" col="34">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="90" spelling="p" line="627" col="36"/>
+        <Simple-Term idnr="90" spelling="p" line="636" col="36"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Infix-Term>
    </Item>
-   <Item kind="Constant-Definition" line="628" col="39" posline="628" poscol="38">
-    <Variable idnr="110" spelling="Q" line="628" col="9"/>
-    <Infix-Term nr="264" spelling="Sum_of_diffs" line="628" col="24">
+   <Item kind="Constant-Definition" line="637" col="39" posline="637" poscol="38">
+    <Variable idnr="111" spelling="Q" line="637" col="9"/>
+    <Infix-Term nr="264" spelling="Sum_of_diffs" line="637" col="24">
      <Arguments/>
      <Arguments>
-      <Infix-Term nr="266" spelling="poly_diff" line="628" col="34">
+      <Infix-Term nr="266" spelling="poly_diff" line="637" col="34">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="90" spelling="p" line="628" col="36"/>
+        <Simple-Term idnr="90" spelling="p" line="637" col="36"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Infix-Term>
    </Item>
-   <Item kind="Constant-Definition" line="629" col="35" posline="629" poscol="34">
-    <Variable idnr="111" spelling="S" line="629" col="9"/>
-    <Infix-Term nr="263" spelling="diff_seq" line="629" col="20">
+   <Item kind="Constant-Definition" line="638" col="35" posline="638" poscol="34">
+    <Variable idnr="112" spelling="S" line="638" col="9"/>
+    <Infix-Term nr="263" spelling="diff_seq" line="638" col="20">
      <Arguments/>
      <Arguments>
-      <Infix-Term nr="266" spelling="poly_diff" line="629" col="30">
+      <Infix-Term nr="266" spelling="poly_diff" line="638" col="30">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="90" spelling="p" line="629" col="32"/>
+        <Simple-Term idnr="90" spelling="p" line="638" col="32"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Infix-Term>
    </Item>
-   <Item kind="Private-Predicate-Definition" line="630" col="11" posline="631" poscol="66">
-    <Variable idnr="97" spelling="P" line="630" col="13"/>
+   <Item kind="Private-Predicate-Definition" line="639" col="11" posline="640" poscol="66">
+    <Variable idnr="97" spelling="P" line="639" col="13"/>
     <Type-List>
-     <Standard-Type nr="7" spelling="Nat" line="630" col="17"/>
+     <Standard-Type nr="7" spelling="Nat" line="639" col="17"/>
     </Type-List>
-    <Universal-Quantifier-Formula line="630" col="28">
-     <Implicitly-Qualified-Segment line="630" col="30">
-      <Variable idnr="90" spelling="p" line="630" col="30"/>
+    <Universal-Quantifier-Formula line="639" col="28">
+     <Implicitly-Qualified-Segment line="639" col="30">
+      <Variable idnr="90" spelling="p" line="639" col="30"/>
      </Implicitly-Qualified-Segment>
-     <Conditional-Formula line="630" col="33">
-      <Predicative-Formula nr="1" spelling="=" line="630" col="38">
+     <Conditional-Formula line="639" col="33">
+      <Predicative-Formula nr="1" spelling="=" line="639" col="38">
        <Arguments>
-        <Placeholder-Term nr="1" spelling="&#x24;1" line="630" col="36"/>
+        <Placeholder-Term nr="1" spelling="&#x24;1" line="639" col="36"/>
        </Arguments>
        <Arguments>
-        <Infix-Term nr="126" spelling="len" line="630" col="42">
+        <Infix-Term nr="126" spelling="len" line="639" col="42">
          <Arguments/>
          <Arguments>
-          <Simple-Term idnr="90" spelling="p" line="630" col="44"/>
+          <Simple-Term idnr="90" spelling="p" line="639" col="44"/>
          </Arguments>
         </Infix-Term>
        </Arguments>
       </Predicative-Formula>
-      <Predicative-Formula nr="1" spelling="=" line="631" col="39">
+      <Predicative-Formula nr="1" spelling="=" line="640" col="39">
        <Arguments>
-        <Infix-Term nr="266" spelling="poly_diff" line="631" col="20">
+        <Infix-Term nr="266" spelling="poly_diff" line="640" col="20">
          <Arguments/>
          <Arguments>
-          <Infix-Term nr="264" spelling="Sum_of_diffs" line="631" col="33">
+          <Infix-Term nr="264" spelling="Sum_of_diffs" line="640" col="33">
            <Arguments/>
            <Arguments>
-            <Simple-Term idnr="90" spelling="p" line="631" col="35"/>
+            <Simple-Term idnr="90" spelling="p" line="640" col="35"/>
            </Arguments>
           </Infix-Term>
          </Arguments>
         </Infix-Term>
        </Arguments>
        <Arguments>
-        <Infix-Term nr="264" spelling="Sum_of_diffs" line="631" col="52">
+        <Infix-Term nr="264" spelling="Sum_of_diffs" line="640" col="52">
          <Arguments/>
          <Arguments>
-          <Infix-Term nr="266" spelling="poly_diff" line="631" col="62">
+          <Infix-Term nr="266" spelling="poly_diff" line="640" col="62">
            <Arguments/>
            <Arguments>
-            <Simple-Term idnr="90" spelling="p" line="631" col="64"/>
+            <Simple-Term idnr="90" spelling="p" line="640" col="64"/>
            </Arguments>
           </Infix-Term>
          </Arguments>
@@ -6148,38 +6257,38 @@
      </Conditional-Formula>
     </Universal-Quantifier-Formula>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="632" col="2" posline="638" poscol="7">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="641" col="2" posline="647" poscol="7">
     <Proposition>
-     <Label idnr="63" spelling="A1" line="632" col="2"/>
-     <Private-Predicate-Formula idnr="97" spelling="P" line="632" col="5">
-      <Infix-Term nr="10" spelling="0" line="632" col="7">
+     <Label idnr="63" spelling="A1" line="641" col="2"/>
+     <Private-Predicate-Formula idnr="97" spelling="P" line="641" col="5">
+      <Infix-Term nr="10" spelling="0" line="641" col="7">
        <Arguments/>
        <Arguments/>
       </Infix-Term>
      </Private-Predicate-Formula>
     </Proposition>
-    <Block kind="Proof" line="633" col="9" posline="638" poscol="7">
-     <Item kind="Generalization" line="634" col="12" posline="634" poscol="11">
-      <Implicitly-Qualified-Segment line="634" col="11">
-       <Variable idnr="90" spelling="p" line="634" col="11"/>
+    <Block kind="Proof" line="642" col="9" posline="647" poscol="7">
+     <Item kind="Generalization" line="643" col="12" posline="643" poscol="11">
+      <Implicitly-Qualified-Segment line="643" col="11">
+       <Variable idnr="90" spelling="p" line="643" col="11"/>
       </Implicitly-Qualified-Segment>
      </Item>
-     <Item kind="Assumption" line="635" col="12" posline="635" poscol="22">
-      <Single-Assumption line="635" col="12">
+     <Item kind="Assumption" line="644" col="12" posline="644" poscol="22">
+      <Single-Assumption line="644" col="12">
        <Proposition>
-        <Label idnr="0" spelling="" line="635" col="14"/>
-        <Predicative-Formula nr="1" spelling="=" line="635" col="16">
+        <Label idnr="0" spelling="" line="644" col="14"/>
+        <Predicative-Formula nr="1" spelling="=" line="644" col="16">
          <Arguments>
-          <Infix-Term nr="10" spelling="0" line="635" col="14">
+          <Infix-Term nr="10" spelling="0" line="644" col="14">
            <Arguments/>
            <Arguments/>
           </Infix-Term>
          </Arguments>
          <Arguments>
-          <Infix-Term nr="126" spelling="len" line="635" col="20">
+          <Infix-Term nr="126" spelling="len" line="644" col="20">
            <Arguments/>
            <Arguments>
-            <Simple-Term idnr="90" spelling="p" line="635" col="22"/>
+            <Simple-Term idnr="90" spelling="p" line="644" col="22"/>
            </Arguments>
           </Infix-Term>
          </Arguments>
@@ -6187,18 +6296,18 @@
        </Proposition>
       </Single-Assumption>
      </Item>
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="636" col="12" posline="636" poscol="43">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="645" col="12" posline="645" poscol="43">
       <Proposition>
-       <Label idnr="0" spelling="" line="636" col="12"/>
-       <Predicative-Formula nr="1" spelling="=" line="636" col="14">
+       <Label idnr="0" spelling="" line="645" col="12"/>
+       <Predicative-Formula nr="1" spelling="=" line="645" col="14">
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="636" col="12"/>
+         <Simple-Term idnr="90" spelling="p" line="645" col="12"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="182" spelling="0_." line="636" col="18">
+         <Infix-Term nr="182" spelling="0_." line="645" col="18">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="113" spelling="F_Real" line="636" col="24">
+           <Infix-Term nr="113" spelling="F_Real" line="645" col="24">
             <Arguments/>
             <Arguments/>
            </Infix-Term>
@@ -6207,97 +6316,97 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="636" col="27">
-       <Link line="636" col="10"/>
-       <Local-Reference line="636" col="30" idnr="71" spelling="AA"/>
-       <Theorem-Reference line="636" col="43" nr="17" spelling="ALGSEQ_1" number="14"/>
+      <Straightforward-Justification line="645" col="27">
+       <Link line="645" col="10"/>
+       <Local-Reference line="645" col="30" idnr="71" spelling="AA"/>
+       <Theorem-Reference line="645" col="43" nr="17" spelling="ALGSEQ_1" number="14"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Conclusion" shape="Compact-Statement" line="637" col="18" posline="637" poscol="30">
+     <Item kind="Conclusion" shape="Compact-Statement" line="646" col="18" posline="646" poscol="30">
       <Proposition>
-       <Label idnr="0" spelling="" line="637" col="18"/>
-       <Thesis line="637" col="18"/>
+       <Label idnr="0" spelling="" line="646" col="18"/>
+       <Thesis line="646" col="18"/>
       </Proposition>
-      <Straightforward-Justification line="637" col="21">
-       <Link line="637" col="11"/>
-       <Local-Reference line="637" col="25" idnr="107" spelling="T30"/>
-       <Local-Reference line="637" col="30" idnr="93" spelling="T31"/>
+      <Straightforward-Justification line="646" col="21">
+       <Link line="646" col="11"/>
+       <Local-Reference line="646" col="25" idnr="108" spelling="T30"/>
+       <Local-Reference line="646" col="30" idnr="93" spelling="T31"/>
       </Straightforward-Justification>
      </Item>
     </Block>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="639" col="2" posline="658" poscol="7">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="648" col="2" posline="667" poscol="7">
     <Proposition>
-     <Label idnr="64" spelling="A2" line="639" col="2"/>
-     <Universal-Quantifier-Formula line="639" col="7">
-      <Explicitly-Qualified-Segment line="639" col="7">
+     <Label idnr="64" spelling="A2" line="648" col="2"/>
+     <Universal-Quantifier-Formula line="648" col="7">
+      <Explicitly-Qualified-Segment line="648" col="7">
        <Variables>
-        <Variable idnr="112" spelling="k" line="639" col="9"/>
+        <Variable idnr="113" spelling="k" line="648" col="9"/>
        </Variables>
-       <Standard-Type nr="7" spelling="Nat" line="639" col="19"/>
+       <Standard-Type nr="7" spelling="Nat" line="648" col="19"/>
       </Explicitly-Qualified-Segment>
-      <Conditional-Formula line="639" col="22">
-       <Private-Predicate-Formula idnr="97" spelling="P" line="639" col="24">
-        <Simple-Term idnr="112" spelling="k" line="639" col="26"/>
+      <Conditional-Formula line="648" col="22">
+       <Private-Predicate-Formula idnr="97" spelling="P" line="648" col="24">
+        <Simple-Term idnr="113" spelling="k" line="648" col="26"/>
        </Private-Predicate-Formula>
-       <Private-Predicate-Formula idnr="97" spelling="P" line="639" col="35">
-        <Infix-Term nr="27" spelling="&#x2B;" line="639" col="38">
+       <Private-Predicate-Formula idnr="97" spelling="P" line="648" col="35">
+        <Infix-Term nr="27" spelling="&#x2B;" line="648" col="38">
          <Arguments>
-          <Simple-Term idnr="112" spelling="k" line="639" col="37"/>
+          <Simple-Term idnr="113" spelling="k" line="648" col="37"/>
          </Arguments>
          <Arguments>
-          <Numeral-Term number="1" line="639" col="39"/>
+          <Numeral-Term number="1" line="648" col="39"/>
          </Arguments>
         </Infix-Term>
        </Private-Predicate-Formula>
       </Conditional-Formula>
      </Universal-Quantifier-Formula>
     </Proposition>
-    <Block kind="Proof" line="640" col="9" posline="658" poscol="7">
-     <Item kind="Generalization" line="641" col="19" posline="641" poscol="18">
-      <Explicitly-Qualified-Segment line="641" col="11">
+    <Block kind="Proof" line="649" col="9" posline="667" poscol="7">
+     <Item kind="Generalization" line="650" col="19" posline="650" poscol="18">
+      <Explicitly-Qualified-Segment line="650" col="11">
        <Variables>
-        <Variable idnr="112" spelling="k" line="641" col="11"/>
+        <Variable idnr="113" spelling="k" line="650" col="11"/>
        </Variables>
-       <Standard-Type nr="7" spelling="Nat" line="641" col="18"/>
+       <Standard-Type nr="7" spelling="Nat" line="650" col="18"/>
       </Explicitly-Qualified-Segment>
      </Item>
-     <Item kind="Assumption" line="642" col="12" posline="645" poscol="17">
-      <Single-Assumption line="642" col="12">
+     <Item kind="Assumption" line="651" col="12" posline="654" poscol="17">
+      <Single-Assumption line="651" col="12">
        <Proposition>
-        <Label idnr="81" spelling="A5" line="643" col="2"/>
-        <Private-Predicate-Formula idnr="97" spelling="P" line="643" col="7">
-         <Simple-Term idnr="112" spelling="k" line="643" col="9"/>
+        <Label idnr="81" spelling="A5" line="652" col="2"/>
+        <Private-Predicate-Formula idnr="97" spelling="P" line="652" col="7">
+         <Simple-Term idnr="113" spelling="k" line="652" col="9"/>
         </Private-Predicate-Formula>
        </Proposition>
       </Single-Assumption>
      </Item>
-     <Item kind="Generalization" line="645" col="18" posline="645" poscol="17">
-      <Implicitly-Qualified-Segment line="644" col="11">
-       <Variable idnr="90" spelling="p" line="644" col="11"/>
+     <Item kind="Generalization" line="654" col="18" posline="654" poscol="17">
+      <Implicitly-Qualified-Segment line="653" col="11">
+       <Variable idnr="90" spelling="p" line="653" col="11"/>
       </Implicitly-Qualified-Segment>
      </Item>
-     <Item kind="Assumption" line="645" col="18" posline="645" poscol="17">
-      <Collective-Assumption line="644" col="21">
+     <Item kind="Assumption" line="654" col="18" posline="654" poscol="17">
+      <Collective-Assumption line="653" col="21">
        <Conditions>
         <Proposition>
-         <Label idnr="77" spelling="A4" line="645" col="2"/>
-         <Predicative-Formula nr="1" spelling="=" line="645" col="11">
+         <Label idnr="77" spelling="A4" line="654" col="2"/>
+         <Predicative-Formula nr="1" spelling="=" line="654" col="11">
           <Arguments>
-           <Infix-Term nr="27" spelling="&#x2B;" line="645" col="8">
+           <Infix-Term nr="27" spelling="&#x2B;" line="654" col="8">
             <Arguments>
-             <Simple-Term idnr="112" spelling="k" line="645" col="7"/>
+             <Simple-Term idnr="113" spelling="k" line="654" col="7"/>
             </Arguments>
             <Arguments>
-             <Numeral-Term number="1" line="645" col="9"/>
+             <Numeral-Term number="1" line="654" col="9"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="126" spelling="len" line="645" col="15">
+           <Infix-Term nr="126" spelling="len" line="654" col="15">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="645" col="17"/>
+             <Simple-Term idnr="90" spelling="p" line="654" col="17"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -6306,78 +6415,78 @@
        </Conditions>
       </Collective-Assumption>
      </Item>
-     <Item kind="Constant-Definition" line="646" col="28" posline="646" poscol="27">
-      <Variable idnr="96" spelling="p1" line="646" col="12"/>
-      <Infix-Term nr="266" spelling="poly_diff" line="646" col="24">
+     <Item kind="Constant-Definition" line="655" col="28" posline="655" poscol="27">
+      <Variable idnr="96" spelling="p1" line="655" col="12"/>
+      <Infix-Term nr="266" spelling="poly_diff" line="655" col="24">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="90" spelling="p" line="646" col="26"/>
+        <Simple-Term idnr="90" spelling="p" line="655" col="26"/>
        </Arguments>
       </Infix-Term>
      </Item>
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="647" col="9" posline="647" poscol="56">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="656" col="9" posline="656" poscol="56">
       <Proposition>
-       <Label idnr="0" spelling="" line="647" col="9"/>
-       <Predicative-Formula nr="1" spelling="=" line="647" col="14">
+       <Label idnr="0" spelling="" line="656" col="9"/>
+       <Predicative-Formula nr="1" spelling="=" line="656" col="14">
         <Arguments>
-         <Infix-Term nr="126" spelling="len" line="647" col="9">
+         <Infix-Term nr="126" spelling="len" line="656" col="9">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="96" spelling="p1" line="647" col="12"/>
+           <Simple-Term idnr="96" spelling="p1" line="656" col="12"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="647" col="19">
+         <Infix-Term nr="16" spelling="-" line="656" col="19">
           <Arguments>
-           <Infix-Term nr="27" spelling="&#x2B;" line="647" col="17">
+           <Infix-Term nr="27" spelling="&#x2B;" line="656" col="17">
             <Arguments>
-             <Simple-Term idnr="112" spelling="k" line="647" col="16"/>
+             <Simple-Term idnr="113" spelling="k" line="656" col="16"/>
             </Arguments>
             <Arguments>
-             <Numeral-Term number="1" line="647" col="18"/>
+             <Numeral-Term number="1" line="656" col="18"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Numeral-Term number="1" line="647" col="20"/>
+           <Numeral-Term number="1" line="656" col="20"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="647" col="23">
-       <Local-Reference line="647" col="26" idnr="71" spelling="AA"/>
-       <Local-Reference line="647" col="30" idnr="77" spelling="A4"/>
-       <Theorem-Reference line="647" col="43" nr="17" spelling="ALGSEQ_1" number="14"/>
-       <Theorem-Reference line="647" col="56" nr="27" spelling="POLYDIFF" number="44"/>
+      <Straightforward-Justification line="656" col="23">
+       <Local-Reference line="656" col="26" idnr="71" spelling="AA"/>
+       <Local-Reference line="656" col="30" idnr="77" spelling="A4"/>
+       <Theorem-Reference line="656" col="43" nr="17" spelling="ALGSEQ_1" number="14"/>
+       <Theorem-Reference line="656" col="56" nr="27" spelling="POLYDIFF" number="44"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="649" col="2" posline="649" poscol="69">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="658" col="2" posline="658" poscol="69">
       <Proposition>
-       <Label idnr="83" spelling="A7" line="649" col="2"/>
-       <Predicative-Formula nr="1" spelling="=" line="649" col="35">
+       <Label idnr="83" spelling="A7" line="658" col="2"/>
+       <Predicative-Formula nr="1" spelling="=" line="658" col="35">
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="649" col="15">
+         <Infix-Term nr="266" spelling="poly_diff" line="658" col="15">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="649" col="28">
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="658" col="28">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="96" spelling="p1" line="649" col="31"/>
+             <Simple-Term idnr="96" spelling="p1" line="658" col="31"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="649" col="48">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="658" col="48">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="266" spelling="poly_diff" line="649" col="58">
+           <Infix-Term nr="266" spelling="poly_diff" line="658" col="58">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="96" spelling="p1" line="649" col="61"/>
+             <Simple-Term idnr="96" spelling="p1" line="658" col="61"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -6385,80 +6494,80 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="649" col="66">
-       <Link line="648" col="10"/>
-       <Local-Reference line="649" col="69" idnr="81" spelling="A5"/>
+      <Straightforward-Justification line="658" col="66">
+       <Link line="657" col="10"/>
+       <Local-Reference line="658" col="69" idnr="81" spelling="A5"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Type-Changing-Statement" line="650" col="16" posline="650" poscol="75">
+     <Item kind="Type-Changing-Statement" line="659" col="16" posline="659" poscol="75">
       <Equality>
-       <Variable idnr="97" spelling="P" line="650" col="18"/>
-       <Simple-Term idnr="90" spelling="p" line="650" col="22"/>
+       <Variable idnr="97" spelling="P" line="659" col="18"/>
+       <Simple-Term idnr="90" spelling="p" line="659" col="22"/>
       </Equality>
-      <Standard-Type nr="3" spelling="Element" line="650" col="33">
-       <Infix-Term nr="97" spelling="Polynom-Ring" line="650" col="49">
+      <Standard-Type nr="3" spelling="Element" line="659" col="33">
+       <Infix-Term nr="97" spelling="Polynom-Ring" line="659" col="49">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="113" spelling="F_Real" line="650" col="56">
+         <Infix-Term nr="113" spelling="F_Real" line="659" col="56">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Standard-Type>
-      <Straightforward-Justification line="650" col="59">
-       <Definition-Reference line="650" col="75" nr="54" spelling="POLYNOM3" number="10"/>
+      <Straightforward-Justification line="659" col="59">
+       <Definition-Reference line="659" col="75" nr="54" spelling="POLYNOM3" number="10"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="651" col="2" posline="651" poscol="34">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="660" col="2" posline="660" poscol="34">
       <Proposition>
-       <Label idnr="82" spelling="A6" line="651" col="2"/>
-       <Predicative-Formula nr="1" spelling="=" line="651" col="17">
+       <Label idnr="82" spelling="A6" line="660" col="2"/>
+       <Predicative-Formula nr="1" spelling="=" line="660" col="17">
         <Arguments>
-         <Infix-Term nr="73" spelling="Sum" line="651" col="9">
+         <Infix-Term nr="73" spelling="Sum" line="660" col="9">
           <Arguments/>
           <Arguments>
-           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="651" col="15">
-            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="651" col="15"/>
-            <Simple-Term idnr="97" spelling="P" line="651" col="13"/>
+           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="660" col="15">
+            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="660" col="15"/>
+            <Simple-Term idnr="97" spelling="P" line="660" col="13"/>
            </Circumfix-Term>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Simple-Term idnr="97" spelling="P" line="651" col="19"/>
+         <Simple-Term idnr="97" spelling="P" line="660" col="19"/>
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="651" col="22">
-       <Theorem-Reference line="651" col="34" nr="18" spelling="RLVECT_1" number="44"/>
+      <Straightforward-Justification line="660" col="22">
+       <Theorem-Reference line="660" col="34" nr="18" spelling="RLVECT_1" number="44"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="652" col="14" posline="652" poscol="45">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="661" col="14" posline="661" poscol="45">
       <Proposition>
-       <Label idnr="0" spelling="" line="652" col="14"/>
-       <Predicative-Formula nr="1" spelling="=" line="652" col="19">
+       <Label idnr="0" spelling="" line="661" col="14"/>
+       <Predicative-Formula nr="1" spelling="=" line="661" col="19">
         <Arguments>
-         <Infix-Term nr="263" spelling="diff_seq" line="652" col="14">
+         <Infix-Term nr="263" spelling="diff_seq" line="661" col="14">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="652" col="16"/>
+           <Simple-Term idnr="90" spelling="p" line="661" col="16"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="223" spelling="&#x5E;" line="652" col="26">
+         <Infix-Term nr="223" spelling="&#x5E;" line="661" col="26">
           <Arguments>
-           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="652" col="25">
-            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="652" col="25"/>
-            <Simple-Term idnr="90" spelling="p" line="652" col="23"/>
+           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="661" col="25">
+            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="661" col="25"/>
+            <Simple-Term idnr="90" spelling="p" line="661" col="23"/>
            </Circumfix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="263" spelling="diff_seq" line="652" col="34">
+           <Infix-Term nr="263" spelling="diff_seq" line="661" col="34">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="96" spelling="p1" line="652" col="37"/>
+             <Simple-Term idnr="96" spelling="p1" line="661" col="37"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -6466,43 +6575,43 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="652" col="41">
-       <Local-Reference line="652" col="45" idnr="106" spelling="T22"/>
+      <Straightforward-Justification line="661" col="41">
+       <Local-Reference line="661" col="45" idnr="107" spelling="T22"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Regular-Statement" shape="Iterative-Equality" line="653" col="23" posline="654" poscol="52">
+     <Item kind="Regular-Statement" shape="Iterative-Equality" line="662" col="23" posline="663" poscol="52">
       <Proposition>
-       <Label idnr="0" spelling="" line="653" col="23"/>
-       <Predicative-Formula nr="1" spelling="=" line="653" col="28">
+       <Label idnr="0" spelling="" line="662" col="23"/>
+       <Predicative-Formula nr="1" spelling="=" line="662" col="28">
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="653" col="23">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="662" col="23">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="653" col="25"/>
+           <Simple-Term idnr="90" spelling="p" line="662" col="25"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="27" spelling="&#x2B;" line="653" col="40">
+         <Infix-Term nr="27" spelling="&#x2B;" line="662" col="40">
           <Arguments>
-           <Infix-Term nr="73" spelling="Sum" line="653" col="32">
+           <Infix-Term nr="73" spelling="Sum" line="662" col="32">
             <Arguments/>
             <Arguments>
-             <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="653" col="38">
-              <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="653" col="38"/>
-              <Simple-Term idnr="97" spelling="P" line="653" col="36"/>
+             <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="662" col="38">
+              <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="662" col="38"/>
+              <Simple-Term idnr="97" spelling="P" line="662" col="36"/>
              </Circumfix-Term>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="73" spelling="Sum" line="653" col="44">
+           <Infix-Term nr="73" spelling="Sum" line="662" col="44">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="263" spelling="diff_seq" line="653" col="53">
+             <Infix-Term nr="263" spelling="diff_seq" line="662" col="53">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="96" spelling="p1" line="653" col="56"/>
+               <Simple-Term idnr="96" spelling="p1" line="662" col="56"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
@@ -6512,60 +6621,60 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="653" col="60">
-       <Link line="653" col="10"/>
-       <Theorem-Reference line="653" col="72" nr="18" spelling="RLVECT_1" number="41"/>
+      <Straightforward-Justification line="662" col="60">
+       <Link line="662" col="10"/>
+       <Theorem-Reference line="662" col="72" nr="18" spelling="RLVECT_1" number="41"/>
       </Straightforward-Justification>
-      <Iterative-Step line="654" col="8">
-       <Infix-Term nr="27" spelling="&#x2B;" line="654" col="12">
+      <Iterative-Step line="663" col="8">
+       <Infix-Term nr="27" spelling="&#x2B;" line="663" col="12">
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="654" col="10"/>
+         <Simple-Term idnr="90" spelling="p" line="663" col="10"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="654" col="25">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="663" col="25">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="96" spelling="p1" line="654" col="28"/>
+           <Simple-Term idnr="96" spelling="p1" line="663" col="28"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
-       <Straightforward-Justification line="654" col="32">
-        <Local-Reference line="654" col="35" idnr="82" spelling="A6"/>
-        <Definition-Reference line="654" col="52" nr="54" spelling="POLYNOM3" number="10"/>
+       <Straightforward-Justification line="663" col="32">
+        <Local-Reference line="663" col="35" idnr="82" spelling="A6"/>
+        <Definition-Reference line="663" col="52" nr="54" spelling="POLYNOM3" number="10"/>
        </Straightforward-Justification>
       </Iterative-Step>
      </Item>
-     <Item kind="Conclusion" shape="Iterative-Equality" line="655" col="21" posline="657" poscol="32">
+     <Item kind="Conclusion" shape="Iterative-Equality" line="664" col="21" posline="666" poscol="32">
       <Proposition>
-       <Label idnr="0" spelling="" line="655" col="21"/>
-       <Predicative-Formula nr="1" spelling="=" line="656" col="8">
+       <Label idnr="0" spelling="" line="664" col="21"/>
+       <Predicative-Formula nr="1" spelling="=" line="665" col="8">
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="655" col="21">
+         <Infix-Term nr="266" spelling="poly_diff" line="664" col="21">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="655" col="34">
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="664" col="34">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="655" col="36"/>
+             <Simple-Term idnr="90" spelling="p" line="664" col="36"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="27" spelling="&#x2B;" line="656" col="13">
+         <Infix-Term nr="27" spelling="&#x2B;" line="665" col="13">
           <Arguments>
-           <Simple-Term idnr="96" spelling="p1" line="656" col="11"/>
+           <Simple-Term idnr="96" spelling="p1" line="665" col="11"/>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="656" col="26">
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="665" col="26">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="266" spelling="poly_diff" line="656" col="36">
+             <Infix-Term nr="266" spelling="poly_diff" line="665" col="36">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="96" spelling="p1" line="656" col="39"/>
+               <Simple-Term idnr="96" spelling="p1" line="665" col="39"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
@@ -6575,106 +6684,106 @@
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="656" col="44">
-       <Link line="655" col="11"/>
-       <Local-Reference line="656" col="47" idnr="83" spelling="A7"/>
-       <Theorem-Reference line="656" col="59" nr="27" spelling="POLYDIFF" number="47"/>
+      <Straightforward-Justification line="665" col="44">
+       <Link line="664" col="11"/>
+       <Local-Reference line="665" col="47" idnr="83" spelling="A7"/>
+       <Theorem-Reference line="665" col="59" nr="27" spelling="POLYDIFF" number="47"/>
       </Straightforward-Justification>
-      <Iterative-Step line="657" col="8">
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="657" col="21">
+      <Iterative-Step line="666" col="8">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="666" col="21">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="96" spelling="p1" line="657" col="24"/>
+         <Simple-Term idnr="96" spelling="p1" line="666" col="24"/>
         </Arguments>
        </Infix-Term>
-       <Straightforward-Justification line="657" col="28">
-        <Local-Reference line="657" col="32" idnr="108" spelling="T50"/>
+       <Straightforward-Justification line="666" col="28">
+        <Local-Reference line="666" col="32" idnr="109" spelling="T50"/>
        </Straightforward-Justification>
       </Iterative-Step>
      </Item>
     </Block>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="659" col="2" posline="659" poscol="54">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="668" col="2" posline="668" poscol="54">
     <Proposition>
-     <Label idnr="76" spelling="A3" line="659" col="2"/>
-     <Universal-Quantifier-Formula line="659" col="7">
-      <Explicitly-Qualified-Segment line="659" col="7">
+     <Label idnr="76" spelling="A3" line="668" col="2"/>
+     <Universal-Quantifier-Formula line="668" col="7">
+      <Explicitly-Qualified-Segment line="668" col="7">
        <Variables>
-        <Variable idnr="112" spelling="k" line="659" col="9"/>
+        <Variable idnr="113" spelling="k" line="668" col="9"/>
        </Variables>
-       <Standard-Type nr="7" spelling="Nat" line="659" col="19"/>
+       <Standard-Type nr="7" spelling="Nat" line="668" col="19"/>
       </Explicitly-Qualified-Segment>
-      <Private-Predicate-Formula idnr="97" spelling="P" line="659" col="27">
-       <Simple-Term idnr="112" spelling="k" line="659" col="29"/>
+      <Private-Predicate-Formula idnr="97" spelling="P" line="668" col="27">
+       <Simple-Term idnr="113" spelling="k" line="668" col="29"/>
       </Private-Predicate-Formula>
      </Universal-Quantifier-Formula>
     </Proposition>
-    <Scheme-Justification nr="6" idnr="2" spelling="NAT_1" line="659" col="35" posline="659" poscol="45">
-     <Local-Reference line="659" col="50" idnr="63" spelling="A1"/>
-     <Local-Reference line="659" col="53" idnr="64" spelling="A2"/>
+    <Scheme-Justification nr="6" idnr="2" spelling="NAT_1" line="668" col="35" posline="668" poscol="45">
+     <Local-Reference line="668" col="50" idnr="63" spelling="A1"/>
+     <Local-Reference line="668" col="53" idnr="64" spelling="A2"/>
     </Scheme-Justification>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="660" col="7" posline="660" poscol="17">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="669" col="7" posline="669" poscol="17">
     <Proposition>
-     <Label idnr="0" spelling="" line="660" col="7"/>
-     <Predicative-Formula nr="1" spelling="=" line="660" col="11">
+     <Label idnr="0" spelling="" line="669" col="7"/>
+     <Predicative-Formula nr="1" spelling="=" line="669" col="11">
       <Arguments>
-       <Infix-Term nr="126" spelling="len" line="660" col="7">
+       <Infix-Term nr="126" spelling="len" line="669" col="7">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="660" col="9"/>
+         <Simple-Term idnr="90" spelling="p" line="669" col="9"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="126" spelling="len" line="660" col="15">
+       <Infix-Term nr="126" spelling="len" line="669" col="15">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="660" col="17"/>
+         <Simple-Term idnr="90" spelling="p" line="669" col="17"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="660" col="17"/>
+    <Straightforward-Justification line="669" col="17"/>
    </Item>
-   <Item kind="Conclusion" shape="Compact-Statement" line="661" col="16" posline="661" poscol="22">
+   <Item kind="Conclusion" shape="Compact-Statement" line="670" col="16" posline="670" poscol="22">
     <Proposition>
-     <Label idnr="0" spelling="" line="661" col="16"/>
-     <Thesis line="661" col="16"/>
+     <Label idnr="0" spelling="" line="670" col="16"/>
+     <Thesis line="670" col="16"/>
     </Proposition>
-    <Straightforward-Justification line="661" col="19">
-     <Link line="661" col="9"/>
-     <Local-Reference line="661" col="22" idnr="76" spelling="A3"/>
+    <Straightforward-Justification line="670" col="19">
+     <Link line="670" col="9"/>
+     <Local-Reference line="670" col="22" idnr="76" spelling="A3"/>
     </Straightforward-Justification>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="686" col="7" posline="695" poscol="5">
+ <Item kind="Theorem-Item" line="695" col="7" posline="704" poscol="5">
   <Proposition>
-   <Label idnr="113" spelling="T12" line="686" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="687" col="19">
+   <Label idnr="114" spelling="T12" line="695" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="696" col="19">
     <Arguments>
-     <Infix-Term nr="264" spelling="Sum_of_diffs" line="687" col="14">
+     <Infix-Term nr="264" spelling="Sum_of_diffs" line="696" col="14">
       <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="687" col="16"/>
+       <Simple-Term idnr="90" spelling="p" line="696" col="16"/>
       </Arguments>
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="27" spelling="&#x2B;" line="687" col="23">
+     <Infix-Term nr="27" spelling="&#x2B;" line="696" col="23">
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="687" col="21"/>
+       <Simple-Term idnr="90" spelling="p" line="696" col="21"/>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="266" spelling="poly_diff" line="687" col="33">
+       <Infix-Term nr="266" spelling="poly_diff" line="696" col="33">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="687" col="46">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="696" col="46">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="687" col="48"/>
+           <Simple-Term idnr="90" spelling="p" line="696" col="48"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -6684,52 +6793,52 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="688" col="7" posline="695" poscol="5">
-   <Item kind="Type-Changing-Statement" line="689" col="14" posline="689" poscol="74">
+  <Block kind="Proof" line="697" col="7" posline="704" poscol="5">
+   <Item kind="Type-Changing-Statement" line="698" col="14" posline="698" poscol="74">
     <Equality>
-     <Variable idnr="96" spelling="p1" line="689" col="17"/>
-     <Simple-Term idnr="90" spelling="p" line="689" col="21"/>
+     <Variable idnr="96" spelling="p1" line="698" col="17"/>
+     <Simple-Term idnr="90" spelling="p" line="698" col="21"/>
     </Equality>
-    <Standard-Type nr="3" spelling="Element" line="689" col="32">
-     <Infix-Term nr="97" spelling="Polynom-Ring" line="689" col="48">
+    <Standard-Type nr="3" spelling="Element" line="698" col="32">
+     <Infix-Term nr="97" spelling="Polynom-Ring" line="698" col="48">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="113" spelling="F_Real" line="689" col="55">
+       <Infix-Term nr="113" spelling="F_Real" line="698" col="55">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
     </Standard-Type>
-    <Straightforward-Justification line="689" col="58">
-     <Definition-Reference line="689" col="74" nr="54" spelling="POLYNOM3" number="10"/>
+    <Straightforward-Justification line="698" col="58">
+     <Definition-Reference line="698" col="74" nr="54" spelling="POLYNOM3" number="10"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="690" col="2" posline="690" poscol="67">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="699" col="2" posline="699" poscol="67">
     <Proposition>
-     <Label idnr="63" spelling="A1" line="690" col="2"/>
-     <Predicative-Formula nr="1" spelling="=" line="690" col="32">
+     <Label idnr="63" spelling="A1" line="699" col="2"/>
+     <Predicative-Formula nr="1" spelling="=" line="699" col="32">
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="690" col="16">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="699" col="16">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="690" col="26">
+         <Infix-Term nr="266" spelling="poly_diff" line="699" col="26">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="690" col="28"/>
+           <Simple-Term idnr="90" spelling="p" line="699" col="28"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="266" spelling="poly_diff" line="690" col="43">
+       <Infix-Term nr="266" spelling="poly_diff" line="699" col="43">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="690" col="56">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="699" col="56">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="690" col="58"/>
+           <Simple-Term idnr="90" spelling="p" line="699" col="58"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -6737,65 +6846,65 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="690" col="63">
-     <Local-Reference line="690" col="67" idnr="109" spelling="T13"/>
+    <Straightforward-Justification line="699" col="63">
+     <Local-Reference line="699" col="67" idnr="110" spelling="T13"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="691" col="2" posline="691" poscol="34">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="700" col="2" posline="700" poscol="34">
     <Proposition>
-     <Label idnr="64" spelling="A2" line="691" col="2"/>
-     <Predicative-Formula nr="1" spelling="=" line="691" col="16">
+     <Label idnr="64" spelling="A2" line="700" col="2"/>
+     <Predicative-Formula nr="1" spelling="=" line="700" col="16">
       <Arguments>
-       <Infix-Term nr="73" spelling="Sum" line="691" col="7">
+       <Infix-Term nr="73" spelling="Sum" line="700" col="7">
         <Arguments/>
         <Arguments>
-         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="691" col="14">
-          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="691" col="14"/>
-          <Simple-Term idnr="96" spelling="p1" line="691" col="12"/>
+         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="700" col="14">
+          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="700" col="14"/>
+          <Simple-Term idnr="96" spelling="p1" line="700" col="12"/>
          </Circumfix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Simple-Term idnr="96" spelling="p1" line="691" col="19"/>
+       <Simple-Term idnr="96" spelling="p1" line="700" col="19"/>
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="691" col="22">
-     <Theorem-Reference line="691" col="34" nr="18" spelling="RLVECT_1" number="44"/>
+    <Straightforward-Justification line="700" col="22">
+     <Theorem-Reference line="700" col="34" nr="18" spelling="RLVECT_1" number="44"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Conclusion" shape="Iterative-Equality" line="692" col="21" posline="694" poscol="64">
+   <Item kind="Conclusion" shape="Iterative-Equality" line="701" col="21" posline="703" poscol="64">
     <Proposition>
-     <Label idnr="0" spelling="" line="692" col="21"/>
-     <Predicative-Formula nr="1" spelling="=" line="692" col="26">
+     <Label idnr="0" spelling="" line="701" col="21"/>
+     <Predicative-Formula nr="1" spelling="=" line="701" col="26">
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="692" col="21">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="701" col="21">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="692" col="23"/>
+         <Simple-Term idnr="90" spelling="p" line="701" col="23"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="73" spelling="Sum" line="692" col="30">
+       <Infix-Term nr="73" spelling="Sum" line="701" col="30">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="223" spelling="&#x5E;" line="692" col="38">
+         <Infix-Term nr="223" spelling="&#x5E;" line="701" col="38">
           <Arguments>
-           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="692" col="37">
-            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="692" col="37"/>
-            <Simple-Term idnr="96" spelling="p1" line="692" col="35"/>
+           <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="701" col="37">
+            <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="701" col="37"/>
+            <Simple-Term idnr="96" spelling="p1" line="701" col="35"/>
            </Circumfix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="263" spelling="diff_seq" line="692" col="46">
+           <Infix-Term nr="263" spelling="diff_seq" line="701" col="46">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="266" spelling="poly_diff" line="692" col="56">
+             <Infix-Term nr="266" spelling="poly_diff" line="701" col="56">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="90" spelling="p" line="692" col="58"/>
+               <Simple-Term idnr="90" spelling="p" line="701" col="58"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
@@ -6807,33 +6916,33 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="692" col="64">
-     <Local-Reference line="692" col="68" idnr="106" spelling="T22"/>
+    <Straightforward-Justification line="701" col="64">
+     <Local-Reference line="701" col="68" idnr="107" spelling="T22"/>
     </Straightforward-Justification>
-    <Iterative-Step line="693" col="6">
-     <Infix-Term nr="27" spelling="&#x2B;" line="693" col="20">
+    <Iterative-Step line="702" col="6">
+     <Infix-Term nr="27" spelling="&#x2B;" line="702" col="20">
       <Arguments>
-       <Infix-Term nr="73" spelling="Sum" line="693" col="10">
+       <Infix-Term nr="73" spelling="Sum" line="702" col="10">
         <Arguments/>
         <Arguments>
-         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="693" col="17">
-          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="693" col="17"/>
-          <Simple-Term idnr="96" spelling="p1" line="693" col="15"/>
+         <Circumfix-Term nr="7" spelling="&#x3C;&#x2A;" line="702" col="17">
+          <Right-Circumflex-Symbol nr="7" spelling="&#x2A;&#x3E;" line="702" col="17"/>
+          <Simple-Term idnr="96" spelling="p1" line="702" col="15"/>
          </Circumfix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="73" spelling="Sum" line="693" col="24">
+       <Infix-Term nr="73" spelling="Sum" line="702" col="24">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="263" spelling="diff_seq" line="693" col="33">
+         <Infix-Term nr="263" spelling="diff_seq" line="702" col="33">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="266" spelling="poly_diff" line="693" col="43">
+           <Infix-Term nr="266" spelling="poly_diff" line="702" col="43">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="693" col="45"/>
+             <Simple-Term idnr="90" spelling="p" line="702" col="45"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -6842,60 +6951,60 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="693" col="50">
-      <Theorem-Reference line="693" col="62" nr="18" spelling="RLVECT_1" number="41"/>
+     <Straightforward-Justification line="702" col="50">
+      <Theorem-Reference line="702" col="62" nr="18" spelling="RLVECT_1" number="41"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="694" col="6">
-     <Infix-Term nr="27" spelling="&#x2B;" line="694" col="10">
+    <Iterative-Step line="703" col="6">
+     <Infix-Term nr="27" spelling="&#x2B;" line="703" col="10">
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="694" col="8"/>
+       <Simple-Term idnr="90" spelling="p" line="703" col="8"/>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="266" spelling="poly_diff" line="694" col="20">
+       <Infix-Term nr="266" spelling="poly_diff" line="703" col="20">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="694" col="33">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="703" col="33">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="694" col="35"/>
+           <Simple-Term idnr="90" spelling="p" line="703" col="35"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="694" col="40">
-      <Local-Reference line="694" col="43" idnr="63" spelling="A1"/>
-      <Local-Reference line="694" col="47" idnr="64" spelling="A2"/>
-      <Definition-Reference line="694" col="64" nr="54" spelling="POLYNOM3" number="10"/>
+     <Straightforward-Justification line="703" col="40">
+      <Local-Reference line="703" col="43" idnr="63" spelling="A1"/>
+      <Local-Reference line="703" col="47" idnr="64" spelling="A2"/>
+      <Definition-Reference line="703" col="64" nr="54" spelling="POLYNOM3" number="10"/>
      </Straightforward-Justification>
     </Iterative-Step>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="697" col="7" posline="702" poscol="5">
+ <Item kind="Theorem-Item" line="706" col="7" posline="711" poscol="5">
   <Proposition>
-   <Label idnr="114" spelling="T11" line="697" col="11"/>
-   <Predicative-Formula nr="1" spelling="=" line="698" col="48">
+   <Label idnr="115" spelling="T11" line="706" col="11"/>
+   <Predicative-Formula nr="1" spelling="=" line="707" col="48">
     <Arguments>
-     <Infix-Term nr="16" spelling="-" line="698" col="19">
+     <Infix-Term nr="16" spelling="-" line="707" col="19">
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="698" col="14">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="707" col="14">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="698" col="16"/>
+         <Simple-Term idnr="90" spelling="p" line="707" col="16"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="266" spelling="poly_diff" line="698" col="29">
+       <Infix-Term nr="266" spelling="poly_diff" line="707" col="29">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="698" col="42">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="707" col="42">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="698" col="44"/>
+           <Simple-Term idnr="90" spelling="p" line="707" col="44"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -6904,198 +7013,36 @@
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Simple-Term idnr="90" spelling="p" line="698" col="50"/>
+     <Simple-Term idnr="90" spelling="p" line="707" col="50"/>
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="699" col="7" posline="702" poscol="5">
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="700" col="16" posline="700" poscol="59">
+  <Block kind="Proof" line="708" col="7" posline="711" poscol="5">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="709" col="16" posline="709" poscol="59">
     <Proposition>
-     <Label idnr="0" spelling="" line="700" col="16"/>
-     <Predicative-Formula nr="1" spelling="=" line="700" col="21">
+     <Label idnr="0" spelling="" line="709" col="16"/>
+     <Predicative-Formula nr="1" spelling="=" line="709" col="21">
       <Arguments>
-       <Infix-Term nr="264" spelling="Sum_of_diffs" line="700" col="16">
+       <Infix-Term nr="264" spelling="Sum_of_diffs" line="709" col="16">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="700" col="18"/>
+         <Simple-Term idnr="90" spelling="p" line="709" col="18"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="27" spelling="&#x2B;" line="700" col="25">
+       <Infix-Term nr="27" spelling="&#x2B;" line="709" col="25">
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="700" col="23"/>
+         <Simple-Term idnr="90" spelling="p" line="709" col="23"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="700" col="35">
+         <Infix-Term nr="266" spelling="poly_diff" line="709" col="35">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="700" col="48">
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="709" col="48">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="700" col="50"/>
-            </Arguments>
-           </Infix-Term>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-       </Infix-Term>
-      </Arguments>
-     </Predicative-Formula>
-    </Proposition>
-    <Straightforward-Justification line="700" col="55">
-     <Local-Reference line="700" col="59" idnr="113" spelling="T12"/>
-    </Straightforward-Justification>
-   </Item>
-   <Item kind="Conclusion" shape="Compact-Statement" line="701" col="16" posline="701" poscol="23">
-    <Proposition>
-     <Label idnr="0" spelling="" line="701" col="16"/>
-     <Thesis line="701" col="16"/>
-    </Proposition>
-    <Straightforward-Justification line="701" col="19">
-     <Link line="701" col="9"/>
-     <Local-Reference line="701" col="23" idnr="91" spelling="T34"/>
-    </Straightforward-Justification>
-   </Item>
-  </Block>
- </Item>
- <Item kind="Theorem-Item" line="704" col="7" posline="711" poscol="5">
-  <Proposition>
-   <Label idnr="115" spelling="T9" line="704" col="10"/>
-   <Predicative-Formula nr="1" spelling="=" line="705" col="56">
-    <Arguments>
-     <Infix-Term nr="16" spelling="-" line="705" col="24">
-      <Arguments>
-       <Infix-Term nr="209" spelling="Eval" line="705" col="6">
-        <Arguments/>
-        <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="705" col="19">
-          <Arguments/>
-          <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="705" col="21"/>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-       </Infix-Term>
-      </Arguments>
-      <Arguments>
-       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="705" col="52">
-        <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="705" col="32">
-          <Arguments/>
-          <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="705" col="45">
-            <Arguments/>
-            <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="705" col="47"/>
-            </Arguments>
-           </Infix-Term>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-        <Arguments/>
-       </Infix-Term>
-      </Arguments>
-     </Infix-Term>
-    </Arguments>
-    <Arguments>
-     <Infix-Term nr="209" spelling="Eval" line="705" col="61">
-      <Arguments/>
-      <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="705" col="63"/>
-      </Arguments>
-     </Infix-Term>
-    </Arguments>
-   </Predicative-Formula>
-  </Proposition>
-  <Block kind="Proof" line="706" col="7" posline="711" poscol="5">
-   <Item kind="Constant-Definition" line="707" col="28" posline="707" poscol="27">
-    <Variable idnr="111" spelling="S" line="707" col="9"/>
-    <Infix-Term nr="264" spelling="Sum_of_diffs" line="707" col="24">
-     <Arguments/>
-     <Arguments>
-      <Simple-Term idnr="90" spelling="p" line="707" col="26"/>
-     </Arguments>
-    </Infix-Term>
-   </Item>
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="708" col="8" posline="708" poscol="48">
-    <Proposition>
-     <Label idnr="0" spelling="" line="708" col="8"/>
-     <Predicative-Formula nr="1" spelling="=" line="708" col="14">
-      <Arguments>
-       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="708" col="12">
-        <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="708" col="8">
-          <Arguments/>
-          <Arguments>
-           <Simple-Term idnr="111" spelling="S" line="708" col="10"/>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-        <Arguments/>
-       </Infix-Term>
-      </Arguments>
-      <Arguments>
-       <Infix-Term nr="209" spelling="Eval" line="708" col="19">
-        <Arguments/>
-        <Arguments>
-         <Infix-Term nr="266" spelling="poly_diff" line="708" col="29">
-          <Arguments/>
-          <Arguments>
-           <Simple-Term idnr="111" spelling="S" line="708" col="31"/>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-       </Infix-Term>
-      </Arguments>
-     </Predicative-Formula>
-    </Proposition>
-    <Straightforward-Justification line="708" col="36">
-     <Theorem-Reference line="708" col="48" nr="27" spelling="POLYDIFF" number="61"/>
-    </Straightforward-Justification>
-   </Item>
-   <Item kind="Conclusion" shape="Iterative-Equality" line="709" col="14" posline="710" poscol="20">
-    <Proposition>
-     <Label idnr="0" spelling="" line="709" col="14"/>
-     <Predicative-Formula nr="1" spelling="=" line="709" col="31">
-      <Arguments>
-       <Infix-Term nr="16" spelling="-" line="709" col="18">
-        <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="709" col="14">
-          <Arguments/>
-          <Arguments>
-           <Simple-Term idnr="111" spelling="S" line="709" col="16"/>
-          </Arguments>
-         </Infix-Term>
-        </Arguments>
-        <Arguments>
-         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="709" col="28">
-          <Arguments>
-           <Infix-Term nr="209" spelling="Eval" line="709" col="24">
-            <Arguments/>
-            <Arguments>
-             <Simple-Term idnr="111" spelling="S" line="709" col="26"/>
-            </Arguments>
-           </Infix-Term>
-          </Arguments>
-          <Arguments/>
-         </Infix-Term>
-        </Arguments>
-       </Infix-Term>
-      </Arguments>
-      <Arguments>
-       <Infix-Term nr="209" spelling="Eval" line="709" col="36">
-        <Arguments/>
-        <Arguments>
-         <Infix-Term nr="16" spelling="-" line="709" col="39">
-          <Arguments>
-           <Simple-Term idnr="111" spelling="S" line="709" col="38"/>
-          </Arguments>
-          <Arguments>
-           <Infix-Term nr="266" spelling="poly_diff" line="709" col="48">
-            <Arguments/>
-            <Arguments>
-             <Simple-Term idnr="111" spelling="S" line="709" col="50"/>
+             <Simple-Term idnr="90" spelling="p" line="709" col="50"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
@@ -7106,56 +7053,218 @@
      </Predicative-Formula>
     </Proposition>
     <Straightforward-Justification line="709" col="55">
-     <Link line="709" col="9"/>
-     <Theorem-Reference line="709" col="67" nr="27" spelling="POLYDIFF" number="57"/>
+     <Local-Reference line="709" col="59" idnr="114" spelling="T12"/>
     </Straightforward-Justification>
-    <Iterative-Step line="710" col="6">
-     <Infix-Term nr="209" spelling="Eval" line="710" col="11">
-      <Arguments/>
+   </Item>
+   <Item kind="Conclusion" shape="Compact-Statement" line="710" col="16" posline="710" poscol="23">
+    <Proposition>
+     <Label idnr="0" spelling="" line="710" col="16"/>
+     <Thesis line="710" col="16"/>
+    </Proposition>
+    <Straightforward-Justification line="710" col="19">
+     <Link line="710" col="9"/>
+     <Local-Reference line="710" col="23" idnr="91" spelling="T34"/>
+    </Straightforward-Justification>
+   </Item>
+  </Block>
+ </Item>
+ <Item kind="Theorem-Item" line="713" col="7" posline="720" poscol="5">
+  <Proposition>
+   <Label idnr="116" spelling="T9" line="713" col="10"/>
+   <Predicative-Formula nr="1" spelling="=" line="714" col="56">
+    <Arguments>
+     <Infix-Term nr="16" spelling="-" line="714" col="24">
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="710" col="13"/>
+       <Infix-Term nr="209" spelling="Eval" line="714" col="6">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="714" col="19">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="90" spelling="p" line="714" col="21"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="714" col="52">
+        <Arguments>
+         <Infix-Term nr="209" spelling="Eval" line="714" col="32">
+          <Arguments/>
+          <Arguments>
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="714" col="45">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="90" spelling="p" line="714" col="47"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments/>
+       </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="710" col="16">
-      <Local-Reference line="710" col="20" idnr="114" spelling="T11"/>
+    </Arguments>
+    <Arguments>
+     <Infix-Term nr="209" spelling="Eval" line="714" col="61">
+      <Arguments/>
+      <Arguments>
+       <Simple-Term idnr="90" spelling="p" line="714" col="63"/>
+      </Arguments>
+     </Infix-Term>
+    </Arguments>
+   </Predicative-Formula>
+  </Proposition>
+  <Block kind="Proof" line="715" col="7" posline="720" poscol="5">
+   <Item kind="Constant-Definition" line="716" col="28" posline="716" poscol="27">
+    <Variable idnr="112" spelling="S" line="716" col="9"/>
+    <Infix-Term nr="264" spelling="Sum_of_diffs" line="716" col="24">
+     <Arguments/>
+     <Arguments>
+      <Simple-Term idnr="90" spelling="p" line="716" col="26"/>
+     </Arguments>
+    </Infix-Term>
+   </Item>
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="717" col="8" posline="717" poscol="48">
+    <Proposition>
+     <Label idnr="0" spelling="" line="717" col="8"/>
+     <Predicative-Formula nr="1" spelling="=" line="717" col="14">
+      <Arguments>
+       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="717" col="12">
+        <Arguments>
+         <Infix-Term nr="209" spelling="Eval" line="717" col="8">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="112" spelling="S" line="717" col="10"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments/>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="209" spelling="Eval" line="717" col="19">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="266" spelling="poly_diff" line="717" col="29">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="112" spelling="S" line="717" col="31"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+     </Predicative-Formula>
+    </Proposition>
+    <Straightforward-Justification line="717" col="36">
+     <Theorem-Reference line="717" col="48" nr="27" spelling="POLYDIFF" number="61"/>
+    </Straightforward-Justification>
+   </Item>
+   <Item kind="Conclusion" shape="Iterative-Equality" line="718" col="14" posline="719" poscol="20">
+    <Proposition>
+     <Label idnr="0" spelling="" line="718" col="14"/>
+     <Predicative-Formula nr="1" spelling="=" line="718" col="31">
+      <Arguments>
+       <Infix-Term nr="16" spelling="-" line="718" col="18">
+        <Arguments>
+         <Infix-Term nr="209" spelling="Eval" line="718" col="14">
+          <Arguments/>
+          <Arguments>
+           <Simple-Term idnr="112" spelling="S" line="718" col="16"/>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+        <Arguments>
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="718" col="28">
+          <Arguments>
+           <Infix-Term nr="209" spelling="Eval" line="718" col="24">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="112" spelling="S" line="718" col="26"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+          <Arguments/>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+      <Arguments>
+       <Infix-Term nr="209" spelling="Eval" line="718" col="36">
+        <Arguments/>
+        <Arguments>
+         <Infix-Term nr="16" spelling="-" line="718" col="39">
+          <Arguments>
+           <Simple-Term idnr="112" spelling="S" line="718" col="38"/>
+          </Arguments>
+          <Arguments>
+           <Infix-Term nr="266" spelling="poly_diff" line="718" col="48">
+            <Arguments/>
+            <Arguments>
+             <Simple-Term idnr="112" spelling="S" line="718" col="50"/>
+            </Arguments>
+           </Infix-Term>
+          </Arguments>
+         </Infix-Term>
+        </Arguments>
+       </Infix-Term>
+      </Arguments>
+     </Predicative-Formula>
+    </Proposition>
+    <Straightforward-Justification line="718" col="55">
+     <Link line="718" col="9"/>
+     <Theorem-Reference line="718" col="67" nr="27" spelling="POLYDIFF" number="57"/>
+    </Straightforward-Justification>
+    <Iterative-Step line="719" col="6">
+     <Infix-Term nr="209" spelling="Eval" line="719" col="11">
+      <Arguments/>
+      <Arguments>
+       <Simple-Term idnr="90" spelling="p" line="719" col="13"/>
+      </Arguments>
+     </Infix-Term>
+     <Straightforward-Justification line="719" col="16">
+      <Local-Reference line="719" col="20" idnr="115" spelling="T11"/>
      </Straightforward-Justification>
     </Iterative-Step>
    </Item>
   </Block>
  </Item>
- <Item kind="Definition-Item" line="713" col="10" posline="718" poscol="3">
-  <Block kind="Definitional-Block" line="713" col="10" posline="718" poscol="3">
-   <Item kind="Loci-Declaration" line="714" col="8" posline="714" poscol="7">
-    <Implicitly-Qualified-Segment line="714" col="7">
-     <Variable idnr="90" spelling="p" line="714" col="7"/>
+ <Item kind="Definition-Item" line="722" col="10" posline="727" poscol="3">
+  <Block kind="Definitional-Block" line="722" col="10" posline="727" poscol="3">
+   <Item kind="Loci-Declaration" line="723" col="8" posline="723" poscol="7">
+    <Implicitly-Qualified-Segment line="723" col="7">
+     <Variable idnr="90" spelling="p" line="723" col="7"/>
     </Implicitly-Qualified-Segment>
    </Item>
-   <Item kind="Functor-Definition" shape="Equals" line="715" col="6" posline="716" poscol="33">
-    <Operation-Functor-Pattern nr="265" spelling="WFx" line="715" col="10">
+   <Item kind="Functor-Definition" shape="Equals" line="724" col="6" posline="725" poscol="33">
+    <Operation-Functor-Pattern nr="265" spelling="WFx" line="724" col="10">
      <Loci/>
      <Loci>
-      <Locus idnr="90" spelling="p" line="715" col="12"/>
+      <Locus idnr="90" spelling="p" line="724" col="12"/>
      </Loci>
     </Operation-Functor-Pattern>
     <Type-Specification>
-     <Standard-Type nr="14" spelling="Function" line="715" col="25">
-      <Infix-Term nr="2" spelling="REAL" line="715" col="33">
+     <Standard-Type nr="14" spelling="Function" line="724" col="25">
+      <Infix-Term nr="2" spelling="REAL" line="724" col="33">
        <Arguments/>
        <Arguments/>
       </Infix-Term>
-      <Infix-Term nr="2" spelling="REAL" line="715" col="38">
+      <Infix-Term nr="2" spelling="REAL" line="724" col="38">
        <Arguments/>
        <Arguments/>
       </Infix-Term>
      </Standard-Type>
     </Type-Specification>
-    <Definiens line="715" col="45" kind="Simple-Definiens" shape="Term-Expression">
-     <Label idnr="0" spelling="" line="716" col="7"/>
-     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="716" col="12">
+    <Definiens line="724" col="45" kind="Simple-Definiens" shape="Term-Expression">
+     <Label idnr="0" spelling="" line="725" col="7"/>
+     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="725" col="12">
       <Arguments>
-       <Infix-Term nr="109" spelling="&#x22;" line="716" col="8">
+       <Infix-Term nr="109" spelling="&#x22;" line="725" col="8">
         <Arguments>
-         <Infix-Term nr="288" spelling="exp_R" line="716" col="7">
+         <Infix-Term nr="288" spelling="exp_R" line="725" col="7">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
@@ -7164,13 +7273,13 @@
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="209" spelling="Eval" line="716" col="17">
+       <Infix-Term nr="209" spelling="Eval" line="725" col="17">
         <Arguments/>
         <Arguments>
-         <Infix-Term nr="264" spelling="Sum_of_diffs" line="716" col="30">
+         <Infix-Term nr="264" spelling="Sum_of_diffs" line="725" col="30">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="716" col="32"/>
+           <Simple-Term idnr="90" spelling="p" line="725" col="32"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -7179,69 +7288,69 @@
      </Infix-Term>
     </Definiens>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="717" col="11" posline="717" poscol="11">
-    <Straightforward-Justification line="717" col="11"/>
+   <Item kind="Correctness-Condition" condition="coherence" line="726" col="11" posline="726" poscol="11">
+    <Straightforward-Justification line="726" col="11"/>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="720" col="7" posline="725" poscol="5">
+ <Item kind="Theorem-Item" line="729" col="7" posline="734" poscol="5">
   <Proposition>
-   <Label idnr="0" spelling="" line="721" col="5"/>
-   <Predicative-Formula nr="1" spelling="=" line="721" col="12">
+   <Label idnr="0" spelling="" line="730" col="5"/>
+   <Predicative-Formula nr="1" spelling="=" line="730" col="12">
     <Arguments>
-     <Infix-Term nr="66" spelling="." line="721" col="9">
+     <Infix-Term nr="66" spelling="." line="730" col="9">
       <Arguments>
-       <Infix-Term nr="265" spelling="WFx" line="721" col="5">
+       <Infix-Term nr="265" spelling="WFx" line="730" col="5">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="721" col="7"/>
+         <Simple-Term idnr="90" spelling="p" line="730" col="7"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Simple-Term idnr="58" spelling="r" line="721" col="10"/>
+       <Simple-Term idnr="58" spelling="r" line="730" col="10"/>
       </Arguments>
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="104" spelling="&#x2A;" line="721" col="26">
+     <Infix-Term nr="104" spelling="&#x2A;" line="730" col="26">
       <Arguments>
-       <Infix-Term nr="25" spelling="/" line="721" col="15">
+       <Infix-Term nr="25" spelling="/" line="730" col="15">
         <Arguments>
-         <Numeral-Term number="1" line="721" col="14"/>
+         <Numeral-Term number="1" line="730" col="14"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="66" spelling="." line="721" col="22">
+         <Infix-Term nr="66" spelling="." line="730" col="22">
           <Arguments>
-           <Infix-Term nr="288" spelling="exp_R" line="721" col="21">
+           <Infix-Term nr="288" spelling="exp_R" line="730" col="21">
             <Arguments/>
             <Arguments/>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Simple-Term idnr="58" spelling="r" line="721" col="23"/>
+           <Simple-Term idnr="58" spelling="r" line="730" col="23"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="66" spelling="." line="721" col="50">
+       <Infix-Term nr="66" spelling="." line="730" col="50">
         <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="721" col="32">
+         <Infix-Term nr="209" spelling="Eval" line="730" col="32">
           <Arguments/>
           <Arguments>
-           <Infix-Term nr="264" spelling="Sum_of_diffs" line="721" col="45">
+           <Infix-Term nr="264" spelling="Sum_of_diffs" line="730" col="45">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="90" spelling="p" line="721" col="47"/>
+             <Simple-Term idnr="90" spelling="p" line="730" col="47"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Simple-Term idnr="58" spelling="r" line="721" col="51"/>
+         <Simple-Term idnr="58" spelling="r" line="730" col="51"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
@@ -7249,38 +7358,38 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="722" col="7" posline="725" poscol="5">
-   <Item kind="Regular-Statement" shape="Compact-Statement" line="723" col="5" posline="723" poscol="33">
+  <Block kind="Proof" line="731" col="7" posline="734" poscol="5">
+   <Item kind="Regular-Statement" shape="Compact-Statement" line="732" col="5" posline="732" poscol="33">
     <Proposition>
-     <Label idnr="0" spelling="" line="723" col="5"/>
-     <Predicative-Formula nr="1" spelling="=" line="723" col="10">
+     <Label idnr="0" spelling="" line="732" col="5"/>
+     <Predicative-Formula nr="1" spelling="=" line="732" col="10">
       <Arguments>
-       <Infix-Term nr="66" spelling="." line="723" col="7">
+       <Infix-Term nr="66" spelling="." line="732" col="7">
         <Arguments>
-         <Infix-Term nr="109" spelling="&#x22;" line="723" col="6">
+         <Infix-Term nr="109" spelling="&#x22;" line="732" col="6">
           <Arguments>
-           <Simple-Term idnr="28" spelling="E" line="723" col="5"/>
+           <Simple-Term idnr="28" spelling="E" line="732" col="5"/>
           </Arguments>
           <Arguments/>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Simple-Term idnr="58" spelling="r" line="723" col="8"/>
+         <Simple-Term idnr="58" spelling="r" line="732" col="8"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="25" spelling="/" line="723" col="13">
+       <Infix-Term nr="25" spelling="/" line="732" col="13">
         <Arguments>
-         <Numeral-Term number="1" line="723" col="12"/>
+         <Numeral-Term number="1" line="732" col="12"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="66" spelling="." line="723" col="16">
+         <Infix-Term nr="66" spelling="." line="732" col="16">
           <Arguments>
-           <Simple-Term idnr="28" spelling="E" line="723" col="15"/>
+           <Simple-Term idnr="28" spelling="E" line="732" col="15"/>
           </Arguments>
           <Arguments>
-           <Simple-Term idnr="58" spelling="r" line="723" col="17"/>
+           <Simple-Term idnr="58" spelling="r" line="732" col="17"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -7288,58 +7397,58 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="723" col="21">
-     <Theorem-Reference line="723" col="33" nr="37" spelling="VALUED_1" number="10"/>
+    <Straightforward-Justification line="732" col="21">
+     <Theorem-Reference line="732" col="33" nr="37" spelling="VALUED_1" number="10"/>
     </Straightforward-Justification>
    </Item>
-   <Item kind="Conclusion" shape="Compact-Statement" line="724" col="16" posline="724" poscol="30">
+   <Item kind="Conclusion" shape="Compact-Statement" line="733" col="16" posline="733" poscol="30">
     <Proposition>
-     <Label idnr="0" spelling="" line="724" col="16"/>
-     <Thesis line="724" col="16"/>
+     <Label idnr="0" spelling="" line="733" col="16"/>
+     <Thesis line="733" col="16"/>
     </Proposition>
-    <Straightforward-Justification line="724" col="19">
-     <Link line="724" col="9"/>
-     <Theorem-Reference line="724" col="30" nr="37" spelling="VALUED_1" number="5"/>
+    <Straightforward-Justification line="733" col="19">
+     <Link line="733" col="9"/>
+     <Theorem-Reference line="733" col="30" nr="37" spelling="VALUED_1" number="5"/>
     </Straightforward-Justification>
    </Item>
   </Block>
  </Item>
- <Item kind="Definition-Item" line="727" col="12" posline="731" poscol="3">
-  <Block kind="Registration-Block" line="727" col="12" posline="731" poscol="3">
-   <Item kind="Loci-Declaration" line="728" col="8" posline="728" poscol="7">
-    <Implicitly-Qualified-Segment line="728" col="7">
-     <Variable idnr="90" spelling="p" line="728" col="7"/>
+ <Item kind="Definition-Item" line="736" col="12" posline="740" poscol="3">
+  <Block kind="Registration-Block" line="736" col="12" posline="740" poscol="3">
+   <Item kind="Loci-Declaration" line="737" col="8" posline="737" poscol="7">
+    <Implicitly-Qualified-Segment line="737" col="7">
+     <Variable idnr="90" spelling="p" line="737" col="7"/>
     </Implicitly-Qualified-Segment>
    </Item>
-   <Item kind="Cluster" line="729" col="9" posline="729" poscol="34">
-    <Functorial-Registration line="729" col="9">
-     <Infix-Term nr="265" spelling="WFx" line="729" col="13">
+   <Item kind="Cluster" line="738" col="9" posline="738" poscol="34">
+    <Functorial-Registration line="738" col="9">
+     <Infix-Term nr="265" spelling="WFx" line="738" col="13">
       <Arguments/>
       <Arguments>
-       <Simple-Term idnr="90" spelling="p" line="729" col="15"/>
+       <Simple-Term idnr="90" spelling="p" line="738" col="15"/>
       </Arguments>
      </Infix-Term>
      <Adjective-Cluster>
-      <Adjective nr="131" spelling="differentiable" line="729" col="34"/>
+      <Adjective nr="131" spelling="differentiable" line="738" col="34"/>
      </Adjective-Cluster>
     </Functorial-Registration>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="730" col="11" posline="730" poscol="11">
-    <Straightforward-Justification line="730" col="11"/>
+   <Item kind="Correctness-Condition" condition="coherence" line="739" col="11" posline="739" poscol="11">
+    <Straightforward-Justification line="739" col="11"/>
    </Item>
   </Block>
  </Item>
- <Item kind="Theorem-Item" line="733" col="7" posline="743" poscol="5">
+ <Item kind="Theorem-Item" line="742" col="7" posline="752" poscol="5">
   <Proposition>
-   <Label idnr="0" spelling="" line="734" col="3"/>
-   <Predicative-Formula nr="1" spelling="=" line="734" col="15">
+   <Label idnr="0" spelling="" line="743" col="3"/>
+   <Predicative-Formula nr="1" spelling="=" line="743" col="15">
     <Arguments>
-     <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="734" col="13">
+     <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="743" col="13">
       <Arguments>
-       <Infix-Term nr="265" spelling="WFx" line="734" col="6">
+       <Infix-Term nr="265" spelling="WFx" line="743" col="6">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="90" spelling="p" line="734" col="8"/>
+         <Simple-Term idnr="90" spelling="p" line="743" col="8"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
@@ -7347,14 +7456,14 @@
      </Infix-Term>
     </Arguments>
     <Arguments>
-     <Infix-Term nr="16" spelling="-" line="734" col="17">
+     <Infix-Term nr="16" spelling="-" line="743" col="17">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="734" col="30">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="743" col="30">
         <Arguments>
-         <Infix-Term nr="109" spelling="&#x22;" line="734" col="25">
+         <Infix-Term nr="109" spelling="&#x22;" line="743" col="25">
           <Arguments>
-           <Infix-Term nr="288" spelling="exp_R" line="734" col="24">
+           <Infix-Term nr="288" spelling="exp_R" line="743" col="24">
             <Arguments/>
             <Arguments/>
            </Infix-Term>
@@ -7363,10 +7472,10 @@
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="734" col="35">
+         <Infix-Term nr="209" spelling="Eval" line="743" col="35">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="734" col="37"/>
+           <Simple-Term idnr="90" spelling="p" line="743" col="37"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -7376,41 +7485,41 @@
     </Arguments>
    </Predicative-Formula>
   </Proposition>
-  <Block kind="Proof" line="735" col="7" posline="743" poscol="5">
-   <Item kind="Constant-Definition" line="736" col="15" posline="736" poscol="14">
-    <Variable idnr="65" spelling="f" line="736" col="9"/>
-    <Infix-Term nr="109" spelling="&#x22;" line="736" col="14">
+  <Block kind="Proof" line="744" col="7" posline="752" poscol="5">
+   <Item kind="Constant-Definition" line="745" col="15" posline="745" poscol="14">
+    <Variable idnr="65" spelling="f" line="745" col="9"/>
+    <Infix-Term nr="109" spelling="&#x22;" line="745" col="14">
      <Arguments>
-      <Simple-Term idnr="28" spelling="E" line="736" col="13"/>
+      <Simple-Term idnr="28" spelling="E" line="745" col="13"/>
      </Arguments>
      <Arguments/>
     </Infix-Term>
    </Item>
-   <Item kind="Constant-Definition" line="737" col="33" posline="737" poscol="32">
-    <Variable idnr="69" spelling="g" line="737" col="9"/>
-    <Infix-Term nr="209" spelling="Eval" line="737" col="16">
+   <Item kind="Constant-Definition" line="746" col="33" posline="746" poscol="32">
+    <Variable idnr="69" spelling="g" line="746" col="9"/>
+    <Infix-Term nr="209" spelling="Eval" line="746" col="16">
      <Arguments/>
      <Arguments>
-      <Infix-Term nr="264" spelling="Sum_of_diffs" line="737" col="29">
+      <Infix-Term nr="264" spelling="Sum_of_diffs" line="746" col="29">
        <Arguments/>
        <Arguments>
-        <Simple-Term idnr="90" spelling="p" line="737" col="31"/>
+        <Simple-Term idnr="90" spelling="p" line="746" col="31"/>
        </Arguments>
       </Infix-Term>
      </Arguments>
     </Infix-Term>
    </Item>
-   <Item kind="Conclusion" shape="Iterative-Equality" line="738" col="10" posline="742" poscol="24">
+   <Item kind="Conclusion" shape="Iterative-Equality" line="747" col="10" posline="751" poscol="24">
     <Proposition>
-     <Label idnr="0" spelling="" line="738" col="10"/>
-     <Predicative-Formula nr="1" spelling="=" line="738" col="22">
+     <Label idnr="0" spelling="" line="747" col="10"/>
+     <Predicative-Formula nr="1" spelling="=" line="747" col="22">
       <Arguments>
-       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="738" col="20">
+       <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="747" col="20">
         <Arguments>
-         <Infix-Term nr="265" spelling="WFx" line="738" col="13">
+         <Infix-Term nr="265" spelling="WFx" line="747" col="13">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="738" col="15"/>
+           <Simple-Term idnr="90" spelling="p" line="747" col="15"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
@@ -7418,41 +7527,41 @@
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="27" spelling="&#x2B;" line="738" col="33">
+       <Infix-Term nr="27" spelling="&#x2B;" line="747" col="33">
         <Arguments>
-         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="738" col="30">
+         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="747" col="30">
           <Arguments>
-           <Infix-Term nr="16" spelling="-" line="738" col="25">
+           <Infix-Term nr="16" spelling="-" line="747" col="25">
             <Arguments/>
             <Arguments>
-             <Simple-Term idnr="65" spelling="f" line="738" col="26"/>
+             <Simple-Term idnr="65" spelling="f" line="747" col="26"/>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Simple-Term idnr="69" spelling="g" line="738" col="31"/>
+           <Simple-Term idnr="69" spelling="g" line="747" col="31"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="738" col="42">
+         <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="747" col="42">
           <Arguments>
-           <Infix-Term nr="16" spelling="-" line="738" col="36">
+           <Infix-Term nr="16" spelling="-" line="747" col="36">
             <Arguments/>
             <Arguments>
-             <Infix-Term nr="16" spelling="-" line="738" col="37">
+             <Infix-Term nr="16" spelling="-" line="747" col="37">
               <Arguments/>
               <Arguments>
-               <Simple-Term idnr="65" spelling="f" line="738" col="38"/>
+               <Simple-Term idnr="65" spelling="f" line="747" col="38"/>
               </Arguments>
              </Infix-Term>
             </Arguments>
            </Infix-Term>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="738" col="46">
+           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="747" col="46">
             <Arguments>
-             <Simple-Term idnr="69" spelling="g" line="738" col="44"/>
+             <Simple-Term idnr="69" spelling="g" line="747" col="44"/>
             </Arguments>
             <Arguments/>
            </Infix-Term>
@@ -7463,41 +7572,41 @@
       </Arguments>
      </Predicative-Formula>
     </Proposition>
-    <Straightforward-Justification line="738" col="50">
-     <Local-Reference line="738" col="53" idnr="87" spelling="T8"/>
-     <Theorem-Reference line="738" col="66" nr="27" spelling="POLYDIFF" number="16"/>
+    <Straightforward-Justification line="747" col="50">
+     <Local-Reference line="747" col="53" idnr="87" spelling="T8"/>
+     <Theorem-Reference line="747" col="66" nr="27" spelling="POLYDIFF" number="16"/>
     </Straightforward-Justification>
-    <Iterative-Step line="739" col="6">
-     <Infix-Term nr="16" spelling="-" line="739" col="17">
+    <Iterative-Step line="748" col="6">
+     <Infix-Term nr="16" spelling="-" line="748" col="17">
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="739" col="14">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="748" col="14">
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="739" col="9">
+         <Infix-Term nr="16" spelling="-" line="748" col="9">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="65" spelling="f" line="739" col="10"/>
+           <Simple-Term idnr="65" spelling="f" line="748" col="10"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Simple-Term idnr="69" spelling="g" line="739" col="15"/>
+         <Simple-Term idnr="69" spelling="g" line="748" col="15"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="739" col="25">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="748" col="25">
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="739" col="20">
+         <Infix-Term nr="16" spelling="-" line="748" col="20">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="65" spelling="f" line="739" col="21"/>
+           <Simple-Term idnr="65" spelling="f" line="748" col="21"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="739" col="29">
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="748" col="29">
           <Arguments>
-           <Simple-Term idnr="69" spelling="g" line="739" col="27"/>
+           <Simple-Term idnr="69" spelling="g" line="748" col="27"/>
           </Arguments>
           <Arguments/>
          </Infix-Term>
@@ -7505,29 +7614,29 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="739" col="33">
-      <Theorem-Reference line="739" col="45" nr="61" spelling="VALUED_2" number="25"/>
+     <Straightforward-Justification line="748" col="33">
+      <Theorem-Reference line="748" col="45" nr="61" spelling="VALUED_2" number="25"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="740" col="6">
-     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="740" col="14">
+    <Iterative-Step line="749" col="6">
+     <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="749" col="14">
       <Arguments>
-       <Infix-Term nr="16" spelling="-" line="740" col="9">
+       <Infix-Term nr="16" spelling="-" line="749" col="9">
         <Arguments/>
         <Arguments>
-         <Simple-Term idnr="65" spelling="f" line="740" col="10"/>
+         <Simple-Term idnr="65" spelling="f" line="749" col="10"/>
         </Arguments>
        </Infix-Term>
       </Arguments>
       <Arguments>
-       <Infix-Term nr="16" spelling="-" line="740" col="18">
+       <Infix-Term nr="16" spelling="-" line="749" col="18">
         <Arguments>
-         <Simple-Term idnr="69" spelling="g" line="740" col="16"/>
+         <Simple-Term idnr="69" spelling="g" line="749" col="16"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="740" col="23">
+         <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="749" col="23">
           <Arguments>
-           <Simple-Term idnr="69" spelling="g" line="740" col="21"/>
+           <Simple-Term idnr="69" spelling="g" line="749" col="21"/>
           </Arguments>
           <Arguments/>
          </Infix-Term>
@@ -7535,27 +7644,27 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="740" col="28">
-      <Theorem-Reference line="740" col="40" nr="58" spelling="RFUNCT_1" number="15"/>
+     <Straightforward-Justification line="749" col="28">
+      <Theorem-Reference line="749" col="40" nr="58" spelling="RFUNCT_1" number="15"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="741" col="6">
-     <Infix-Term nr="16" spelling="-" line="741" col="8">
+    <Iterative-Step line="750" col="6">
+     <Infix-Term nr="16" spelling="-" line="750" col="8">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="741" col="12">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="750" col="12">
         <Arguments>
-         <Simple-Term idnr="65" spelling="f" line="741" col="9"/>
+         <Simple-Term idnr="65" spelling="f" line="750" col="9"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="16" spelling="-" line="741" col="16">
+         <Infix-Term nr="16" spelling="-" line="750" col="16">
           <Arguments>
-           <Simple-Term idnr="69" spelling="g" line="741" col="14"/>
+           <Simple-Term idnr="69" spelling="g" line="750" col="14"/>
           </Arguments>
           <Arguments>
-           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="741" col="21">
+           <Infix-Term nr="221" spelling="&#x60;&#x7C;" line="750" col="21">
             <Arguments>
-             <Simple-Term idnr="69" spelling="g" line="741" col="19"/>
+             <Simple-Term idnr="69" spelling="g" line="750" col="19"/>
             </Arguments>
             <Arguments/>
            </Infix-Term>
@@ -7565,116 +7674,116 @@
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="741" col="26">
-      <Theorem-Reference line="741" col="38" nr="61" spelling="VALUED_2" number="25"/>
+     <Straightforward-Justification line="750" col="26">
+      <Theorem-Reference line="750" col="38" nr="61" spelling="VALUED_2" number="25"/>
      </Straightforward-Justification>
     </Iterative-Step>
-    <Iterative-Step line="742" col="6">
-     <Infix-Term nr="16" spelling="-" line="742" col="8">
+    <Iterative-Step line="751" col="6">
+     <Infix-Term nr="16" spelling="-" line="751" col="8">
       <Arguments/>
       <Arguments>
-       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="742" col="12">
+       <Infix-Term nr="294" spelling="&#x28;&#x23;&#x29;" line="751" col="12">
         <Arguments>
-         <Simple-Term idnr="65" spelling="f" line="742" col="9"/>
+         <Simple-Term idnr="65" spelling="f" line="751" col="9"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="209" spelling="Eval" line="742" col="16">
+         <Infix-Term nr="209" spelling="Eval" line="751" col="16">
           <Arguments/>
           <Arguments>
-           <Simple-Term idnr="90" spelling="p" line="742" col="18"/>
+           <Simple-Term idnr="90" spelling="p" line="751" col="18"/>
           </Arguments>
          </Infix-Term>
         </Arguments>
        </Infix-Term>
       </Arguments>
      </Infix-Term>
-     <Straightforward-Justification line="742" col="21">
-      <Local-Reference line="742" col="24" idnr="115" spelling="T9"/>
+     <Straightforward-Justification line="751" col="21">
+      <Local-Reference line="751" col="24" idnr="116" spelling="T9"/>
      </Straightforward-Justification>
     </Iterative-Step>
    </Item>
   </Block>
  </Item>
- <Item kind="Definition-Item" line="745" col="12" posline="757" poscol="3">
-  <Block kind="Registration-Block" line="745" col="12" posline="757" poscol="3">
-   <Item kind="Cluster" line="746" col="9" posline="746" poscol="36">
-    <Functorial-Registration line="746" col="9">
-     <Infix-Term nr="262" spelling="number_e" line="746" col="18">
+ <Item kind="Definition-Item" line="754" col="12" posline="766" poscol="3">
+  <Block kind="Registration-Block" line="754" col="12" posline="766" poscol="3">
+   <Item kind="Cluster" line="755" col="9" posline="755" poscol="36">
+    <Functorial-Registration line="755" col="9">
+     <Infix-Term nr="262" spelling="number_e" line="755" col="18">
       <Arguments/>
       <Arguments/>
      </Infix-Term>
      <Adjective-Cluster>
-      <Adjective nr="29" spelling="transcendental" line="746" col="36"/>
+      <Adjective nr="29" spelling="transcendental" line="755" col="36"/>
      </Adjective-Cluster>
     </Functorial-Registration>
    </Item>
-   <Item kind="Correctness-Condition" condition="coherence" line="747" col="11" posline="756" poscol="5">
-    <Block kind="Proof" line="748" col="7" posline="756" poscol="5">
-     <Item kind="Regular-Statement" shape="Compact-Statement" line="749" col="5" posline="749" poscol="34">
+   <Item kind="Correctness-Condition" condition="coherence" line="756" col="11" posline="765" poscol="5">
+    <Block kind="Proof" line="757" col="7" posline="765" poscol="5">
+     <Item kind="Regular-Statement" shape="Compact-Statement" line="758" col="5" posline="758" poscol="34">
       <Proposition>
-       <Label idnr="0" spelling="" line="749" col="5"/>
-       <Predicative-Formula nr="3" spelling="in" line="749" col="8">
+       <Label idnr="0" spelling="" line="758" col="5"/>
+       <Predicative-Formula nr="3" spelling="in" line="758" col="8">
         <Arguments>
-         <Simple-Term idnr="88" spelling="e" line="749" col="5"/>
+         <Simple-Term idnr="88" spelling="e" line="758" col="5"/>
         </Arguments>
         <Arguments>
-         <Infix-Term nr="3" spelling="COMPLEX" line="749" col="16">
+         <Infix-Term nr="3" spelling="COMPLEX" line="758" col="16">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
         </Arguments>
        </Predicative-Formula>
       </Proposition>
-      <Straightforward-Justification line="749" col="19">
-       <Definition-Reference line="749" col="34" nr="47" spelling="XCMPLX_0" number="2"/>
+      <Straightforward-Justification line="758" col="19">
+       <Definition-Reference line="758" col="34" nr="47" spelling="XCMPLX_0" number="2"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Type-Changing-Statement" line="750" col="19" posline="750" poscol="63">
-      <Variable idnr="88" spelling="e" line="750" col="21"/>
-      <Standard-Type nr="3" spelling="Element" line="750" col="32">
-       <Infix-Term nr="89" spelling="F_Complex" line="750" col="45">
+     <Item kind="Type-Changing-Statement" line="759" col="19" posline="759" poscol="63">
+      <Variable idnr="88" spelling="e" line="759" col="21"/>
+      <Standard-Type nr="3" spelling="Element" line="759" col="32">
+       <Infix-Term nr="89" spelling="F_Complex" line="759" col="45">
         <Arguments/>
         <Arguments/>
        </Infix-Term>
       </Standard-Type>
-      <Straightforward-Justification line="750" col="48">
-       <Link line="750" col="8"/>
-       <Definition-Reference line="750" col="63" nr="9" spelling="COMPLFLD" number="1"/>
+      <Straightforward-Justification line="759" col="48">
+       <Link line="759" col="8"/>
+       <Definition-Reference line="759" col="63" nr="9" spelling="COMPLFLD" number="1"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Assumption" line="751" col="10" posline="751" poscol="32">
-      <Single-Assumption line="751" col="10">
+     <Item kind="Assumption" line="760" col="10" posline="760" poscol="32">
+      <Single-Assumption line="760" col="10">
        <Proposition>
-        <Label idnr="0" spelling="" line="751" col="19"/>
-        <Attributive-Formula line="751" col="22">
-         <Infix-Term nr="262" spelling="number_e" line="751" col="19">
+        <Label idnr="0" spelling="" line="760" col="19"/>
+        <Attributive-Formula line="760" col="22">
+         <Infix-Term nr="262" spelling="number_e" line="760" col="19">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
          <Adjective-Cluster>
-          <Adjective nr="141" spelling="algebraic" line="751" col="32"/>
+          <Adjective nr="141" spelling="algebraic" line="760" col="32"/>
          </Adjective-Cluster>
         </Attributive-Formula>
        </Proposition>
       </Single-Assumption>
      </Item>
-     <Item kind="Choice-Statement" line="752" col="17" posline="754" poscol="35">
-      <Explicitly-Qualified-Segment line="752" col="19">
+     <Item kind="Choice-Statement" line="761" col="17" posline="763" poscol="35">
+      <Explicitly-Qualified-Segment line="761" col="19">
        <Variables>
-        <Variable idnr="65" spelling="f" line="752" col="19"/>
+        <Variable idnr="65" spelling="f" line="761" col="19"/>
        </Variables>
-       <Clustered-Type line="752" col="57">
+       <Clustered-Type line="761" col="57">
         <Adjective-Cluster>
-         <Adjective nr="74" spelling="non-zero" line="752" col="34"/>
-         <Adjective nr="35" spelling="-valued" line="752" col="46">
-          <Infix-Term nr="5" spelling="INT" line="752" col="38">
+         <Adjective nr="74" spelling="non-zero" line="761" col="34"/>
+         <Adjective nr="35" spelling="-valued" line="761" col="46">
+          <Infix-Term nr="5" spelling="INT" line="761" col="38">
            <Arguments/>
            <Arguments/>
           </Infix-Term>
          </Adjective>
         </Adjective-Cluster>
-        <Standard-Type nr="19" spelling="Polynomial" line="752" col="57">
-         <Infix-Term nr="89" spelling="F_Complex" line="752" col="70">
+        <Standard-Type nr="19" spelling="Polynomial" line="761" col="57">
+         <Infix-Term nr="89" spelling="F_Complex" line="761" col="70">
           <Arguments/>
           <Arguments/>
          </Infix-Term>
@@ -7683,28 +7792,28 @@
       </Explicitly-Qualified-Segment>
       <Conditions>
        <Proposition>
-        <Label idnr="63" spelling="A1" line="754" col="2"/>
-        <Predicative-Formula nr="17" spelling="is_a_root_of" line="754" col="18">
+        <Label idnr="63" spelling="A1" line="763" col="2"/>
+        <Predicative-Formula nr="17" spelling="is_a_root_of" line="763" col="18">
          <Arguments>
-          <Simple-Term idnr="88" spelling="e" line="754" col="5"/>
+          <Simple-Term idnr="88" spelling="e" line="763" col="5"/>
          </Arguments>
          <Arguments>
-          <Simple-Term idnr="65" spelling="f" line="754" col="20"/>
+          <Simple-Term idnr="65" spelling="f" line="763" col="20"/>
          </Arguments>
         </Predicative-Formula>
        </Proposition>
       </Conditions>
-      <Straightforward-Justification line="754" col="23">
-       <Link line="752" col="8"/>
-       <Theorem-Reference line="754" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
+      <Straightforward-Justification line="763" col="23">
+       <Link line="761" col="8"/>
+       <Theorem-Reference line="763" col="35" nr="52" spelling="LIOUVIL2" number="25"/>
       </Straightforward-Justification>
      </Item>
-     <Item kind="Conclusion" shape="Compact-Statement" line="755" col="22" posline="755" poscol="22">
+     <Item kind="Conclusion" shape="Compact-Statement" line="764" col="22" posline="764" poscol="22">
       <Proposition>
-       <Label idnr="0" spelling="" line="755" col="22"/>
-       <Contradiction line="755" col="22"/>
+       <Label idnr="0" spelling="" line="764" col="22"/>
+       <Contradiction line="764" col="22"/>
       </Proposition>
-      <Straightforward-Justification line="755" col="22"/>
+      <Straightforward-Justification line="764" col="22"/>
      </Item>
     </Block>
    </Item>
