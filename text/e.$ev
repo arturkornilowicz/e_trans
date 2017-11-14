@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Environ aid="E">
- <Directive name="vocabularies" argnr="67">
+ <Directive name="vocabularies" argnr="40">
   <Ident name="HIDDEN" line="1" col="1"/>
   <Ident name="NUMBERS" line="6" col="21"/>
   <Ident name="SUBSET_1" line="6" col="31"/>
@@ -10,14 +10,7 @@
   <Ident name="ARYTM_3" line="6" col="65"/>
   <Ident name="REAL_1" line="6" col="73"/>
   <Ident name="NAT_1" line="7" col="11"/>
-  <Ident name="INT_1" line="7" col="18"/>
-  <Ident name="XCMPLX_0" line="7" col="28"/>
-  <Ident name="LIOUVIL1" line="7" col="38"/>
-  <Ident name="COMPLEX1" line="7" col="48"/>
-  <Ident name="NEWTON" line="7" col="56"/>
-  <Ident name="IRRAT_1" line="7" col="65"/>
   <Ident name="FUNCT_7" line="7" col="74"/>
-  <Ident name="FINSET_1" line="8" col="14"/>
   <Ident name="FUNCT_1" line="8" col="23"/>
   <Ident name="CARD_3" line="8" col="31"/>
   <Ident name="ALGNUM_1" line="8" col="41"/>
@@ -29,42 +22,22 @@
   <Ident name="POLYNOM5" line="9" col="33"/>
   <Ident name="XXREAL_0" line="9" col="43"/>
   <Ident name="FINSEQ_1" line="9" col="53"/>
-  <Ident name="GAUSSINT" line="9" col="63"/>
-  <Ident name="RATFUNC1" line="9" col="73"/>
-  <Ident name="MESFUNC1" line="10" col="14"/>
   <Ident name="SUPINF_2" line="10" col="24"/>
-  <Ident name="POLYNOM2" line="10" col="34"/>
-  <Ident name="C0SP1" line="10" col="41"/>
-  <Ident name="FUNCSDOM" line="10" col="51"/>
   <Ident name="STRUCT_0" line="10" col="61"/>
   <Ident name="POLYNOM3" line="10" col="71"/>
   <Ident name="VALUED_0" line="11" col="14"/>
-  <Ident name="INT_3" line="11" col="21"/>
-  <Ident name="ALGSEQ_1" line="11" col="31"/>
-  <Ident name="GROUP_1" line="11" col="40"/>
-  <Ident name="PARTFUN1" line="11" col="50"/>
-  <Ident name="CAT_1" line="11" col="57"/>
   <Ident name="ALGSTR_0" line="11" col="67"/>
   <Ident name="MSAFREE2" line="11" col="77"/>
-  <Ident name="XXREAL_1" line="12" col="14"/>
-  <Ident name="ORDINAL2" line="12" col="24"/>
-  <Ident name="XXREAL_2" line="12" col="34"/>
   <Ident name="FDIFF_1" line="12" col="43"/>
-  <Ident name="MEASURE5" line="12" col="53"/>
   <Ident name="ORDINAL4" line="12" col="63"/>
-  <Ident name="FINSEQ_2" line="12" col="73"/>
-  <Ident name="BINOP_2" line="13" col="13"/>
-  <Ident name="SETWISEO" line="13" col="23"/>
   <Ident name="WAYBEL_8" line="13" col="33"/>
   <Ident name="POWER" line="13" col="40"/>
   <Ident name="E" line="13" col="43"/>
   <Ident name="POLYDIFF" line="13" col="53"/>
-  <Ident name="SERIES_1" line="13" col="63"/>
   <Ident name="RLVECT_1" line="13" col="73"/>
   <Ident name="LATTICES" line="14" col="14"/>
   <Ident name="SIN_COS" line="14" col="23"/>
   <Ident name="VALUED_1" line="14" col="33"/>
-  <Ident name="MEMBERED" line="14" col="43"/>
   <Ident name="FUNCOP_1" line="14" col="53"/>
   <Ident name="SQUARE_1" line="14" col="63"/>
   <Ident name="AFINSQ_1" line="14" col="73"/>
@@ -149,31 +122,75 @@
   <Ident name="MEASURE5" line="43" col="24"/>
   <Ident name="POLYDIFF" line="43" col="34"/>
  </Directive>
- <Directive name="theorems" argnr="22">
+ <Directive name="theorems" argnr="62">
   <Ident name="XREAL_0" line="48" col="17"/>
+  <Ident name="NEWTON" line="48" col="25"/>
+  <Ident name="XXREAL_0" line="48" col="35"/>
+  <Ident name="XREAL_1" line="48" col="44"/>
   <Ident name="XCMPLX_1" line="48" col="54"/>
+  <Ident name="NAT_1" line="48" col="61"/>
+  <Ident name="PREPOWER" line="48" col="71"/>
+  <Ident name="ALGNUM_1" line="49" col="14"/>
   <Ident name="COMPLFLD" line="49" col="24"/>
+  <Ident name="RING_3" line="49" col="32"/>
+  <Ident name="POLYNOM4" line="49" col="42"/>
+  <Ident name="UPROOTS" line="49" col="51"/>
+  <Ident name="INT_1" line="49" col="58"/>
+  <Ident name="GAUSSINT" line="49" col="68"/>
+  <Ident name="C0SP1" line="49" col="75"/>
   <Ident name="FUNCT_2" line="50" col="13"/>
   <Ident name="ALGSEQ_1" line="50" col="23"/>
   <Ident name="RLVECT_1" line="50" col="33"/>
+  <Ident name="FINSEQ_3" line="50" col="43"/>
+  <Ident name="FINSEQ_2" line="50" col="53"/>
+  <Ident name="ZFMISC_1" line="50" col="63"/>
+  <Ident name="FUNCT_7" line="50" col="72"/>
+  <Ident name="RATFUNC1" line="51" col="14"/>
   <Ident name="RELAT_1" line="51" col="23"/>
+  <Ident name="FINSEQ_1" line="51" col="33"/>
   <Ident name="FUNCT_1" line="51" col="42"/>
   <Ident name="POLYDIFF" line="51" col="52"/>
+  <Ident name="XXREAL_2" line="51" col="62"/>
+  <Ident name="ROLLE" line="51" col="69"/>
+  <Ident name="COMPLEX1" line="52" col="14"/>
   <Ident name="POLYNOM5" line="52" col="24"/>
+  <Ident name="XXREAL_1" line="52" col="34"/>
   <Ident name="XBOOLE_0" line="52" col="44"/>
   <Ident name="TARSKI" line="52" col="52"/>
+  <Ident name="FDIFF_1" line="52" col="61"/>
+  <Ident name="ABSVALUE" line="52" col="71"/>
   <Ident name="VALUED_1" line="53" col="14"/>
+  <Ident name="INTEGRA5" line="53" col="24"/>
+  <Ident name="INTEGRA1" line="53" col="34"/>
+  <Ident name="RAT_1" line="53" col="41"/>
+  <Ident name="NAT_3" line="53" col="48"/>
+  <Ident name="FVSUM_1" line="53" col="57"/>
+  <Ident name="NIVEN" line="53" col="64"/>
+  <Ident name="NAT_D" line="53" col="71"/>
+  <Ident name="RVSUM_1" line="54" col="13"/>
+  <Ident name="INT_2" line="54" col="20"/>
   <Ident name="XCMPLX_0" line="54" col="30"/>
+  <Ident name="NUMBERS" line="54" col="39"/>
+  <Ident name="RING_2" line="54" col="47"/>
+  <Ident name="GROUP_4" line="54" col="56"/>
+  <Ident name="LIOUVIL1" line="54" col="66"/>
   <Ident name="LIOUVIL2" line="54" col="76"/>
+  <Ident name="POWER" line="55" col="11"/>
   <Ident name="POLYNOM3" line="55" col="21"/>
+  <Ident name="IRRAT_1" line="55" col="30"/>
   <Ident name="SIN_COS" line="55" col="39"/>
   <Ident name="FDIFF_2" line="55" col="48"/>
   <Ident name="RFUNCT_1" line="55" col="58"/>
   <Ident name="XBOOLE_1" line="55" col="68"/>
+  <Ident name="SQUARE_1" line="55" col="78"/>
   <Ident name="VALUED_2" line="56" col="14"/>
   <Ident name="NORMSP_1" line="56" col="24"/>
  </Directive>
- <Directive name="schemes" argnr="2">
+ <Directive name="schemes" argnr="6">
+  <Ident name="FRAENKEL" line="57" col="17"/>
+  <Ident name="FINSEQ_1" line="57" col="27"/>
+  <Ident name="FINSEQ_2" line="57" col="37"/>
+  <Ident name="POLYNOM3" line="57" col="47"/>
   <Ident name="RECDEF_1" line="57" col="57"/>
   <Ident name="NAT_1" line="57" col="64"/>
  </Directive>

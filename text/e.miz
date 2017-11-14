@@ -62,8 +62,11 @@ reserve m,n for Nat;
 reserve r for Real;
 
   set E = exp_R;
+  set Z = 0_.F_Real;
 
-theorem T3:
+Lm1: <%0.F_Real%> = Z by POLYNOM5:34;
+
+theorem
   for R being non-empty Relation holds R"{{}} = {}
   proof
     let R be non-empty Relation;
@@ -96,7 +99,7 @@ registration
   coherence;
 end;
 
-theorem T4:
+theorem Th2:
   for f being non-empty Function of REAL, REAL holds f.r <> 0
   proof
     let f be non-empty Function of REAL,REAL;
@@ -105,7 +108,7 @@ theorem T4:
     hence f.r <> 0 by RELAT_1:def 9;
   end;
 
-theorem T2a:
+theorem Th3:
   for f being non-empty complex-valued Function holds f" = f^
   proof
     let f be non-empty complex-valued Function;
@@ -118,7 +121,7 @@ A1: dom(f") = dom f \ f"{0} by VALUED_1:def 7
     .= (f").x by VALUED_1:10;
   end;
 
-theorem T2:
+theorem Th4:
   for f being complex-valued Function
   for g being non-empty complex-valued Function holds
   f /" g = f / g
@@ -134,60 +137,60 @@ A1: dom(f/"g) = dom f /\ (dom g \ g"{0}) by VALUED_1:16
     .= (f/"g).x by VALUED_1:17;
   end;
 
-theorem T10:
+theorem Th5:
   for f being non-empty complex-valued Function holds f/"(f^2) = f"
   proof
     let f be non-empty complex-valued Function;
-AA: dom(f") = dom f by VALUED_1:def 7;
+A1: dom(f") = dom f by VALUED_1:def 7;
     thus
-A0: dom (f/"(f^2)) = dom f /\ dom (f^2) by VALUED_1:16
+A2: dom (f/"(f^2)) = dom f /\ dom (f^2) by VALUED_1:16
     .= dom f /\ dom f by VALUED_1:11
     .= dom (f") by VALUED_1:def 7;
     let x be object;
     set a = f.x;
     assume x in dom (f/"(f^2));
     then
-A1: a <> {} by AA, A0, FUNCT_1:def 9;
+A3: a <> {} by A1,A2,FUNCT_1:def 9;
     thus (f/"(f^2)).x = a/((f^2).x) by VALUED_1:17
     .= a/(a^2) by VALUED_1:11
     .= a*(a"*a") by XCMPLX_1:204
     .= a*a"*a"
-    .= 1*a" by A1,XCMPLX_0:def 7
+    .= 1*a" by A3,XCMPLX_0:def 7
     .= (f").x by VALUED_1:10;
-  end;  
+  end;
 
-theorem T6:
+theorem Th6:
   for f, g, h being complex-valued Function
   st dom f c= dom h & dom g c= dom h & h is non-empty
   holds f/"g = (f(#)h)/"(g(#)h)
   proof
     let f, g, h be complex-valued Function;
     assume
-A0: dom f c= dom h;
+A1: dom f c= dom h;
     then
-A1: dom f /\ dom h = dom f by XBOOLE_1:28;
+A2: dom f /\ dom h = dom f by XBOOLE_1:28;
     assume dom g c= dom h;
     then
-A2: dom g /\ dom h = dom g by XBOOLE_1:28;
-A3: dom(f(#)h) = dom f /\ dom h by VALUED_1:def 4;
-A4: dom(g(#)h) = dom g /\ dom h by VALUED_1:def 4;
+A3: dom g /\ dom h = dom g by XBOOLE_1:28;
+A4: dom(f(#)h) = dom f /\ dom h by VALUED_1:def 4;
+A5: dom(g(#)h) = dom g /\ dom h by VALUED_1:def 4;
     assume
-A8: h is non-empty;
-A9: dom(f/"g) = dom(f) /\ dom (g) by VALUED_1:16;
-    hence dom(f/"g) = dom((f(#)h)/"(g(#)h)) by A1, A2, A3, A4, VALUED_1:16;
+A6: h is non-empty;
+A7: dom(f/"g) = dom(f) /\ dom (g) by VALUED_1:16;
+    hence dom(f/"g) = dom((f(#)h)/"(g(#)h)) by A2,A3,A4,A5,VALUED_1:16;
     let x be object;
     assume
-A10: x in dom(f/"g);
-A5: (f(#)h).x = f.x * h.x by VALUED_1:5;
-A6: (g(#)h).x = g.x * h.x by VALUED_1:5;
-    x in dom f by A9, A10, XBOOLE_0:def 4;
+A8: x in dom(f/"g);
+A9: (f(#)h).x = f.x * h.x by VALUED_1:5;
+A10: (g(#)h).x = g.x * h.x by VALUED_1:5;
+    x in dom f by A7,A8,XBOOLE_0:def 4;
     then
-A7: h.x <> {} by A0, A8, FUNCT_1:def 9;
+A11: h.x <> {} by A1,A6,FUNCT_1:def 9;
     thus (f/"g).x = f.x / g.x by VALUED_1:17
-    .= (f.x * h.x) / (g.x * h.x) by A7, XCMPLX_1:91
-    .= ((f(#)h)/"(g(#)h)).x by A5, A6, VALUED_1:17;
+    .= (f.x * h.x) / (g.x * h.x) by A11,XCMPLX_1:91
+    .= ((f(#)h)/"(g(#)h)).x by A9,A10,VALUED_1:17;
   end;
-  
+
 registration
   let f be differentiable Function of REAL,REAL;
   let g be non-empty differentiable Function of REAL,REAL;
@@ -196,12 +199,12 @@ registration
   proof
     let h be Function of REAL,REAL such that
 A1: h = f /" g;
-A2: f /" g = f / g by T2;
+A2: f /" g = f / g by Th4;
     let r;
 A3: f is_differentiable_in r & g is_differentiable_in r by POLYDIFF:def 2;
-    g.r <> 0 by T4;
+    g.r <> 0 by Th2;
     hence thesis by A1,A2,A3,FDIFF_2:14;
-  end;  
+  end;
 end;
 
 registration
@@ -212,27 +215,27 @@ registration
     let g be Function of REAL,REAL such that
 A1: g = f";
     let r;
-A2: f.r <> 0 by T4;
+A2: f.r <> 0 by Th2;
     f is_differentiable_in r by POLYDIFF:def 2;
-    then f^ is_differentiable_in r by A2, FDIFF_2:15;
-    hence g is_differentiable_in r by A1, T2a;
+    then f^ is_differentiable_in r by A2,FDIFF_2:15;
+    hence g is_differentiable_in r by A1,Th3;
   end;
 end;
 
-theorem T5:
+theorem Th7:
   for f being non-empty differentiable Function of REAL,REAL holds
   f"`| = -(f`|)/"(f^2)
   proof
     let f be non-empty differentiable Function of REAL,REAL;
     let r be Element of REAL;
-A1: f" = f^ by T2a;
-A2: f.r <> 0 by T4;
+A1: f" = f^ by Th3;
+A2: f.r <> 0 by Th2;
 A3: f is_differentiable_in r by POLYDIFF:9;
 A4: diff(f,r) = (f `|).r by POLYDIFF:10;
 A5: (f.r)^2 = (f^2).r by VALUED_1:11;
     thus (f" `|).r = diff(f",r) by POLYDIFF:10
-    .= -diff(f,r)/(f.r)^2 by A1, A2, A3, FDIFF_2:15
-    .= -(((f `|)/"(f^2)).r) by A4, A5, VALUED_1:17
+    .= -diff(f,r)/(f.r)^2 by A1,A2,A3,FDIFF_2:15
+    .= -(((f `|)/"(f^2)).r) by A4,A5,VALUED_1:17
     .= (-(f `|)/"(f^2)).r by VALUED_1:8;
   end;
 
@@ -243,19 +246,19 @@ theorem
   proof
     let f be differentiable Function of REAL,REAL;
     let g be non-empty differentiable Function of REAL,REAL;
-A1: ((f `|)(#)g) /" (g^2) = ((f `|)(#)g) / (g^2) by T2;
-A2: (f(#)(g `|))/"(g^2) = (f(#)(g `|))/(g^2) by T2;
-A3: ((f `|)(#)g-f(#)(g `|))/"(g^2) = ((f `|)(#)g-f(#)(g `|))/(g^2) by T2;
+A1: ((f `|)(#)g) /" (g^2) = ((f `|)(#)g) / (g^2) by Th4;
+A2: (f(#)(g `|))/"(g^2) = (f(#)(g `|))/(g^2) by Th4;
+A3: ((f `|)(#)g-f(#)(g `|))/"(g^2) = ((f `|)(#)g-f(#)(g `|))/(g^2) by Th4;
 A4: dom(f `|) = REAL & dom(g) = REAL by FUNCT_2:def 1;
-A6: (f `|) /" g = ((f `|)(#)g)/"(g(#)g) by A4, T6;
+A5: (f `|) /" g = ((f `|)(#)g)/"(g(#)g) by A4,Th6;
     thus (f /" g) `| = g"(#)(f`|) + f(#)((g") `|) by POLYDIFF:16
-    .= (f `|) /" g + f(#) -((g `|)/"(g^2)) by T5
+    .= (f `|) /" g + f(#) -((g `|)/"(g^2)) by Th7
     .= (f `|) /" g + -((g `|)/"(g^2)(#)f) by VALUED_2:25
     .= (f `|) /" g - f(#)(g `|)/"(g^2) by VALUED_2:20
-    .= ((f `|)(#)g - f(#)(g `|)) /" (g^2) by A1, A2, A3, A6, RFUNCT_1:39;
+    .= ((f `|)(#)g - f(#)(g `|)) /" (g^2) by A1,A2,A3,A5,RFUNCT_1:39;
   end;
 
-theorem T1:
+theorem
   exp_R".r = 1/(exp_R.r) by VALUED_1:10;
 
 registration
@@ -278,7 +281,7 @@ registration
   coherence;
 end;
 
-theorem T7:
+theorem Th10:
   exp_R `| = exp_R
   proof
     let r be Element of REAL;
@@ -286,11 +289,11 @@ theorem T7:
     .= E.r by SIN_COS:66;
   end;
 
-theorem T8:
+theorem Th11:
   exp_R" `| = -exp_R"
   proof
-    thus E"`| = -E/"(E^2) by T5, T7
-    .= -E" by T10;
+    thus E"`| = -E/"(E^2) by Th7,Th10
+    .= -E" by Th5;
   end;
 
 begin
@@ -311,7 +314,7 @@ reserve p for Polynomial of F_Real;
 ::   existence;
 :: end;
 
-theorem T34:
+theorem Th12:
   for R being add-associative right_zeroed right_complementable distributive
               non empty doubleLoopStr
   for p, q being Polynomial of R holds p + q - q = p
@@ -327,7 +330,7 @@ theorem T34:
     .= p.n;
   end;
 
-theorem T31:
+theorem Th13:
   poly_diff 0_.F_Real = 0_.F_Real by POLYDIFF:46;
 
 definition
@@ -361,7 +364,7 @@ A4: for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)]
     take F;
     thus len(F) = len(p)+1 by A2;
     thus F.1 = p by A3;
-    thus thesis by A2, A4;
+    thus thesis by A2,A4;
   end;
   uniqueness
   proof
@@ -393,216 +396,97 @@ A13: len G = N & (G.1 = p1 or N = 0) &
   end;
 end;
 
-theorem T22a:
-  diff_seq(0_.F_Real) = <*0_.F_Real*>;
-::>                                 *4
+theorem
+  diff_seq(0_.F_Real) = <*0_.F_Real*>
+  proof
+    len Z = 0 by POLYNOM4:3;
+    then
+A1: len diff_seq(Z) = 0+1 by Def1;
+    diff_seq(Z).1 = Z by Def1;
+    hence thesis by A1,FINSEQ_1:40;
+  end;
 
-theorem T22:
-  diff_seq(p) = <*p*>^diff_seq(poly_diff(p));
-::>                                        *4
+theorem Th15:
+  p <> 0_.F_Real implies diff_seq(p) = <*p*>^diff_seq(poly_diff(p))
+  proof
+    assume p <> Z;
+    then len poly_diff(p) = len p - 1 by POLYDIFF:44;
+    then
+A1: len diff_seq(poly_diff(p)) = len p - 1 + 1 by Def1;
+A2: len <*p*> = 1 by FINSEQ_1:39;
+A3: len diff_seq(p) = len p + 1 by Def1;
+    then
+A4: len diff_seq(p) = len (<*p*>^diff_seq(poly_diff(p))) by A1,A2,FINSEQ_1:22;
+    for k being Nat st 1 <= k & k <= len diff_seq(p) holds
+     diff_seq(p).k = (<*p*>^diff_seq(poly_diff(p))).k
+    proof
+      let k be Nat such that
+A5:   1 <= k and
+A6:   k <= len diff_seq(p);
+      reconsider n = k-1 as Element of NAT by A5,INT_1:5;
+      per cases by A5,XXREAL_0:1;
+      suppose k = 1;
+        hence thesis by Def1;
+      end;
+      suppose
+A7:     1 < k;
+        defpred P[Nat] means 1 <= $1 & $1 <= len p implies
+         diff_seq(p).($1+1) = diff_seq(poly_diff(p)).$1;
+A8:     P[0];
+A9:     for z being Nat st P[z] holds P[z+1]
+        proof
+          let z be Nat such that
+A10:      P[z] and
+A11:      1 <= z+1 and
+A12:      z+1 <= len p;
+          z+0 < z+1 by XREAL_1:8;
+          then
+A13:      z < len diff_seq(poly_diff(p)) by A1,A12,XXREAL_0:2;
+          len p + 0 < len p + 1 by XREAL_1:8;
+          then
+A14:      z+1 < len diff_seq(p) by A3,A12,XXREAL_0:2;
+          set q = diff_seq(p).(z+1);
+          z+1 in dom diff_seq(p) by A11,A14,FINSEQ_3:25;
+          then q in rng diff_seq(p) by FUNCT_1:3;
+          then reconsider q as Polynomial of F_Real by POLYNOM3:def 10;
+          per cases by NAT_1:14;
+          suppose
+A15:        z = 0;
+            then q = p by Def1;
+            hence diff_seq(poly_diff(p)).(z+1) = poly_diff(q) by A15,Def1
+            .= diff_seq(p).(z+1+1) by A14,A15,Def1;
+          end;
+          suppose
+A16:        1 <= z;
+            z <= z+1 by NAT_1:11;
+            hence diff_seq(poly_diff(p)).(z+1) = poly_diff(q)
+            by A10,A12,A13,A16,Def1,XXREAL_0:2
+            .= diff_seq(p).(z+1+1) by A11,A14,Def1;
+          end;
+        end;
+A17:    for z being Nat holds P[z] from NAT_1:sch 2(A8,A9);
+A18:    1 <= n by A7,INT_1:52;
+A19:    n <= len p + 1 - 1 by A6,A3,XREAL_1:9;
+        then
+A20:    n in dom diff_seq(poly_diff(p)) by A1,A18,FINSEQ_3:25;
+        k = n+1;
+        hence diff_seq(p).k = diff_seq(poly_diff(p)).n by A17,A18,A19
+        .= (<*p*>^diff_seq(poly_diff(p))).(n+1) by A20,FINSEQ_3:103
+        .= (<*p*>^diff_seq(poly_diff(p))).k;
+      end;
+    end;
+    hence thesis by A4,FINSEQ_1:14;
+  end;
 
-:: definition
-::   let R be add-associative right_zeroed right_complementable distributive
-::            non empty doubleLoopStr;
-::   let S be FinSequence of Polynom-Ring R;
-::   set N = len(S);
-::   set D = the carrier of Polynom-Ring R;
-::   defpred P[Nat,object,object] means
-::   for p, q being Polynomial of R st p = S.($1+1) & q = $2 holds
-::    $3 = p + q;
-::   func Partial_Sums(S) -> FinSequence of Polynom-Ring R means :Def2:
-::   len(it) = len(S) & it.1 = S.1 &
-::   for n st 1 <= n < len(it) holds
-::    for p, q being Polynomial of R st p = S.(n+1) & q = it.n holds
-::     it.(n+1) = p + q if S <> {}
-::   otherwise it = {};
-::   existence
-::   proof
-::     thus S <> {} implies ex F being FinSequence of Polynom-Ring R st
-::      len(F) = len(S) &
-::      F.1 = S.1 & for n st 1 <= n < len(F) holds
-::      for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
-::      F.(n+1) = p + q
-::     proof
-::       assume
-:: A1:   S <> {};
-::       then rng S <> {};
-::       then 1 in dom S by FINSEQ_3:32;
-::       then S.1 in rng S by FUNCT_1:3;
-::       then reconsider p1 = S.1 as Element of D;
-:: A2:    for n being Nat st 1 <= n & n < N for x being Element of D
-::       ex y being Element of D st P[n,x,y]
-::       proof
-::         let n;
-::         assume that 1 <= n and
-:: A3:     n < N;
-::         let x be Element of D;
-::         n+1 <= N by A3,NAT_1:13;
-::         then n+1 in dom S by NAT_1:12,FINSEQ_3:25;
-::         then S.(n+1) in rng S by FUNCT_1:3;
-::         then reconsider p = S.(n+1) as Polynomial of R by POLYNOM3:def 10;
-::         reconsider y = p + x as Element of D by POLYNOM3:def 10;
-::         take y;
-::         thus thesis;
-::       end;
-::       consider F being FinSequence of D such that
-:: A4:   len F = N and
-:: A5:   F.1 = p1 or N = 0 and
-:: A6:   for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)]
-::       from RECDEF_1:sch 4(A2);
-::       take F;
-::       thus len(F) = len(S) by A4;
-::       thus F.1 = S.1 by A1,A5,FINSEQ_1:20;
-::       thus thesis by A4, A6;
-::     end;
-::     thus thesis;
-::   end;
-::   uniqueness
-::   proof
-::     let F,G be FinSequence of Polynom-Ring R;
-::     thus S <> {} &
-::     len(F) = N & F.1 = S.1 & (for n st 1 <= n < len(F) holds
-::     for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
-::     F.(n+1) = p + q) &
-::     len(G) = N & G.1 = S.1 & (for n st 1 <= n < len(G) holds
-::     for p, q being Polynomial of R st p = S.(n+1) & q = G.n holds
-::     G.(n+1) = p + q)
-::     implies F = G
-::     proof
-::       assume that
-:: A7:   S <> {} and
-:: A8:   len(F) = N and
-:: A9:   F.1 = S.1 and
-:: A10:  for n st 1 <= n < len(F) holds
-::       for p, q being Polynomial of R st p = S.(n+1) & q = F.n holds
-::       F.(n+1) = p + q
-::       and
-:: A11:  len(G) = N and
-:: A12:  G.1 = S.1 and
-:: A13:  for n st 1 <= n < len(G) holds
-::       for p, q being Polynomial of R st p = S.(n+1) & q = G.n holds
-::       G.(n+1) = p + q;
-:: A14:  for n st 1 <= n & n < N for x,y1,y2 being Element of D st
-::       P[n,x,y1] & P[n,x,y2] holds y1 = y2
-::       proof
-::         let n;
-::         assume that 1 <= n and
-:: A15:    n < N;
-::         let x,y1,y2 be Element of D;
-::         n+1 <= N by A15,NAT_1:13;
-::         then n+1 in dom S by NAT_1:12,FINSEQ_3:25;
-::         then S.(n+1) in rng S by FUNCT_1:3;
-::         then reconsider p = S.(n+1) as Polynomial of R by POLYNOM3:def 10;
-::         assume P[n,x,y1];
-::         then y1 = p + x;
-::         hence thesis;
-::       end;
-::       rng S <> {} by A7;
-::       then 1 in dom S by FINSEQ_3:32;
-::       then S.1 in rng S by FUNCT_1:3;
-::       then reconsider p1 = S.1 as Element of D;
-:: A16:  len F = N & (F.1 = p1 or N = 0) &
-::       for n st 1 <= n & n < N holds P[n,F.n,F.(n+1)] by A8,A9,A10;
-:: A17:  len G = N & (G.1 = p1 or N = 0) &
-::       for n st 1 <= n & n < N holds P[n,G.n,G.(n+1)] by A11,A12,A13;
-::       thus F = G from RECDEF_1:sch 8(A14,A16,A17);
-::     end;
-::     thus thesis;
-::   end;
-::   consistency;
-:: end;
-
-:: definition
-::   let R be add-associative right_zeroed right_complementable distributive
-::            non empty doubleLoopStr;
-::   let p be Polynomial of R;
-::   redefine func <*p*> -> FinSequence of Polynom-Ring R;
-::   coherence;
-:: end;
-
-:: definition
-::   let R be add-associative right_zeroed right_complementable distributive
-::            non empty doubleLoopStr;
-::   let p,q be Polynomial of R;
-::   redefine func <*p,q*> -> FinSequence of Polynom-Ring R;
-::   coherence;
-:: end;
-
-:: definition
-::   let R be add-associative right_zeroed right_complementable distributive
-::            non empty doubleLoopStr;
-::   let p,q,r be Polynomial of R;
-::   redefine func <*p,q,r*> -> FinSequence of Polynom-Ring R;
-::   coherence;
-:: end;
-
-:: theorem
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p being Polynomial of R
-::   holds Partial_Sums(<*p*>) = <*p*>;
-
-:: theorem
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p,q being Polynomial of R
-::   holds Partial_Sums(<*p,q*>) = <*p,p+q*>;
-
-:: theorem
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p,q,r being Polynomial of R
-::   holds Partial_Sums(<*p,q,r*>) = <*p,p+q,p+q+r*>;
-
-:: definition
-::   let R be add-associative right_zeroed right_complementable distributive
-::            non empty doubleLoopStr;
-::   let S be FinSequence of Polynom-Ring R;
-::   func Sum(S) -> Polynomial of R equals :DSum:
-::   Partial_Sums(S).len(Partial_Sums(S)) if S <> {}
-::   otherwise 0_.R;
-::   coherence
-::   proof
-::     set F = Partial_Sums(S);
-::     thus S <> {} implies F.len(F) is Polynomial of R
-::     proof
-::       assume
-:: A1:   S <> {};
-::       then
-:: A2:   len F = len S by Def2;
-::       1 <= len S by A1,FINSEQ_1:20;
-::       then len F in dom F by A2,FINSEQ_3:25;
-::       then F.len F in rng F by FUNCT_1:3;
-::       hence thesis by POLYNOM3:def 10;
-::     end;
-::     thus thesis;
-::   end;
-::   consistency;  
-:: end;
-
-:: theorem T20:
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p being Polynomial of R
-::   holds Sum(<*p*>) = p;
-
-:: theorem
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p,q being Polynomial of R
-::   holds Sum(<*p,q*>) = p+q;
-
-:: theorem
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for p,q,r being Polynomial of R
-::   holds Sum(<*p,q,r*>) = p+q+r;
-
-:: theorem T21:
-::   for R being add-associative right_zeroed right_complementable distributive
-::               non empty doubleLoopStr
-::   for S1,S2 being FinSequence of Polynom-Ring R
-::   holds Sum(S1^S2) = Sum S1 + Sum S2;
+theorem Th16:
+  diff_seq(0_.F_Real) = <*0_.F_Real*>
+  proof
+    len Z = 0 by POLYNOM4:3;
+    then
+A1: len diff_seq(Z) = 0+1 by Def1;
+    diff_seq(Z).1 = Z by Def1;
+    hence thesis by A1,FINSEQ_1:40;
+  end;
 
 definition
   let p;
@@ -611,30 +495,38 @@ definition
   coherence by POLYNOM3:def 10;
 end;
 
-theorem T30:
+theorem Th17:
   Sum_of_diffs 0_.F_Real = 0_.F_Real
   proof
-    reconsider P = 0_.F_Real as Element of Polynom-Ring F_Real
-    by POLYNOM3:def 10;
-    diff_seq(0_.F_Real) = <*P*> by T22a;
+    reconsider P = Z as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
+    diff_seq(Z) = <*P*> by Th16;
     hence thesis by RLVECT_1:44;
   end;
 
-theorem T50:
+theorem Th18:
   p + Sum_of_diffs(poly_diff(p)) = Sum_of_diffs(p)
   proof
     reconsider P = p as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
-A6: Sum <*P*> = P by RLVECT_1:44;
-    thus p + Sum_of_diffs(poly_diff(p)) = P + Sum diff_seq(poly_diff(p))
-     by POLYNOM3:def 10
-    .= Sum(<*P*>^diff_seq(poly_diff(p))) by A6, RLVECT_1:41
-    .= Sum_of_diffs(p) by T22;
+    per cases;
+    suppose
+A1:   p <> Z;
+A2:   Sum <*P*> = P by RLVECT_1:44;
+      thus p + Sum_of_diffs(poly_diff(p)) = P + Sum diff_seq(poly_diff(p))
+      by POLYNOM3:def 10
+      .= Sum(<*P*>^diff_seq(poly_diff(p))) by A2,RLVECT_1:41
+      .= Sum_of_diffs(p) by A1,Th15;
+    end;
+    suppose
+A3:   p = Z;
+      hence p + Sum_of_diffs(poly_diff(p)) = Sum_of_diffs(poly_diff(Z))
+      by POLYNOM3:28
+      .= Sum_of_diffs(p) by A3,POLYDIFF:46;
+    end;
   end;
 
-theorem T13:
+theorem Th19:
   poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p))
   proof
-AA: <%0.F_Real%> = 0_.F_Real by POLYNOM5:34;
     set P = poly_diff(Sum_of_diffs(p));
     set Q = Sum_of_diffs(poly_diff(p));
     set S = diff_seq(poly_diff(p));
@@ -644,81 +536,68 @@ A1: P[0]
     proof
       let p;
       assume 0 = len p;
-      then p = 0_.F_Real by AA, ALGSEQ_1:14;
-      hence thesis by T30, T31;
+      then p = Z by Lm1,ALGSEQ_1:14;
+      hence thesis by Th13,Th17;
     end;
 A2: for k being Nat st P[k] holds P[k+1]
     proof
       let k be Nat;
       assume
-A5:   P[k];
+A3:   P[k];
       let p such that
 A4:   k+1 = len p;
       set p1 = poly_diff(p);
-      len p1 = k+1-1 by AA, A4, ALGSEQ_1:14, POLYDIFF:44;
+      len p1 = k+1-1 by Lm1,A4,ALGSEQ_1:14,POLYDIFF:44;
       then
-A7:   poly_diff(Sum_of_diffs(p1)) = Sum_of_diffs(poly_diff(p1)) by A5;
+A5:   poly_diff(Sum_of_diffs(p1)) = Sum_of_diffs(poly_diff(p1)) by A3;
       reconsider P = p as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
 A6:   Sum <*P*> = P by RLVECT_1:44;
-      diff_seq(p) = <*p*>^diff_seq(p1) by T22;
+      p <> Z by A4,POLYNOM4:3;
+      then diff_seq(p) = <*p*>^diff_seq(p1) by Th15;
       then Sum_of_diffs(p) = Sum <*P*> + Sum diff_seq(p1) by RLVECT_1:41
-      .= p + Sum_of_diffs(p1) by A6, POLYNOM3:def 10;      
+      .= p + Sum_of_diffs(p1) by A6,POLYNOM3:def 10;
       hence poly_diff(Sum_of_diffs(p))
-       = p1 + Sum_of_diffs(poly_diff(p1)) by A7,POLYDIFF:47
-      .= Sum_of_diffs(p1) by T50;
+       = p1 + Sum_of_diffs(poly_diff(p1)) by A5,POLYDIFF:47
+      .= Sum_of_diffs(p1) by Th18;
     end;
-A3: for k being Nat holds P[k] from NAT_1:sch 2(A1,A2);
+A7: for k being Nat holds P[k] from NAT_1:sch 2(A1,A2);
     len p = len p;
-    hence thesis by A3;
+    hence thesis by A7;
   end;
 
-:: theorem T13:
-::   poly_diff(Sum_of_diffs(p)) = Sum_of_diffs(poly_diff(p))
-::   proof
-::     set P = poly_diff(Sum_of_diffs(p));
-::     set Q = Sum_of_diffs(poly_diff(p));
-::     set S = diff_seq(poly_diff(p));
-::     Sum_of_diffs(p) <> 0_.F_Real;
-::     then len P = len Sum_of_diffs(p) - 1 by POLYDIFF:44;
-:: A0: S <> {};
-::     len Q = len Sum_of_diffs(poly_diff(p));
-::     Q = Sum S
-::     .= Partial_Sums(S).len(Partial_Sums(S)) by A0, DSum;
-:: A1: len P = len Q;
-::     for k being Nat st k < len P holds P.k = Q.k
-::     proof
-::       let k be Nat such that
-:: A2:   k < len P;
-::       thus P.k = Q.k;
-::     end;
-::     hence thesis by A1, ALGSEQ_1:12;
-::   end;
-
-theorem T12:
+theorem Th20:
   Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p))
   proof
     reconsider p1 = p as Element of Polynom-Ring F_Real by POLYNOM3:def 10;
-A1: Sum_of_diffs(poly_diff(p)) =  poly_diff(Sum_of_diffs(p)) by T13;
+A1: Sum_of_diffs(poly_diff(p)) =  poly_diff(Sum_of_diffs(p)) by Th19;
 A2: Sum <*p1*> = p1 by RLVECT_1:44;
-    thus Sum_of_diffs(p) = Sum(<*p1*>^diff_seq(poly_diff(p))) by T22
-    .= Sum(<*p1*>) + Sum diff_seq(poly_diff(p)) by RLVECT_1:41
-    .= p + poly_diff(Sum_of_diffs(p)) by A1, A2, POLYNOM3:def 10;
+    per cases;
+    suppose p <> Z;
+      hence Sum_of_diffs(p) = Sum(<*p1*>^diff_seq(poly_diff(p))) by Th15
+      .= Sum(<*p1*>) + Sum diff_seq(poly_diff(p)) by RLVECT_1:41
+      .= p + poly_diff(Sum_of_diffs(p)) by A1,A2,POLYNOM3:def 10;
+    end;
+    suppose
+A3:   p = Z;
+      hence Sum_of_diffs(p) = poly_diff(Sum_of_diffs(p)) by Th17,POLYDIFF:46
+      .= p + poly_diff(Sum_of_diffs(p)) by A3,POLYNOM3:28;
+    end;
   end;
 
-theorem T11:
+theorem Th21:
   Sum_of_diffs(p) - poly_diff(Sum_of_diffs(p)) = p
   proof
-    Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p)) by T12;
-    hence thesis by T34;
+    Sum_of_diffs(p) = p + poly_diff(Sum_of_diffs(p)) by Th20;
+    hence thesis by Th12;
   end;
 
-theorem T9:
+theorem Th22:
   Eval Sum_of_diffs(p) - ( (Eval Sum_of_diffs(p)) `| ) = Eval p
   proof
     set S = Sum_of_diffs(p);
     Eval S`| = Eval(poly_diff(S)) by POLYDIFF:61;
     hence Eval S - (Eval S`|) = Eval(S-poly_diff(S)) by POLYDIFF:57
-    .= Eval p by T11;
+    .= Eval p by Th21;
   end;
 
 definition
@@ -746,11 +625,11 @@ theorem
   proof
     set f = E";
     set g = Eval Sum_of_diffs(p);
-    thus (WFx(p)) `| = (-f)(#)g + (--f)(#)(g`|) by T8, POLYDIFF:16
+    thus (WFx(p)) `| = (-f)(#)g + (--f)(#)(g`|) by Th11,POLYDIFF:16
     .= (-f)(#)g - (-f)(#)(g`|) by VALUED_2:25
     .= (-f)(#)(g - (g`|)) by RFUNCT_1:15
     .= -f(#)(g - (g`|)) by VALUED_2:25
-    .= -f(#)Eval p by T9;
+    .= -f(#)Eval p by Th22;
   end;
 
 registration
@@ -764,9 +643,6 @@ registration
     such that
 A1: e is_a_root_of f by LIOUVIL2:25;
     thus contradiction;
-::>                  *1
   end;
 end;
 
-::> 1: It is not true
-::> 4: This inference is not accepted
